@@ -2,164 +2,121 @@
 
 Updated: 2026-08-15
 
-This is the compact current index. Detailed candidate audits and rejected branches live in `runs/` so the canonical file stays cheap to update without losing provenance.
+This file distinguishes **actual survivors** from useful-but-familiar material. A user familiarity veto or strong historical/literature compression overrides earlier promotion.
 
-## Flagship findings
+## Current result
 
-### F001 — Relational unbundling
+### No accepted grand social-theory finding yet
 
-**Status:** SURVIVED / RECOVERED working hypothesis.
+The multiplex/relational-unbundling branch previously labeled F001/F004–F011 **failed the novelty gate**. It is preserved in the run history and `MODEL.md` because it may remain useful as applied design material, but it is not counted as a Creative Tail Sampling discovery.
 
-Modernity may have coupled two separable processes:
+Reason: the root idea and most descendants lie too close to long-established traditions involving commodification/alienation, division of labor, mechanical/organic solidarity, Gemeinschaft/Gesellschaft, embeddedness/disembedding, social capital, and modern multiplex-network research.
 
-1. division of labor / occupational specialization;
-2. division of relationships / relational specialization.
+The detailed user veto is preserved at:
 
-A multiplex tie carries several functions between the same people. Modern life frequently decomposes those functions across different people and institutions. The central hypothesis is that many costs vaguely attributed to "loss of community" may arise specifically from the second process rather than the first.
+- `runs/2026-08-15-user-veto-multiplex-branch.md`
 
-Key implication: a sophisticated society may be able to preserve extreme occupational specialization while restoring much more relational multiplexity.
+## Surviving cross-domain connection
 
-### F004 — Failure-correlation inversion
+### C001 — Active normative edge-case search
 
-**Status:** SURVIVED. Strong.
+**Status:** SURVIVING CROSS-DOMAIN CONNECTION; not claimed as academically unprecedented.
 
-Unbundling can reduce dependence on particular people while increasing dependence on common system-access variables.
+**Target problem:** intentional-community values, membership fit, governance calibration, and cultural replication.
 
-Different needs may be served by different providers, yet access to all of them can depend on the same money, credentials, transport, phone/platform access, or institutional eligibility. Provider diversification can therefore hide common-mode fragility.
+**Source mechanisms:** active learning / preference elicitation + software-style regression testing.
 
-A robust design likely requires several overlapping multiplex ties rather than either one all-purpose person or complete specialist unbundling.
+**Connection:** do not optimize the values process for maximum agreement on abstract principles. Instead, adaptively select concrete cases where the currently plausible interpretations of members' values are most likely to diverge.
 
-### F005 — Relational capability atrophy loop
+The purpose is to learn the group's actual decision boundaries with fewer, higher-information cases.
 
-**Status:** SURVIVED. Strong.
+### Derived architecture
 
-Relationships become capable of carrying functions by actually carrying them. Outsourcing a function prevents ordinary ties from acquiring the competence, permission, shared routines, domain-specific trust, and reciprocal expectations needed to perform that function later.
+1. collect independent judgments on concrete cases before discussion;
+2. infer where members' latent interpretations differ;
+3. choose the next case expected to distinguish those interpretations most strongly;
+4. separate initial measurement from later deliberation/socialization because questioning can itself change preferences;
+5. resolve only disagreements that materially affect community design;
+6. preserve the highest-information resolved cases as a versioned **constitutional regression suite**;
+7. rerun those cases when membership, rules, or governance practices change to reveal semantic drift;
+8. use the minimal discriminating commitments/cases in onboarding rather than relying on inspirational values language alone.
 
-This creates positive feedback:
+### Why it survives provisionally
 
-> outsource function -> relationship never becomes capable -> specialist becomes genuinely more necessary -> outsource again
+The source mechanisms are known in other domains. The target-domain literature also recognizes that shared abstract values can conceal implementation disagreement. The tail connection is the **adaptive information-gain procedure plus a regression-test architecture for community governance**, which a targeted search did not identify as a standard intentional-community method.
 
-Community therefore cannot necessarily be rebuilt by increasing sociability alone.
+This is therefore a cross-domain creative connection, not a claim that active learning, case law, or values underdetermination were newly discovered.
 
-### F006 — Contact density can mismeasure functional community
+### Falsifiers / demotion conditions
 
-**Status:** SURVIVED as a measurement consequence.
+Demote C001 if a target-domain precedent is found that already uses substantially the same adaptive procedure, or if ordinary non-adaptive case discussion performs equally well at revealing consequential hidden disagreements.
 
-Friend count, contact frequency, affection, and ordinary network density can all be high while practical role coverage remains low.
+## Promising but unpromoted
 
-Functional community should be measured partly by **role overlap per tie** and redundancy of role coverage across several ties.
+### P001 — Multi-parent daughter communities as cultural recombination
 
-### F007 — Combinatorial uniqueness
+Seed new daughter communities with experienced members from multiple successful parent communities rather than a single parent clone. Hypothesized tradeoff: more initial interpretive conflict but less parent-specific cultural drift/blindness.
 
-**Status:** SURVIVED. Strong.
+Needs direct target-domain precedent search before promotion.
 
-Multiplexity changes the replacement problem.
+### P002 — Turnkey replication can delete the developmental process
 
-A person can be ordinary on every individual dimension yet difficult to replace as one bundle because the conjunction of functions, history, and fit is rare. Unbundling allows each component to be replaced separately, converting a hard joint-match problem into several easier component-match problems.
+Copying mature community practices may omit the joint problem-solving and adaptation through which the parent acquired governance competence. This remains too close to tacit knowledge/path dependence/local-adaptation theory for promotion, but may yield a more distinctive downstream consequence.
 
-This creates a second feedback loop:
+## Known / derivative community material — DO NOT REPROMOTE AS NOVEL
 
-> unbundle functions -> lower component-wise replacement cost -> lower incentive to invest/tolerate/adapt in the whole relationship -> thinner tie -> still easier replacement -> further unbundling
+The following may be useful, but are now inside the rejection frontier:
 
-### F008 — Multiplexity hysteresis / bistability
+- specialization/commodification/alienation of social relations;
+- modern replacement of thick/direct ties by thinner contractual/institutional ones;
+- multiplex relationships carrying multiple resources/functions;
+- social embeddedness creating trust/support;
+- specialization making actors easier to substitute;
+- markets/bureaucracies replacing informal coordination;
+- capability atrophy from outsourcing;
+- common-access dependence of specialist systems;
+- role-overlap/contact-density distinctions;
+- relational hysteresis/path dependence;
+- costly commitment signals and unequal opportunity/exit costs;
+- planned community fission/cell division;
+- network modularity as a fission aid;
+- cultural compression across repeated transmission;
+- success changing recruitment/member composition;
+- conflict inoculation / learning through moderate stress;
+- key-person/founder dependency;
+- generic queue/backlog escalation of unresolved conflict.
 
-**Status:** SURVIVED as a development of F005.
+## Earlier provisional branches
 
-If existing role overlap makes further role accretion cheaper, while absence of role overlap makes relational provision harder, high-multiplexity and low-multiplexity systems may be different stable states rather than points on a smooth continuum.
+### E001 — Epistemic firebreaks
 
-Prediction: small increases in social contact may do little below the threshold, while coordinated real role-sharing can produce nonlinear gains that persist after the intervention ends.
+Independent observation/deliberation before communication can reduce correlated error. Still too close to wisdom-of-crowds / information-cascade theory for promotion.
 
-### F009 — Relational unbundling may be a self-stabilizing regime
+### E002 — Whole-package ratification
 
-**Status:** SYNTHESIS / current model.
+Component-wise collective choices can assemble a package that still deserves whole-package ratification. Preserve reject-both/status-quo options. Still close to known social-choice problems.
 
-Four mechanisms now reinforce the same direction:
+## Protocol lessons now considered findings about the method
 
-1. **capability feedback (F005):** outsourcing stops ties learning how to carry functions;
-2. **replacement feedback (F007):** decomposition makes people easier to replace component-wise, reducing investment that would thicken ties;
-3. **access-layer coupling (F004):** specialist routing can make many life functions depend on the same system-access variables;
-4. **transaction optimization (F010):** specialists' short-run superiority prevents ordinary ties from obtaining the practice needed to close the capability gap.
+### M001 — Formalization is not novelty
 
-Possible fifth reinforcement: once role overlap becomes rare, cultural norms may begin treating cross-domain asking/helping/involvement as inappropriate, making the low-multiplexity state normatively self-defending.
+A familiar root idea does not become a tail discovery because several downstream mechanisms are given technical names.
 
-Together these imply that relational unbundling may persist even after people become dissatisfied with its consequences. The low-multiplexity state can reproduce the conditions that make multiplex relationships seem impractical.
+### M002 — User familiarity veto dominates model confidence
 
-### F010 — Relational option value can require bounded short-run inefficiency
+If the intended expert user immediately compresses the candidate to common sense or a known theory, record the collision and move outward rather than defending the wording.
 
-**Status:** SURVIVED. Strong.
+### M003 — Nearest-neighbor literature attack before promotion
 
-If relationships gain functional capability by use, choosing the best specialist for every task can be transaction-level optimal while destroying system-level relational capacity.
+Candidate survivors require an explicit search for conceptual ancestors before promotion. This does not prove originality; it prevents obvious retrieval failures.
 
-The mechanism is:
+### M004 — Cross-domain transfer can count, same-domain rediscovery cannot
 
-> specialist is better today -> specialist gets the task -> ordinary tie gets no practice -> specialist advantage grows tomorrow
-
-Therefore some low-stakes tasks performed less efficiently within relationships can function as investments in future relational capability. This is not an argument against high-stakes expertise; it predicts a need for **protected amateur domains** where relationships can safely learn to carry useful functions.
-
-Prediction: groups that route real low-stakes useful tasks through members should develop more later mutual-aid capacity than equally social groups that outsource the same tasks, even if early task performance is worse.
-
-### F011 — Community outcomes can conflict with anti-multiplexity boundary norms
-
-**Status:** SURVIVED, culturally contingent.
-
-People can sincerely prefer high-trust community while also preferring micro-norms of strict privacy, non-interference, professionalism, reluctance to ask favors, and role separation that suppress the behaviors through which multiplexity forms.
-
-Therefore community rhetoric, friendship, or shared identity may produce little role overlap if the underlying norms governing cross-domain help remain unchanged.
-
-This must be separated from legitimate safety/privacy protections. The design target is not indiscriminate boundary violation; it is safe, consensual role overlap with redundant support so exit remains possible.
-
-## Important provisional findings
-
-### F002 — Epistemic firebreaks
-
-Independent observation/deliberation before communication may prevent correlated errors. Still too close to familiar wisdom-of-crowds concepts for flagship status.
-
-### F003 — Whole-package ratification
-
-Component-wise collective choices can assemble a package that should still face whole-package ratification. Preserve realistic reject-both/status-quo options.
-
-### P001 — Portable-trust substitution
-
-Lower role overlap may increase reliance on credentials, records, ratings, identity systems, contracts, and institutional guarantees as substitutes for shared relational history.
-
-### P002 — Human externalization by local-role optimization
-
-Specialized institutions may improve local metrics by exporting whole-person costs to other institutions and households.
-
-### P003 — Residual-multiplexer comparison trap
-
-A romantic partner who remains highly multiplex may be compared simultaneously with specialized alternatives in every role they carry.
-
-### P004 — Norm adaptation after capability loss
-
-Once ordinary ties stop carrying a function, expecting them to carry it may come to feel unreasonable. The sequence may be: outsource -> lose capability -> expectation becomes illegitimate -> further outsourcing.
-
-## Critical design constraints
-
-- Maximum multiplexity is not the goal. One all-purpose relationship creates catastrophic exit costs.
-- Prefer **redundant multiplexity**: several overlapping capable ties so loss/exit from one does not remove every function it carried.
-- Preserve privacy, consent, specialist expertise, and clean exit where they matter.
-- Do not mistake sociability for functional community.
-
-## Hard rejection frontier
-
-Do not rediscover these as tail insights:
-
-- complementary specialization;
-- ordinary specialization-vs-fragility tradeoffs;
-- influencers / network centrality;
-- generic bargaining power from exit options;
-- "put your best people forward";
-- ordinary repeated-game cooperation;
-- generic social-capital claims;
-- bureaucratic silo/category mismatch without a further consequence;
-- issue linkage/logrolling;
-- impression management/reputation silos;
-- forced-choice consensus paradoxes that disappear when rejection/status quo is restored.
+Creative Tail Sampling is partly about surprising useful connections between domains. A known source-domain mechanism can survive if its transfer to the target problem is not already standard and it yields distinctive predictions or design rules. Merely renaming an existing target-domain theory does not survive.
 
 ## Provenance
 
-- Recovered pre-deletion state: `runs/2026-08-15-recovered-pre-deletion-findings.md`
-- First post-recovery batch: `runs/2026-08-15-multiplex-tail-batch-01.md`
-- Second post-recovery batch: `runs/2026-08-15-multiplex-tail-batch-02.md`
-- Third post-recovery batch: `runs/2026-08-15-multiplex-tail-batch-03.md`
+- recovered pre-deletion state: `runs/2026-08-15-recovered-pre-deletion-findings.md`
+- multiplex batches 01–03: preserved as historical exploration, later vetoed
+- user veto: `runs/2026-08-15-user-veto-multiplex-branch.md`
+- first orthogonal literature-screened batch: `runs/2026-08-15-orthogonal-tail-batch-04.md`
