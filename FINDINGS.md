@@ -2,76 +2,36 @@
 
 Updated: 2026-08-15
 
-Compact canonical index. Detailed derivations, literature collisions, empirical reconstructions, and rejected candidates are under `runs/`; reproducible data/calculations are under `data/` and `analysis/`.
+This is intentionally a **compact index**. Full derivations, literature collisions, candidate audits, empirical reconstructions, and rejected branches are preserved under `runs/`; reproducible data/calculations are under `data/` and `analysis/`.
 
-A user familiarity veto or strong literature compression overrides earlier promotion.
+A user familiarity veto or strong nearest-neighbor literature collision overrides earlier promotion. Practical usefulness is tracked separately in `u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS.md`.
 
-## Current status
-
-No accepted grand social-theory finding yet. The earlier multiplex/relational-unbundling branch failed the novelty gate and is historical/applied material only.
-
-Batch 20 produced no new survivor. Batch 21 produced C015. Batch 22 retained C015 after a harder attack and added one narrow provisional transfer, C016.
-
-## Current surviving cross-domain connections
+## Current survivors
 
 ### C001 — Active normative edge-case search
+**Status:** SURVIVING / provisional cross-domain transfer.
 
-**Status:** SURVIVING / provisional.
-
-Transfer active learning + preference elicitation + regression testing into community governance.
-
-Instead of maximizing abstract-values agreement, adaptively choose concrete cases most likely to distinguish members' plausible interpretations. Collect baseline responses independently, separate measurement from deliberation/socialization, and preserve resolved high-information cases as a versioned **constitutional regression suite**.
-
-Caveat: moral judgments can be sequence-sensitive/unstable; replicate/randomize some cases and do not assume one fixed latent utility function.
+Use active-learning logic to choose concrete governance/value cases most likely to distinguish members' plausible interpretations, collect independent answers before deliberation, and preserve resolved high-information cases as a versioned constitutional regression suite.
 
 ### C003 — Asset-gated cultural mutation
-
 **Status:** NARROW SURVIVOR / provisional.
 
-Broad claims that property affects exit or innovation are old. Remaining candidate:
-
-> **Collective branch inheritance can pre-filter which institutional variants receive enough inherited capital to become viable competitors.**
-
-This can create **selection blindness**: a canonical form may appear superior when alternatives were systematically denied comparable land, tools, treasury, reputation, or other inherited resources before selection could test them.
-
-Keep narrow. Demote on a close target precedent.
+Collective branch inheritance can pre-filter which institutional variants receive enough land, tools, treasury, reputation, or other capital to become viable competitors. Apparent superiority of the canonical form can therefore partly reflect pre-selection capitalization rather than downstream institutional selection.
 
 ### C005 — Reproductive-variance / superstar-reproduction trap
-
 **Status:** SURVIVING; strongest reproduction-specific result; empirically strengthened across three Hutterite samples/branches.
 
-Mean viable-daughter output can substantially overstate how reproducible a community design is. Distinguish historical spread, mean reproduction, typical reproducibility, and lineage robustness.
+Do not infer reproducibility from total spread or mean daughter output alone. Measure the parent-offspring distribution: `P(K=0)`, median, variance/mean, top-decile daughter share, generation interval, granddaughter reproduction, and subsidy/propagule structure.
 
-#### Manitoba Schmiedeleut anchor
+Current mature-parent results:
 
-For 49 reconstructed Manitoba colonies founded by 1970:
+- Manitoba Schmiedeleut: `P(K=0)=4.08%`, median `K=2`, top-10% daughter share ~22.3%.
+- Lehrerleut 1918–1953: `P(K=0)=3.45%`, median `K=1`, top-10% share 24.53%.
+- Dariusleut 1918–1953: `P(K=0)=0%`, median `K=2`, top-10% share 20.0%.
 
-- recorded Manitoba daughters = 103;
-- mean `K = 2.102`;
-- median `K = 2`;
-- population variance `1.724`;
-- variance/mean `0.820`;
-- recorded-Manitoba `P(K=0) = 4.08%`;
-- top 10% of parents account for ~22.3% of daughters.
+Operational shorthand: **make reproduction boring** — daughter formation should be an ordinary lifecycle event for the median competent community rather than a rare founder feat.
 
-Historical period data also show stable Manitoba colony reproduction through 1918–1975: reported compound annual colony growth ~4.25%–5.75%, mean division interval ~13.6–15.2 years.
-
-#### Cross-branch replication — FEEFHS 1973 tables
-
-Standardized mature cohort: colonies founded **1918–1953 inclusive**, giving at least 20 years of possible daughter production before the 1973 cutoff.
-
-**Lehrerleut** (`n=29`): daughters 53; mean `K=1.828`; median 1; population variance `1.453`; variance/mean `0.795`; `P(K=0)=3.45%`; top-10% share `24.53%`; max `K=5`.
-
-**Dariusleut** (`n=33`): daughters 60; mean `K=1.818`; median 2; population variance `0.694`; variance/mean `0.382`; `P(K=0)=0%`; top-10% share `20.0%`; max `K=3`.
-
-The same qualitative result appears across distinct Hutterite branches: mature-parent reproduction is broadly distributed, not jackpot-dominated.
-
-Operational shorthand: **make reproduction boring**. A strongly replicable community system should make daughter formation an ordinary lifecycle event for the median competent community rather than an exceptional achievement by a few unusually capable founders.
-
-A public row-level non-Hutterite genealogy sufficient for a comparable `K` distribution has not yet been found. Aggregate church-planting evidence remains qualitative context only.
-
-Data / analysis:
-
+Data/scripts:
 - `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
 - `analysis/hutterite_reproduction_metrics.py`
 - `data/hutterite_manitoba_period_growth_1918_1975.csv`
@@ -80,244 +40,103 @@ Data / analysis:
 - `analysis/hutterite_feefhs_reproduction_metrics.py`
 
 ### C006 — Descendant inflation / lineage-size sampling bias
+**Status:** SURVIVING / research-control.
 
-**Status:** SURVIVING; audited against the user's real community-research corpus.
-
-When daughter communities inherit parent culture, prolific lineages mechanically contribute more observations to present-day community samples. This is distinct from ordinary survivorship bias: even perfect enumeration gives descendant-rich lineages more sampling weight.
-
-The correct weighting depends on the estimand: random founding attempt/root, random lineage, random extant community, random current resident, or future movement culture/reproductive contribution.
-
-Applied to `u-dont-existDOTcom/communities`, C006 does **not** invalidate the current mechanism-bounded P0 synthesis. Carry genealogy/estimand controls into future comparative/prevalence analyses.
+Prolific lineages mechanically contribute more extant observations even under perfect enumeration. State whether the estimand is a random founding attempt/root, lineage, extant community, current resident, or future movement contribution. This does not invalidate the current mechanism-bounded `communities` P0 synthesis.
 
 ### C009 — Cohort-composition admission
+**Status:** SURVIVING / provisional; market-thickness bounded.
 
-**Status:** SURVIVING / provisional cross-domain operational transfer; market-thickness bounded.
-
-Applicant utility may be **non-separable**: a candidate who looks poor against today's membership may belong to the best reachable future cohort, while individually acceptable applicants may compose into a poor cohort.
-
-This matters only when the candidate market is sufficiently thick. Mature communes may receive applicants too sparsely for batching to be useful; founding, daughter formation, new-site openings, expansion waves, and multiple simultaneous vacancies are stronger use cases.
+Applicant utility may be non-separable: individually good applicants can compose badly, and individually mediocre applicants can form a strong cohort together. Use set/cohort analysis only when several plausible applicants and openings genuinely overlap — especially founding, daughter formation, new-site openings, and expansion waves. Do not manufacture batches in sparse mature-community applicant markets.
 
 ### C011 — Shadow governance
+**Status:** SURVIVING / provisional cross-domain transfer.
 
-**Status:** SURVIVING / provisional cross-domain operational transfer.
-
-Before transferring authority to a substantially new governance process, run it nonbinding in parallel on the same admissible cases and compare what it would have decided with the incumbent process. Analyze divergence cases before live pilot/adoption.
+Before transferring real authority to a substantially new governance process, run it nonbinding in parallel on the same admissible cases while the incumbent process remains authoritative. Analyze divergence cases before live pilot/adoption.
 
 ### C012 — Standing constitutional-relation testing
-
 **Status:** SURVIVING / provisional, narrowed.
 
-Identity-swapped paired testing itself is old. The remaining proposed transfer is a **versioned constitutional relation suite** testing multiple relations a community already claims should hold—irrelevance/invariance, symmetry, monotonicity, jurisdiction invariance, and other predeclared relational properties—even where there is no agreed uniquely correct answer.
+Identity-swapped paired testing itself is old. The remaining transfer is a versioned suite testing several predeclared relations the community claims should hold even without a uniquely correct answer: irrelevance/invariance, symmetry, monotonicity, jurisdiction invariance, etc.
 
 ### C013 — Federated reciprocal applicant clearing after exploration
+**Status:** SURVIVING / provisional, narrow target transfer.
 
-**Status:** SURVIVING / provisional cross-domain operational transfer; narrowed in Batch 20.
-
-Matching-market design is known. Historical kibbutz practice also included movement-level centralized applicant screening, so neither centralized recruitment nor centralized screening is novel communal practice.
-
-The remaining target-domain transfer is narrower:
-
-> **After seekers and autonomous communities learn reciprocal preferences through visits/trials, coordinate commitments movement-wide so compatible seeker–vacancy pairs are not lost to isolated timing/search decisions.**
-
-Current Kibbutz Movement infrastructure helps seekers discover accepting communities but retains community-specific admissions. No close intentional-community/ecovillage precedent has yet been found for coordinated reciprocal preference clearing across autonomous communities after exploration.
-
-Recommended architecture remains dynamic and non-coercive: hard constraints first; several mutual exploration matches; visits/trials before final rankings; reciprocal acceptability; coordinated commitment suggestions; opt-out and local admission authority preserved; C009 cohort logic only where several openings/candidates genuinely coexist.
-
-Demote if a close target implementation is found.
+Centralized recruitment/screening and matching-market theory are old. Remaining target idea: after seekers and autonomous communities discover reciprocal preferences through visits/trials, coordinate commitments movement-wide so compatible seeker–vacancy pairs are not lost to isolated timing/search decisions, while preserving opt-out and local admission authority.
 
 ### C015 — Governance rights-liveness verification
+**Status:** SURVIVING / provisional cross-domain transfer from formal methods.
 
-**Status:** SURVIVING / provisional cross-domain operational transfer from formal methods; survived Batch 22 harder attack.
+A right can exist syntactically in a constitution yet be dead in a reachable governance state. For important communal rights/remedies, verify that every realistic valid invocation still has a permitted route to review/remedy/closure despite combinations of recusal, vacancy, quorum, jurisdiction, deadlines, delegation, escalation, and strategic noncooperation.
 
-Formal bylaw modeling, workflow model checking, safety/liveness verification, temporal compliance logic, and legal-remedy doctrine are all established. The surviving target application is narrower:
-
-> **For an important communal right or remedy, verify that from every realistic state in which it is validly invoked, the governance process still has a permitted path to the promised review/remedy/closure despite adverse combinations of recusal, vacancy, quorum, jurisdiction, deadlines, delegation and escalation.**
-
-A right can therefore exist syntactically in a constitution while being **dead** in a reachable governance state.
-
-Example: an independent five-person appeal panel exists; two members must recuse; one seat is vacant; the remaining two lack quorum; only the implicated local board may fill vacancies; conflict rules bar that board from acting. The appeal clause exists, but no valid transition reaches review.
-
-Verification targets should distinguish:
-
-- **safety:** prohibited acts/states never occur;
-- **liveness:** a promised review/remedy remains reachable under explicit assumptions;
-- **bounded liveness:** the remedy can complete within a defined procedural/time bound rather than merely “eventually.”
-
-Batch 22 adds a critical formal-methods constraint: every liveness proof must expose its **fairness/cooperation assumptions**. Do not assume that a conflicted chair, captured body, boycotting faction or record-holder will “eventually cooperate” unless the architecture makes their cooperation unnecessary for the right to remain live.
-
-Candidate first-use procedures:
-
-- complaint intake and bypass;
-- expulsion/sanction appeal;
-- child/safeguarding escalation;
-- records access/correction;
-- exit valuation/payment;
-- emergency safety/medical bypass;
-- leadership removal/succession;
-- replacement of conflicted adjudicators;
-- federation-level review of a captured local body.
-
-Minimum protocol: model only relevant states/roles/transitions; predeclare safety/liveness properties; include realistic fault/adversarial states; state fairness assumptions explicitly; run state-space/model checking or bounded exhaustive search; inspect counterexample traces; repair the actual procedure; rerun after material amendments; preserve counterexamples as regression tests.
-
-Important limits: verification proves only the model; omitted states and unrealistic fairness assumptions can create false confidence; discretion is hard to formalize; a procedure can be perfectly live and still unjust. C015 supplements rather than replaces substantive rights, human judgment, and outcome evaluation.
-
-Demote if a close target-domain implementation already routinely verifies human rights/remedies as liveness properties under adverse governance states, or if ordinary tabletop review catches the same material failures more cheaply.
+Distinguish safety, liveness, and bounded liveness. Explicitly state every fairness/cooperation assumption; do not assume a conflicted or captured actor eventually cooperates unless the architecture routes around them.
 
 ### C016 — Verifiably unpredictable federation audit sampling
+**Status:** SURVIVING / provisional cross-domain transfer.
 
-**Status:** SURVIVING / provisional cross-domain operational transfer from election/cryptographic audit design.
+When random federation oversight is independently justified, combine unpredictability before selection with verifiability afterward:
 
-Random auditing is old. The proposed communal transfer is narrower:
+1. publish scope/rights;
+2. freeze/commit the complete eligible universe before the seed is knowable;
+3. precommit deterministic sampling rules;
+4. use future randomness not controllable by federation leadership/auditee;
+5. derive sample deterministically;
+6. permit authorized replay/verification afterward.
 
-> **When federation oversight uses random sampling, freeze the eligible population and sampling rule before the random value is knowable, derive the sample from future unpredictable public/verifiable randomness, and make the selection replayable afterward.**
+The eligible-universe commitment is essential: a random sample from a manipulable list is still manipulable.
 
-The goal is to make oversight selection simultaneously:
+### C017 — Intervention-aware evaluation of rescue-triggering community forecasts
+**Status:** SURVIVING / provisional cross-domain transfer from performative prediction, prediction-under-intervention, and anticipatory-action evaluation.
 
-- unpredictable before selection, so targets cannot selectively prepare/evade;
-- verifiable afterward, so leadership/auditors cannot secretly cherry-pick targets.
+If a community's pre-rescue forecast helps cause federation intervention, the intervention can change the later outcome used to evaluate the forecast. Therefore:
 
-Critical architecture:
+> **Do not use the intervention-produced outcome as an unadjusted label for the forecast that triggered the intervention.**
 
-1. publish the audit scope, criteria, rights and permitted uses;
-2. freeze/commit the complete eligible universe before randomness is known;
-3. precommit the deterministic sampling algorithm, sample size and exclusions/strata;
-4. use future randomness not controllable by the federation/auditee;
-5. derive the sample deterministically;
-6. preserve enough information for authorized members/reviewers to replay the draw.
+Example: a community truthfully reports high insolvency risk *without additional support*; the federation intervenes; insolvency is prevented; naïve retrospective scoring calls the warning exaggerated precisely because the rescue worked.
 
-The **eligible-universe commitment is essential**. A perfectly random sample from a list leadership could edit after seeing the seed does not prevent cherry-picking by omission.
+Operational implications:
 
-Potential use cases:
+- define the intervention regime the forecast refers to;
+- timestamp/freeze forecast, evidence, uncertainty, and assumed support before the new rescue decision;
+- evaluate forecast quality separately from intervention efficacy;
+- use counterfactual/intervention-invariant evidence where feasible;
+- distinguish `event prevented` from `false alarm`;
+- record rescue/subsidy exposure when comparing community survival or reproduction.
 
-- routine federation process audits across many communities;
-- random conformance review of completed high-stakes governance decisions;
-- financial/accounting sample audits;
-- review of records, recusals, deadlines, appeals or other procedural compliance where reviewing every case is infeasible.
+The causal mechanism is not claimed as new. Performative prediction, treatment paradoxes, counterfactual prediction evaluation, and humanitarian anticipatory-action evaluation are established. The surviving candidate is the communal mutual-aid/federation application.
 
-This is not random suspicion or punishment of members. Selection should trigger quality/process review, not imply guilt. Audit law/rights should remain transparent even though the future random realization is not predictable.
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-23.md`.
 
-Limits: completeness of the eligible universe may be the hardest problem; random review can miss rare severe failures; risk-based review may still be needed; privacy-sensitive universes may need commitments/pseudonymous identifiers; cryptographic complexity may not be worth it for small federations; record integrity after selection remains a separate problem.
+## Demoted / useful but not Creative Tail novelty
 
-Target searches found ordinary cooperative/social/random auditing but no close intentional-community/cooperative federation use of this commit-before-randomness + replayable-selection architecture.
+Historical demotions remain fully documented in `runs/`. Important rejection frontier:
 
-Demote if a close communal target precedent is found or ordinary independent random selection gives the same real trust benefit at much lower complexity.
-
-## Demoted / useful but not novel
-
-### D001 — Flagship founder trap
-Demoted after spinout/social-movement literature attack; keep as practical movement design.
-
-### D002 — Multi-parent daughter recombination
-Too close to cross-pollination/cultural recombination.
-
-### D003 — Developmental-sequence replication
-Too close to tacit knowledge/path dependence/lifecycle.
-
-### D004 — Governance commutativity
-Near-decomposability/interdependence/modularity owns the structural principle.
-
-### D005 — Reproductive timing
-Classic demography measurement rule.
-
-### D006 — Propagule burden / independent seedability
-Propagule-size/fidelity literature already contains the mechanism.
-
-### D007 — Effective number of reproducing communities
-Tool derived from reproductive skew; not independent novelty.
-
-### D008 — Low-base-rate evidence-lifecycle safeguard
-Safeguarding/personnel-vetting precedent owns the architecture.
-
-### D009 — Arithmetic-growth mirage under shared environments
-Mathematically valid but materially negligible for the current Hutterite exemplar.
-
-### D010 — Failure-history inheritance
-Organizational-learning literature explicitly studies negative knowledge / knowing what not to do.
-
-### D011 — Spatial-vs-temporal replication attention tradeoff
-Direct organizational-replication precedent exists.
-
-### D012 — Evidence-lineage counting
-Useful but established source-independence/provenance/pseudoreplication logic.
-
-### D013 — Governance feedback-lag / reform oscillation
-Useful but close to policy feedback/control-system delay/change-fatigue traditions.
-
-### D014 — Governance fault injection / dependency drills
-Generic continuity practice already exercises loss of key people/functions. Keep as practical communal lesson.
-
-### D015 — Seeded-fault review testing
-Seeded-error audits, mutation testing, red teaming and integrity testing already own the mechanism.
-
-### D016 — Randomized-response sensitive surveys
-Established survey methodology; possible federation practice, not tail novelty.
-
-### D017 — Random reviewer assignment
-Established jury/audit/anti-corruption mechanism.
-
-### D018 — Threshold/dual-control critical access
-Established security and continuity practice.
-
-### D019 — Blind content-before-source review
-Established blind-review/structured-analysis practice.
-
-### D020 — Cross-community control comparisons
-Established comparative/causal inference practice.
-
-### D021 — Experienced-member secondments
-Established rotation/secondment/boundary-spanner practice.
-
-### D022 — Hidden-harm capture–recapture / Multiple Systems Estimation
-Former C014, demoted in Batch 20. Family-violence and child-abuse research already directly applies capture–recapture across multiple organizations. Keep only as a federation/research-center option with strong assumptions/privacy caveats.
-
-### D023 — Lineage-aware comparative correction
-Cultural phylogenetic methods already address non-independence from shared ancestry (`Galton's problem`). Highly relevant to daughter-community genealogies, but not a tail discovery.
-
-### D024 — Sister-daughter matched comparisons
-Established sibling/matched-comparison logic. Useful only with explicit attention to nonrandom self-sorting at fission.
-
-### D025 — Cultural hitchhiking in successful packages
-Directly modeled in cultural-evolution research: neutral or detrimental traits can hitchhike when transmitted with functional traits. Important practical warning, not novel.
-
-### D026 — Constitutional holdout testing / legal overfitting
-A 2026 legal scholarship precedent explicitly proposes holdout/test cases and regularization to reduce overfitting in precedential reasoning. Useful community-governance transfer, not novel.
-
-### D027 — Neutral institutional variation for evolvability
-Organization Science already models organizational evolvability on neutral landscapes. Useful caution against unnecessary standardization, not novel.
-
-### D028 — Privacy-preserving federation overlap analytics
-PSI/PPRL/secure multiparty computation is established cross-organizational infrastructure. No demonstrated community bottleneck yet justifies promotion; retain only as a future technical option.
-
-### D029 — Expiring authority / revocation latency
-Time-limited privilege, just-in-time access and access reviews are established security practice. Useful community lesson, not novelty.
-
-### D030 — Cascading authority revocation
-Delegation/revocation research explicitly models downstream revocation chains and propagation. Useful community lesson, not novelty.
-
-### D031 — Governance conformance checking
-Process-mining research already compares event logs with normative/reference process models for compliance. Useful if communal record burden is reasonable, not novelty.
-
-### D032 — Compensating transitions for non-atomic communal changes
-Distributed Saga/compensating-transaction design owns the mechanism; legal escrow/conditions provide adjacent human forms. Useful for complex transitions, not novelty.
-
-### D033 — Procedural fail-open/fail-closed defaults
-Established safety/security/default-rule logic. Useful companion to C015, not novelty.
-
-### D034 — Threshold structuring / cumulative pattern evasion
-Anti-structuring and pattern-of-conduct rules already address strategic splitting below thresholds. Useful communal pattern-analysis lesson, not novelty.
-
-### D035 — Procedural denial-of-service / vexatious invocation
-Courts and information-access systems already address repeated abusive use of procedures. Any communal anti-abuse mechanism requires independent/proportionate safeguards to avoid suppressing legitimate complaints.
-
-### D036 — Common-control/faction aggregation
-Beneficial ownership, related-party rules and Sybil/fault-domain concepts already address nominally separate actors under shared control. Useful oversight lesson, not novelty.
-
-### D037 — Risk-based plus random audit floor
-Regulatory/tax/quality-control systems already combine targeted and random auditing. C016's possible novelty is only the verifiable-unpredictable selection layer, not mixed audit strategy itself.
+- **D001** flagship founder trap — spinout/social-movement parent–offspring conflict.
+- **D002** multi-parent daughter recombination — cultural recombination/cross-pollination.
+- **D003** developmental-sequence replication — tacit knowledge/path dependence.
+- **D004** governance commutativity — modularity/interdependence.
+- **D005–D007** reproduction timing/propagule burden/effective reproducer count — demography/cultural-evolution tools.
+- **D008** low-base-rate evidence lifecycle — safeguarding/personnel-vetting precedent.
+- **D009** arithmetic-vs-log growth warning — valid mathematics, negligible for current Hutterite exemplar.
+- **D010–D013** negative knowledge, spatial-vs-temporal replication, evidence-lineage counting, governance feedback lag — established literatures.
+- **D014–D021** continuity drills, seeded errors, randomized response, reviewer randomization, threshold access, blind review, cross-community controls, secondments — useful/known.
+- **D022** hidden-harm capture–recapture — direct family-violence/child-abuse precedents.
+- **D023–D028** phylogenetic non-independence, sibling comparisons, cultural hitchhiking, legal overfitting, neutral evolvability, privacy-preserving linkage — direct/close precedents.
+- **D029–D037** authority leases/revocation, process conformance, compensating transitions, deadlock defaults, threshold structuring, procedural DoS, common-control aggregation, mixed audit strategies — established security/legal/process design.
+- **D038** rescue-supported survival as intrinsic robustness — treatment/soft-budget confounding.
+- **D039** soft-budget community reproduction — moral hazard/soft budget constraints.
+- **D040** exogenous/index aid triggers — parametric/index insurance and forecast-based financing.
+- **D041** prevention-credit/avoided-loss accounting — impact evaluation.
+- **D042** voluntary self-disclosure safe harbor — regulatory leniency/safety reporting.
+- **D043** marginal-benefit rescue allocation — triage/treatment-effect targeting.
+- **D044** randomized/staggered borderline rescue — trials/bandits; high ethical threshold.
+- **D045** experience-rated rescue contributions — insurance pricing/moral hazard.
+- **D046** correlated-risk reserve sizing — catastrophe/systemic-risk insurance.
+- **D047** first-come rescue race / distress legibility — common-pool and Goodhart/legibility effects.
 
 ## Hard rejection frontier
 
-Do not repromote technical restatements of commodification/alienation; thick-vs-thin ties/social capital; planned fission/propagule reproduction; cultural fidelity thresholds; cultural phylogenetic non-independence; cultural linkage/hitchhiking; source/sink dynamics; modularity/interdependence; founder/lifecycle effects; generic schism/forkability; property/exit/liquidity; organizational forgetting; self-selection/endogeneity; survivorship/external validity; generic monitoring; newcomer overload; common-cause diversification; checks-and-balances/least privilege; laboratories of democracy; generic matching; continuity/succession exercises; generic governance pilots; ordinary paired discrimination testing; legal holdout/cross-validation; generic organizational evolvability/neutral drift; generic privacy-preserving record linkage; random juries/reviewer assignment; threshold access; blind review; comparative controls; staff rotation; generic access-control leases/revocation; process conformance; compensating transactions; anti-structuring; vexatious-process controls; beneficial-ownership/common-control analysis; and ordinary random/risk-based auditing.
+Do not repromote technical restatements of: commodification/alienation; thick-vs-thin ties/social capital; generic division-of-labor effects; planned fission/propagule reproduction; cultural fidelity; cultural phylogenetic non-independence; cultural hitchhiking; source/sink dynamics; modularity/interdependence; founder/lifecycle effects; generic property/exit/liquidity; organizational forgetting; self-selection/endogeneity; survivorship/external validity; generic monitoring/auditing; common-cause diversification; checks-and-balances/least privilege; laboratories of democracy; generic matching; continuity/succession exercises; generic pilots; ordinary paired discrimination testing; legal holdout/cross-validation; generic organizational evolvability; generic privacy-preserving linkage; access-control leases/revocation; process conformance; compensating transactions; anti-structuring; vexatious-process controls; beneficial-ownership/common-control analysis; ordinary insurance/moral hazard; or generic anticipatory-action forecasting.
 
 ## Method findings
 
@@ -327,19 +146,20 @@ Do not repromote technical restatements of commodification/alienation; thick-vs-
 - **M004:** nonstandard structural cross-domain transfer can count; same-domain rediscovery cannot.
 - **M005:** empty batches are successful; prefer no result to weak promotion.
 - **M006:** terminology differences do not save a candidate when the target domain already implements the same structure.
-- **M007:** a mathematically surprising transfer that does not materially affect the best available target case should be demoted until a consequential case is found.
-- **M008:** practical usefulness and originality require separate dispositions; novelty demotion must not erase useful community-development knowledge.
-- **M009:** when a candidate's source mechanism is known, target novelty must lie in a genuinely different operational structure—not merely in applying the same method to another kind of organization.
-- **M010:** if a broad analogy collides, narrow the object being transferred until it either yields a distinct operational failure/test or dies.
-- **M011:** public accountability and adversarial unpredictability can coexist when rules/rights are public, the future random realization is unknowable, and the realized selection is replayable afterward.
+- **M007:** a mathematically surprising transfer that does not materially affect the best target case should be demoted until a consequential case is found.
+- **M008:** practical usefulness and originality require separate dispositions; novelty demotion must not erase useful communal-development knowledge.
+- **M009:** known source mechanisms survive only when the target transfer creates a genuinely different operational decision/test.
+- **M010:** when a broad analogy collides, narrow the transferred object until it yields a distinct operational failure/test or dies.
+- **M011:** public accountability and adversarial unpredictability can coexist when rules are public, future randomness is unknowable, and realized selection is replayable.
+- **M012:** intervention-triggering predictions require intervention-aware evaluation; observed post-intervention outcomes are not automatically valid labels for the forecasts that caused the intervention.
 
 ## Provenance
 
 Latest detailed runs:
 
-- `runs/2026-08-15-orthogonal-tail-batch-19.md`
 - `runs/2026-08-15-orthogonal-tail-batch-20.md`
 - `runs/2026-08-15-orthogonal-tail-batch-21.md`
 - `runs/2026-08-15-orthogonal-tail-batch-22.md`
+- `runs/2026-08-15-orthogonal-tail-batch-23.md`
 
 Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
