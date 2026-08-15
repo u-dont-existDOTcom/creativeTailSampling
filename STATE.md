@@ -2,9 +2,9 @@
 
 Updated: 2026-08-15
 
-## Recovery note
+## Recovery / durability note
 
-A visible chat turn froze while backend work continued. GitHub is authoritative. Batches 21–24 are now durably checkpointed.
+A visible chat freeze previously hid backend progress. GitHub is authoritative. Batches 21–26 are now durably checkpointed.
 
 ## Current survivors
 
@@ -28,7 +28,7 @@ Mature-cohort signatures:
 Carry explicit root/lineage/extant-community/resident estimands into future comparative work.
 
 ### C009 — Cohort-composition admission
-Market-thickness bounded. Best use: founding, daughter formation, new sites, expansion waves, several simultaneous vacancies. Batch 24 adds applicant waiting/unraveling as an explicit cost.
+Market-thickness bounded. Best use: founding, daughter formation, new sites, expansion waves, several simultaneous vacancies. Include waiting/unravelling costs; do not manufacture batches in sparse applicant markets.
 
 ### C011 — Shadow governance
 Run a substantially new governance process nonbinding in parallel on the same admissible cases before authority transfer; analyze divergence before live pilot/adoption.
@@ -40,87 +40,107 @@ Maintain versioned tests for relations the community claims should hold—irrele
 Coordinate reciprocal preference clearing across autonomous communities **after** visits/trials, preserving opt-out and local admission authority.
 
 ### C015 — Governance rights-liveness verification
-A right/remedy is not adequate merely because a clause permits it; every realistic valid invocation must retain a permitted path to review/remedy/closure despite recusal, vacancy, quorum, jurisdiction, deadlines, delegation, escalation, and strategic noncooperation.
-
-Batch 24 adds an important **practical but non-novel extension**: also stress-test liveness under correlated/surge demand. This is not promoted separately because grievance/ombuds systems already recognize capacity and excess-demand planning.
+A right/remedy is not adequate merely because a clause permits it; every realistic valid invocation must retain a permitted path to review/remedy/closure despite recusal, vacancy, quorum, jurisdiction, deadlines, delegation, escalation, strategic noncooperation, and—practically though not novelly—surge demand.
 
 ### C016 — Verifiably unpredictable federation audit sampling
-Survived Batch 23 target-domain attack.
-
 When random federation oversight is justified:
 1. publicize audit scope/rights;
 2. freeze/commit the complete eligible universe before randomness is knowable;
-3. precommit sampling algorithm/sample size/exclusions;
+3. precommit sampling rules;
 4. obtain future randomness not controlled by leadership/auditee;
 5. derive sample deterministically;
 6. make selection replayable/verifiable afterward.
 
 ### C017 — Intervention-aware evaluation of rescue-triggering community forecasts
-Survived Batch 24 target-domain attack.
-
 Core rule:
 > **Do not use the intervention-produced outcome as an unadjusted label for the forecast that triggered the intervention.**
 
-If a community forecasts high failure risk without new aid, the warning triggers rescue, and failure is prevented, a naive `predicted failure; no failure` score punishes successful prevention and can chill honest early warning.
-
-Operational requirements:
-- define the forecast estimand/intervention regime;
-- freeze forecast/evidence before rescue;
-- evaluate forecast quality separately from intervention efficacy;
-- distinguish prevented event / poor forecast / unresolved counterfactual;
-- record rescue/subsidy exposure in survival/reproduction comparisons.
+Define the forecast's intervention regime, freeze forecast/evidence before rescue, evaluate forecast quality separately from rescue efficacy, and record rescue/subsidy exposure in survival/reproduction comparisons.
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-23.md`.
 
+### C018 — Replicated-governance tombstones
+**New survivor from Batch 25.**
+
+Simple archives/amendment histories are old. The surviving transfer is movement-level anti-resurrection:
+
+> when a high-consequence governance pattern is retired for a known failure, propagate a durable deprecation record through the same daughter/template replication channels that could otherwise reintroduce it.
+
+The tombstone should record semantic scope, failure/rationale, evidence, replacement, context limits, and conditions/process for reconsideration. Daughter communities/forks/starter templates import/check tombstones alongside current positive rules.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-25.md`.
+
 ## Batch 24 outcome
+
+No new survivor; C017 survived target attack. Practical surge-demand, blast-radius, near-miss, administrative-bias, applicant-waiting, correlated-reserve and shared-expert lessons were preserved in the communities lessons layer.
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-24.md`.
 
-**No new Creative Tail survivor.** C017 survived its target-domain attack.
+## Batch 25 outcome
 
-Useful-but-known results were preserved in the communities lessons layer:
-- stress-test rights/remedies under correlated invocation/surge demand;
-- treat one shared federation bypass as a potential single point of failure;
-- map federation shared-service blast radius;
-- record near misses;
-- correct rescue allocation for administrative/legibility bias;
-- include applicant waiting/unraveling costs in C009;
-- size mutual aid for correlated/systemic shocks;
-- shared experts can propagate bad practices as well as good ones.
+C018 survived narrowly. Split-brain governance, graceful degradation, partition modes, staggered reform, interference-aware experiments, governance migrations, tamper-evident commitments and metric versioning were useful but known.
 
-Because the communities branch advanced in parallel through the Escuelita descendant audit, Batch 23–24 lessons were preserved without overwriting newer work in:
-`u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS-TAIL-ADDENDUM.md`
+Practical lessons were saved without overwriting parallel Escuelita work in:
+`u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md`
 
-## Exact next move — Batch 25
+## Batch 26 outcome
 
-### A. Consolidate lessons safely
+**No new Creative Tail survivor.**
 
-At the next safe edit, resolve the latest `agent/final-research-synthesis` branch and fold the tail addendum into `COMMUNITY-DEVELOPMENT-LESSONS.md` without losing Escuelita or other parallel additions.
+Governance truth-maintenance / derivative-decision impact review failed novelty because truth-maintenance systems, record-correction propagation, reactive case management, data provenance/change propagation and administrative appeal already implement close structures.
 
-### B. Orthogonal Batch 25
+Practical rule retained:
+> correcting an upstream premise should trigger impact review of downstream decisions that materially depended on it.
 
-Generate >=12 candidates from new source domains; do not remain anchored on rescue/audit systems.
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-26.md`.
+
+Practical lessons saved in:
+`u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-26.md`
+
+## Communities-repo persistence state
+
+The communities research branch advanced in parallel through the Escuelita descendant audit. Do not overwrite the canonical lessons file from an older snapshot.
+
+Current safe layers on `agent/final-research-synthesis`:
+- `COMMUNITY-DEVELOPMENT-LESSONS.md` — canonical;
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-ADDENDUM.md` — Batch 23–24 recovery supplement;
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md`;
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-26.md`.
+
+Consolidate these only after resolving the latest branch head and preserving parallel research additions.
+
+## Exact next move — Batch 27
+
+Generate >=12 candidates from a **different** set of source domains. Avoid memory/versioning/dependency systems for one batch.
 
 Priority source domains:
-- error-correcting codes / graceful degradation;
-- ecological succession and disturbance mosaics;
-- distributed databases under partitions;
-- evolutionary developmental constraints;
-- experimental design under interference between units;
-- mechanism design for federations where local units control part of the evidence;
-- memory systems that distinguish obsolete rules from reusable lessons.
+- safety engineering / control theory beyond generic redundancy;
+- queueing and scheduling pathologies beyond ordinary overload;
+- ecological indirect effects / apparent competition;
+- information theory / lossy aggregation;
+- mechanism design with endogenous observability;
+- supply-chain dynamics / bullwhip effects;
+- adversarial signal detection where observers change behavior because monitoring exists.
 
 Hard target:
-> Find an operational community-development rule that changes what a commune/federation would actually do and is not already ordinary governance, resilience, matching, insurance, audit, or social-capital advice.
+> Find an operational rule that changes actual community/federation architecture and does not collapse to ordinary due process, checks-and-balances, resilience, auditing, workload planning, Goodhart, diversification, or social-capital advice.
 
-### C. C005 comparator remains independent
+Candidate prompts:
+- can a safeguard change behavior in a way that makes its own performance metric misleading?
+- can two groups damage one another indirectly through a shared scarce community process even without direct conflict?
+- can aggregation systematically erase exactly the minority/high-severity signals that matter most?
+- can local smoothing/buffering create movement-level oscillation or delayed overreaction?
+
+### C005 comparator remains independent
 
 Continue only when a real non-Hutterite parent→daughter dataset with exposure time is available.
 
 ## Two-repo disposition rule
+
 Every community-related candidate gets:
 1. originality disposition here;
-2. practical-usefulness disposition in `u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS.md` or its temporary tail addendum when the canonical file is concurrently changing.
+2. practical-usefulness disposition in the communities lessons layer, even when originality fails.
 
 ## Persistence rule
+
 After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, mirror practical lessons without overwriting parallel work, and never rely on chat history as durable state.
