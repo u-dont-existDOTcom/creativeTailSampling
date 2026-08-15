@@ -75,9 +75,20 @@ C022 differs from C001: C001 probes **normative disagreement**; C022 probes **em
 
 Use secure aggregation/MPC/federated analytics or split-trust computation where justified so neither local leadership nor the federation research office sees plaintext member inputs. Pair this with **C023 output-disclosure control**: hiding inputs does not make a tiny exact aggregate safe to release.
 
-Potential uses include federation-wide prevalence estimates, reporting-pressure diagnostics, measurement-canary distributions, current-versus-leaver aggregates, and pooled sensitive outcomes.
-
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-53.md`.
+
+### C025 — Community resolution / living-will architecture
+**Provisional crisis-resolution transfer.** Before failure, distinguish **recovery of the institution** from **continuity of member-critical functions**.
+
+A community resolution plan maps which functions must survive even if the commune itself becomes nonviable—housing transition, food/water, medication/care, childcare/education, cash/benefits, transport, records, family contact, animal/land obligations—and predefines bridge/fallback providers, continuity horizons, member-portable records/benefits, and independent recovery-to-resolution triggers.
+
+Core rule:
+
+> **Design failure so the people and critical functions do not have to fail with the institution.**
+
+The source model comes from bank-resolution/living-will systems that preserve critical functions without preserving the failing legal entity; the target transfer to communal crisis architecture is the surviving claim.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-56.md`.
 
 ## Recent practical-only results
 
@@ -86,12 +97,16 @@ Full audit: `runs/2026-08-15-orthogonal-tail-batch-53.md`.
 - **B50:** rotate authority without resetting competence; audit durable trainers/records custodians/advisers for shadow power.
 - **B51:** the research center's selected `best practice` suffers winner's curse; preserve discovery/confirmation separation and selection-aware inference.
 - **B52:** admission requirements are selection pressures; audit information gained per applicant burden and who disappears from the funnel.
+- **B54:** minimum viable community scale and minimum viable federation social/demographic scale are different; intercommunity youth mobility can be part of generational infrastructure.
+- **B55:** portable safeguarding data should be structured, scoped, versioned evidence/risk packets rather than federation-wide person labels.
+- **B57:** in tiny communes, expressive responses can be identifiable from style/context even when names are removed; do not promise fake anonymity.
+- **B58:** privacy starts before submission; shoulder-surfing, unattended screens/paper, shared devices, and completion timing require a separate collection-scene privacy layer.
 
-Earlier practical-only results remain fully documented under `runs/` and mirrored into the communities lessons layer.
+Earlier practical-only results remain documented under `runs/` and mirrored into the communities lessons layer.
 
 ## Hard rejection frontier
 
-Do not repromote technical restatements of: commodification/alienation; social capital/multiplexity; generic fission/propagule/fidelity; source-sink/modularity/founder/path-dependence; ordinary property/exit/liquidity; survivorship/endogeneity; generic audits/checks-and-balances; ordinary matching/pilots/continuity drills; access-control/process-conformance/compensating transactions; ordinary insurance/moral hazard; generic rescue forecasting; change-management/versioning; bullwhip/queueing/reporting culture; classic ratchet; hysteresis/anti-windup; voting-power mathematics/player splitting itself; general-equilibrium scaling; cream skimming; selective-label theory; measurement invariance/anchoring vignettes; social-desirability/list/randomized-response/overclaiming methods; matching-with-couples mathematics; database reconstruction/differential-privacy theory; job-rotation theory; winner's-curse theory; gatekeeper/self-selection theory; or secure-MPC/federated-analytics theory itself.
+Do not repromote technical restatements of: commodification/alienation; social capital/multiplexity; generic fission/propagule/fidelity; source-sink/modularity/founder/path-dependence; ordinary property/exit/liquidity; survivorship/endogeneity; generic audits/checks-and-balances; ordinary matching/pilots/continuity drills; access-control/process-conformance/compensating transactions; ordinary insurance/moral hazard; generic rescue forecasting; change-management/versioning; bullwhip/queueing/reporting culture; classic ratchet; hysteresis/anti-windup; voting-power mathematics/player splitting itself; general-equilibrium scaling; cream skimming; selective-label theory; measurement invariance/anchoring vignettes; social-desirability/list/randomized-response/overclaiming methods; matching-with-couples mathematics; database reconstruction/differential-privacy theory; job-rotation theory; winner's-curse theory; gatekeeper/self-selection theory; secure-MPC/federated-analytics theory; safeguarding-reference theory; deductive-disclosure/stylometry theory; or shoulder-surfing/visual-privacy theory itself.
 
 ## Method findings
 
@@ -114,7 +129,8 @@ Do not repromote technical restatements of: commodification/alienation; social c
 - **M017:** empirical comparison needs a measurement-comparability gate before pooling.
 - **M018:** small-N confidentiality is a property of the whole release history and adversary knowledge, not each release independently.
 - **M019:** privacy architecture needs separate input-confidentiality and output-disclosure layers; solving one does not solve the other.
+- **M020:** in tiny co-residential groups, privacy also has independent participation, collection-scene, and response-fingerprint layers; protecting storage alone is insufficient.
 
 ## Provenance
 
-Latest runs include `runs/2026-08-15-orthogonal-tail-batch-38.md` through `...-batch-53.md`. Earlier batches and recovered pre-deletion state remain under `runs/`.
+Latest runs include `runs/2026-08-15-orthogonal-tail-batch-38.md` through `...-batch-58.md`. Earlier batches and recovered pre-deletion state remain under `runs/`.
