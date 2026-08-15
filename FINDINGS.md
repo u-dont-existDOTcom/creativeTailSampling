@@ -32,7 +32,9 @@ Broad claims that property affects exit or innovation are old. Remaining candida
 
 This can create **selection blindness**: a canonical form may appear superior when alternatives were systematically denied comparable land, tools, treasury, reputation, or other inherited resources before selection could test them.
 
-Keep narrow. Demote on a close target precedent explicitly treating collective branch asset portability as a filter on institutional variation/evolution.
+A final targeted precedent attack in Batch 16 found adjacent work on group fission, institutional legacies, cultural group selection, social-protocell inheritance, and religious/organizational schism, but no close precedent explicitly modeling collective branch asset portability as a pre-selection filter on institutional variants.
+
+Keep narrow. Demote on a close target precedent.
 
 ### C005 — Reproductive-variance / superstar-reproduction trap
 
@@ -65,14 +67,14 @@ A second empirical check found historical Manitoba colony expansion was also unu
 
 Scope warning: the genealogy field is Manitoba daughters only; cross-border daughters are omitted.
 
+Batch 16 identified two comparative-data routes: FEEFHS Dariusleut/Lehrerleut tables with `Parent Colony` fields and church-planting family-tree datasets.
+
 Data / analysis:
 
 - `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
 - `analysis/hutterite_reproduction_metrics.py`
 - `data/hutterite_manitoba_period_growth_1918_1975.csv`
 - `analysis/hutterite_period_growth_log_check.py`
-
-Audits: Batches 07–09 and 15.
 
 ### C006 — Descendant inflation / lineage-size sampling bias
 
@@ -90,10 +92,29 @@ The correct weighting depends on the estimand:
 
 Applied to `u-dont-existDOTcom/communities`, C006 does **not** invalidate the current 158-finding P0 synthesis. That workflow is mechanism-bounded and treats repeated cases as corroboration rather than independent votes. Do not retrofit lineage weights there; carry genealogy/estimand controls into future comparative/prevalence analyses.
 
+### C009 — Cohort-composition admission
+
+**Status:** SURVIVING / provisional cross-domain operational transfer.
+
+When applicant value contains material complementarities or peer effects, sequential individual admission can be path-dependent and globally inferior even when each local decision is reasonable.
+
+Core distinction: applicant utility may be **non-separable**. A candidate who looks like a poor fit against today's membership may belong to the best reachable future cohort; conversely, individually acceptable candidates may compose into a bad cohort.
+
+Operational consequence for periods with several openings:
+
+- retain a provisional candidate pool rather than finalize every acceptable applicant immediately;
+- evaluate plausible candidate sets and interaction effects, not only individual fit;
+- use joint trial periods where feasible;
+- preserve voluntary exit and applicant autonomy rather than binding people into forced bundles.
+
+Target-domain screen in Batch 16 found intentional-community guidance to be predominantly sequential/probationary. Some forming cohousing projects construct affinity groups, but no close precedent was found for established-community cohort-aware admissions based explicitly on interaction effects.
+
+Demote if a close target precedent is found or if empirical interaction effects are trivial relative to individual fit.
+
 ## Demoted / useful but not novel
 
 ### D001 — Flagship founder trap
-Demoted after spinout/social-movement literature attack.
+Demoted after spinout/social-movement literature attack. Batch 16 confirmed the collision: employee-spinout research already studies parent loss of key human capital/routines versus knowledge diffusion and offspring/ecosystem benefits.
 
 ### D002 — Multi-parent daughter recombination
 Too close to cross-pollination/cultural recombination.
@@ -119,9 +140,11 @@ Former C007. Demoted after safeguarding/personnel-vetting precedent attack. Usef
 ### D009 — Arithmetic-growth mirage under shared environmental variation
 Former C008. The random-environment mathematics is real: arithmetic mean reproduction can have the wrong sign relative to long-run multiplicative/log growth. But the historical Manitoba Hutterite test shows the correction is negligible for the best current exemplar because reproduction was strikingly stable across periods. Retain as a conditional quantitative warning, not a current Creative Tail survivor.
 
-Promote again only if a real community lineage is found where environment conditioning materially reverses the reproducibility inference.
+### D010 — Failure-history inheritance
+Useful practice but not novel: organizational-learning literature explicitly studies negative knowledge / knowing what not to do.
 
-Audit: Batch 14 and Batch 15.
+### D011 — Spatial-vs-temporal replication attention tradeoff
+Rejected as novel after direct 2026 organizational-replication precedent: scaling new units and maintaining adherence in existing units compete for scarce attention.
 
 ## Hard rejection frontier
 
@@ -144,7 +167,8 @@ Do not repromote technical restatements of:
 - newcomer-integration overload;
 - generic common-cause risk/diversification;
 - checks-and-balances/least privilege;
-- policy experimentation/laboratories of democracy.
+- policy experimentation/laboratories of democracy;
+- generic matching/compatibility without non-separable cohort effects.
 
 ## Method findings
 
@@ -163,5 +187,6 @@ Latest detailed runs:
 - `runs/2026-08-15-c007-adversarial-screen-13.md`
 - `runs/2026-08-15-orthogonal-tail-batch-14.md`
 - `runs/2026-08-15-c008-hutterite-empirical-test-15.md`
+- `runs/2026-08-15-orthogonal-tail-batch-16.md`
 
 Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
