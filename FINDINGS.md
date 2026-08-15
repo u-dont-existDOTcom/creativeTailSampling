@@ -79,6 +79,77 @@ If communities can preserve the former combination, many alleged tradeoffs betwe
 
 ---
 
+## New survivors from Tail Batch 01
+
+### F004 — Failure-correlation inversion
+
+**Status:** SURVIVED. Strong.
+
+Relational unbundling may **move** dependency rather than reduce it.
+
+When different needs are handled by different specialist providers, the provider layer looks diversified. But access to many of those providers can depend on the same underlying variables: money, credentials, transport, phone/platform access, institutional eligibility, or other common infrastructure.
+
+The result is a topology that is diversified at the visible provider layer but concentrated at the access layer.
+
+#### Derived chain
+
+1. Many life functions are assigned to different specialists.
+2. Access to those specialists depends on one or a few common access variables.
+3. A shock to a common variable can simultaneously disable otherwise unrelated functions.
+4. The resulting multi-domain collapse may then be diagnosed as several separate deficits and routed to several specialist interventions, which can themselves depend on the same common access layer.
+
+This is not simply "poverty is bad." It is a claim about **failure covariance**: apparent provider diversification can create common-mode fragility.
+
+#### Countervailing failure mode
+
+A highly multiplex relationship can concentrate functions on one person, so rupture with that person can also create correlated failure.
+
+This implies that the relevant design problem is not maximum multiplexity. A robust structure may require **several overlapping multiplex ties**, avoiding both single-person common-mode failure and single-system common-mode failure.
+
+#### Discriminating prediction
+
+Networks with greater multiplex role coverage should, other things equal, show less simultaneous loss of unrelated life functions following an income/access shock, while networks concentrated around one multiplex relationship may show more simultaneous loss following an interpersonal rupture.
+
+### F005 — Relational capability atrophy loop
+
+**Status:** SURVIVED. Strong.
+
+Relationships do not become functionally multiplex merely because people like each other, see each other often, or call each other friends. They become capable of carrying functions by **actually carrying functions**.
+
+Outsourcing a function therefore has a hidden dynamic effect: it prevents ordinary relationships from acquiring the competence, permission, shared routines, domain-specific trust, and reciprocal expectations necessary to perform that function later.
+
+#### Derived chain
+
+1. A need is routed to a specialist instead of being attempted within an existing relationship.
+2. The existing relationship does not acquire the practical and normative machinery needed to handle that kind of need.
+3. When the need recurs, relying on the specialist is now genuinely more rational because the ordinary tie never became capable.
+4. Repeated specialist use further prevents relational capability from accumulating.
+5. The system can therefore exhibit positive feedback and possibly hysteresis: after enough unbundling, simply increasing friendship or social contact does not restore functional community.
+
+#### Design implication
+
+Community-building interventions centered on sociability may fail even when they produce genuine affection. If the goal is functional community, people must repeatedly perform useful, bounded-stakes functions for one another so that relationships acquire additional roles.
+
+#### Discriminating prediction
+
+Increasing social contact without role exchange should produce much smaller gains in practical crisis-support capacity than interventions that cause members to exchange real functions. Once several functions are successfully shared, further role accretion may become easier, producing nonlinear growth in multiplexity.
+
+### F006 — Contact density can mismeasure functional community
+
+**Status:** SURVIVED as a measurement consequence of F005.
+
+A person can have many frequent and affectionate ties while having almost no relationships that are practiced and authorized to carry practical functions during disruption.
+
+Therefore friend count, contact frequency, subjective closeness, and even network density can overestimate functional community.
+
+A more relevant measure would include **role overlap / function coverage per tie** and redundancy of that coverage across multiple ties.
+
+#### Prediction
+
+Role-overlap measures should predict practical crisis support better than contact frequency or friend count after controlling for tie strength.
+
+---
+
 ## Other recovered branches
 
 ### F002 — Epistemic independence may require deliberate communication boundaries
@@ -98,6 +169,30 @@ This needs stronger tail development because it is adjacent to known wisdom-of-c
 Clause-by-clause majority decisions can in principle assemble a total package that a majority would prefer to reject when evaluated as a whole. A final whole-package ratification is therefore not necessarily redundant.
 
 This branch must retain realistic options such as rejecting the entire package or preserving the status quo; social-choice puzzles created by deleting those options are invalid for this project.
+
+### P001 — Portable-trust substitution
+
+**Status:** PROMISING.
+
+As role overlap declines, shared relational history becomes less available as a trust mechanism. Credentials, records, ratings, contracts, identity systems, and institutional guarantees may substitute for that missing history.
+
+The current formulation is still close to familiar institutional-trust / legibility arguments and needs another tail step before promotion.
+
+### P002 — Human externalization by local-role optimization
+
+**Status:** PROMISING.
+
+A specialist institution can improve local metrics by excluding a person who performs badly in its one domain while exporting the consequences to other institutions and relationships. The cross-domain bundle that is the person disappears from the local objective function.
+
+This currently compresses partly to generic externalities and silo optimization; it needs a more distinctive consequence.
+
+### P003 — Residual-multiplexer comparison trap
+
+**Status:** PROMISING.
+
+If the romantic partner remains highly multiplex while most other relationships specialize, the partner can be evaluated simultaneously against specialized or best-in-class alternatives in each function. This may produce a structurally impossible comparison target for the remaining multiplex relationship.
+
+This remains strongest as a consequence of F001 rather than a standalone discovery.
 
 ---
 
@@ -145,6 +240,30 @@ Real members can simply refuse agreement. A very left-wing participant can rejec
 
 **Frontier lesson:** never delete reject-both/status-quo options merely to produce a paradox.
 
+### R006 — Need translation loss / jurisdictional orphaning
+
+**Status:** REJECTED AS TOO FAMILIAR IN CURRENT FORM.
+
+Specialist systems can force messy needs into standardized categories and leave cross-domain needs between silos. This compresses too easily into well-known bureaucracy/silo arguments.
+
+### R007 — Cross-domain bargaining space
+
+**Status:** REJECTED AS NAMED/FAMILIAR.
+
+Using concessions in one domain to settle conflict in another compresses to issue linkage / logrolling / repeated-game bargaining.
+
+### R008 — Identity/reputation compartmentalization
+
+**Status:** REJECTED AS TOO FAMILIAR IN CURRENT FORM.
+
+Role-specific audiences enabling different presentations compresses to impression management, reputation silos, and role fragmentation.
+
+### R009 — Latent role activation
+
+**Status:** REJECTED AS INSUFFICIENTLY NOVEL.
+
+Existing people flexing into temporarily needed functions compresses to cross-training, flexibility, and generalist resilience unless a stranger consequence is found.
+
 ---
 
 ## Search frontier established by user feedback
@@ -157,4 +276,11 @@ A candidate is not sufficient merely because it is true or useful. The project i
 - testable or discriminable;
 - not merely a renamed familiar concept.
 
-The current best lead is not "community is good" or "people should rely on each other." It is the more specific structural hypothesis that **modernity may have unnecessarily coupled division of labor with division of relationships**, and that many modern institutional burdens could be consequences of the second rather than the first.
+The current best lead is now more specific than "community is good." The working structure is:
+
+1. **F001:** modernity may have coupled division of labor to division of relationships;
+2. **F005:** outsourcing prevents ordinary ties from becoming capable of carrying the outsourced functions;
+3. **F004:** once functions are specialist-routed, many apparently independent needs can become coupled to the same access layer;
+4. this can make people simultaneously **less dependent on particular persons and more dependent on common systems**.
+
+Full candidate audit: `runs/2026-08-15-multiplex-tail-batch-01.md`.
