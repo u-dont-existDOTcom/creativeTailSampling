@@ -4,95 +4,91 @@ Updated: 2026-08-15
 
 ## Current epistemic state
 
-The earlier multiplex/relational-unbundling chain is **not an accepted Creative Tail Sampling discovery**. The user recognized it as common sense / familiar social theory, and a literature check confirmed strong overlap with Marx/Durkheim/Tönnies/Polanyi and multiplex-network traditions.
+The multiplex/relational-unbundling chain is **not an accepted Creative Tail Sampling discovery**. It failed the user's familiarity veto and the literature-nearest-neighbor gate. `MODEL.md` is historical/applied material only; do not resume novelty search from it.
 
-Preserve `MODEL.md` only as a historical/applied model of that rejected branch. Do **not** resume from it as the novelty frontier.
+Canonical veto: `runs/2026-08-15-user-veto-multiplex-branch.md`.
 
-Canonical veto record:
+The protocol now requires:
 
-- `runs/2026-08-15-user-veto-multiplex-branch.md`
-
-Protocol was tightened with:
-
-- mandatory historical/literature nearest-neighbor attack;
+- common-sense compression;
+- explicit historical/literature nearest-neighbor attack;
 - user familiarity veto;
-- anti-elaboration rule;
-- distinction between same-domain rediscovery and genuinely nonstandard cross-domain transfer.
+- anti-elaboration once a root branch is familiar;
+- separation of same-domain rediscovery from nonstandard cross-domain transfer;
+- acceptance of empty batches rather than weak promotion.
 
-## Current surviving connection
+## Current surviving cross-domain connections
 
 ### C001 — Active normative edge-case search
 
 Transfer active-learning / preference-elicitation logic into intentional-community governance.
 
-Instead of trying to maximize agreement on abstract values, adaptively choose concrete cases where members' currently plausible interpretations are most likely to disagree.
+Instead of maximizing agreement on abstract values, adaptively choose concrete cases where members' currently plausible interpretations are most likely to disagree. Preserve resolved high-information cases as a constitutional regression suite and rerun them after rule/member changes.
 
-Then:
+Audit: `runs/2026-08-15-orthogonal-tail-batch-04.md`.
 
-1. collect independent responses before discussion;
-2. select the next high-information boundary case;
-3. separate initial measurement from later socialization/deliberation;
-4. preserve resolved high-information cases as a versioned constitutional regression suite;
-5. rerun them after governance/member changes to expose semantic drift.
+### C002 — Flagship founder trap / founder-export externality
 
-This is explicitly a **cross-domain connection**, not a claim that active learning or values underdetermination is new.
+A successful flagship may retain exactly the experienced/high-agency members the wider movement needs to found daughters.
 
-Full audit:
+The potentially non-obvious part is the multilevel incentive conflict:
 
-- `runs/2026-08-15-orthogonal-tail-batch-04.md`
+> parent community pays the immediate cost of exporting a proven member; much of the reproductive benefit accrues to the movement.
 
-## Promising unpromoted branches
+Therefore a movement can collectively underproduce founders even when every local community endorses expansion.
 
-- **P001 multi-parent daughter communities as cultural recombination** — needs direct target-domain precedent search.
-- **P002 turnkey replication deletes developmental process** — currently too close to tacit knowledge/path dependence/local adaptation; requires a more distinctive implication.
+Predictions to attack next:
+
+- high retention of proven potential founders may suppress daughter formation unless founder export is explicitly organized;
+- increasing flagship attractiveness may eventually reduce daughter production even while increasing local success;
+- movement/federation-level founder-export rewards or replacement pipelines may outperform generic recruitment if experienced founders are the bottleneck.
+
+Audit: `runs/2026-08-15-reproduction-tail-batch-05.md`.
+
+## Promising but unpromoted
+
+- **P001 multi-parent daughter communities as cultural recombination** — still risks collapsing to ordinary cross-pollination.
+- **P002 turnkey replication deletes developmental process** — still too close to tacit knowledge/path dependence/local adaptation.
 
 ## Hard novelty boundary
 
-Do not spend another session rediscovering or technically renaming:
+Do not repromote:
 
 - commodification / alienation / specialization of social relations;
-- mechanical vs organic solidarity / thick vs thin ties;
-- embeddedness / social capital / multiplex-resource exchange;
+- thick-vs-thin ties, embeddedness, social capital, multiplex-resource exchange;
 - specialization making people replaceable;
-- community requiring more dependence/role overlap;
-- costly signaling and unequal opportunity/exit costs;
-- planned community fission / modularity / cell division;
+- planned community fission / propagule reproduction;
+- cultural transmission fidelity/complexity thresholds;
+- source/sink institutional dynamics;
+- germline/reproductive specialization by itself;
+- costly signaling and opportunity/exit costs;
+- network modularity/fission;
 - cultural compression through repeated transmission;
-- success changing recruitment composition;
-- ordinary key-person risk / founder dependence;
-- generic stress inoculation or conflict-backlog escalation;
-- generic "shared values are vague" without a further nonstandard mechanism.
+- recruitment-composition effects;
+- collective forkability;
+- generic migration/diversity tradeoffs;
+- key-person risk, stress inoculation, conflict queues;
+- local retention being an incomplete movement metric, by itself.
 
 ## Exact next creative-tail move
 
-Do **not** continue elaborating multiplexity.
+Do **not** elaborate C002 into generic externality economics.
 
-Run another orthogonal batch using the new cross-domain rule. Preferred search method:
+Run an adversarial batch around the narrower question:
 
-1. generate 12–20 candidate transfers from distant technical domains;
-2. plain-language compression;
-3. target-domain nearest-neighbor literature search;
-4. reject same-domain rediscoveries immediately;
-5. for source-domain-known mechanisms, require a nonstandard structural transfer plus a distinctive target-domain prediction;
-6. show the user only candidates that survive this screen.
+> If experienced founders really are a scarce reproductive resource, what counterintuitive structures follow that are not already captured by spinout, missionary, franchise, organizational-ecology, or social-movement institutionalization theory?
 
-### High-value target question
+Also continue sampling orthogonally rather than anchoring on C002. Candidate distant domains:
 
-Search for a non-obvious structural fact about **communities that successfully reproduce/spread**, not merely survive or feel cohesive.
-
-Candidate source domains for the next jump:
-
+- evolutionary life-history allocation;
 - developmental biology;
-- distributed systems;
-- error-correcting codes;
-- active learning / experimental design;
-- ecological metapopulations;
-- evolutionary recombination;
-- reliability engineering;
+- distributed-systems failure recovery;
+- error-correcting codes / information theory;
+- experimental design / active learning;
 - mechanism design;
-- control theory.
+- epidemiological reproduction thresholds.
 
-Avoid superficial metaphor. The mapping must change what one would actually measure, predict, or design.
+For each candidate, require a target-domain prediction that would change what the community movement measures or does.
 
 ## Persistence rule
 
@@ -101,4 +97,4 @@ After every substantive batch:
 - save full candidate/rejection audit under `runs/`;
 - promote only survivors to `FINDINGS.md`;
 - update this checkpoint immediately;
-- never rely on chat history as the durable state.
+- never rely on chat history as durable state.
