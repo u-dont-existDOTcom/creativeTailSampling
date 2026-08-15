@@ -127,6 +127,26 @@ Reusable tool:
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-30.md`.
 
+### C020 — Fission/merge representation-effect audit
+**Status:** SURVIVING / provisional cross-domain transfer linking voting-power theory to communal reproduction
+
+Weighted-voting theory already shows that splitting/merging players can change Banzhaf/Shapley power, and dynamic-federation research already treats child-community representation as a fairness problem. The surviving target connection is narrower:
+
+> **When daughter-community formation or merger is a legitimate lifecycle event, explicitly measure and choose the political representation effect of that structural change instead of letting the voting rule create an accidental subsidy or penalty to reproduction.**
+
+A useful constitutional diagnostic is an **aligned-preference split/merge counterfactual**: if daughters contain the same total people and vote identically to the unsplit parent, how much does aggregate federation influence change solely because one organizational boundary became two? A non-zero result is not automatically unfair—separate autonomous communities may deserve a sovereignty premium—but it should be explicit.
+
+C020 inherits C019's core warning: nominal-weight preservation is not power preservation. Under a conditional Batch 31 toy rule, splitting a 100-person parent into 50+50 under population-linear weights preserved total nominal weight but reduced the lineage's normalized Banzhaf power from 0.60 to 0.50; under one-community/one-vote, a three-player parent with 1/3 power could become two of four equal voters with aligned aggregate power 1/2. These are illustrations, not recommended rules.
+
+Planned-fission review should therefore include:
+- before/after voting-power audit;
+- effects on all third-party communities;
+- distinction between genuine autonomy and administrative fragmentation;
+- explicit decision on any community-unit/autonomy premium;
+- merger effects as the reverse case.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-31.md`.
+
 ## Recent empty novelty batches that produced practical lessons
 
 - **Batch 26:** decision dependencies / truth maintenance — correction should propagate to dependent decisions; known in truth-maintenance, case-management and record-correction systems.
@@ -155,7 +175,7 @@ Do not repromote technical restatements of:
 - generic supply-chain bullwhip/queueing/reporting-culture effects;
 - classic ratchet effects;
 - generic hysteresis/chatter/anti-windup;
-- voting-power mathematics itself (C019 is only the target-domain operational transfer).
+- voting-power mathematics, player splitting/merging, or Penrose formulas themselves (C019/C020 are only target-domain operational transfers).
 
 ## Method findings
 
@@ -173,16 +193,17 @@ Do not repromote technical restatements of:
 - **M012:** intervention-triggering predictions require intervention-aware evaluation.
 - **M013:** negative institutional knowledge must propagate through replication channels, not merely survive in archives.
 - **M014:** in weighted federations, the object to design is power under the complete rule, not the visible weight vector.
+- **M015:** when reproduction changes the number/boundaries of federation players, representation can become an implicit subsidy or penalty to reproduction even without any explicit reward rule.
 
 ## Provenance
 
 Latest runs:
 
-- `runs/2026-08-15-orthogonal-tail-batch-25.md`
 - `runs/2026-08-15-orthogonal-tail-batch-26.md`
 - `runs/2026-08-15-orthogonal-tail-batch-27.md`
 - `runs/2026-08-15-orthogonal-tail-batch-28.md`
 - `runs/2026-08-15-orthogonal-tail-batch-29.md`
 - `runs/2026-08-15-orthogonal-tail-batch-30.md`
+- `runs/2026-08-15-orthogonal-tail-batch-31.md`
 
 Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
