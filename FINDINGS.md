@@ -71,17 +71,42 @@ Prediction: small increases in social contact may do little below the threshold,
 
 ### F009 — Relational unbundling may be a self-stabilizing regime
 
-**Status:** SYNTHESIS / current frontier.
+**Status:** SYNTHESIS / current model.
 
-Three independent mechanisms now reinforce the same direction:
+Four mechanisms now reinforce the same direction:
 
 1. **capability feedback (F005):** outsourcing stops ties learning how to carry functions;
 2. **replacement feedback (F007):** decomposition makes people easier to replace component-wise, reducing investment that would thicken ties;
-3. **access-layer coupling (F004):** specialist routing can make many life functions depend on the same system-access variables.
+3. **access-layer coupling (F004):** specialist routing can make many life functions depend on the same system-access variables;
+4. **transaction optimization (F010):** specialists' short-run superiority prevents ordinary ties from obtaining the practice needed to close the capability gap.
 
-Together they imply that relational unbundling may persist even after people become dissatisfied with its consequences. The low-multiplexity state can reproduce the conditions that make multiplex relationships seem impractical.
+Possible fifth reinforcement: once role overlap becomes rare, cultural norms may begin treating cross-domain asking/helping/involvement as inappropriate, making the low-multiplexity state normatively self-defending.
 
-This is now the main object for the next tail-sampling pass.
+Together these imply that relational unbundling may persist even after people become dissatisfied with its consequences. The low-multiplexity state can reproduce the conditions that make multiplex relationships seem impractical.
+
+### F010 — Relational option value can require bounded short-run inefficiency
+
+**Status:** SURVIVED. Strong.
+
+If relationships gain functional capability by use, choosing the best specialist for every task can be transaction-level optimal while destroying system-level relational capacity.
+
+The mechanism is:
+
+> specialist is better today -> specialist gets the task -> ordinary tie gets no practice -> specialist advantage grows tomorrow
+
+Therefore some low-stakes tasks performed less efficiently within relationships can function as investments in future relational capability. This is not an argument against high-stakes expertise; it predicts a need for **protected amateur domains** where relationships can safely learn to carry useful functions.
+
+Prediction: groups that route real low-stakes useful tasks through members should develop more later mutual-aid capacity than equally social groups that outsource the same tasks, even if early task performance is worse.
+
+### F011 — Community outcomes can conflict with anti-multiplexity boundary norms
+
+**Status:** SURVIVED, culturally contingent.
+
+People can sincerely prefer high-trust community while also preferring micro-norms of strict privacy, non-interference, professionalism, reluctance to ask favors, and role separation that suppress the behaviors through which multiplexity forms.
+
+Therefore community rhetoric, friendship, or shared identity may produce little role overlap if the underlying norms governing cross-domain help remain unchanged.
+
+This must be separated from legitimate safety/privacy protections. The design target is not indiscriminate boundary violation; it is safe, consensual role overlap with redundant support so exit remains possible.
 
 ## Important provisional findings
 
@@ -105,6 +130,17 @@ Specialized institutions may improve local metrics by exporting whole-person cos
 
 A romantic partner who remains highly multiplex may be compared simultaneously with specialized alternatives in every role they carry.
 
+### P004 — Norm adaptation after capability loss
+
+Once ordinary ties stop carrying a function, expecting them to carry it may come to feel unreasonable. The sequence may be: outsource -> lose capability -> expectation becomes illegitimate -> further outsourcing.
+
+## Critical design constraints
+
+- Maximum multiplexity is not the goal. One all-purpose relationship creates catastrophic exit costs.
+- Prefer **redundant multiplexity**: several overlapping capable ties so loss/exit from one does not remove every function it carried.
+- Preserve privacy, consent, specialist expertise, and clean exit where they matter.
+- Do not mistake sociability for functional community.
+
 ## Hard rejection frontier
 
 Do not rediscover these as tail insights:
@@ -126,3 +162,4 @@ Do not rediscover these as tail insights:
 - Recovered pre-deletion state: `runs/2026-08-15-recovered-pre-deletion-findings.md`
 - First post-recovery batch: `runs/2026-08-15-multiplex-tail-batch-01.md`
 - Second post-recovery batch: `runs/2026-08-15-multiplex-tail-batch-02.md`
+- Third post-recovery batch: `runs/2026-08-15-multiplex-tail-batch-03.md`
