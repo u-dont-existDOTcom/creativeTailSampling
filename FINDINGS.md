@@ -10,7 +10,7 @@ A user familiarity veto or strong literature compression overrides earlier promo
 
 No accepted grand social-theory finding yet. The earlier multiplex/relational-unbundling branch failed the novelty gate and is historical/applied material only.
 
-Batch 20 produced **no new Creative Tail survivor**. That is a successful result under the protocol: several operationally useful ideas failed the nearest-neighbor novelty screen and were routed to the community-development lessons layer instead.
+Batch 20 produced no new survivor. Batch 21 produced one narrow provisional transfer, C015.
 
 ## Current surviving cross-domain connections
 
@@ -111,7 +111,7 @@ Identity-swapped paired testing itself is old. The remaining proposed transfer i
 
 ### C013 — Federated reciprocal applicant clearing after exploration
 
-**Status:** SURVIVING / provisional cross-domain operational transfer; **narrowed again in Batch 20**.
+**Status:** SURVIVING / provisional cross-domain operational transfer; narrowed in Batch 20.
 
 Matching-market design is known. Historical kibbutz practice also included movement-level centralized applicant screening, so neither centralized recruitment nor centralized screening is novel communal practice.
 
@@ -124,6 +124,42 @@ Current Kibbutz Movement infrastructure helps seekers discover accepting communi
 Recommended architecture remains dynamic and non-coercive: hard constraints first; several mutual exploration matches; visits/trials before final rankings; reciprocal acceptability; coordinated commitment suggestions; opt-out and local admission authority preserved; C009 cohort logic only where several openings/candidates genuinely coexist.
 
 Demote if a close target implementation is found.
+
+### C015 — Governance rights-liveness verification
+
+**Status:** SURVIVING / provisional cross-domain operational transfer from formal methods.
+
+Formal bylaw modeling, workflow model checking, safety/liveness verification, and legal-remedy doctrine are all established. The surviving target application is narrower:
+
+> **For an important communal right or remedy, verify that from every realistic state in which it is validly invoked, the governance process still has a permitted path to the promised review/remedy/closure despite adverse combinations of recusal, vacancy, quorum, jurisdiction, deadlines, delegation and escalation.**
+
+A right can therefore exist syntactically in a constitution while being **dead** in a reachable governance state.
+
+Example: an independent five-person appeal panel exists; two members must recuse; one seat is vacant; the remaining two lack quorum; only the implicated local board may fill vacancies; conflict rules bar that board from acting. The appeal clause exists, but no valid transition reaches review.
+
+Verification targets should distinguish:
+
+- **safety:** prohibited acts/states never occur;
+- **liveness:** a promised review/remedy remains reachable under explicit assumptions;
+- **bounded liveness:** the remedy can complete within a defined procedural/time bound rather than merely “eventually.”
+
+Candidate first-use procedures:
+
+- complaint intake and bypass;
+- expulsion/sanction appeal;
+- child/safeguarding escalation;
+- records access/correction;
+- exit valuation/payment;
+- emergency safety/medical bypass;
+- leadership removal/succession;
+- replacement of conflicted adjudicators;
+- federation-level review of a captured local body.
+
+Minimum protocol: model only relevant states/roles/transitions; predeclare safety/liveness properties; include realistic fault/adversarial states; run state-space/model checking or bounded exhaustive search; inspect counterexample traces; repair the actual procedure; rerun after material amendments; preserve counterexamples as regression tests.
+
+Important limits: verification proves only the model; omitted states and unrealistic fairness assumptions can create false confidence; discretion is hard to formalize; a procedure can be perfectly live and still unjust. C015 supplements rather than replaces substantive rights, human judgment, and outcome evaluation.
+
+Demote if a close target-domain implementation already routinely verifies human rights/remedies as liveness properties under adverse governance states, or if ordinary tabletop review catches the same material failures more cheaply.
 
 ## Demoted / useful but not novel
 
@@ -191,7 +227,7 @@ Established comparative/causal inference practice.
 Established rotation/secondment/boundary-spanner practice.
 
 ### D022 — Hidden-harm capture–recapture / Multiple Systems Estimation
-Former **C014**, demoted in Batch 20. Family-violence and child-abuse research already directly applies capture–recapture across multiple organizations. Keep only as a federation/research-center option with strong assumptions/privacy caveats.
+Former C014, demoted in Batch 20. Family-violence and child-abuse research already directly applies capture–recapture across multiple organizations. Keep only as a federation/research-center option with strong assumptions/privacy caveats.
 
 ### D023 — Lineage-aware comparative correction
 Cultural phylogenetic methods already address non-independence from shared ancestry (`Galton's problem`). Highly relevant to daughter-community genealogies, but not a tail discovery.
@@ -211,9 +247,24 @@ Organization Science already models organizational evolvability on neutral lands
 ### D028 — Privacy-preserving federation overlap analytics
 PSI/PPRL/secure multiparty computation is established cross-organizational infrastructure. No demonstrated community bottleneck yet justifies promotion; retain only as a future technical option.
 
+### D029 — Expiring authority / revocation latency
+Time-limited privilege, just-in-time access and access reviews are established security practice. Useful community lesson, not novelty.
+
+### D030 — Cascading authority revocation
+Delegation/revocation research explicitly models downstream revocation chains and propagation. Useful community lesson, not novelty.
+
+### D031 — Governance conformance checking
+Process-mining research already compares event logs with normative/reference process models for compliance. Useful if communal record burden is reasonable, not novelty.
+
+### D032 — Compensating transitions for non-atomic communal changes
+Distributed Saga/compensating-transaction design owns the mechanism; legal escrow/conditions provide adjacent human forms. Useful for complex transitions, not novelty.
+
+### D033 — Procedural fail-open/fail-closed defaults
+Established safety/security/default-rule logic. Useful companion to C015, not novelty.
+
 ## Hard rejection frontier
 
-Do not repromote technical restatements of commodification/alienation; thick-vs-thin ties/social capital; planned fission/propagule reproduction; cultural fidelity thresholds; cultural phylogenetic non-independence; cultural linkage/hitchhiking; source/sink dynamics; modularity/interdependence; founder/lifecycle effects; generic schism/forkability; property/exit/liquidity; organizational forgetting; self-selection/endogeneity; survivorship/external validity; generic monitoring; newcomer overload; common-cause diversification; checks-and-balances/least privilege; laboratories of democracy; generic matching; continuity/succession exercises; generic governance pilots; ordinary paired discrimination testing; legal holdout/cross-validation; generic organizational evolvability/neutral drift; generic privacy-preserving record linkage; random juries/reviewer assignment; threshold access; blind review; comparative controls; and staff rotation.
+Do not repromote technical restatements of commodification/alienation; thick-vs-thin ties/social capital; planned fission/propagule reproduction; cultural fidelity thresholds; cultural phylogenetic non-independence; cultural linkage/hitchhiking; source/sink dynamics; modularity/interdependence; founder/lifecycle effects; generic schism/forkability; property/exit/liquidity; organizational forgetting; self-selection/endogeneity; survivorship/external validity; generic monitoring; newcomer overload; common-cause diversification; checks-and-balances/least privilege; laboratories of democracy; generic matching; continuity/succession exercises; generic governance pilots; ordinary paired discrimination testing; legal holdout/cross-validation; generic organizational evolvability/neutral drift; generic privacy-preserving record linkage; random juries/reviewer assignment; threshold access; blind review; comparative controls; staff rotation; generic access-control leases/revocation; process conformance; and compensating transactions.
 
 ## Method findings
 
@@ -226,14 +277,15 @@ Do not repromote technical restatements of commodification/alienation; thick-vs-
 - **M007:** a mathematically surprising transfer that does not materially affect the best available target case should be demoted until a consequential case is found.
 - **M008:** practical usefulness and originality require separate dispositions; novelty demotion must not erase useful community-development knowledge.
 - **M009:** when a candidate's source mechanism is known, target novelty must lie in a genuinely different operational structure—not merely in applying the same method to another kind of organization.
+- **M010:** if a broad analogy collides, narrow the object being transferred until it either yields a distinct operational failure/test or dies; C015 survived only after “model-check bylaws” was rejected and the target became right-exercisability under adverse states.
 
 ## Provenance
 
 Latest detailed runs:
 
-- `runs/2026-08-15-orthogonal-tail-batch-17.md`
 - `runs/2026-08-15-orthogonal-tail-batch-18.md`
 - `runs/2026-08-15-orthogonal-tail-batch-19.md`
 - `runs/2026-08-15-orthogonal-tail-batch-20.md`
+- `runs/2026-08-15-orthogonal-tail-batch-21.md`
 
 Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
