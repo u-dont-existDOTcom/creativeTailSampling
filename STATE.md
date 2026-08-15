@@ -4,7 +4,7 @@ Updated: 2026-08-15
 
 ## Durability
 
-GitHub is authoritative. Batches 21–36 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
+GitHub is authoritative. Batches 21–37 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
 
 ## Current survivors
 
@@ -27,7 +27,7 @@ GitHub is authoritative. Batches 21–36 are durably checkpointed. Every practic
 Reusable voting tool:
 - `analysis/weighted_voting_power.py` — exact Banzhaf + Shapley-Shubik for small weighted games.
 
-## Batches 32–36
+## Batches 32–37
 
 ### Batch 32 — scaling regimes / scale closure
 No novelty survivor. Every claimed best practice needs an explicit scaling regime and external-input/scale-closure analysis.
@@ -42,52 +42,47 @@ No novelty survivor. Follow person/household and movement-wide burden across tra
 No novelty survivor. Audit the **creditability pipeline**—legibility, eligibility, authorization, budget, scheduling, recordability, verification, credit rate, appeal, demographic distribution, uncredited burden and behavioral response—not merely nominal `one hour = one credit` equality.
 
 ### Batch 36 — quorum geometry / recusal safety
-No novelty survivor. Distributed quorum theory owns the intersection mechanism and governance already contains quorum/recusal/appeal machinery.
+No novelty survivor. Extend C015: test quorum safety as well as liveness. Under realistic recusal/vacancy/substitution states, two valid paths must not leave incompatible irreversible authoritative states live without explicit stay/supersession/precedence/conflict-resolution semantics.
 
-Practical extension of C015:
-> test **quorum safety** as well as liveness: under realistic recusal/vacancy/substitution states, no pair of valid decision paths should leave incompatible irreversible authoritative states live without an explicit stay/supersession/precedence/conflict-resolution rule.
+### Batch 37 — irreversibility / real options
+No novelty survivor. Real-options and irreparable-harm doctrines own the root mechanism. Practical output: use an **irreversibility ledger** for genuinely high-consequence decisions—irreversible/reversible components, destroyed future options, expected information arrival, cost/irreversible harm of waiting, reversible proxy action, rollback-fiction check, who bears irreversible downside, and review/expiration.
 
-Do not copy personnel intersection literally into independent appeals; preserve consistency through state/authority transitions when review independence requires disjoint personnel.
-
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-36.md`.
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-37.md`.
 
 ## Communities lessons persistence
 
 Current append-only supplements on `agent/final-research-synthesis`:
 - `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-ADDENDUM.md` — Batch 23–24;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-36.md`.
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-37.md`.
 
 Canonical `COMMUNITY-DEVELOPMENT-LESSONS.md` remains intact while parallel research edits continue. Consolidate only after resolving the latest branch head.
 
-## Exact next move — Batch 37
+## Exact next move — Batch 38
 
-Leave quorum/distributed-consensus mechanics. Generate >=12 candidates from **irreversibility / real-options / sequential information**.
+Shift from governance mechanics to **robust movement research under strategic/noisy community reporting**.
 
 Hard question:
-> Which communal decisions are wrongly treated as ordinary reversible choices when they destroy future options, and can governance preserve information-gathering option value without degenerating into generic `wait and see`?
-
-Target events:
-- land sale/purchase/encumbrance;
-- irreversible exit/fission asset distributions;
-- public accusations or publication of identifying evidence;
-- permanent child/family separation decisions;
-- demolition/construction/environmental conversion;
-- permanent expulsion versus reversible separation;
-- irreversible technology/infrastructure lock-in;
-- movement-wide standardization of one governance model.
+> If a federation research center aggregates self-reported community outcomes and some records are noisy, selectively missing, differently defined, or strategically presented, what data architecture can remain useful without collapsing into generic `audit better` or opaque risk scoring?
 
 Source-domain attack:
-- real-options theory;
-- irreversible investment under uncertainty;
-- optimal stopping/sequential testing;
-- precautionary principle;
-- staged commitments and escrow;
-- option-preserving constitutional/legal remedies.
+- robust statistics under contamination;
+- adversarial data/Byzantine aggregation;
+- clustered/lineage-dependent sampling;
+- measurement invariance;
+- missing-not-at-random data;
+- preregistration and data provenance.
+
+Candidate target controls:
+- sensitivity to deleting one community/lineage;
+- provenance-weighted evidence without turning weights into arbitrary authority scores;
+- separate self-report, independent audit and outcome-source channels;
+- robust estimates that preserve rare severe events rather than averaging them away;
+- schema/definition compatibility before pooling;
+- uncertainty intervals that include between-community measurement heterogeneity.
 
 Novelty bar:
-- `delay irreversible decisions when uncertain` is common and fails;
-- reversible pilot/trial is already in the rejection frontier;
-- only a nonstandard operational test or decision architecture that changes communal practice can survive.
+- generic robust statistics, audits, data provenance, missing-data corrections and clustered errors all fail as source mechanisms;
+- only a genuinely nonstandard target-domain architecture or test can survive.
 
 ### Independent C005 comparator
 Continue only when a real non-Hutterite parent→daughter dataset with exposure time is available.
