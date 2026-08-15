@@ -4,7 +4,27 @@ Updated: 2026-08-15
 
 ## Durability
 
-GitHub is authoritative. Batches 21–58 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
+GitHub is authoritative. Batches 21–59 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel research work advances.
+
+## Mandatory communities-corpus gate
+
+Before **any future community-related candidate is promoted**, resolve the latest `u-dont-existDOTcom/communities` research branch/head and check, in order:
+
+1. `recovered/COMMUNITIES-FINAL-SYNTHESIS-REPORT.md`;
+2. `recovered/COMMUNITIES-SYNTHESIS-CROSSWALK.csv`;
+3. `recovered/COMMUNITIES-EVIDENCE-LEDGER.csv` for relevant source-level rows;
+4. `recovered/COMMUNITIES-RESEARCH-STATE.md`;
+5. `COMMUNITY-DEVELOPMENT-LESSONS.md` plus later tail supplements.
+
+A direct internal collision is an immediate demotion. A root collision can leave only a clearly stated narrower residual. External literature novelty screening happens **after** this project-corpus check.
+
+This rule was added after the owner correctly noticed that later tail batches were using the communities PR/lessons state but not consistently re-reading the 198-finding research corpus before promotion.
+
+Retroactive audit completed for C021–C026:
+- C021–C025 remain materially additive provisionally;
+- C026 was narrowed because the corpus already owns non-inherited adult membership, exit capacity, transition support, and leaving-fund evidence.
+
+Audit: `runs/2026-08-15-project-corpus-collision-audit-c021-c026.md`.
 
 ## Current survivors
 
@@ -27,6 +47,7 @@ GitHub is authoritative. Batches 21–58 are durably checkpointed. Every practic
 - **C023 — Cumulative disclosure-budget / differencing guard**
 - **C024 — Non-custodial federation research**
 - **C025 — Community resolution / living-will architecture**
+- **C026 — Adulthood option grant / neutral transition package** — **narrow residual only**: transition resources should exist before adult opt-in rather than requiring join-first/leave-later.
 
 Reusable artifacts:
 - `analysis/weighted_voting_power.py`
@@ -34,7 +55,7 @@ Reusable artifacts:
 - `analysis/non_custodial_federation_research_architecture.md`
 - `data/hutterite_branching_process_events_preliminary.csv`
 
-## Recent batches 53–58
+## Recent batches 53–59
 
 ### Batch 53 — non-custodial federation research
 **C024 survived provisionally.** For suitable sensitive aggregate questions, avoid central plaintext custody through secure aggregation/MPC/federated analytics or split trust; separately control outputs under C023.
@@ -54,22 +75,24 @@ No novelty survivor. In tiny communes, handwriting, prose style, anecdotes, audi
 ### Batch 58 — collection-scene privacy
 No novelty survivor. Someone can see the response before submission; add a separate physical/digital completion-scene layer covering shoulder-surfing, shared devices, unattended forms/screens, timing and safe pause/resume.
 
+### Batch 59 — adult re-consent / option capacity
+**C026 survives only narrowly after internal corpus audit.** The project already owned non-inherited adult membership and usable-exit/transition components. Retained residual: portable adult non-membership capacity should precede opt-in to the adult communal regime.
+
 ## Federation research-center validity gates
 
 Before a strong comparative claim, ask:
 
-1. **Measurement gate — C022:** are constructs/categories commensurate?
-2. **Valuation gate — Batch 39:** is there a legitimate common evaluative rule?
-3. **Diffusion gate — Batch 40:** has research/recommendation changed institutional variation?
-4. **Selection gate — Batch 41:** has the design changed who remains observable?
-5. **Constituency gate — Batch 42:** has the design changed who controls future review/definition?
-6. **Disclosure-incentive gate — Batches 43–44:** do respondents have incentives/fears that alter self-report, and what embedded diagnostics indicate about that pressure?
-7. **Privacy-composition gate — C023:** can joint release history reidentify sensitive responses?
-8. **Discovery-selection gate — Batch 51:** was the reported `best` selected from many noisy candidates using the same data used to estimate its effect?
+1. **Project-corpus gate:** is the candidate already in the completed communities findings/synthesis/lessons?
+2. **Measurement gate — C022:** are constructs/categories commensurate?
+3. **Valuation gate — Batch 39:** is there a legitimate common evaluative rule?
+4. **Diffusion gate — Batch 40:** has research/recommendation changed institutional variation?
+5. **Selection gate — Batch 41:** has the design changed who remains observable?
+6. **Constituency gate — Batch 42:** has the design changed who controls future review/definition?
+7. **Disclosure-incentive gate — Batches 43–44:** do respondents have incentives/fears that alter self-report, and what embedded diagnostics indicate about that pressure?
+8. **Privacy-composition gate — C023:** can joint release history reidentify sensitive responses?
+9. **Discovery-selection gate — Batch 51:** was the reported `best` selected from many noisy candidates using the same data used to estimate its effect?
 
 ## Communal survey/privacy layers
-
-Sensitive small-commune research must distinguish:
 
 1. **Participation privacy** — can locals tell who participated?
 2. **Collection-scene privacy** — can someone observe the answer during creation or while left unattended? (Batch 58)
@@ -81,34 +104,28 @@ Solving four does not solve the fifth.
 
 ## Communities lessons persistence
 
-Current append-only supplements on `agent/final-research-synthesis` now extend through:
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-58.md`
+Append-only supplements on `agent/final-research-synthesis` now extend through:
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-59.md`.
 
-The interrupted Batch 56 write was checked, found missing, and restored as `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-56.md`.
+The interrupted Batch 56 write was checked, found missing, and restored.
 
 Canonical `COMMUNITY-DEVELOPMENT-LESSONS.md` remains untouched while parallel research state exists. Consolidate only after resolving the latest branch head.
 
-## Exact next move — Batch 59
+## Exact next move — Batch 60
 
-Leave survey/privacy methodology.
+### First task: retroactive internal-corpus audit of earlier survivors C001–C020
 
-Primary target: **adult membership transition for people raised inside the community**.
+Before creating any new community-tail candidate, compare the older survivor list against the final synthesis/crosswalk/ledger and demote/narrow anything already owned by the 198-finding corpus.
 
-Core question:
-> A child did not choose the community. When they become an adult, should full adult communal obligations/property/governance membership continue automatically, or should there be an explicit adulthood re-consent / membership transition with real portable exit resources?
+Priority collision suspects:
+- C011 versus existing reversible trials / `shadow governance beneath formal democracy` language;
+- C015 versus direct-rights/appeal/usability architecture;
+- C003/C005/C006 versus T-11 succession/fission/movement-continuity findings;
+- C009/C013 versus membership pipeline evidence;
+- C018 versus record preservation/organizational memory;
+- C020 versus planned-fission evidence.
 
-Source-domain attack:
-- cooperative membership succession;
-- citizenship/consent theories;
-- religious-community adulthood transitions;
-- Hutterite/kibbutz second-generation membership rules;
-- family-enterprise succession;
-- youth leaving high-demand groups.
-
-Novelty bar:
-- `children deserve exit rights` is already known and in the communities corpus;
-- rites of passage/confirmation are ancient;
-- only a distinctive operational architecture for adult re-consent, economic portability, and non-retaliatory transition can survive.
+Only after this audit resume orthogonal sampling.
 
 ### Independent C005 mechanism lane
 Pause until additional event-level partition-process sources become available. Preserve unknown rather than impute.
