@@ -4,7 +4,7 @@ Updated: 2026-08-15
 
 ## Durability
 
-GitHub is authoritative. Batches 21–42 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
+GitHub is authoritative. Batches 21–43 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
 
 ## Current survivors
 
@@ -28,79 +28,59 @@ GitHub is authoritative. Batches 21–42 are durably checkpointed. Every practic
 Reusable voting tool:
 - `analysis/weighted_voting_power.py` — exact Banzhaf + Shapley-Shubik for small weighted games.
 
-## Batches 38–42
+## Batches 38–43
 
 ### Batch 38 — robust movement research / measurement canaries
-**C022 survived provisionally.** Before pooling community-reported outcomes whose classification depends on local interpretation, use standardized synthetic cases to expose threshold/schema heterogeneity. Measurement theory is old; the communal research-center transfer is the survivor.
-
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-38.md`.
+**C022 survived provisionally.** Before pooling community-reported outcomes whose classification depends on local interpretation, use standardized synthetic cases to expose threshold/schema heterogeneity.
 
 ### Batch 39 — value pluralism as a research-center limit
-No novelty survivor. Social choice, value pluralism, MCDA and intentional-community success research own the root problem.
-
-Foundational architecture:
-- separate empirical causal/outcome layer from community valuation layer and federation constitutional floor;
-- treat measurement comparability and valuation comparability as separate gates;
-- do not publish a universal scalar ranking unless the federation explicitly governs the normative aggregation rule;
-- prefer causal/tradeoff maps, partial/Pareto outputs, community-conditional recommendations and value-sensitivity analysis;
-- tag metrics with a valid comparison jurisdiction.
-
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-39.md`.
+No novelty survivor. Separate empirical outcomes, community valuation, and federation constitutional floors; use partial/Pareto outputs rather than hidden universal welfare weights.
 
 ### Batch 40 — research-induced monoculture / exploration collapse
-No novelty survivor. Organizational-learning and policy-experimentation literatures own the mechanism.
-
-Practical architecture:
-- distinguish safety/rights floors from optimization experiments;
-- standardize measurement more readily than institutions;
-- track institutional diversity/convergence;
-- review before eliminating the last materially different safe variant;
-- record recommendation-induced adoption/support endogeneity.
-
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-40.md`.
+No novelty survivor. Standardize measurement more readily than institutions; distinguish safety floors from optimization experiments and preserve some voluntary safe variant diversity while uncertainty/value sensitivity remains material.
 
 ### Batch 41 — resident-only outcome selection
-No novelty survivor. Selection/principal-stratification literatures own the mechanism and communal-life research already acknowledges selection bias.
-
-Practical rule:
-- current-resident satisfaction is descriptive, not automatically causal;
-- follow fixed-entry cohorts through exit;
-- report current-resident, entrant-cohort and leaver trajectories separately;
-- analyze retention + satisfaction jointly;
-- treat membership/exit selection as endogenous to the design.
-
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-41.md`.
+No novelty survivor. Current-resident satisfaction is descriptive, not causal; follow fixed-entry cohorts and leavers so designs cannot look successful merely by changing who remains.
 
 ### Batch 42 — constituency-mutating decisions
-No novelty survivor. Dynamic voting in clubs/endogenous electorates and electoral-integrity literatures own the root mechanism.
+No novelty survivor. Admissions, expulsions, franchise, fission/merger and delegate-selection rules alter the future decision-maker population and therefore require reflexive constitutional scrutiny.
 
-Practical rule:
-- admissions, expulsions, franchise, fission/merger and delegate-selection changes are reflexive constitutional decisions because they alter the future decision-maker population;
-- audit pre/post constituency and future reversal power;
-- protect against selective membership packing/removal;
-- include constituency effects in fission/merger planning.
+### Batch 43 — disclosure-incentive / preference-falsification gate
+No novelty survivor. Survey methodology, sensitive-question research and high-control-group methodology own the root mechanism.
 
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-42.md`.
+Foundational practical architecture:
+- member self-report is an **incentive-sensitive evidence channel**, not a transparent welfare meter;
+- keep identifiable raw sensitive data outside local leadership;
+- make participation genuinely private and make anonymity plausible in small groups;
+- randomize privacy/mode where sample size permits to measure mode sensitivity;
+- use indirect sensitive-question methods cautiously and often federation-wide because communes are small;
+- collect current-member, leaver and non-self-report outcome channels separately;
+- ask concrete behavioral constraints separately from loaded identity labels;
+- measure perceived disclosure consequences;
+- do not use social-desirability scales as truth detectors.
 
-## Research-center comparison gates
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-43.md`.
 
-Current explicit gates for federation-level research claims:
+## Federation research-center gates
 
-1. **Measurement gate — C022:** are the outcomes/constructs commensurate enough to compare?
-2. **Valuation gate — Batch 39:** is there a legitimate shared rule for judging/trading them off?
-3. **Diffusion gate — Batch 40:** has research/recommendation changed the institutional variation being studied?
-4. **Selection gate — Batch 41:** has the practice changed who remains observable?
-5. **Constituency gate — Batch 42:** has the practice changed who has authority to define/review future outcomes?
+Before a strong comparative claim, ask:
+
+1. **Measurement gate — C022:** are constructs/categories commensurate?
+2. **Valuation gate — Batch 39:** is there a legitimate common evaluative rule?
+3. **Diffusion gate — Batch 40:** has research/recommendation changed institutional variation?
+4. **Selection gate — Batch 41:** has the design changed who remains observable?
+5. **Constituency gate — Batch 42:** has the design changed who controls future review/definition?
+6. **Disclosure-incentive gate — Batch 43:** do respondents have incentives/fears that systematically alter self-report?
 
 ## Communities lessons persistence
 
 Current append-only supplements on `agent/final-research-synthesis`:
 - `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-ADDENDUM.md` — Batch 23–24;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-42.md`.
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-43.md`.
 
 Canonical `COMMUNITY-DEVELOPMENT-LESSONS.md` remains intact while parallel research edits continue. Consolidate only after resolving the latest branch head.
 
-## Exact next move — Batch 43
+## Exact next move — Batch 44
 
 ### Primary target: household/couple complementarity in federated applicant matching
 
