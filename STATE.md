@@ -2,75 +2,103 @@
 
 Updated: 2026-08-15
 
-## Durable state
+## Current epistemic state
 
-The repository now contains the recovered protocol, pre-deletion findings, three post-recovery tail batches, a compact canonical findings index, and a formal structural model.
+The earlier multiplex/relational-unbundling chain is **not an accepted Creative Tail Sampling discovery**. The user recognized it as common sense / familiar social theory, and a literature check confirmed strong overlap with Marx/Durkheim/Tönnies/Polanyi and multiplex-network traditions.
 
-Current flagship chain:
+Preserve `MODEL.md` only as a historical/applied model of that rejected branch. Do **not** resume from it as the novelty frontier.
 
-1. **F001 — relational unbundling:** modernity may have unnecessarily coupled occupational specialization to specialization of relationships.
-2. **F005 — capability atrophy:** relationships that never carry useful functions never become capable of carrying them.
-3. **F004 — failure-correlation inversion:** separate specialist providers can still share one common access layer, creating hidden common-mode fragility.
-4. **F007 — combinatorial uniqueness:** bundling makes ordinary people hard to replace as joint packages; unbundling makes replacement component-wise.
-5. **F008 — hysteresis:** high- and low-multiplexity systems may be different stable regimes rather than a smooth continuum.
-6. **F010 — relational option value:** always choosing the locally best specialist can consume the future option value of ordinary relationships by removing practice opportunities.
-7. **F011 — norm incompatibility:** people can want community outcomes while maintaining micro-norms that suppress the cross-domain behavior required to produce them.
-8. **F009 — synthesis:** these mechanisms can make relational unbundling a self-stabilizing regime.
+Canonical veto record:
 
-The model and discriminating predictions are in `MODEL.md`.
+- `runs/2026-08-15-user-veto-multiplex-branch.md`
+
+Protocol was tightened with:
+
+- mandatory historical/literature nearest-neighbor attack;
+- user familiarity veto;
+- anti-elaboration rule;
+- distinction between same-domain rediscovery and genuinely nonstandard cross-domain transfer.
+
+## Current surviving connection
+
+### C001 — Active normative edge-case search
+
+Transfer active-learning / preference-elicitation logic into intentional-community governance.
+
+Instead of trying to maximize agreement on abstract values, adaptively choose concrete cases where members' currently plausible interpretations are most likely to disagree.
+
+Then:
+
+1. collect independent responses before discussion;
+2. select the next high-information boundary case;
+3. separate initial measurement from later socialization/deliberation;
+4. preserve resolved high-information cases as a versioned constitutional regression suite;
+5. rerun them after governance/member changes to expose semantic drift.
+
+This is explicitly a **cross-domain connection**, not a claim that active learning or values underdetermination is new.
+
+Full audit:
+
+- `runs/2026-08-15-orthogonal-tail-batch-04.md`
+
+## Promising unpromoted branches
+
+- **P001 multi-parent daughter communities as cultural recombination** — needs direct target-domain precedent search.
+- **P002 turnkey replication deletes developmental process** — currently too close to tacit knowledge/path dependence/local adaptation; requires a more distinctive implication.
 
 ## Hard novelty boundary
 
-Do not spend another session rediscovering:
+Do not spend another session rediscovering or technically renaming:
 
-- complementary specialization;
-- ordinary specialization-vs-fragility tradeoffs;
-- influencers / centrality;
-- generic exit-option bargaining power;
-- "put your best people forward";
-- ordinary repeated games;
-- generic social-capital claims;
-- standard bureaucracy/silo complaints;
-- issue linkage/logrolling;
-- ordinary impression management;
-- generic "markets make us dependent" critiques;
-- generic "community is good" claims.
+- commodification / alienation / specialization of social relations;
+- mechanical vs organic solidarity / thick vs thin ties;
+- embeddedness / social capital / multiplex-resource exchange;
+- specialization making people replaceable;
+- community requiring more dependence/role overlap;
+- costly signaling and unequal opportunity/exit costs;
+- planned community fission / modularity / cell division;
+- cultural compression through repeated transmission;
+- success changing recruitment composition;
+- ordinary key-person risk / founder dependence;
+- generic stress inoculation or conflict-backlog escalation;
+- generic "shared values are vague" without a further nonstandard mechanism.
 
 ## Exact next creative-tail move
 
-Run an **adversarial counter-tail batch** against F009–F011.
+Do **not** continue elaborating multiplexity.
 
-Generate at least 12 plain propositions answering:
+Run another orthogonal batch using the new cross-domain rule. Preferred search method:
 
-> Under what conditions does multiplexity itself create failure, domination, stagnation, bad information, abuse, or inefficiency — and what structural feature separates those bad forms from the resilient form predicted by the model?
+1. generate 12–20 candidate transfers from distant technical domains;
+2. plain-language compression;
+3. target-domain nearest-neighbor literature search;
+4. reject same-domain rediscoveries immediately;
+5. for source-domain-known mechanisms, require a nonstandard structural transfer plus a distinctive target-domain prediction;
+6. show the user only candidates that survive this screen.
 
-The purpose is not generic balance. It is to see whether the theory yields a non-obvious **optimal topology** rather than simply "more multiplexity."
+### High-value target question
 
-For each candidate:
+Search for a non-obvious structural fact about **communities that successfully reproduce/spread**, not merely survive or feel cohesive.
 
-1. preserve realistic exit and refusal options;
-2. distinguish high multiplexity from concentration of functions in one person;
-3. distinguish voluntary role overlap from coercive role fusion;
-4. distinguish expert/high-stakes functions from safe amateur practice domains;
-5. look for a variable that predicts when multiplexity changes sign from beneficial to harmful;
-6. derive at least three downstream consequences;
-7. require a discriminating prediction.
+Candidate source domains for the next jump:
 
-### Strong target question
+- developmental biology;
+- distributed systems;
+- error-correcting codes;
+- active learning / experimental design;
+- ecological metapopulations;
+- evolutionary recombination;
+- reliability engineering;
+- mechanism design;
+- control theory.
 
-The leading possibility is that the useful variable is **redundant multiplexity** rather than raw multiplexity:
-
-- too little role overlap -> incapable/replaceable/system-dependent ties;
-- too much function concentration in one relationship -> entrapment/common-person failure;
-- several overlapping multi-role ties -> relational capability plus exit resilience.
-
-This must be tail-tested rather than assumed.
+Avoid superficial metaphor. The mapping must change what one would actually measure, predict, or design.
 
 ## Persistence rule
 
-After the next batch:
+After every substantive batch:
 
-- save the full audit under `runs/`;
-- promote only survivors into `FINDINGS.md`;
-- revise `MODEL.md` if the causal structure changes;
-- update this checkpoint immediately.
+- save full candidate/rejection audit under `runs/`;
+- promote only survivors to `FINDINGS.md`;
+- update this checkpoint immediately;
+- never rely on chat history as the durable state.
