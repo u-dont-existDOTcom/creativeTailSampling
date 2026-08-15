@@ -22,7 +22,7 @@ Broad property/exit/innovation claims are old. The surviving piece remains:
 
 Potential selection blindness: observed long-run community forms are selected from variants allowed to become adequately capitalized, not necessarily all plausible institutional designs.
 
-Needs another targeted precedent attack before stronger promotion.
+A Batch-11 precedent attack found extensive church-property/schism law and organizational schism research, including rules under which breakaway congregations retain or lose property, but did not yet locate an explicit theory treating **branch asset inheritance as the pre-selection operator that controls institutional variation exposed to later selection**. Keep C003 narrow and provisional; do not broaden it into the familiar claim that property affects exit or innovation.
 
 ### C005 — Reproductive-variance trap — EMPIRICALLY STRENGTHENED
 
@@ -48,24 +48,38 @@ Data / analysis / audit:
 - `analysis/hutterite_reproduction_metrics.py`
 - `runs/2026-08-15-hutterite-lineage-batch-09.md`
 
-### C006 — Descendant inflation / lineage-size sampling bias
+### C006 — Descendant inflation / lineage-size sampling bias — TARGET-CORPUS AUDITED
 
-Current strongest research-method result.
+When daughter communities inherit parent culture, prolific lineages contribute more observations to a present-day community sample. Current-community sampling is therefore mechanically weighted by historical reproductive success even under perfect enumeration.
 
-When daughter communities inherit parent culture, prolific lineages contribute more observations to any present-day community sample. Therefore current-community sampling is mechanically weighted by past reproductive success even if every extant community is perfectly enumerated.
+Different estimands require different weighting:
 
-This is distinct from ordinary survivorship/directory bias.
-
-The correct weighting depends on the estimand:
-
-- random founding attempt;
-- random current community;
+- random founding attempt/root;
+- random extant community;
 - random current resident;
-- future movement culture.
+- random lineage;
+- future movement culture/reproductive contribution.
 
-A trait can become common in extant-community data because it increases reproduction even if it does not improve a separate outcome such as child/member welfare. Treating genealogically related daughter communities as independent can further inflate evidence.
+#### Result of applying C006 to `u-dont-existDOTcom/communities`
 
-Audit: `runs/2026-08-15-orthogonal-tail-batch-10.md`.
+The current volumes 1–44 P0 research checkpoint is **not invalidated** by C006.
+
+The 158-finding evidence ledger is source/mechanism-bounded rather than a prevalence estimator. The workflow repeatedly refuses duplicate promotion when later Shaker, Oneida, Hutterite, Jonestown, Bruderhof, kibbutz, etc. sources merely corroborate an existing mechanism. The gap bank reconciles findings rather than counting cases as votes.
+
+Therefore:
+
+- do **not** retrofit genealogical weights into the current evidence ledger;
+- preserve the current mechanism-oriented synthesis;
+- apply C006 when the project moves to community-level comparative/prevalence/effectiveness claims.
+
+Future comparative datasets should add genealogy fields (`parent_community_id`, `lineage_root_id`, `founding_type`, shared parent/federation support, lineage depth, etc.) and declare the estimand before choosing weights/models.
+
+A useful integration point already exists in the community gap bank: it warns that multiple reports are not independent when generated inside one belief-and-authority chain. C006 extends that independence rule from **report genealogy** to **organizational genealogy**.
+
+Audit:
+
+- `runs/2026-08-15-orthogonal-tail-batch-10.md`
+- `runs/2026-08-15-c006-community-corpus-audit-11.md`
 
 ## Demoted / derived
 
@@ -85,53 +99,48 @@ Useful distinction: reliable fission by transferring a large fraction of an exis
 
 Potential quantitative tool for highly skewed movements; direct consequence of C005/population-genetic effective-size logic, not independent novelty.
 
-## Hutterite non-stationarity warning
+## Exact next move — Batch 12
 
-Later Manitoba cohorts show more zero recorded Manitoba daughters. Do not assume this is reproductive collapse because:
+### A. Keep testing C005 comparatively
 
-- later cohorts are more right-censored;
-- only Manitoba daughters are counted;
-- industrial operations increasingly delayed branching by creating more local jobs;
-- the 1990s schism temporarily changed branching rates;
-- land-price/location constraints changed.
+Find a real movement with identifiable parent→daughter units and strongly overdispersed reproduction. Priority targets remain long-follow-up church-planting/denominational genealogies or other communal religious fission systems.
 
-## Exact next move — Batch 11
+The goal is a real contrast with Hutterite low-skew reproduction, not another toy branching model.
 
-### A. Apply C006 to the user's existing community-research corpus
+### B. Do not over-elaborate C003
 
-Locate the canonical community-research repository/data and ask:
+One more serious target-domain search is allowed. If no close precedent appears, leave C003 as provisional rather than generating increasingly technical descendants around it.
 
-1. Which sampled communities are daughters/branches of the same parent tradition?
-2. Are Hutterite colonies, Bruderhof sites, kibbutzim, FEC communities, cohousing projects, ecovillages, or religious-community branches being treated as independent examples when they share genealogy?
-3. Which existing conclusions are intended to describe a random community versus a random founding model/lineage?
-4. Would lineage-aware weighting materially change any synthesis?
+### C. Orthogonal Batch 12
 
-Do **not** automatically reweight; first identify the estimand and genealogy structure.
+Generate >=12 candidates from distant domains with a stronger requirement:
 
-### B. Continue C005 comparison
+> the transfer must produce a practical prediction or measurement that is **not merely a correction to research methodology** and not just another theory of organizational reproduction.
 
-Find a movement with identifiable parent-child units and more overdispersed reproduction. Priority remains long-follow-up church-planting or other communal/religious fission genealogies.
+Source domains:
 
-### C. Continue C003 adversary
+- algorithmic novelty search / deceptive objective functions;
+- evolutionary developmental constraints;
+- immune repertoire and tolerance;
+- causal invariance/interventions;
+- ecological niche construction;
+- information theory / channel coding;
+- market microstructure;
+- mechanism design under endogenous preferences;
+- fault containment and Byzantine systems.
 
-Search for explicit prior work where collective branch asset inheritance changes institutional variation/selection. Demote immediately on collision.
+Reject on sight ordinary versions of:
 
-### D. Orthogonal Batch 11
-
-Continue distant-domain sampling. Do not elaborate C005/C006 unless a new consequence survives the same literature gate.
-
-Promising source domains not exhausted:
-
-- causal graphical models with endogenous selection;
-- population-genetic genealogical statistics beyond simple effective size;
-- market design / matching under endogenous composition;
-- reliability under shared latent causes;
-- ecological succession and niche construction;
-- algorithmic search / novelty search;
-- information bottlenecks and lossy transmission;
-- developmental systems / evolutionary constraints.
-
-Reject ordinary versions of survivor bias, external validity, organizational forgetting, lifecycle theory, self-selection, modularity, resilience, or diversity.
+- survivorship/selection bias;
+- external validity;
+- modularity/interdependence;
+- organizational lifecycle/forgetting;
+- self-selection/endogeneity;
+- redundancy/resilience;
+- diversity/innovation;
+- founder dependence;
+- generic schism/forkability;
+- generic property-exit effects.
 
 ## Persistence rule
 
