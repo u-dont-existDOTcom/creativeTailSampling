@@ -2,6 +2,10 @@
 
 Updated: 2026-08-15
 
+## Recovery note
+
+A visible chat turn froze while backend work continued. GitHub is authoritative. Batches 21–23 completed durably even though their progress did not all render in chat.
+
 ## Current survivors
 
 ### C001 — Active normative edge-case search
@@ -36,15 +40,12 @@ Narrow survivor: maintain versioned tests for relations the community claims sho
 Narrow survivor. Central intake/screening is old; remaining target transfer is coordinated reciprocal preference clearing across autonomous communities **after** visits/trials, preserving opt-out and local admission authority.
 
 ### C015 — Governance rights-liveness verification
-Survived a harder Batch 22 attack.
+A right/remedy is not adequate merely because a clause permits it; under every realistic valid invocation, there must remain a permitted path to review/remedy/closure despite recusal, vacancy, quorum, jurisdiction, deadlines, delegation, escalation, and strategic noncooperation.
 
-Core test:
-> a right/remedy is not adequate merely because a clause permits it; under every realistic valid invocation, there must remain a permitted path to review/remedy/closure despite recusal, vacancy, quorum, jurisdiction, deadlines, delegation and escalation.
-
-Distinguish safety, liveness and bounded liveness. State every fairness/cooperation assumption explicitly; do not assume a conflicted/captured actor eventually cooperates unless the architecture routes around them.
+Distinguish safety, liveness, and bounded liveness. State every fairness/cooperation assumption explicitly.
 
 ### C016 — Verifiably unpredictable federation audit sampling
-**New provisional survivor from Batch 22.**
+Survived Batch 23 target-domain attack.
 
 When random federation oversight is justified:
 1. publicize audit scope/rights;
@@ -54,84 +55,75 @@ When random federation oversight is justified:
 5. derive sample deterministically;
 6. make selection replayable/verifiable afterward.
 
-The aim is to combine:
-- unpredictable selection before audit;
-- accountable/verifiable selection afterward.
+Ordinary random audits are not equivalent because a manipulable eligible list or leadership-controlled seed still permits cherry-picking.
 
-Important: a random sample from a manipulable eligible list is not trustworthy. Universe completeness must be protected separately.
+### C017 — Intervention-aware evaluation of rescue-triggering community forecasts
+**New provisional survivor from Batch 23.**
 
-Use for process/financial/quality audits, not randomized suspicion or punishment of members.
+If a community forecast of its own future failure can trigger federation rescue, the rescue changes the outcome later used to judge the forecast.
 
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-22.md`.
+Core rule:
+> **Do not use the intervention-produced outcome as an unadjusted label for the forecast that triggered the intervention.**
 
-## Batch 22 practical-only results
+Example: a community truthfully forecasts 80% insolvency risk without aid; the warning triggers emergency liquidity; the community survives. Naively recording `predicted failure; no failure` makes successful prevention look like false alarm and can chill honest early warning.
 
-- threshold structuring/pattern evasion is known but relevant;
-- procedural denial-of-service/vexatious invocation is known and requires rights-preserving handling;
-- common-control/faction aggregation is beneficial-ownership/related-party logic;
-- risk-based + random audit floors are established;
-- secret evidentiary thresholds are a dangerous anti-gaming shortcut;
-- reviewer fault-domain diversity is useful but familiar.
+Operational architecture:
+- define the forecast estimand and intervention regime explicitly;
+- freeze/timestamp forecast + evidence before rescue decisions;
+- evaluate forecast quality separately from intervention efficacy;
+- distinguish prevented event / poor forecast / unresolved counterfactual rather than binary right-wrong scoring;
+- record rescue/subsidy exposure when comparing survival/reproduction;
+- preserve probabilistic uncertainty and calibration across repeated forecasts where feasible.
 
-## Exact next move — Batch 23
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-23.md`.
 
-### A. Mirror Batch 21–22 useful lessons into communities repo
+## Batch 23 practical-only lessons
 
-Preserve current concurrent research edits. Add/relabel:
-- C015 rights-liveness verification;
-- revocation latency and cascading derivative-authority cleanup;
-- compensating actions/uncompensable steps for complex transitions;
-- explicit deadlock defaults and temporary-power sunsets;
-- conformance checking where logs are feasible;
-- C016 verifiably unpredictable audit sampling;
-- cumulative-pattern/anti-structuring warning;
-- procedural-DoS handling with independent safeguards;
-- common-control/faction-dependency audit;
-- risk-based + random audit floor.
+Mirror into `u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS.md` without claiming originality:
 
-### B. Adversarially attack C016
+1. never call a prevented outcome a false alarm without accounting for intervention;
+2. record intervention regime explicitly in self-risk forecasts;
+3. freeze pre-rescue forecast/evidence before aid decisions;
+4. separate forecast quality from intervention efficacy;
+5. record rescue/subsidy exposure when comparing community survival/reproduction;
+6. use exogenous/parametric triggers only where basis risk is acceptable;
+7. consider bounded self-disclosure protections to preserve honest incident reporting without erasing restitution/rights;
+8. size mutual-aid reserves for correlated/systemic shocks, not independent member risk;
+9. avoid first-come depletion rules where simultaneous needs can exhaust a fixed rescue pool.
 
-Search for close target precedents in:
-- cooperative federation audits;
-- NGO/humanitarian federation oversight;
-- participatory guarantee systems;
-- community land trusts/cohousing networks;
-- member-owned financial cooperatives.
+## Exact next move — Batch 24
 
-A mere random audit is not a collision. Require substantially the same:
-- universe committed before future randomness;
-- selection reproducible/verifiable afterward;
-- target cannot predict selection early enough to game it.
+### A. Safely mirror Batch 23 practical lessons into communities repo
 
-Demote if found.
+Before editing, resolve the current `agent/final-research-synthesis` branch because parallel research may have advanced it. Preserve all newer Escuelita/research edits. Do not replace the lessons file from an older snapshot.
 
-### C. Orthogonal Batch 23
+### B. Adversarially attack C017
 
-Leave audit/randomness unless C016 attack yields a meaningful extension.
+Search close target precedents in:
+- cooperative/federated mutual-aid funds;
+- commune or ecovillage emergency-assistance systems;
+- cooperative insurance/risk pools;
+- movement rescue or solidarity funds;
+- member organizations that evaluate self-reported risk after aid.
 
-Generate >=12 candidates from:
-- constitutional choice under **strategic procedural triggering**;
-- federated resource allocation externalities beyond applicant matching;
-- reversible delegation under changing local/federation jurisdiction;
-- causal discovery using natural differences among daughter communities without relying on generic phylogenetic methods;
-- mechanism design where local communities can misreport private information to obtain shared movement resources;
-- movement-level insurance/mutual aid where subsidy can change local risk-taking;
-- information aggregation under adversaries whose incentives differ from ordinary noisy observers.
+A generic treatment paradox is not a target collision. Demote C017 only if substantially the same intervention-aware scoring of member communities' own aid-triggering forecasts is already standard.
 
-Hard questions:
-- can a federation allocate scarce rescue/seed funds without rewarding communities for making their own distress strategically legible?
-- can communities share catastrophic risk without subsidizing designs that externalize avoidable failure?
-- can daughter-community experimentation preserve autonomy while preventing the federation from learning only from communities that voluntarily report successes?
+### C. Orthogonal Batch 24
 
-Reject on sight:
-- generic insurance/moral hazard;
-- generic audits;
-- generic adverse selection;
-- generic voting/manipulation;
-- technical names for ordinary accountability.
+Leave forecast evaluation unless the attack yields a real extension. Generate >=12 candidates from distant mechanisms affecting **communal development or movement reproduction**.
+
+Priority source domains:
+- distributed consensus under strategic abstention/nonparticipation;
+- fault containment when communities share people/assets/services across federation boundaries;
+- mechanism design for scarce shared resources with locally private information;
+- ecological rescue effects that alter selection among daughter communities;
+- institutional experimentation where failed variants impose spillovers on neighbors;
+- information systems that learn from near-misses rather than only actual failures.
+
+Hard question:
+> What operational design would materially improve communities but is not already standard commune advice or a renamed known governance principle?
 
 ### D. C005 comparator remains independent
-
 Continue only when a real non-Hutterite parent→daughter dataset with exposure time is available.
 
 ## Two-repo disposition rule
@@ -140,4 +132,4 @@ Every community-related candidate gets:
 2. practical-usefulness disposition in `u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS.md`.
 
 ## Persistence rule
-After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, mirror practical lessons into the communities repo, and never rely on chat history as durable state.
+After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, mirror practical lessons into the current communities branch without overwriting parallel work, and never rely on chat history as durable state.
