@@ -4,7 +4,7 @@ Updated: 2026-08-15
 
 ## Recovery / durability note
 
-A visible chat freeze previously hid backend progress. GitHub is authoritative. Batches 21–26 are now durably checkpointed.
+GitHub is authoritative. Batches 21–27 are durably checkpointed; every practical community lesson is mirrored to the communities repo without overwriting parallel Escuelita/research work.
 
 ## Current survivors
 
@@ -43,104 +43,85 @@ Coordinate reciprocal preference clearing across autonomous communities **after*
 A right/remedy is not adequate merely because a clause permits it; every realistic valid invocation must retain a permitted path to review/remedy/closure despite recusal, vacancy, quorum, jurisdiction, deadlines, delegation, escalation, strategic noncooperation, and—practically though not novelly—surge demand.
 
 ### C016 — Verifiably unpredictable federation audit sampling
-When random federation oversight is justified:
-1. publicize audit scope/rights;
-2. freeze/commit the complete eligible universe before randomness is knowable;
-3. precommit sampling rules;
-4. obtain future randomness not controlled by leadership/auditee;
-5. derive sample deterministically;
-6. make selection replayable/verifiable afterward.
+When random federation oversight is justified: publish scope/rights; freeze the complete eligible universe before randomness is knowable; precommit sampling rules; use future randomness not controlled by leadership/auditee; derive the sample deterministically; and make the draw replayable afterward.
 
 ### C017 — Intervention-aware evaluation of rescue-triggering community forecasts
-Core rule:
-> **Do not use the intervention-produced outcome as an unadjusted label for the forecast that triggered the intervention.**
-
-Define the forecast's intervention regime, freeze forecast/evidence before rescue, evaluate forecast quality separately from rescue efficacy, and record rescue/subsidy exposure in survival/reproduction comparisons.
-
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-23.md`.
+Do not use an intervention-produced outcome as an unadjusted label for the forecast that triggered the intervention. Define the forecast's intervention regime, freeze forecast/evidence before rescue, evaluate forecast quality separately from rescue efficacy, and record rescue/subsidy exposure.
 
 ### C018 — Replicated-governance tombstones
-**New survivor from Batch 25.**
-
-Simple archives/amendment histories are old. The surviving transfer is movement-level anti-resurrection:
-
-> when a high-consequence governance pattern is retired for a known failure, propagate a durable deprecation record through the same daughter/template replication channels that could otherwise reintroduce it.
-
-The tombstone should record semantic scope, failure/rationale, evidence, replacement, context limits, and conditions/process for reconsideration. Daughter communities/forks/starter templates import/check tombstones alongside current positive rules.
+When a high-consequence governance pattern is retired for a known failure, propagate a durable semantic deprecation record through the same daughter/template/fork replication channels that could otherwise reintroduce it. The tombstone forces review before resurrection; it is not an eternal ban.
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-25.md`.
 
-## Batch 24 outcome
+## Recent empty novelty batches
 
-No new survivor; C017 survived target attack. Practical surge-demand, blast-radius, near-miss, administrative-bias, applicant-waiting, correlated-reserve and shared-expert lessons were preserved in the communities lessons layer.
-
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-24.md`.
-
-## Batch 25 outcome
-
-C018 survived narrowly. Split-brain governance, graceful degradation, partition modes, staggered reform, interference-aware experiments, governance migrations, tamper-evident commitments and metric versioning were useful but known.
-
-Practical lessons were saved without overwriting parallel Escuelita work in:
-`u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md`
-
-## Batch 26 outcome
-
-**No new Creative Tail survivor.**
-
-Governance truth-maintenance / derivative-decision impact review failed novelty because truth-maintenance systems, record-correction propagation, reactive case management, data provenance/change propagation and administrative appeal already implement close structures.
-
-Practical rule retained:
-> correcting an upstream premise should trigger impact review of downstream decisions that materially depended on it.
+### Batch 26 — decision dependency / truth maintenance
+No new survivor. Practical rule retained: when an upstream finding is corrected or overturned, identify and re-review downstream decisions that materially depended on it rather than merely editing the source record.
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-26.md`.
 
-Practical lessons saved in:
-`u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-26.md`
+### Batch 27 — feedback, queueing, reporting and shared resources
+No new survivor. Bullwhip/request amplification is established even in humanitarian supply chains; raw safety-report counts are known to reflect reporting culture as well as harm.
+
+Practical controls retained:
+- requests are not direct measurements of need;
+- watch synchronized depletion of local buffers;
+- never rank safety by raw report count;
+- preserve near misses and severity/exposure denominators;
+- independent review needs a path to remedy execution;
+- prevent priority inversion/head-of-line blocking in rights processes;
+- preserve rare severe events against dashboard averaging;
+- assume monitoring can move strategic behavior.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-27.md`.
 
 ## Communities-repo persistence state
 
-The communities research branch advanced in parallel through the Escuelita descendant audit. Do not overwrite the canonical lessons file from an older snapshot.
-
 Current safe layers on `agent/final-research-synthesis`:
-- `COMMUNITY-DEVELOPMENT-LESSONS.md` — canonical;
+- `COMMUNITY-DEVELOPMENT-LESSONS.md` — canonical operational lessons;
 - `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-ADDENDUM.md` — Batch 23–24 recovery supplement;
 - `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md`;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-26.md`.
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-26.md`;
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-27.md`.
 
-Consolidate these only after resolving the latest branch head and preserving parallel research additions.
+These were created append-only because the same branch is also advancing through Escuelita and other research. Consolidate only after resolving the latest branch head.
 
-## Exact next move — Batch 27
+## Exact next move — Batch 28
 
-Generate >=12 candidates from a **different** set of source domains. Avoid memory/versioning/dependency systems for one batch.
+### Primary orthogonal target: endogenous capacity revelation / ratchet effects
 
-Priority source domains:
-- safety engineering / control theory beyond generic redundancy;
-- queueing and scheduling pathologies beyond ordinary overload;
-- ecological indirect effects / apparent competition;
-- information theory / lossy aggregation;
-- mechanism design with endogenous observability;
-- supply-chain dynamics / bullwhip effects;
-- adversarial signal detection where observers change behavior because monitoring exists.
+Generate >=12 candidates around this question:
 
-Hard target:
-> Find an operational rule that changes actual community/federation architecture and does not collapse to ordinary due process, checks-and-balances, resilience, auditing, workload planning, Goodhart, diversification, or social-capital advice.
+> If today's unusually high productivity, low need, emergency sacrifice, spare capacity, or successful efficiency improvement becomes the basis for tomorrow's permanent obligation/allocation, will rational members or communities hide capacity and suppress improvement?
 
-Candidate prompts:
-- can a safeguard change behavior in a way that makes its own performance metric misleading?
-- can two groups damage one another indirectly through a shared scarce community process even without direct conflict?
-- can aggregation systematically erase exactly the minority/high-severity signals that matter most?
-- can local smoothing/buffering create movement-level oscillation or delayed overreaction?
+Source domains:
+- ratchet effects in planned economies and principal-agent theory;
+- dynamic mechanism design;
+- benefit cliffs / endogenous need revelation;
+- organizational workload allocation;
+- common-pool contribution systems.
 
-### C005 comparator remains independent
+Target communal applications to screen:
+- labor quotas and work-credit expectations;
+- assigning the most competent member more work because they previously handled it;
+- turning emergency heroics into baseline duty;
+- lowering future support because a person/community coped with less once;
+- treating efficiency gains as evidence that the same work unit can permanently absorb more workload;
+- federation contributions/support adjusted from revealed capacity.
 
+Novelty bar:
+- `competent people get more work` is common sense and fails;
+- generic moral hazard/adverse selection fails;
+- generic planned-economy ratchet fails;
+- only a nonstandard communal design/measurement transfer with a distinctive operational consequence can survive.
+
+### Independent C005 comparator
 Continue only when a real non-Hutterite parent→daughter dataset with exposure time is available.
 
 ## Two-repo disposition rule
-
 Every community-related candidate gets:
 1. originality disposition here;
 2. practical-usefulness disposition in the communities lessons layer, even when originality fails.
 
 ## Persistence rule
-
-After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, mirror practical lessons without overwriting parallel work, and never rely on chat history as durable state.
+After every substantive batch: save full audit under `runs/`, demote collisions immediately, update `FINDINGS.md`/`STATE.md`, and mirror practical lessons to the current communities branch without overwriting parallel work.
