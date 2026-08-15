@@ -95,6 +95,12 @@ The same qualitative result now appears across distinct Hutterite branches: matu
 
 Operational shorthand: **make reproduction boring**. A strongly replicable community system should make daughter formation an ordinary lifecycle event for the median competent community rather than an exceptional achievement by a few charismatic or unusually capable founders.
 
+#### Batch 18 non-Hutterite screen
+
+A public row-level church-planting genealogy sufficient for a comparable `K` distribution was not found. Aggregate research does provide a qualitative contrast: Exponential summarized a 17-network study in which 22% of churches started in 2012 or earlier had produced at least one daughter within five years, while an Acts 29 annual report said 33% of its churches had gone on to plant a second-generation church. Follow-up, unit definition, subsidy, and reproduction mechanism differ too much for a numerical Hutterite-vs-church effect size.
+
+The bounded conclusion is only that near-universal mature-parent Hutterite reproduction is **not a generic consequence of organizations valuing reproduction**.
+
 Data / analysis:
 
 - `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
@@ -103,8 +109,6 @@ Data / analysis:
 - `analysis/hutterite_period_growth_log_check.py`
 - `data/hutterite_feefhs_1973_mature_cohorts.csv`
 - `analysis/hutterite_feefhs_reproduction_metrics.py`
-
-Full Batch 17 caveats and source normalization are in `runs/2026-08-15-orthogonal-tail-batch-17.md`.
 
 ### C006 — Descendant inflation / lineage-size sampling bias
 
@@ -124,11 +128,11 @@ Applied to `u-dont-existDOTcom/communities`, C006 does **not** invalidate the cu
 
 ### C009 — Cohort-composition admission
 
-**Status:** SURVIVING / provisional cross-domain operational transfer; narrowed in Batch 17.
+**Status:** SURVIVING / provisional cross-domain operational transfer; market-thickness bounded.
 
 Applicant utility may be **non-separable**: a candidate who looks poor against today's membership may belong to the best reachable future cohort, while individually acceptable applicants may compose into a poor cohort.
 
-Batch 17 confirms a major scope condition: this matters only when the candidate market is sufficiently **thick**. Mature communes may often receive applicants too sparsely for batching to be useful; founding, daughter formation, new-site openings, expansion waves, and multiple simultaneous vacancies are stronger use cases.
+This matters only when the candidate market is sufficiently thick. Mature communes may often receive applicants too sparsely for batching to be useful; founding, daughter formation, new-site openings, expansion waves, and multiple simultaneous vacancies are stronger use cases.
 
 Operational consequence when several plausible candidates genuinely overlap:
 
@@ -142,27 +146,9 @@ Ottawa Cohousing's forming-stage matchmaking/affinity-group process is a near pr
 
 Demote if a close target precedent is found or if empirical interaction effects are trivial relative to individual fit.
 
-### C010 — Governance fault injection
-
-**Status:** SURVIVING / provisional cross-domain operational transfer from chaos engineering and continuity exercises.
-
-Having backups and succession plans is not equivalent to testing whether they work.
-
-Proposed transfer:
-
-> Under bounded conditions, deliberately simulate or safely induce temporary loss of a key person, permission, account, service, or infrastructure component and observe the community's actual ability to preserve essential functions.
-
-Examples include founder absence for one governance cycle, treasurer unavailability, loss of normal internet/phone access, facilitator absence, vehicle/supplier loss, or inaccessible records.
-
-The distinctive element is **testing dependency loss**, not merely documenting a contingency plan. Generic continuity practice already uses key-person-unavailable scenarios, but target searches did not find systematic intentional-community use of recurring governance/dependency fault injection.
-
-Safety boundary: never inject a live failure when plausible downside to health, children, medication, housing security, legal rights, or other necessities is material. Use tabletop/sandbox simulations for high-stakes functions.
-
-Prediction: communities that test actual dependency loss will discover more hidden single points of failure than equally documented communities that only discuss backups.
-
 ### C011 — Shadow governance
 
-**Status:** SURVIVING / provisional cross-domain operational transfer from shadow-mode / parallel-run deployment.
+**Status:** SURVIVING / provisional cross-domain operational transfer from shadow-mode / parallel-run deployment; survived Batch 18 target attack.
 
 Intentional communities sometimes **live-pilot** a new governance system. The proposed intermediate step is different:
 
@@ -176,11 +162,56 @@ Minimal architecture:
 4. analyze the **divergence cases**, not merely overall agreement;
 5. only then decide whether to revise, live-pilot, adopt, or reject the new process.
 
-Cambridge Cohousing reports a six-month live Dynamic Governance trial, demonstrating that governance pilots occur in the target domain; target searches have not yet found the same **parallel nonbinding decision comparison** structure.
+Target searches found live governance trials and adjacent “shadow government” projects, but not the same-case nonbinding parallel decision-comparison architecture in intentional communities. A 2026 Phoenix Cohousing study also documents substantial difficulty and resistance during actual sociocracy implementation, reinforcing that abstract procedural appeal need not predict live effects.
 
 Limits: shadow behavior may differ from live behavior, duplication costs time, sensitive personal cases may be inappropriate, and agreement does not prove legitimacy.
 
 Prediction: shadow runs will expose high-impact decision divergences that abstract constitutional debate misses, especially around agenda control, evidence, vetoes, recusal, timing, and jurisdiction.
+
+### C012 — Metamorphic governance testing / constitutional invariance testing
+
+**Status:** SURVIVING / provisional cross-domain operational transfer from metamorphic software testing and black-box bias auditing.
+
+Hard governance cases often lack an agreed “oracle” that tells everyone the uniquely correct decision. But a community can still test whether its process obeys relations it already claims should hold.
+
+Core transfer:
+
+> Change only a feature that the governing principle says should be irrelevant or predictably related, then test whether the outcome changes in the prohibited way.
+
+Examples:
+
+- founder vs newcomer where status should be irrelevant;
+- popular vs unpopular member;
+- majority-faction vs minority-faction identity;
+- gendered/racialized names where identity is normatively irrelevant;
+- insider vs departing member asserting the same property right.
+
+Metamorphic relations need not require identical outputs. They can encode:
+
+- **irrelevance:** irrelevant fact changes -> outcome should not change;
+- **symmetry:** swapping equivalent parties -> treatment should swap correspondingly;
+- **monotonicity:** stronger admissible evidence of the same relevant type should not weaken the response absent an explicit countervailing factor;
+- **jurisdiction invariance:** changing who proposes an action should not change the competent body when jurisdiction is subject-matter based.
+
+Protocol:
+
+1. choose a past or hypothetical case suitable for testing;
+2. state the expected relation before viewing paired outcomes;
+3. construct minimally transformed variants;
+4. randomize/blind identity/order where feasible;
+5. process variants independently;
+6. compare decisions and reasons;
+7. diagnose whether a failed relation reflects ambiguous rules, a wrongly assumed invariance, or inconsistent application;
+8. preserve high-information pairs as regression tests.
+
+Nearest-neighbor work exists in automated-decision bias auditing and matched-vignette/audit studies, but Batch 18 found no clear intentional-community practice using a versioned metamorphic test suite against its own human governance.
+
+C012 is related to but distinct from C001:
+
+- **C001** seeks cases that reveal where values actually differ;
+- **C012** tests whether a process obeys relations the group already claims should hold even when the correct answer is unknown.
+
+Limits: “irrelevant” attributes can be contested; paired hypotheticals omit live context; members can learn the test; and inconsistency does not itself say which outcome was correct.
 
 ## Demoted / useful but not novel
 
@@ -223,6 +254,12 @@ Useful: many endorsers repeating one originating source do not create independen
 ### D013 — Governance feedback-lag / reform oscillation
 Useful warning but too close to policy feedback, control-system delay, institutional repetition, and change-fatigue literatures.
 
+### D014 — Governance fault injection / dependency drills
+Former **C010**. Demoted in Batch 18. Generic continuity practice already explicitly exercises loss of key people and essential functions, so the transfer does not clear the originality bar even though intentional communities may underuse it. Keep as a practical community-development lesson.
+
+### D015 — Seeded-fault review testing
+Useful training idea: place known errors into hypothetical proposals/case files and see whether review catches them. Too close to long-standing seeded-error audit research, mutation testing, red teaming, and integrity-testing traditions.
+
 ## Hard rejection frontier
 
 Do not repromote technical restatements of:
@@ -246,8 +283,10 @@ Do not repromote technical restatements of:
 - checks-and-balances/least privilege;
 - policy experimentation/laboratories of democracy;
 - generic matching/compatibility without non-separable cohort effects;
-- generic business continuity / succession planning without a distinct transfer;
-- generic pilots without the parallel nonbinding structure of C011.
+- business continuity / succession exercises;
+- generic governance pilots without the parallel nonbinding structure of C011;
+- generic blind review / matched vignettes without the systematic constitutional-relation architecture of C012;
+- generic statistical monitoring/change-point detection.
 
 ## Method findings
 
@@ -258,6 +297,7 @@ Do not repromote technical restatements of:
 - **M005:** empty batches are successful; prefer no result to weak promotion.
 - **M006:** terminology differences do not save a candidate when the target domain already implements the same structure.
 - **M007:** a mathematically surprising transfer that does not materially affect the best available target case should be demoted until a real consequential case is found.
+- **M008:** practical usefulness and originality require separate dispositions; novelty demotion must not erase useful community-development knowledge.
 
 ## Provenance
 
@@ -268,5 +308,6 @@ Latest detailed runs:
 - `runs/2026-08-15-c008-hutterite-empirical-test-15.md`
 - `runs/2026-08-15-orthogonal-tail-batch-16.md`
 - `runs/2026-08-15-orthogonal-tail-batch-17.md`
+- `runs/2026-08-15-orthogonal-tail-batch-18.md`
 
 Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
