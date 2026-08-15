@@ -11,106 +11,165 @@ Adaptive high-information concrete cases + constitutional regression suite. Prov
 Narrow survivor only: collective branch inheritance may pre-filter which institutional variants become adequately capitalized competitors. Final precedent attack found adjacent fission/institutional-legacy/group-selection work but no close match explicitly modeling collective branch asset portability as a pre-selection filter. Leave provisional; do not elaborate further unless new evidence appears.
 
 ### C005 — Reproductive-variance / superstar-reproduction trap
-Current strongest reproduction-specific result.
+Strongest reproduction-specific result, now replicated across multiple Hutterite branches.
 
-Older reconstructed Manitoba Hutterite cohort (49 colonies founded by 1970):
+#### Manitoba Schmiedeleut anchor
+49 colonies founded by 1970:
 - recorded Manitoba daughters = 103
 - mean K = 2.102
 - median K = 2
 - Var(K) = 1.724
 - Var/Mean = 0.820
 - recorded-Manitoba P(K=0) = 4.08%
-- top 10% of parents = ~22.3% of daughters
+- top 10% share = ~22.3%
 
-Historical period data also show stable colony reproduction through 1918–1975: reported compound annual colony growth ~4.25%–5.75%, mean division interval ~13.6–15.2 years.
+Historical period reproduction was also stable through 1918–1975.
 
-Thus the current Hutterite reproduction profile is both broadly parent-distributed and relatively period-stable.
+#### Batch 17 FEEFHS mature cohorts
+Cohort = colonies founded 1918–1953, observed through 1973 (>=20 years possible follow-up).
 
-New comparative-data leads from Batch 16:
-- Exponential explicitly solicits multi-generational church-planting family trees;
-- several denominations use explicit parent/daughter church structures;
-- FEEFHS exposes Dariusleut and Lehrerleut tables with `Parent Colony` fields, enabling a broader Hutterite lineage reconstruction beyond Manitoba.
+**Lehrerleut, n=29**
+- daughters = 53
+- mean K = 1.828
+- median = 1
+- Var = 1.453
+- Var/Mean = 0.795
+- P(K=0) = 3.45%
+- top 10% share = 24.53%
+- max K = 5
+
+**Dariusleut, n=33**
+- daughters = 60
+- mean K = 1.818
+- median = 2
+- Var = 0.694
+- Var/Mean = 0.382
+- P(K=0) = 0%
+- top 10% share = 20.0%
+- max K = 3
+
+Interpretation: broad-based ordinary-parent reproduction is not merely a Manitoba artifact. Under historical-source caveats, distinct Hutterite branches show the same non-jackpot signature.
+
+Operational shorthand: **make reproduction boring** — daughter formation should be an ordinary lifecycle event for the median competent community rather than a rare founder feat.
+
+Files:
+- `data/hutterite_feefhs_1973_mature_cohorts.csv`
+- `analysis/hutterite_feefhs_reproduction_metrics.py`
+- full methodology/caveats in Batch 17.
 
 ### C006 — Descendant inflation / lineage-size sampling bias
 Survives. Audit against `u-dont-existDOTcom/communities` found no current flaw because the P0 synthesis is mechanism-bounded, not a prevalence estimator. Carry genealogy/estimand controls into future comparative datasets.
 
 ### C009 — Cohort-composition admission
-**New provisional survivor from Batch 16.**
+Survives but is now explicitly **market-thickness bounded**.
 
-When applicant value contains material complementarities or peer effects, sequential individual admission can be path-dependent and globally inferior even when each local decision is reasonable.
+Non-separable applicant effects matter when several plausible candidates/households overlap in time. Do not delay ordinary sparse mature-community admissions merely to manufacture a batch.
 
-Key distinction: applicant utility may be non-separable. A person who is a bad fit against today's membership may belong to the best reachable future cohort; individually acceptable applicants may compose into a poor cohort.
+Best use cases:
+- founding;
+- daughter formation;
+- new-site opening;
+- expansion waves;
+- multiple simultaneous vacancies;
+- unusually thick applicant periods.
 
-Operational transfer:
-- when several openings exist, retain a provisional candidate pool;
-- evaluate plausible candidate sets, not only individual scores;
-- model pairwise/higher-order complementarities and conflict risks;
-- use joint trial periods where feasible;
-- preserve voluntary exit and do not bind applicants into forced bundles.
+Near precedent: Ottawa Cohousing deliberately matchmakes forming affinity groups, supporting the user's prediction that cohort thinking is more natural at formation.
 
-Target-domain search found intentional-community guidance to be predominantly sequential/probationary. Some forming cohousing systems deliberately construct affinity groups, but this is not yet a close precedent for cohort-aware admission into established communities.
+### C010 — Governance fault injection
+**New provisional survivor from Batch 17.**
 
-Demote C009 if a close target precedent is found or if interaction effects among applicants are empirically trivial compared with individual fit.
+Transfer chaos engineering / continuity testing into communal governance and dependency design: safely simulate or induce temporary loss of a key person, permission, account, supplier, facilitator, communication channel, record store, or other critical dependency and observe what actually fails.
 
-## Demoted / rejected relevant to Batch 16
+Distinct from ordinary succession planning because it tests dependency loss rather than merely documenting a fallback.
 
-### D001 — Flagship founder trap
-Confirmed demoted. Employee-spinout literature already covers parent loss of key human capital/routines versus knowledge diffusion and offspring/ecosystem benefits.
+For high-stakes functions, use tabletop/sandbox simulation rather than live failure injection.
 
-### Failure-history inheritance
-Useful practice but not novel: organizational-learning literature explicitly studies negative knowledge / knowing what not to do.
+### C011 — Shadow governance
+**New provisional survivor from Batch 17.**
 
-### Rapid-scaling attention tradeoff
-Rejected as novel: 2026 Organization Science work directly studies spatial replication versus temporal retention competing for attention in scaling organizations.
+Before transferring real authority to a substantially new governance system, run the new process **nonbinding in parallel on the same admissible cases**. Compare divergence cases with the incumbent process before choosing live trial/adoption.
 
-## Exact next move — Batch 17
+Target communities do sometimes run live governance trials (e.g. Cambridge Cohousing's six-month Dynamic Governance trial), but the nearest-neighbor search has not yet found the same parallel nonbinding decision-comparison architecture in intentional communities.
 
-### A. Adversarial C009 target-domain search
-Search specifically for established intentional communities, communes, cohousing, monasteries, or other residential communities that deliberately admit **cohorts/bundles** based on interaction effects among applicants rather than evaluate applicants independently.
+## Batch 17 demotions worth retaining as practical lessons
 
-If no close precedent:
-1. derive measurable interaction terms;
-2. specify when cohort selection is worth the added complexity;
-3. design a minimal non-algorithmic protocol communities can actually use;
-4. identify failure modes (cliques, discrimination, gaming, reduced applicant autonomy).
+- applicant batching has a standard market-thickness/waiting tradeoff;
+- evidence-lineage independence is useful but known;
+- feedback-lag/reform oscillation is useful but known;
+- irreversible-action thresholds, graceful degradation, network interference, post-treatment attrition, sufficient-statistic documentation, dissent preservation and exploration/exploitation all collided with established source/target literatures.
 
-### B. Continue C005 comparative empirical test
+## Exact next move — Batch 18
+
+### A. Adversarially attack C010 and C011
+
+For C010 search:
+- intentional-community dependency drills;
+- founder/key-person absence exercises;
+- actual or tabletop failure tests of finance, governance, records, care or infrastructure;
+- adjacent cooperative/nonprofit practice close enough to collapse the transfer.
+
+For C011 search:
+- intentional-community parallel governance bodies;
+- nonbinding duplicate decisions during governance transitions;
+- shadow councils/committees that process the same cases before authority transfer.
+
+Demote immediately on a close target precedent.
+
+### B. C005 non-Hutterite comparison
+
+The next evidentiary leap is not another Hutterite branch. Find a movement with explicit parent-child units and enough exposure to calculate offspring distribution.
+
 Priority:
-1. reconstruct Dariusleut/Lehrerleut parent-offspring distributions from FEEFHS;
-2. alternatively obtain church-planting family-tree rows from Exponential or a denomination.
+1. church-planting networks/denominations with downloadable parent/daughter rows;
+2. Bruderhof or another communal religious lineage if a reliable genealogy exists;
+3. intentional-community federations with daughter trees.
 
-Need actual offspring distribution:
+Need:
 - P(K=0)
 - mean/median/variance K
 - top-decile daughter share
 - generation interval
 - granddaughter reproduction
-- parent/federation subsidy
+- subsidy/propagule structure where available.
 
-### C. Orthogonal Batch 17
-Generate >=12 candidates from domains not exhausted by matching unless a deeper consequence follows from C009.
+Exponential explicitly solicits multi-generational church family trees, but Batch 18 should find actual rows rather than rely on a promotional list.
 
-Preferred source domains:
-- causal inference / experimental design
-- error-correcting codes beyond generic redundancy
-- ecological succession beyond founder/priority effects
-- distributed consensus under Byzantine-but-not-malicious noise
-- queueing networks beyond backlog/common bottlenecks
-- search theory / stopping rules
-- evolutionary developmental constraints
-- information geometry / sufficient statistics
+### C. Promote useful non-original lessons to communities repo
+
+`u-dont-existDOTcom/communities` now has `COMMUNITY-DEVELOPMENT-LESSONS.md`. Every future community-tail result should receive two separate dispositions:
+
+1. originality disposition in this repo;
+2. practical-usefulness disposition in the communities lessons file.
+
+Do not let novelty rejection erase a useful operational lesson.
+
+### D. Orthogonal Batch 18
+
+Generate >=12 candidates from source domains not exhausted in Batch 17. Prefer mechanisms that change an actual decision, protocol, or measurement.
+
+Possible domains:
+- statistical process control / change-point detection;
+- distributed database consistency beyond generic redundancy;
+- ecological restoration thresholds;
+- adversarial mechanism design / collusion-resistant systems;
+- sequential experimental design;
+- coding/information theory beyond checksums;
+- reliability growth models;
+- evolutionary search constraints not reducible to diversity/founder effects.
 
 Reject on sight:
-- generic diversification
-- founder/lifecycle effects
-- newcomer overload
-- due process
-- liquidity runs
-- modularity/interdependence
-- survivorship/external validity
-- generic fission/propagule effects
-- generic matching/compatibility unless a non-obvious market failure is demonstrated
+- generic diversification;
+- founder/lifecycle effects;
+- newcomer overload;
+- generic due process;
+- liquidity runs;
+- modularity/interdependence;
+- survivorship/external validity;
+- generic fission/propagule effects;
+- generic matching/compatibility;
+- business continuity without active dependency testing;
+- governance pilots without the parallel nonbinding structure;
 - anything that merely gives familiar community advice technical vocabulary.
 
 ## Persistence rule
-After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, and never rely on chat history as durable state.
+After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, mirror practically useful lessons into the communities repo, and never rely on chat history as durable state.
