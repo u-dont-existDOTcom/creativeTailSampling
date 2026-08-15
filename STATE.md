@@ -4,56 +4,57 @@ Updated: 2026-08-15
 
 ## Durability
 
-GitHub is authoritative. Batches 21–52 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
+GitHub is authoritative. Batches 21–58 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
 
 ## Current survivors
 
-- **C001 — Active normative edge-case search:** high-information cases + constitutional regression suite.
-- **C003 — Asset-gated cultural mutation:** branch-capital inheritance can pre-filter which variants become viable competitors.
-- **C005 — Reproductive-variance trap:** measure full parent-offspring distribution; Hutterite reproduction is broadly distributed across three branch samples. **Make reproduction boring.**
-- **C006 — Descendant inflation:** extant samples overweight prolific lineages; name the estimand.
-- **C009 — Cohort-composition admission:** use set-level admission only in sufficiently thick applicant markets.
-- **C011 — Shadow governance:** nonbinding parallel run before authority transfer.
-- **C012 — Standing constitutional-relation testing:** versioned relational invariants.
-- **C013 — Federated reciprocal applicant clearing:** coordinate reciprocal preferences after visits/trials, preserving local authority/opt-out.
-- **C015 — Governance rights-liveness:** verify rights/remedies remain reachable under adverse procedural states.
-- **C016 — Verifiably unpredictable audit sampling:** commit eligible universe before future randomness; replay realized draw afterward.
-- **C017 — Intervention-aware rescue forecasts:** intervention-produced outcomes are not unadjusted labels for forecasts that triggered the intervention.
-- **C018 — Replicated-governance tombstones:** negative/deprecation knowledge must propagate with daughter/template replication channels.
-- **C019 — Power-targeted federation voting:** define desired representation, model both tiers, compute actual pivotal power under weights + quota, and solve/audit toward intended distribution.
-- **C020 — Fission/merge representation-effect audit:** reproduction/merger can create implicit political subsidy/penalty; measure before/after power and make any autonomy premium explicit.
-- **C021 — Scrutiny-conditioned evidence accounting:** when suspicion changes observation intensity, preserve observation regime as evidence provenance.
-- **C022 — Cross-community measurement canaries:** before pooling locally interpreted outcomes, circulate standardized synthetic cases to test classification-threshold heterogeneity.
-- **C023 — Cumulative disclosure-budget / differencing guard:** small-community research privacy must be audited across the joint history of overlapping aggregate releases, not one table at a time.
+- **C001 — Active normative edge-case search**
+- **C003 — Asset-gated cultural mutation**
+- **C005 — Reproductive-variance trap** — Hutterite reproduction broadly distributed across three branch samples; **make reproduction boring**.
+- **C006 — Descendant inflation / lineage-size sampling bias**
+- **C009 — Cohort-composition admission**
+- **C011 — Shadow governance**
+- **C012 — Standing constitutional-relation testing**
+- **C013 — Federated reciprocal applicant clearing**
+- **C015 — Governance rights-liveness verification**
+- **C016 — Verifiably unpredictable federation audit sampling**
+- **C017 — Intervention-aware rescue forecasts**
+- **C018 — Replicated-governance tombstones**
+- **C019 — Power-targeted federation voting**
+- **C020 — Fission/merge representation-effect audit**
+- **C021 — Scrutiny-conditioned evidence accounting**
+- **C022 — Cross-community measurement canaries**
+- **C023 — Cumulative disclosure-budget / differencing guard**
+- **C024 — Non-custodial federation research**
+- **C025 — Community resolution / living-will architecture**
 
-Reusable tools/schemas:
-- `analysis/weighted_voting_power.py` — exact Banzhaf + Shapley-Shubik for small weighted games.
-- `analysis/branching_process_covariates.md` — reusable C005 fission-process coding schema.
-- `data/hutterite_branching_process_events_preliminary.csv` — event-level fission-process evidence with explicit unknowns.
+Reusable artifacts:
+- `analysis/weighted_voting_power.py`
+- `analysis/branching_process_covariates.md`
+- `analysis/non_custodial_federation_research_architecture.md`
+- `data/hutterite_branching_process_events_preliminary.csv`
 
-## Batches 47–52
+## Recent batches 53–58
 
-### Batch 47 — cumulative small-N privacy
-**C023 survived provisionally.** Maintain a release ledger, test reconstruction/differencing across overlapping outputs, use access tiers/pooled publication, and manage formal privacy composition where relevant.
+### Batch 53 — non-custodial federation research
+**C024 survived provisionally.** For suitable sensitive aggregate questions, avoid central plaintext custody through secure aggregation/MPC/federated analytics or split trust; separately control outputs under C023.
 
-### Batch 48 — destination-blind fission partitioning
-No novelty survivor because Hutterites already implement the target structure. Form two viable groups before assigning mother/daughter destination; protect household/care units; compare functional capacity, not just book-value assets.
+### Batch 54 — federation-level young-adult social/relationship viability
+No novelty survivor. Hutterites provide direct intercolony mobility precedent; kibbutz evidence shows co-reared local peer groups should not be assumed to form a future partner pool. Minimum viable community scale and movement/network social scale are different variables.
 
-### Batch 49 — event-level fission-process evidence
-No novelty survivor. Preliminary event dataset created. One high-confidence event (Rock Lake→Interlake) documents composition fixed before destination and lot-based destination; James Valley→Miami has strong asset/support detail but partition mechanism remains `unknown`. Do not manufacture lot-vs-consent regression from branch stereotypes.
+### Batch 55 — portable safety information
+No novelty survivor. Transport structured, scoped, versioned evidence/risk packets rather than global person labels; evidentiary state, observation regime, correction/reversal and role scope must travel with the record.
 
-Practical rule: create a standardized branching record prospectively at every fission.
+### Batch 56 — community resolution / living will
+**C025 survived provisionally.** Distinguish recovery of the existing institution from continuity of member-critical functions. Preplan bridge providers, portable records/benefits, continuity horizons and independent recovery-to-resolution triggers.
 
-### Batch 50 — role rotation vs expertise/shadow power
-No novelty survivor. Rotate authority without repeatedly resetting competence to zero; use overlap/backups and audit durable trainers/records custodians/advisers who can become shadow hierarchy.
+### Batch 57 — structural non-anonymity
+No novelty survivor. In tiny communes, handwriting, prose style, anecdotes, audio, timing and demographic/context combinations can identify respondents even without names. Treat expressive responses as identifiable confidential microdata unless proven otherwise.
 
-### Batch 51 — winner's curse in best-practice discovery
-No novelty survivor. The more candidate communal practices/outcomes the research center searches, the less trustworthy the raw effect of the selected winner. Preserve discovery/confirmation separation, publish search universe, use selection-aware inference and independent confirmation.
+### Batch 58 — collection-scene privacy
+No novelty survivor. Someone can see the response before submission; add a separate physical/digital completion-scene layer covering shoulder-surfing, shared devices, unattended forms/screens, timing and safe pause/resume.
 
-### Batch 52 — screening-burden selection in admissions
-No novelty survivor. Every required visit, wait, fee, disclosure and provisional period is both a measurement step and a selection pressure. Audit the full applicant funnel and optimize information gained per applicant burden. Twin Oaks already partially mitigates this through split-visit and reduced-fee accommodations.
-
-## Federation research-center gates
+## Federation research-center validity gates
 
 Before a strong comparative claim, ask:
 
@@ -66,39 +67,48 @@ Before a strong comparative claim, ask:
 7. **Privacy-composition gate — C023:** can joint release history reidentify sensitive responses?
 8. **Discovery-selection gate — Batch 51:** was the reported `best` selected from many noisy candidates using the same data used to estimate its effect?
 
+## Communal survey/privacy layers
+
+Sensitive small-commune research must distinguish:
+
+1. **Participation privacy** — can locals tell who participated?
+2. **Collection-scene privacy** — can someone observe the answer during creation or while left unattended? (Batch 58)
+3. **Input confidentiality** — who can inspect submitted raw answers? (C024)
+4. **Response-fingerprint privacy** — can style/handwriting/voice/context identify the author? (Batch 57)
+5. **Output/composition privacy** — can aggregate releases reconstruct the answer? (C023)
+
+Solving four does not solve the fifth.
+
 ## Communities lessons persistence
 
-Current append-only supplements on `agent/final-research-synthesis`:
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-ADDENDUM.md` — Batch 23–24;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-52.md`.
+Current append-only supplements on `agent/final-research-synthesis` now extend through:
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-58.md`
 
-Canonical `COMMUNITY-DEVELOPMENT-LESSONS.md` remains intact while parallel research edits continue. Consolidate only after resolving the latest branch head.
+The interrupted Batch 56 write was checked, found missing, and restored as `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-56.md`.
 
-## Exact next move — Batch 53
+Canonical `COMMUNITY-DEVELOPMENT-LESSONS.md` remains untouched while parallel research state exists. Consolidate only after resolving the latest branch head.
 
-### Primary target: privacy-preserving federation research without central raw-data custody
+## Exact next move — Batch 59
+
+Leave survey/privacy methodology.
+
+Primary target: **adult membership transition for people raised inside the community**.
 
 Core question:
-> Can the federation compute useful aggregate/community-comparative evidence while reducing the need for any single organization—including the research center—to possess raw sensitive member answers?
+> A child did not choose the community. When they become an adult, should full adult communal obligations/property/governance membership continue automatically, or should there be an explicit adulthood re-consent / membership transition with real portable exit resources?
 
 Source-domain attack:
-- secure aggregation;
-- secure multiparty computation;
-- federated analytics;
-- local differential privacy;
-- private set intersection / confidential linkage;
-- trusted execution / split-key custody.
-
-Target communal applications:
-- sensitive satisfaction/coercion/safety surveys;
-- federation-wide reporting-bias diagnostics (Batches 43–44);
-- leaver/current-member comparisons;
-- pooled small-N outcomes (C023);
-- cross-community aggregate statistics.
+- cooperative membership succession;
+- citizenship/consent theories;
+- religious-community adulthood transitions;
+- Hutterite/kibbutz second-generation membership rules;
+- family-enterprise succession;
+- youth leaving high-demand groups.
 
 Novelty bar:
-- cryptography/privacy-preserving analytics themselves are established;
-- only a target-domain architecture that materially improves communal research validity/privacy without destroying usefulness can survive.
+- `children deserve exit rights` is already known and in the communities corpus;
+- rites of passage/confirmation are ancient;
+- only a distinctive operational architecture for adult re-consent, economic portability, and non-retaliatory transition can survive.
 
 ### Independent C005 mechanism lane
 Pause until additional event-level partition-process sources become available. Preserve unknown rather than impute.
