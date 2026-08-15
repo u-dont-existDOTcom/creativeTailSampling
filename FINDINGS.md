@@ -145,6 +145,64 @@ Demote if target-domain scholarship is found already using offspring-distributio
 
 Audits: `runs/2026-08-15-adversarial-tail-batch-07.md`, `runs/2026-08-15-empirical-reproduction-batch-08.md`, and `runs/2026-08-15-hutterite-lineage-batch-09.md`.
 
+### C006 — Descendant inflation / lineage-size sampling bias
+
+**Status:** SURVIVED CROSS-DOMAIN CONNECTION; current strongest research-method result.
+
+**Source:** ancestral reproductive bias in branching processes + phylogenetic/clade sampling bias.
+
+If some community lineages produce many daughters and others produce few, a contemporary survey that samples **communities** uniformly is mechanically weighted toward the cultures of prolific lineages. Each daughter creates another observation descended from the same historical experiment.
+
+This is not ordinary survivorship bias. Even if every extant community were perfectly enumerated, a lineage with 20 daughters contributes up to 21 related observations while a non-reproducing lineage contributes one.
+
+#### Consequence
+
+A trait can become common in a current-community dataset because it increases **reproduction**, even if it does not improve—and could even worsen—a separate outcome such as:
+
+- child happiness;
+- member welfare;
+- freedom;
+- conflict quality;
+- local stability;
+- environmental performance.
+
+If descendants inherit the trait, reproductive success itself determines how heavily that trait is represented in the sample.
+
+Treating daughters as independent replications can then create a second problem: genealogical pseudoreplication inflates apparent evidence around inherited traits.
+
+#### Estimand rule
+
+There is no universal correction because different research questions require different probability measures.
+
+- **Random founding attempt:** weight independent founding attempts/roots appropriately rather than letting descendants multiply the root's weight automatically.
+- **Random current community:** uniform extant-community weighting is legitimate, but the estimand is intentionally reproduction-weighted.
+- **Random current resident:** weight by community population.
+- **Future movement culture:** reproductive-value weighting may be exactly appropriate.
+
+Therefore community research should state which estimand it is answering before deciding what a 'representative' sample means.
+
+#### Target-domain screen
+
+Commune/intentional-community methodology already recognizes major sampling problems, including undercounting short-lived or nameless communes, overrepresentation of institutionalized groups, availability/convenience bias, directory bias, and living-community survivor bias.
+
+The targeted search did **not** locate an intentional-community method explicitly correcting for **daughter-community proliferation as a genealogical size-bias mechanism** or defining separate estimands for founding attempts versus extant descendant communities.
+
+#### Operational implication
+
+Where feasible, community datasets should add:
+
+- parent/founding lineage;
+- daughter relationships;
+- independent founding versus organizational offspring;
+- common federation/parent support;
+- lineage depth.
+
+Then use genealogy-aware/hierarchical models, clustered uncertainty, and explicit sensitivity to lineage weighting where relevant. Do not blindly inverse-weight lineages; that merely changes the estimand.
+
+Demote C006 if target-domain work is found already making substantially this genealogical reproductive-size-bias distinction.
+
+Audit: `runs/2026-08-15-orthogonal-tail-batch-10.md`.
+
 ## Derived measurement rules — useful but below novelty threshold
 
 ### D004 — Governance commutativity
@@ -177,6 +235,12 @@ Measure how much mature structure each daughter inherits:
 - whether daughters later reproduce without equivalent extraordinary subsidy.
 
 The underlying point is covered by propagule-size and cultural-transmission literatures, so do not repromote it as a discovery.
+
+### D007 — Effective number of reproducing communities
+
+**Status:** DERIVED QUANTITATIVE TOOL; not an independent discovery.
+
+When daughter production is highly skewed, census community count can greatly exceed the effective number of lineages contributing to future movement culture. Population-genetic effective-size concepts may be useful once multi-movement genealogies exist, but this follows directly from reproductive skew/C005.
 
 ## Other demoted applied hypotheses
 
@@ -216,7 +280,11 @@ Too close to tacit knowledge, organizational lifecycle, sequencing, and path dep
 - Tiebout-style mobility/exit;
 - stress tests/redundancy without a stronger consequence;
 - mean reproduction number by itself;
-- shorter generation time spreads faster, by itself.
+- shorter generation time spreads faster, by itself;
+- rare-task organizational forgetting;
+- founder-stage versus mature-stage governance by itself;
+- self-selection/endogeneity of community membership;
+- ordinary current-directory/survivor sampling bias.
 
 ## Earlier provisional branches
 
@@ -261,3 +329,4 @@ Prefer 'nothing survived' over weak promotion.
 - adversarial batch 07: `runs/2026-08-15-adversarial-tail-batch-07.md`
 - empirical batch 08: `runs/2026-08-15-empirical-reproduction-batch-08.md`
 - Hutterite lineage batch 09: `runs/2026-08-15-hutterite-lineage-batch-09.md`
+- orthogonal batch 10: `runs/2026-08-15-orthogonal-tail-batch-10.md`
