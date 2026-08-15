@@ -51,7 +51,7 @@ Audit: `runs/2026-08-15-orthogonal-tail-batch-06.md` and `runs/2026-08-15-advers
 
 ### C005 — Reproductive-variance trap / superstar reproduction trap
 
-**Status:** SURVIVED CROSS-DOMAIN CONNECTION; current strongest reproduction-specific result.
+**Status:** SURVIVED CROSS-DOMAIN CONNECTION; current strongest reproduction-specific result; **empirically strengthened in Batch 09**.
 
 **Source:** branching-process theory.
 
@@ -77,6 +77,54 @@ Therefore distinguish:
 
 A movement can score high on 1 and 2 while scoring badly on 3 and 4.
 
+#### Empirical anchor — older Manitoba Hutterite lineage
+
+A manual reconstruction from the Manitoba Historical Society colony genealogy was saved at:
+
+- `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
+
+Reproducible metrics:
+
+- `analysis/hutterite_reproduction_metrics.py`
+
+Important scope limitation: the historical table explicitly lists **Manitoba Daughter(s)**, so offspring outside Manitoba are omitted. The values below are therefore Manitoba-lineage counts, not complete North-American lifetime offspring counts.
+
+For the **49 Manitoba colonies founded by 1970**:
+
+- total recorded Manitoba daughters = **103**;
+- mean `K = 2.102`;
+- median `K = 2`;
+- population variance `Var(K) = 1.724`;
+- variance / mean = **0.820**;
+- recorded-Manitoba `P(K=0) = 2/49 = 4.08%`;
+- top 10% of parent colonies account for only about **22.3%** of recorded daughters.
+
+One of the two zero-daughter colonies, Roseisle, closed in 1936 only seven years after founding. Because out-of-province daughters are omitted, the true total-daughter zero rate could be lower than 4.08%.
+
+This older cohort is strikingly **non-jackpot-like**: reproduction is broadly distributed across mature colonies, the median is close to the mean, and the distribution is mildly underdispersed rather than dominated by a small number of hyper-reproductive parents.
+
+A historical consistency check supports the underlying list's completeness through 1975: the reconstruction contains 62 colonies ever founded by then, while a 1977 Manitoba monograph reports 60 operating colonies; the genealogy explicitly contains two pre-1975 closures, giving exactly 60 surviving operations.
+
+#### Non-stationarity warning
+
+Later Manitoba cohorts show many more recorded zero-Manitoba-daughter colonies, but this cannot be interpreted as simple reproductive collapse because:
+
+- later colonies are more right-censored;
+- the source omits daughters outside Manitoba;
+- Hutterite colonies increasingly added industrial operations to create jobs and delay branching;
+- the 1990s Schmiedeleut schism temporarily accelerated branching;
+- land prices/location constraints changed.
+
+Therefore Batch 09 treats the pre-1970 cohort as the cleaner descriptive test of whether the mature historical reproduction process was superstar-driven.
+
+#### Current inference
+
+C005 is **empirically strengthened, not proven**.
+
+The Hutterite case supplies a real example in which a famously persistent, multi-generational communal lineage appears to reproduce broadly across parent units rather than through rare reproductive jackpots.
+
+The next high-value test is a genuinely parent-resolved movement with strong overdispersion, so we can ask whether equal/similar mean reproduction but different offspring variance predicts different lineage depth and extinction risk.
+
 #### Measurement implication
 
 For mature communities, collect at minimum:
@@ -85,27 +133,17 @@ For mature communities, collect at minimum:
 - `P(K=0)` = zero-daughter fraction;
 - median K;
 - variance/dispersion of K;
+- fraction of all daughters produced by top 10% of parents;
 - daughter survival criterion;
 - daughter-to-granddaughter reproduction;
-- reproductive timing.
+- reproductive timing;
+- propagule burden and federation/parent subsidy.
 
 Mean K alone is inadequate.
 
-#### Research implication
+Demote if target-domain scholarship is found already using offspring-distribution/branching extinction metrics to make substantially this distinction between movement growth and community-level reproducibility.
 
-Current scale can be a **lucky-survivor statistic**. A high-variance movement that happened not to go extinct can become enormous, making its current success look like evidence of robust copyability when reproduction was actually lottery-like.
-
-A parent that produced twenty daughters has also not demonstrated a copyable model if the twenty daughters cannot themselves reproduce without exceptional parent resources.
-
-#### Target-domain status
-
-Targeted searches found community-fission demography, church-planting survival/reproduction metrics, and organizational schism research, but no obvious use of the full branching offspring distribution/extinction probability to separate aggregate movement spread from typical community reproducibility.
-
-Hutterite fission demography is a promising empirical test because historical data report fairly regular fission cycles. The hypothesis to test is whether successful long-lived communal systems exhibit unusually low reproductive variance rather than merely high mean reproduction.
-
-Demote if target-domain scholarship is found already using offspring-distribution/branching extinction metrics to make substantially this distinction.
-
-Audit: `runs/2026-08-15-adversarial-tail-batch-07.md`.
+Audits: `runs/2026-08-15-adversarial-tail-batch-07.md`, `runs/2026-08-15-empirical-reproduction-batch-08.md`, and `runs/2026-08-15-hutterite-lineage-batch-09.md`.
 
 ## Derived measurement rules — useful but below novelty threshold
 
@@ -124,6 +162,21 @@ Population growth depends on amount **and timing** of reproduction. This is clas
 - time to granddaughter reproduction.
 
 Lifetime daughter count alone is insufficient.
+
+### D006 — Propagule burden / independent seedability
+
+**Status:** USEFUL MEASUREMENT DISTINCTION; not novel.
+
+Reliable fission reproduction does not imply that a community architecture can be recreated de novo by a small founder team.
+
+Measure how much mature structure each daughter inherits:
+
+- number/fraction of experienced members transferred;
+- land/capital/tools;
+- continuing parent/federation support;
+- whether daughters later reproduce without equivalent extraordinary subsidy.
+
+The underlying point is covered by propagule-size and cultural-transmission literatures, so do not repromote it as a discovery.
 
 ## Other demoted applied hypotheses
 
@@ -145,6 +198,7 @@ Too close to tacit knowledge, organizational lifecycle, sequencing, and path dep
 - thick-vs-thin ties, embeddedness, social capital, multiplex exchange;
 - planned fission/propagule reproduction;
 - packet reproduction through experienced member splits;
+- propagule size/fidelity tradeoffs;
 - cultural-transmission complexity/fidelity thresholds;
 - germline/reproductive specialization;
 - source/sink institutional dynamics;
@@ -205,3 +259,5 @@ Prefer 'nothing survived' over weak promotion.
 - reproduction batch 05: `runs/2026-08-15-reproduction-tail-batch-05.md`
 - orthogonal batch 06: `runs/2026-08-15-orthogonal-tail-batch-06.md`
 - adversarial batch 07: `runs/2026-08-15-adversarial-tail-batch-07.md`
+- empirical batch 08: `runs/2026-08-15-empirical-reproduction-batch-08.md`
+- Hutterite lineage batch 09: `runs/2026-08-15-hutterite-lineage-batch-09.md`
