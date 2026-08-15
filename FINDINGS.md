@@ -10,7 +10,7 @@ A user familiarity veto or strong literature compression overrides earlier promo
 
 No accepted grand social-theory finding yet. The earlier multiplex/relational-unbundling branch failed the novelty gate and is historical/applied material only.
 
-Batch 20 produced no new survivor. Batch 21 produced one narrow provisional transfer, C015.
+Batch 20 produced no new survivor. Batch 21 produced C015. Batch 22 retained C015 after a harder attack and added one narrow provisional transfer, C016.
 
 ## Current surviving cross-domain connections
 
@@ -127,9 +127,9 @@ Demote if a close target implementation is found.
 
 ### C015 — Governance rights-liveness verification
 
-**Status:** SURVIVING / provisional cross-domain operational transfer from formal methods.
+**Status:** SURVIVING / provisional cross-domain operational transfer from formal methods; survived Batch 22 harder attack.
 
-Formal bylaw modeling, workflow model checking, safety/liveness verification, and legal-remedy doctrine are all established. The surviving target application is narrower:
+Formal bylaw modeling, workflow model checking, safety/liveness verification, temporal compliance logic, and legal-remedy doctrine are all established. The surviving target application is narrower:
 
 > **For an important communal right or remedy, verify that from every realistic state in which it is validly invoked, the governance process still has a permitted path to the promised review/remedy/closure despite adverse combinations of recusal, vacancy, quorum, jurisdiction, deadlines, delegation and escalation.**
 
@@ -143,6 +143,8 @@ Verification targets should distinguish:
 - **liveness:** a promised review/remedy remains reachable under explicit assumptions;
 - **bounded liveness:** the remedy can complete within a defined procedural/time bound rather than merely “eventually.”
 
+Batch 22 adds a critical formal-methods constraint: every liveness proof must expose its **fairness/cooperation assumptions**. Do not assume that a conflicted chair, captured body, boycotting faction or record-holder will “eventually cooperate” unless the architecture makes their cooperation unnecessary for the right to remain live.
+
 Candidate first-use procedures:
 
 - complaint intake and bypass;
@@ -155,11 +157,50 @@ Candidate first-use procedures:
 - replacement of conflicted adjudicators;
 - federation-level review of a captured local body.
 
-Minimum protocol: model only relevant states/roles/transitions; predeclare safety/liveness properties; include realistic fault/adversarial states; run state-space/model checking or bounded exhaustive search; inspect counterexample traces; repair the actual procedure; rerun after material amendments; preserve counterexamples as regression tests.
+Minimum protocol: model only relevant states/roles/transitions; predeclare safety/liveness properties; include realistic fault/adversarial states; state fairness assumptions explicitly; run state-space/model checking or bounded exhaustive search; inspect counterexample traces; repair the actual procedure; rerun after material amendments; preserve counterexamples as regression tests.
 
 Important limits: verification proves only the model; omitted states and unrealistic fairness assumptions can create false confidence; discretion is hard to formalize; a procedure can be perfectly live and still unjust. C015 supplements rather than replaces substantive rights, human judgment, and outcome evaluation.
 
 Demote if a close target-domain implementation already routinely verifies human rights/remedies as liveness properties under adverse governance states, or if ordinary tabletop review catches the same material failures more cheaply.
+
+### C016 — Verifiably unpredictable federation audit sampling
+
+**Status:** SURVIVING / provisional cross-domain operational transfer from election/cryptographic audit design.
+
+Random auditing is old. The proposed communal transfer is narrower:
+
+> **When federation oversight uses random sampling, freeze the eligible population and sampling rule before the random value is knowable, derive the sample from future unpredictable public/verifiable randomness, and make the selection replayable afterward.**
+
+The goal is to make oversight selection simultaneously:
+
+- unpredictable before selection, so targets cannot selectively prepare/evade;
+- verifiable afterward, so leadership/auditors cannot secretly cherry-pick targets.
+
+Critical architecture:
+
+1. publish the audit scope, criteria, rights and permitted uses;
+2. freeze/commit the complete eligible universe before randomness is known;
+3. precommit the deterministic sampling algorithm, sample size and exclusions/strata;
+4. use future randomness not controllable by the federation/auditee;
+5. derive the sample deterministically;
+6. preserve enough information for authorized members/reviewers to replay the draw.
+
+The **eligible-universe commitment is essential**. A perfectly random sample from a list leadership could edit after seeing the seed does not prevent cherry-picking by omission.
+
+Potential use cases:
+
+- routine federation process audits across many communities;
+- random conformance review of completed high-stakes governance decisions;
+- financial/accounting sample audits;
+- review of records, recusals, deadlines, appeals or other procedural compliance where reviewing every case is infeasible.
+
+This is not random suspicion or punishment of members. Selection should trigger quality/process review, not imply guilt. Audit law/rights should remain transparent even though the future random realization is not predictable.
+
+Limits: completeness of the eligible universe may be the hardest problem; random review can miss rare severe failures; risk-based review may still be needed; privacy-sensitive universes may need commitments/pseudonymous identifiers; cryptographic complexity may not be worth it for small federations; record integrity after selection remains a separate problem.
+
+Target searches found ordinary cooperative/social/random auditing but no close intentional-community/cooperative federation use of this commit-before-randomness + replayable-selection architecture.
+
+Demote if a close communal target precedent is found or ordinary independent random selection gives the same real trust benefit at much lower complexity.
 
 ## Demoted / useful but not novel
 
@@ -262,9 +303,21 @@ Distributed Saga/compensating-transaction design owns the mechanism; legal escro
 ### D033 — Procedural fail-open/fail-closed defaults
 Established safety/security/default-rule logic. Useful companion to C015, not novelty.
 
+### D034 — Threshold structuring / cumulative pattern evasion
+Anti-structuring and pattern-of-conduct rules already address strategic splitting below thresholds. Useful communal pattern-analysis lesson, not novelty.
+
+### D035 — Procedural denial-of-service / vexatious invocation
+Courts and information-access systems already address repeated abusive use of procedures. Any communal anti-abuse mechanism requires independent/proportionate safeguards to avoid suppressing legitimate complaints.
+
+### D036 — Common-control/faction aggregation
+Beneficial ownership, related-party rules and Sybil/fault-domain concepts already address nominally separate actors under shared control. Useful oversight lesson, not novelty.
+
+### D037 — Risk-based plus random audit floor
+Regulatory/tax/quality-control systems already combine targeted and random auditing. C016's possible novelty is only the verifiable-unpredictable selection layer, not mixed audit strategy itself.
+
 ## Hard rejection frontier
 
-Do not repromote technical restatements of commodification/alienation; thick-vs-thin ties/social capital; planned fission/propagule reproduction; cultural fidelity thresholds; cultural phylogenetic non-independence; cultural linkage/hitchhiking; source/sink dynamics; modularity/interdependence; founder/lifecycle effects; generic schism/forkability; property/exit/liquidity; organizational forgetting; self-selection/endogeneity; survivorship/external validity; generic monitoring; newcomer overload; common-cause diversification; checks-and-balances/least privilege; laboratories of democracy; generic matching; continuity/succession exercises; generic governance pilots; ordinary paired discrimination testing; legal holdout/cross-validation; generic organizational evolvability/neutral drift; generic privacy-preserving record linkage; random juries/reviewer assignment; threshold access; blind review; comparative controls; staff rotation; generic access-control leases/revocation; process conformance; and compensating transactions.
+Do not repromote technical restatements of commodification/alienation; thick-vs-thin ties/social capital; planned fission/propagule reproduction; cultural fidelity thresholds; cultural phylogenetic non-independence; cultural linkage/hitchhiking; source/sink dynamics; modularity/interdependence; founder/lifecycle effects; generic schism/forkability; property/exit/liquidity; organizational forgetting; self-selection/endogeneity; survivorship/external validity; generic monitoring; newcomer overload; common-cause diversification; checks-and-balances/least privilege; laboratories of democracy; generic matching; continuity/succession exercises; generic governance pilots; ordinary paired discrimination testing; legal holdout/cross-validation; generic organizational evolvability/neutral drift; generic privacy-preserving record linkage; random juries/reviewer assignment; threshold access; blind review; comparative controls; staff rotation; generic access-control leases/revocation; process conformance; compensating transactions; anti-structuring; vexatious-process controls; beneficial-ownership/common-control analysis; and ordinary random/risk-based auditing.
 
 ## Method findings
 
@@ -277,15 +330,16 @@ Do not repromote technical restatements of commodification/alienation; thick-vs-
 - **M007:** a mathematically surprising transfer that does not materially affect the best available target case should be demoted until a consequential case is found.
 - **M008:** practical usefulness and originality require separate dispositions; novelty demotion must not erase useful community-development knowledge.
 - **M009:** when a candidate's source mechanism is known, target novelty must lie in a genuinely different operational structure—not merely in applying the same method to another kind of organization.
-- **M010:** if a broad analogy collides, narrow the object being transferred until it either yields a distinct operational failure/test or dies; C015 survived only after “model-check bylaws” was rejected and the target became right-exercisability under adverse states.
+- **M010:** if a broad analogy collides, narrow the object being transferred until it either yields a distinct operational failure/test or dies.
+- **M011:** public accountability and adversarial unpredictability can coexist when rules/rights are public, the future random realization is unknowable, and the realized selection is replayable afterward.
 
 ## Provenance
 
 Latest detailed runs:
 
-- `runs/2026-08-15-orthogonal-tail-batch-18.md`
 - `runs/2026-08-15-orthogonal-tail-batch-19.md`
 - `runs/2026-08-15-orthogonal-tail-batch-20.md`
 - `runs/2026-08-15-orthogonal-tail-batch-21.md`
+- `runs/2026-08-15-orthogonal-tail-batch-22.md`
 
 Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
