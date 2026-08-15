@@ -4,90 +4,84 @@ Updated: 2026-08-15
 
 ## Durability
 
-GitHub is authoritative. Batches 21–30 are durably checkpointed. Practical community lessons are mirrored append-only to `u-dont-existDOTcom/communities` so parallel Escuelita/research work is not overwritten.
+GitHub is authoritative. Batches 21–31 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
 
 ## Current survivors
 
-- **C001 — Active normative edge-case search:** adaptive high-information cases + constitutional regression suite.
-- **C003 — Asset-gated cultural mutation:** branch-capital inheritance can pre-filter which institutional variants become viable competitors.
-- **C005 — Reproductive-variance trap:** measure parent-offspring distribution, not just spread/mean; Hutterite reproduction is broadly distributed across three branch samples. Operational shorthand: **make reproduction boring**.
-- **C006 — Descendant inflation:** extant samples mechanically overweight prolific lineages; name the estimand.
+- **C001 — Active normative edge-case search:** high-information cases + constitutional regression suite.
+- **C003 — Asset-gated cultural mutation:** branch-capital inheritance can pre-filter which variants become viable competitors.
+- **C005 — Reproductive-variance trap:** measure the full parent-offspring distribution; Hutterite reproduction is broadly distributed across three branch samples. **Make reproduction boring.**
+- **C006 — Descendant inflation:** extant samples overweight prolific lineages; name the estimand.
 - **C009 — Cohort-composition admission:** use set-level admission only in sufficiently thick applicant markets.
-- **C011 — Shadow governance:** nonbinding parallel run before transferring authority.
-- **C012 — Standing constitutional-relation testing:** versioned relational invariants such as symmetry/monotonicity/jurisdiction invariance.
-- **C013 — Federated reciprocal applicant clearing:** coordinate reciprocal preferences after visits/trials while preserving local authority/opt-out.
-- **C015 — Governance rights-liveness:** verify that rights/remedies remain reachable under realistic adverse procedural states.
-- **C016 — Verifiably unpredictable audit sampling:** freeze eligible universe before future randomness; make realized draw replayable afterward.
-- **C017 — Intervention-aware rescue forecasts:** do not evaluate a rescue-triggering forecast against the intervention-produced outcome as if no rescue occurred.
-- **C018 — Replicated-governance tombstones:** propagate semantic deprecation/failure records through the same daughter/template channels that could resurrect retired rules.
-- **C019 — Power-targeted federation voting design:** define the desired representation objective, model both local and federation tiers, calculate actual pivotal power under weights + quota, stress behavioral assumptions, and solve/audit the rule toward the intended power distribution rather than assuming nominal weights equal influence.
+- **C011 — Shadow governance:** nonbinding parallel run before authority transfer.
+- **C012 — Standing constitutional-relation testing:** versioned relational invariants.
+- **C013 — Federated reciprocal applicant clearing:** coordinate reciprocal preferences after visits/trials, preserving local authority/opt-out.
+- **C015 — Governance rights-liveness:** verify rights/remedies remain reachable under adverse procedural states.
+- **C016 — Verifiably unpredictable audit sampling:** commit eligible universe before future randomness; replay realized draw afterward.
+- **C017 — Intervention-aware rescue forecasts:** intervention-produced outcomes are not unadjusted labels for forecasts that triggered the intervention.
+- **C018 — Replicated-governance tombstones:** negative/deprecation knowledge must propagate with daughter/template replication channels.
+- **C019 — Power-targeted federation voting:** define desired representation, model both tiers, compute actual pivotal power under weights + quota, and solve/audit toward the intended distribution.
+- **C020 — Fission/merge representation-effect audit:** community reproduction/merger can create an implicit political subsidy or penalty. Measure the before/after power effect and decide whether any autonomy/community-unit premium is intentional.
 
-Reusable C019 tool:
-- `analysis/weighted_voting_power.py` — exact Penrose-Banzhaf and Shapley-Shubik indices for small weighted voting games.
+Reusable voting tool:
+- `analysis/weighted_voting_power.py` — exact Banzhaf + Shapley-Shubik for small weighted games.
 
-## Recent batches
-
-### Batch 28 — capacity revelation / labor ratchets
-No novelty survivor. Classic ratchet theory owns the mechanism and Twin Oaks/Dandelion contain close communal anti-ratchet patterns. Practical rule: exceptional contribution should not silently become permanent obligation.
-
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-28.md`.
+## Latest batches
 
 ### Batch 29 — hysteresis / anti-windup
-No novelty survivor. Hysteretic switching and anti-windup are established; adjacent governance/legal systems already use close structures. Practical rules include separate activation/release thresholds, saturation-aware remedy design, tolling accumulation while prescribed remedy is unavailable, and threshold-chatter diagnostics.
-
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-29.md`.
+No novelty survivor. Practical threshold, saturation, tolling, release-criteria and chatter controls mirrored to communities.
 
 ### Batch 30 — federation voting power
-**C019 survived provisionally.** Voting-power mathematics is established; the surviving target transfer is the full intentional-community federation loop: explicit fairness objective → two-tier model → actual pivotal-power calculation → inverse weights/quota design → sensitivity audit → re-audit after structural change.
-
-Do **not** reduce C019 to `use square-root weights`. Penrose is assumption-dependent and weights are not power.
+C019 survived. Do not reduce to square-root weights; voting weight is not voting power.
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-30.md`.
+
+### Batch 31 — reproduction × representation
+C020 survived narrowly. Player splitting/merging math and dynamic child-community representation are already studied. The surviving target connection is to make the **political effect of legitimate communal fission/merger** an explicit planned-reproduction variable.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-31.md`.
 
 ## Communities lessons persistence
 
 Current append-only supplements on `agent/final-research-synthesis`:
 - `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-ADDENDUM.md` — Batch 23–24;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md`;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-26.md`;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-27.md`;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-28.md`;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-29.md`;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-30.md`.
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-31.md`.
 
 Canonical `COMMUNITY-DEVELOPMENT-LESSONS.md` remains intact while parallel research edits continue. Consolidate only after resolving the latest branch head.
 
-## Exact next move — Batch 31
+## Exact next move — Batch 32
 
-### Primary target: fission/merge neutrality of federation representation
-
-Test the interaction between community reproduction and federation voting power.
+### Primary target: frequency-dependent success of communal innovations
 
 Core question:
-> **Does creating a daughter community or merging communities change aggregate political influence merely because one organizational boundary became two or vice versa? If so, is that political subsidy/penalty to reproduction intended?**
+> **Can a community practice look like a best practice precisely because few communities use it, so movement-wide replication changes or destroys its payoff?**
 
 Source-domain screen:
-- weighted-voting false-name/splitting manipulation;
-- player splitting/merging and power indices;
-- apportionment and districting;
-- cooperative/federal representation after member-organization splits/mergers.
+- negative/positive frequency-dependent selection;
+- evolutionary games;
+- congestion/minority games;
+- policy scaling and general-equilibrium effects;
+- market saturation and induced competition;
+- causal inference with interference.
 
-Candidate constitutional relation:
-- **split/merge invariance under aligned preferences:** if one parent community splits into daughters that together contain the same people and act identically on a decision, aggregate federation influence should not change solely because of the legal split—*unless the federation deliberately chooses a sovereignty/fission bonus and says so explicitly*.
+Target applications:
+- businesses/niches copied across communities;
+- recruitment strategies competing for the same applicant pool;
+- common donors/funders/grants;
+- land/resource strategies whose payoff depends on rarity;
+- shared external mediators/professionals/resources;
+- governance innovations whose efficacy depends on being unusual relative to surrounding institutions;
+- movement research centers spreading one observed high-performing practice.
 
-Important caveats:
-- legitimate daughter communities are not fake identities/Sybil attacks;
-- separate autonomous communities may deserve separate voice for substantive reasons;
-- nominal weight preservation does not imply power preservation;
-- square-root weighting can mechanically increase total nominal weight after a split because `sqrt(n1)+sqrt(n2)>sqrt(n1+n2)`;
-- actual pivotal power must be recalculated under the full quota/game.
+Candidate operational distinction:
+- **scale-invariant practice:** expected benefit remains approximately stable as adoption rises;
+- **frequency-dependent practice:** expected benefit changes materially with movement adoption/prevalence;
+- **capacity-limited practice:** benefit collapses after a shared external resource saturates.
 
 Novelty bar:
-- the mathematical fact that splitting can change voting power is established and cannot be promoted;
-- only a nonstandard communal/federation application linking reproduction incentives to representation architecture can survive.
+- `markets saturate` is obvious and fails;
+- generic interference/general equilibrium fails;
+- only a nonstandard community-research/replication rule or diagnostic that changes what gets scaled can survive.
 
 ### Independent C005 comparator
 Continue only when a real non-Hutterite parent→daughter dataset with exposure time is available.
-
-## Two-repo disposition rule
-Every community-related candidate gets both originality disposition here and practical-usefulness disposition in the communities lessons layer.
