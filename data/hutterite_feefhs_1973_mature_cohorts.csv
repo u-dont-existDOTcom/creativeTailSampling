@@ -1,0 +1,63 @@
+branch,year_raw,year,colony,parent_norm,K
+Lehrerleut,1918,1918,"Milford, Alberta","Milford, South Dakota",4
+Lehrerleut,1918,1918,"New Elmspring, Alberta","New Elmspring, South Dakota",5
+Lehrerleut,1918,1918,"Old Elmspring, Alberta","Old Elmspring, South Dakota",2
+Lehrerleut,1918,1918,"Rockport, Alberta","Rockport, South Dakota",4
+Lehrerleut,1920,1920,"Big Bend, Alberta","New Elmspring, Alberta",3
+Lehrerleut,1924,1924,"Miami, Alberta","Milford, Alberta",2
+Lehrerleut,1929,1929,"Elmspring, Alberta","Old Elmspring, South Dakota",4
+Lehrerleut,1932,1932,"Hutterville, Alberta","Rockport, Alberta",2
+Lehrerleut,1932,1932,"New Rockport, Alberta","Rockport, Alberta",3
+Lehrerleut,1934,1934,"O. K. Colony, Alberta","Rockport, South Dakota",3
+Lehrerleut,1935,1935,"Rock Lake, Alberta","Old Elmspring, Alberta",2
+Lehrerleut,1935,1935,"Sunnyside, Alberta","Elmspring, Alberta",1
+Lehrerleut,1937,1937,"Crystal Springs, Alberta","New Elmspring, Alberta",2
+Lehrerleut,1937,1937,"McMillan, Alberta","Big Bend, Alberta",2
+Lehrerleut,1945,1945,"Milford, Montana","Milford, Alberta",1
+Lehrerleut,1947,1947,"Birch Creek, Montana","New Elmspring, Alberta",1
+Lehrerleut,1948,1948,"Miami, Montana","Miami, Alberta",1
+Lehrerleut,1948,1948,"New Rockport, Montana","New Rockport, Alberta",1
+Lehrerleut,1948,1948,"Rockport, Montana","Rockport, Alberta",1
+Lehrerleut,1949,1949,"Bench, Saskatchewan","Old Elmspring, Alberta",1
+Lehrerleut,1949,1949,"Miller, Montana","O. K. Colony, Alberta",1
+Lehrerleut,1950,1950,"Glacier, Montana","Elmspring, Alberta",1
+Lehrerleut,1950,1950,"Hillside, Montana","Sunnyside, Alberta",1
+Lehrerleut,1950,1950,"Newdale, Alberta","Rock Lake, Alberta",1
+Lehrerleut,1951,1951,"Winnifred, Alberta","Milford, Alberta",1
+Lehrerleut,1952,1952,"Acadia, Alberta","Crystal Springs, Alberta",1
+Lehrerleut,1952,1952,"Cypress, Saskatchewan","Big Bend, Alberta",0
+Lehrerleut,1952,1952,"Tompkins, Saskatchewan","New Elmspring, Alberta",1
+Lehrerleut,1953,1953,"Rosedale, Alberta","Hutterville, Alberta",1
+Dariusleut,1918-1929,1918,"Raley, Alberta","Beadle, South Dakota",2
+Dariusleut,1918,1918,"East Cardston, Alberta","Warren Range, Montana",3
+Dariusleut,1918,1918,"Rosebud, Alberta","Kutter, South Dakota",2
+Dariusleut,1918,1918,"Springvale, Alberta","Jamesville, South Dakota",3
+Dariusleut,1918,1918,"Standoff, Alberta","Spink, South Dakota",2
+Dariusleut,1918,1918,"Wilson Siding, Alberta","Richards, South Dakota",2
+Dariusleut,1919,1919,"Stahlville, Alberta","Spring Creek, Montana",2
+Dariusleut,1920-1935,1920,"Beadle, South Dakota","Spring Creek, Montana",2
+Dariusleut,1924,1924,"New York, Alberta","Raley, Alberta",2
+Dariusleut,1925,1925,"Ewelme, Alberta","East Cardston, Alberta",1
+Dariusleut,1926,1926,"Felger, Alberta","Beadle, South Dakota",1
+Dariusleut,1926,1926,"New Rosebud, Alberta","Rosebud, Alberta",3
+Dariusleut,1927,1927,"Pincher Creek, Alberta","Felger, Alberta",1
+Dariusleut,1929,1929,"West Raley, Alberta","Raley, Alberta",3
+Dariusleut,1930,1930,"Granum, Alberta","Standoff, Alberta",3
+Dariusleut,1930,1930,"Wolf Creek, Alberta","Wolf Creek, South Dakota",3
+Dariusleut,1933,1933,"Riverside, Alberta","Standoff, Alberta",1
+Dariusleut,1935,1935,"King Ranch, Montana","Beadle, South Dakota",2
+Dariusleut,1935,1935,"Lakeside, Alberta","Wolf Creek, Alberta",3
+Dariusleut,1936,1936,"Cayley, Alberta","West Raley, Alberta",3
+Dariusleut,1936,1936,"Sandhills, Alberta","Springvale, Alberta",3
+Dariusleut,1939,1939,"Thompson, Alberta","East Cardston, Alberta",2
+Dariusleut,1944,1944,"Fairview, Alberta","New Rosebud, Alberta",1
+Dariusleut,1945,1945,"Grass Range, Montana","King Ranch, Montana",1
+Dariusleut,1947,1947,"Deerfield, Montana","Wolf Creek, Alberta",1
+Dariusleut,1948,1948,"Camrose, Alberta","Springvale, Alberta",1
+Dariusleut,1948,1948,"Pine Hill, Alberta","Lakeside, Alberta",1
+Dariusleut,1948,1948,"Tschetter, Alberta","New Rosebud, Alberta",1
+Dariusleut,1949,1949,"Ferrybank, Alberta","Sandhills, Alberta",1
+Dariusleut,1949,1949,"Holt, Alberta","Granum, Alberta",1
+Dariusleut,1949,1949,"Red Willow, Alberta","Stahlville, Alberta",1
+Dariusleut,1953,1953,"Leask, Saskatchewan","Sandhills, Alberta",1
+Dariusleut,1953,1953,"Pibrock, Alberta","Wilson Siding, Alberta",1
