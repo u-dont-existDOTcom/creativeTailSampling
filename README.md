@@ -7,12 +7,16 @@ The purpose of this repository is to prevent high-value exploratory reasoning fr
 ## Canonical files
 
 - [`PROTOCOL.md`](PROTOCOL.md) — the current Creative Tail Sampling protocol.
-- [`FINDINGS.md`](FINDINGS.md) — findings, rejected candidates, and current hypotheses.
+- [`FINDINGS.md`](FINDINGS.md) — compact canonical index of findings, provisional ideas, and the rejection frontier.
+- [`MODEL.md`](MODEL.md) — explicit structural model, variables, feedback loops, falsifiers, and discriminating predictions.
 - [`STATE.md`](STATE.md) — exact current frontier and resume instructions.
+- [`runs/`](runs/) — immutable detailed tail-batch audits and recovered snapshots, including rejected candidates and why they failed.
 
 ## Operating rule
 
-For future sessions, load these files before continuing. New substantive findings should be committed here as they are reached rather than left only in conversation history.
+For future sessions, load `PROTOCOL.md`, `FINDINGS.md`, `MODEL.md`, and `STATE.md` before continuing. New substantive findings should be committed here as they are reached rather than left only in conversation history.
+
+Every substantive tail batch should be saved under `runs/`, after which only genuine survivors are promoted into `FINDINGS.md`.
 
 ## Epistemic labels
 
