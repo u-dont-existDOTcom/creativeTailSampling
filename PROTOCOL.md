@@ -1,12 +1,12 @@
 # Creative Tail Sampling Protocol
 
-Status: canonical working protocol, recovered 2026-08-15 from the surviving August 14 conversation context.
+Status: canonical working protocol, recovered 2026-08-15 and tightened after repeated false-positive novelty failures.
 
 ## Purpose
 
-Use deliberate tail sampling to search for propositions that are genuinely non-obvious, useful, coherent, and consequential. The goal is not unusual wording or random novelty. It is to find propositions that remain interesting after being stated plainly.
+Use deliberate tail sampling to search for propositions that are genuinely non-obvious, useful, coherent, and consequential. The goal is not unusual wording or random novelty. It is to find propositions that remain interesting after being stated plainly **and after comparison with existing intellectual traditions**.
 
-The method is designed to resist the model's tendency to collapse back toward familiar, high-probability ideas.
+The method is designed to resist the model's tendency to collapse back toward familiar, high-probability ideas and then mistake elaboration for discovery.
 
 ## Core procedure
 
@@ -18,62 +18,76 @@ Start from the concept or problem under investigation. Do not prematurely narrow
 
 Generate multiple distinct candidate propositions from the low-probability tail of the idea distribution.
 
-Initial recovered rule:
-
-- generate at least 8 distinct candidates;
-- estimate their probability / familiarity;
-- by default prefer candidates that feel individually below roughly 0.05 probability rather than obvious completions;
-- reject incoherent randomness: low probability is necessary but not sufficient.
-
-Stronger later rule:
-
 - tail-sample **at least 12 plain propositions** before selecting;
-- optimize for unusual *propositions*, not unusual language.
-
-Do not average candidates together toward consensus. Select and develop the strongest surviving candidate.
+- optimize for unusual *propositions*, not unusual language;
+- reject incoherent randomness: low probability is necessary but not sufficient;
+- do not average candidates together toward consensus.
 
 ### 3. Strip style before judging novelty
 
 Rewrite each candidate as a plain modal proposition: what, exactly, is being claimed about the world?
 
-Remove:
-
-- metaphors that create a false sense of originality;
-- new labels for old concepts;
-- rhetorical intensity;
-- unusual vocabulary;
-- examples that are more interesting than the proposition they illustrate.
+Remove metaphors, new labels, rhetorical intensity, unusual vocabulary, and examples that are more interesting than the proposition they illustrate.
 
 A candidate only counts as novel if it remains interesting in boring language.
 
-### 4. Familiarity adversary
+### 4. Common-sense compression adversary
 
 Try aggressively to compress the proposition into:
 
 - common sense;
-- a standard textbook idea;
-- a known named concept;
 - a familiar aphorism;
-- a trivial consequence of something already accepted.
+- a standard textbook idea;
+- a trivial consequence of something already accepted;
+- an ordinary mechanism with new terminology.
 
-If this succeeds, reject the candidate even if its original wording sounded fresh.
+If this succeeds, reject the candidate.
 
-The user has repeatedly rejected candidates that were true but obvious. That rejection is part of the protocol, not a failure of the session.
+### 5. Historical / literature compression gate — MANDATORY BEFORE PROMOTION
 
-### 5. Coherence / realism gate
+A proposition that survives the model's own familiarity test can still be an old idea the model has merely failed to retrieve.
+
+Before labeling anything a finding, deliberately ask:
+
+> Is this substantially contained in an existing intellectual tradition, named theory, research program, or classic thinker, even if the vocabulary differs?
+
+For social/community questions, the default collision set includes at minimum:
+
+- Marx: alienation, commodity relations/fetishism, division of labor/class relations;
+- Durkheim: mechanical/organic solidarity and division of labor;
+- Tönnies: Gemeinschaft/Gesellschaft;
+- Weber: rationalization/bureaucracy;
+- Polanyi: embedded/disembedded economies;
+- Simmel: metropolitan life, money, social differentiation;
+- Granovetter/social-network traditions: embeddedness, weak ties, network structure;
+- Bourdieu/social-capital traditions;
+- Goffman/role and presentation traditions;
+- Ostrom/collective-action and institutional-design traditions;
+- organizational ecology, institutional economics, game theory, network science, cultural evolution, and diffusion-of-innovation literatures where relevant.
+
+This is not an exhaustive canon. Search broader when the candidate points elsewhere.
+
+**Rule:** if a competent reader of the relevant literature could reasonably say "this is basically X," the candidate is **not a creative-tail finding**. At most, preserve a distinctive application or operationalization as a derivative consequence.
+
+When novelty matters, perform a targeted literature/web search for candidate survivors before promotion. Failure to find a precedent is not proof of originality; it merely clears one rejection gate.
+
+### 6. User familiarity veto
+
+If the user immediately recognizes the proposition as common sense or a familiar theory, demote it regardless of whether the formulation appears technically sharper.
+
+Do not defend a failed novelty claim by explaining why the restatement is more precise. Precision can make an old idea useful; it does not make it new.
+
+Record the failure as a stronger boundary for subsequent sampling.
+
+### 7. Coherence / realism gate
 
 Reject candidates that only work because of unrealistic forced choices, artificial institutional constraints, or scenarios that real people can trivially escape.
 
-In social-choice examples, preserve realistic options such as:
-
-- reject both proposals;
-- retain the status quo;
-- abstain / refuse agreement;
-- leave the interaction where exit is genuinely available.
+Preserve realistic options such as rejecting all proposals, retaining the status quo, abstaining/refusing agreement, or leaving where exit is genuinely available.
 
 Do not manufacture a paradox by deleting ordinary options.
 
-### 6. Consequence expansion
+### 8. Consequence expansion
 
 For every promising proposition, derive consequences at least **three inferential steps** beyond the initial observation.
 
@@ -88,39 +102,54 @@ Ask:
 
 A proposition that produces no non-obvious downstream consequences is weak even if superficially novel.
 
-### 7. Evaluation dimensions
+**Important:** several non-obvious-looking consequences of an old root theory do not automatically constitute a new root finding. Apply the literature compression gate again to the derived mechanism.
+
+### 9. Evaluation dimensions
 
 Evaluate candidates on at least:
 
-- **originality** — does the proposition survive plain restatement without collapsing to something familiar?
-- **insight** — does it reveal a structure not captured by the obvious framing?
-- **coherence** — can it actually be true without hidden contradictions or contrived assumptions?
-- **fitness** — is it relevant to the problem being explored?
-- **consequence** — does it generate useful downstream predictions or design implications?
-- **testability** — could evidence in principle discriminate it from alternatives?
+- **originality** — survives both plain restatement and literature compression;
+- **insight** — reveals structure not captured by the familiar framing;
+- **coherence** — no hidden contradictions or contrived assumptions;
+- **fitness** — relevant to the problem being explored;
+- **consequence** — generates downstream predictions/design implications;
+- **testability** — evidence could discriminate it from alternatives;
+- **distance from the rejection frontier** — not merely one inferential step beyond something already rejected.
 
-### 8. Selection rule
+### 10. Selection rule
 
 Do not blend mediocre candidates into a safe synthesis. Select the strongest candidate that survives all gates and develop it deeply.
 
-If none survive, generate another tail batch. Continue iterating rather than lowering the novelty standard.
+If none survive, say **none survived** and generate another tail batch. Never lower the novelty standard in order to have a result.
 
-### 9. Stop condition for a local discovery
+### 11. Stop condition for a local discovery
 
 A candidate becomes a serious finding only when it is:
 
-1. genuinely non-obvious;
-2. consequential;
-3. coherent;
-4. testable or at least discriminable in principle;
-5. not compressible to common sense or a standard named concept.
+1. genuinely non-obvious to the user;
+2. not substantially contained in an existing named theory/tradition found by the historical/literature adversary;
+3. consequential;
+4. coherent;
+5. testable or at least discriminable in principle;
+6. sufficiently far from the established rejection frontier that it is not merely an ornate restatement.
 
-Then continue outward from that finding: treat it as the new search seed and tail-sample its implications.
+Then treat it as the new search seed and tail-sample its implications.
+
+## Anti-elaboration rule
+
+Once a root branch is identified as familiar, **stop elaborating that branch for novelty**. Do not generate increasingly technical mechanisms around it and promote them as discoveries simply because the wording becomes less familiar.
+
+Either:
+
+- use it explicitly as known background for a genuinely orthogonal jump; or
+- leave the branch entirely and sample a new region.
+
+This rule was added after the multiplex/relational-unbundling branch kept producing increasingly formal versions of ideas already adjacent to Marx, Durkheim, Tönnies, Polanyi, social-capital theory, and multiplex-network research.
 
 ## Interaction rules learned from the session
 
 - Do not stop after finding something merely correct.
-- Do not present rediscovered influencers, bargaining power, specialization, or other familiar concepts as major discoveries.
+- Do not present rediscovered influencers, bargaining power, specialization, commodification, alienation, embeddedness, social capital, or other familiar concepts as major discoveries.
 - User objections are search information. Record *why* a candidate failed and move the frontier beyond it.
 - Apparent paradoxes are suspect; first check whether an option, variable, or degree of freedom was silently removed.
 - Continue automatically onto the next inferential step unless a genuinely human-only ambiguity blocks progress.
@@ -129,7 +158,8 @@ Then continue outward from that finding: treat it as the new search seed and tai
 
 Every substantive session should update:
 
-1. `FINDINGS.md` with new survivors and important rejections;
-2. `STATE.md` with the current frontier, unresolved tests, and the exact next move.
+1. `FINDINGS.md` with genuine survivors and important rejections;
+2. `STATE.md` with the current frontier and exact next move;
+3. a detailed `runs/` audit for each tail batch.
 
 The repository, not chat history, is the durable source of truth.
