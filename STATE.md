@@ -16,98 +16,134 @@ Still provisional. Adaptively choose concrete high-information cases to reveal h
 
 ### C003 — Asset-gated cultural mutation — narrowed
 
-Broad property/exit/innovation claims are old. The surviving piece is specifically:
+Broad property/exit/innovation claims are old. The surviving piece remains:
 
 > collective branch inheritance can act as a pre-selection filter on which institutional variants receive enough inherited capital to become viable competitors.
 
-This could create selection blindness: observed long-run community forms are selected from variants allowed to become adequately capitalized, not necessarily all plausible institutional designs.
+Potential selection blindness: observed long-run community forms are selected from variants allowed to become adequately capitalized, not necessarily all plausible institutional designs.
 
 Needs another targeted precedent attack before stronger promotion.
 
-### C005 — Reproductive-variance trap / superstar reproduction trap
+### C005 — Reproductive-variance trap — EMPIRICALLY STRENGTHENED
 
-Current strongest result for the user's reproduction criterion.
+Current strongest reproduction-specific result.
 
-Mean daughter count can substantially overstate reproducibility. Two systems with the same average viable daughters per parent can have radically different extinction risk and typical daughter-to-granddaughter success if reproduction is differently distributed.
+Mean daughter count can substantially overstate reproducibility. The full parent-offspring distribution matters.
 
-Canonical demonstration:
+The Manitoba Hutterite reconstruction now gives C005 a real empirical anchor.
 
-- A: every community produces 2 viable daughters;
-- B: 90% produce 0, 10% produce 20;
-- mean = 2 for both;
-- simple Galton-Watson extinction probability for B is about 91.8% from one founding community.
+For **49 Manitoba colonies founded by 1970**:
 
-Therefore distinguish:
+- recorded Manitoba daughters = 103;
+- mean K = 2.102;
+- median K = 2;
+- Var(K) = 1.724;
+- Var/Mean = 0.820;
+- recorded-Manitoba `P(K=0) = 4.08%`;
+- top 10% of parents account for only ~22.3% of daughters.
+
+This is strongly non-jackpot-like: historical reproduction was broadly distributed across mature colonies rather than concentrated in a few superstar reproducers.
+
+Important scope limit: the source lists **Manitoba daughters only**. Cross-border daughters are omitted, so this is not a complete North-American offspring distribution and the true total-daughter zero rate could be even lower.
+
+Data and reproducible calculation:
+
+- `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
+- `analysis/hutterite_reproduction_metrics.py`
+- audit: `runs/2026-08-15-hutterite-lineage-batch-09.md`
+
+### Why this matters
+
+Distinguish:
 
 - historical spread;
 - mean reproduction;
 - typical reproducibility;
 - lineage robustness.
 
-Measure the offspring distribution, especially `P(K=0)`, median/variance of viable daughters, and granddaughter production—not only total daughter count.
+A movement can have many communities or high mean daughter output because of a few extraordinary parents while an ordinary daughter remains unlikely to reproduce. Hutterite historical Manitoba reproduction appears much closer to the opposite pattern.
 
-Audit: `runs/2026-08-15-adversarial-tail-batch-07.md`.
-
-## Demoted in Batch 07
+## Demoted / derived
 
 ### D004 — Governance commutativity
 
-Useful operational diagnostic, but near-decomposability/interdependence/modularity already owns the conceptual territory.
+Useful operational diagnostic, but near-decomposability/interdependence/modularity owns the conceptual territory.
 
 ### D005 — Reproductive timing
 
-Useful measurement rule, but classic demographic logic: amount and timing of reproduction jointly determine growth.
+Useful, classic demographic measurement rule.
 
-## Exact next move — empirical Batch 08
+### D006 — Propagule burden / independent seedability
 
-Test whether C005 explains an important difference among real reproducing community systems.
+Useful distinction: reliable fission by transferring a large fraction of an existing community does not demonstrate de novo seedability by a small founder team. But propagule-size/cultural-fidelity literatures already contain the mechanism; do not promote as novel.
 
-### Primary question
+## Non-stationarity warning for Hutterite data
 
-> Do successful community movements spread because most mature communities reproduce, or because a small minority of superstar communities account for most daughters?
+Later Manitoba cohorts show more zero recorded Manitoba daughters. Do not assume this is reproductive collapse because:
 
-### Data targets
+- later cohorts are more right-censored;
+- only Manitoba daughters are counted;
+- industrial operations increasingly delayed branching by creating more local jobs;
+- the 1990s schism temporarily changed branching rates;
+- land-price/location constraints changed.
 
-Start with systems where lineage/fission records are most likely to exist:
+The pre-1970 cohort is currently the cleanest descriptive test of whether historical reproduction was jackpot-like.
 
-1. Hutterite colonies — unusually strong historical fission data;
-2. Bruderhof daughter communities if lineage records can be reconstructed;
-3. church-planting networks/denominations where parent-child church relationships are recorded;
-4. kibbutz/communal lineages if daughter founding data exist;
-5. other commune federations discovered in the community-research corpus.
+## Exact next move — comparative + orthogonal Batch 10
 
-### Variables to reconstruct
+### Empirical comparison
 
-For every sufficiently mature parent where possible:
+Find a second movement with a parent-resolved lineage and more strongly overdispersed reproduction.
 
-- daughter count K;
-- zero-daughter indicator;
-- age/time at each daughter founding;
-- daughter survival duration;
-- daughter-to-granddaughter reproduction;
-- parent size/resources/founder characteristics;
-- whether daughters were true organizational offspring or independent foundings merely inspired by the movement.
+Priority targets:
 
-Then estimate/compare:
+1. church-planting networks with explicit parent-child identifiers and >=10–15 years follow-up;
+2. communal religious groups with fission genealogies;
+3. intentional-community federations with daughter lineages;
+4. denomination/congregation genealogies where daughter reproduction can be reconstructed.
 
-- mean K;
-- median K;
+Target metrics:
+
 - `P(K=0)`;
-- variance/overdispersion;
-- fraction of daughters attributable to top 10% of parents;
+- mean/median/variance K;
+- top-decile share of daughters;
 - generation interval;
-- lineage depth;
-- extinction probability under a fitted branching approximation where defensible.
+- granddaughter reproduction;
+- propagule/subsidy burden;
+- extinction probability only where a branching approximation is defensible.
 
-### Critical falsifier
+Strong test:
 
-If historically successful community movements generally have highly skewed parent reproduction yet daughters still independently reproduce at high rates, the 'superstar reproduction trap' is less useful than it currently appears.
+> Holding mean reproduction roughly comparable, does lower parent-level reproductive variance predict deeper/more robust lineages?
 
-If the most reproducible systems instead show low `P(K=0)` and relatively broad parent participation in daughter production, C005 becomes much stronger.
+### C003 adversary
 
-### Continue orthogonal search
+Continue searching for organizational/religious scholarship that treats **collective branch asset inheritance** explicitly as a pre-selection filter on institutional variants. Demote C003 immediately if found.
 
-Do not become anchored on branching mathematics. In parallel, sample new mechanisms from causal inference, developmental constraints, fault containment, market microstructure, and mechanism design.
+### Orthogonal tail batch
+
+Generate >=12 candidate transfers from distant domains, literature-attack all plausible survivors, and show/promote only those that survive.
+
+Source domains for Batch 10:
+
+- causal inference / transportability;
+- compiler/interface contracts;
+- immune tolerance and immune repertoire;
+- developmental bottlenecks;
+- distributed fault containment;
+- market microstructure / price discovery;
+- mechanism design;
+- control theory / observability;
+- evolutionary search constraints.
+
+Avoid:
+
+- external-validity observations by themselves;
+- generic redundancy/resilience;
+- generic modularity/interdependence;
+- generic diversity/innovation;
+- ordinary checks-and-balances;
+- anything that merely renames the already-rejected social-theory branches.
 
 ## Persistence rule
 
@@ -116,5 +152,6 @@ After every substantive batch:
 - save full audit under `runs/`;
 - immediately demote literature collisions;
 - promote only genuine survivors;
+- preserve data/scripts for empirical reconstructions;
 - update this checkpoint;
 - never rely on chat history as durable state.
