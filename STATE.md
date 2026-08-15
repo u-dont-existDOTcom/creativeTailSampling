@@ -11,154 +11,115 @@ Adaptive high-information concrete cases + constitutional regression suite. Prov
 Narrow survivor only: collective branch inheritance may pre-filter which institutional variants become adequately capitalized competitors. Leave provisional; do not elaborate further unless new evidence appears.
 
 ### C005 — Reproductive-variance / superstar-reproduction trap
-Strongest reproduction-specific result, now replicated across multiple Hutterite branches.
-
-#### Manitoba Schmiedeleut anchor
-49 colonies founded by 1970:
-- recorded Manitoba daughters = 103
-- mean K = 2.102
-- median K = 2
-- Var(K) = 1.724
-- Var/Mean = 0.820
-- recorded-Manitoba P(K=0) = 4.08%
-- top 10% share = ~22.3%
-
-Historical period reproduction was also stable through 1918–1975.
-
-#### FEEFHS mature cohorts, Batch 17
-Cohort = colonies founded 1918–1953, observed through 1973 (>=20 years possible follow-up).
-
-**Lehrerleut, n=29**
-- daughters = 53
-- mean K = 1.828
-- median = 1
-- Var = 1.453
-- Var/Mean = 0.795
-- P(K=0) = 3.45%
-- top 10% share = 24.53%
-- max K = 5
-
-**Dariusleut, n=33**
-- daughters = 60
-- mean K = 1.818
-- median = 2
-- Var = 0.694
-- Var/Mean = 0.382
-- P(K=0) = 0%
-- top 10% share = 20.0%
-- max K = 3
-
-Interpretation: broad-based ordinary-parent reproduction is not merely a Manitoba artifact. Under historical-source caveats, distinct Hutterite branches show the same non-jackpot signature.
+Strongest reproduction-specific result, replicated across multiple Hutterite branches.
 
 Operational shorthand: **make reproduction boring** — daughter formation should be an ordinary lifecycle event for the median competent community rather than a rare founder feat.
 
-#### Batch 18 non-Hutterite screen
-No public parent-resolved church-plant dataset sufficient for a comparable K distribution was found yet. Aggregate church-planting research indicates reproduction is much less routine, but follow-up and unit definitions differ too much for a quantitative comparison. Use only as qualitative context.
+Key mature-cohort signatures already stored in `FINDINGS.md` and reproducible scripts/data:
+- Manitoba Schmiedeleut: P(K=0)=4.08%, median K=2, top-10% daughter share ~22.3%
+- Lehrerleut 1918–1953: P(K=0)=3.45%, median K=1, top-10% share 24.53%
+- Dariusleut 1918–1953: P(K=0)=0%, median K=2, top-10% share 20.0%
+
+No comparable row-level non-Hutterite genealogy has yet been found. Church-planting aggregates are qualitative context only.
 
 ### C006 — Descendant inflation / lineage-size sampling bias
-Survives. The communities P0 synthesis is mechanism-bounded, not a prevalence estimator, so no retrofit is needed there. Carry genealogy/estimand controls into future comparative datasets.
+Survives. Carry explicit root/lineage/extant-community/resident estimands into future prevalence/comparative work.
 
 ### C009 — Cohort-composition admission
-Survives but is **market-thickness bounded**.
-
-Use only when several plausible applicants/households and several openings genuinely overlap. Best use cases: founding, daughter formation, new-site opening, expansion waves, multiple simultaneous vacancies. Do not delay sparse mature-community admissions merely to manufacture a batch.
+Survives but is **market-thickness bounded**. Best use: founding, daughter formation, new sites, expansion waves, several simultaneous vacancies. Do not manufacture batches in sparse mature-community applicant markets.
 
 ### C011 — Shadow governance
-Survives Batch 18 attack.
+Survives. Run a substantially new governance process nonbinding in parallel on the same admissible cases before authority transfer; analyze divergence cases before live pilot/adoption.
 
-Before transferring real authority to a substantially new governance system, run the new process **nonbinding in parallel on the same admissible cases**. Analyze divergence cases with the incumbent process before choosing live trial/adoption.
+### C012 — Standing constitutional-relation testing
+Survives only in a **narrowed** form after Batch 19.
 
-Target searches found live governance trials and other “shadow governance” meanings but not this same-case parallel nonbinding comparison structure in intentional communities.
+Identity-swapped paired testing itself is old and must not be claimed as novel. Remaining transfer: a versioned suite testing multiple predeclared constitutional relations (irrelevance, symmetry, monotonicity, jurisdiction invariance, etc.) when no unique correct answer is available.
 
-### C012 — Metamorphic governance testing / constitutional invariance testing
-**New provisional survivor from Batch 18.**
+### C013 — Federated applicant clearinghouse / pooled matching market
+**New provisional survivor from Batch 19.**
 
-When a hard decision lacks an agreed ground-truth answer, test relations the community already claims should hold.
+Local communes can have thin applicant markets while the movement-wide market is thick. Current intentional-community/ecovillage infrastructure is mainly search/directories/profiles/local admission. Strong adjacent precedent exists in the Israeli Mechinot network, which runs a centralized matching market across many residential programs.
 
-Examples:
-- swap founder/newcomer status when status should be irrelevant;
-- swap faction or demographic identity when irrelevant;
-- add stronger admissible evidence and test expected monotonicity;
-- swap equivalent parties and test symmetry;
-- change proposer identity while holding subject matter fixed and test jurisdiction invariance.
+The proposed transfer is a **dynamic two-sided clearinghouse for autonomous communities**, not forced placement:
+1. publish openings/constraints and seeker needs/constraints;
+2. propose several mutual exploration matches;
+3. use visits/trials for preference discovery;
+4. later collect reciprocal acceptability/rankings;
+5. coordinate commitments while preserving opt-out/local admission;
+6. add C009 cohort-composition logic only when a community has multiple openings/candidates.
 
-Workflow:
-1. state expected relation before seeing outcomes;
-2. minimally transform a past/hypothetical case;
-3. randomize/blind where feasible;
-4. process variants independently;
-5. compare output and reasoning;
-6. investigate failed invariants;
-7. preserve high-information pairs as constitutional regression tests.
+Demote if a true intentional-community/ecovillage federation already runs substantially this coordinated preference/commitment structure.
 
-C001 vs C012:
-- C001 discovers **where values differ**;
-- C012 tests **whether the process follows relations already claimed**, without needing a known correct answer.
+### C014 — Federation-level hidden-harm under-ascertainment estimation
+**New provisional research-control survivor from Batch 19.**
 
-Nearest neighbors exist in automated-decision metamorphic testing and matched-vignette/audit research, but no clear intentional-community self-testing implementation was found.
+Transfer Multiple Systems Estimation/capture–recapture to federation-scale communal safety research, not local adjudication.
 
-## Newly demoted
+Use overlap among multiple distinct reporting/outcome channels to assess **surveillance completeness** for one narrowly defined harmful outcome. Strong caveats: source dependence/referrals, heterogeneous capture, tiny cells, case/period mismatch, record linkage, model sensitivity, confidentiality and deductive disclosure.
 
-### D014 — Governance fault injection / dependency drills
-Former C010. Generic continuity practice explicitly exercises loss of key people and essential functions. Too close to established doctrine/common sense for the Creative Tail originality bar.
+Never use modeled unseen cases as evidence against any person. Use only for surveillance-system design, under-ascertainment diagnosis, hypothesis generation, and external validation.
 
-**Keep in communities practical lessons.** This is exactly why practical usefulness and originality now receive separate dispositions.
+## Important demotions / practical-only ideas
 
-### D015 — Seeded-fault review testing
-Useful training practice, but seeded-error audit research, mutation testing, red teaming and integrity testing already own the structure.
+- former C010 governance fault injection: demoted; established continuity practice. Keep in communities lessons.
+- identity-swapped paired bias tests: established audit/vignette method; only broader C012 relation-suite transfer remains.
+- randomized-response sensitive surveys, reviewer randomization, threshold access, blind review, cross-community controls, and member secondments are useful/known rather than tail findings.
 
-## Exact next move — Batch 19
+## Exact next move — Batch 20
 
-### A. Adversarially attack C012
+### A. Adversarially attack C013
+Search specifically for:
+- historical kibbutz movement applicant assignment/central absorption mechanisms;
+- ecovillage/intentional-community network shared intake or coordinated allocation;
+- Bruderhof novice placement if it resembles applicant matching rather than internal member assignment;
+- cooperative-housing federations with pooled waitlists and mutual preference matching.
+
+If the target precedent is close, demote originality but keep practical lesson.
+
+Then develop a **minimal non-coercive pilot** only if C013 survives:
+- no forced placement;
+- few synchronized rounds;
+- hard constraints before soft preferences;
+- visits/trials before final rankings;
+- explicit legal/anti-discrimination guardrails;
+- measure unmatched compatible pairs, time-to-match, retention, and applicant/community satisfaction.
+
+### B. Adversarially attack C014
 Search for:
-- human institutional decision systems using metamorphic/invariance testing;
-- legal/administrative matched-case consistency testing beyond research studies;
-- intentional-community use of paired identity-swapped cases;
-- constitutional regression/invariance suites.
+- abuse/safeguarding under-ascertainment capture–recapture in residential institutions;
+- religious communities, boarding schools, residential care, prisons, communes, or similar institutions;
+- ethical/privacy precedents for linking complaint and exit/survey channels.
 
-If a close target implementation exists, demote immediately. If it survives, refine which metamorphic relations are safe and genuinely normatively invariant rather than encoding false symmetry.
-
-### B. Turn C011 + C012 into a bounded governance-testing stack
-Without claiming novelty for the combination, test whether the following sequence is operationally coherent:
-
-1. C001 edge-case discovery;
-2. C012 invariance/metamorphic tests;
-3. C011 nonbinding shadow run on real admissible cases;
-4. bounded live pilot;
-5. post-outcome review.
-
-Look for redundancy with existing governance-transition practice and demote any step already standard.
+If target data are normally too sparse/dependent, demote to a research idea rather than a practical protocol.
 
 ### C. Continue C005 comparator search
-Need a real non-Hutterite parent→daughter dataset, not aggregate percentages.
+Need real non-Hutterite parent→daughter rows with exposure time. Do not substitute aggregate percentages.
 
-Priority:
-1. denomination archives with parent-church fields;
-2. Exponential family-tree data if rows become public;
-3. Bruderhof/communal religious genealogy only if parent-child units can be defined without inventing them;
-4. historical movement archives.
-
-Do not force a comparison from aggregates.
-
-### D. Orthogonal Batch 19
-Generate >=12 candidates from domains not exhausted by governance software-testing metaphors.
-
-Prefer:
-- ecological succession/restoration mechanisms with a nontrivial operational mapping;
-- evolutionary developmental constraints;
-- information hazards / selective transparency;
-- market design beyond simple matching thickness;
-- mechanism design against coordinated factions/collusion;
-- reliability engineering at federation/movement level;
-- causal discovery from natural institutional variation.
+### D. Orthogonal Batch 20
+Generate >=12 candidates from domains not exhausted by matching/surveillance:
+- evolutionary developmental constraints beyond simple founder effects;
+- reliability growth across federations;
+- selective transparency/information hazards with concrete rights protections;
+- mechanism design against coordinated faction capture;
+- ecological restoration/alternative stable states only if mapping changes operations;
+- causal discovery from natural variation across daughter communities.
 
 Reject on sight:
-- generic monitoring;
-- generic red teaming;
-- generic backup/succession exercises;
-- generic pilots;
-- generic fairness/blind review;
+- generic directories/search;
+- generic matching;
+- generic multiple complaint channels;
+- ordinary anonymization;
+- generic monitoring/auditing;
 - technical names for familiar community advice.
 
+## Two-repo disposition rule
+
+Every future community-related candidate gets:
+1. originality disposition here;
+2. practical-usefulness disposition in `u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS.md`.
+
+Novelty rejection must not erase practical knowledge.
+
 ## Persistence rule
-After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, mirror practically useful lessons into the communities repo, and never rely on chat history as durable state.
+After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, mirror practical lessons into the communities repo, and never rely on chat history as durable state.
