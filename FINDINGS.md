@@ -40,7 +40,7 @@ Operational shorthand: **make reproduction boring**.
 **Narrow provisional transfer.** After visits/trials reveal reciprocal preferences, coordinate commitments movement-wide so compatible seeker–vacancy pairs are not lost to isolated timing/search decisions, preserving opt-out and local admission authority.
 
 ### C015 — Governance rights-liveness verification
-**Provisional transfer from formal methods.** A right can exist in text yet be dead in a reachable state. Verify safety, liveness, and bounded liveness under realistic recusal, vacancy, quorum, jurisdiction, deadline, delegation, escalation, strategic-noncooperation, and capacity states; expose every cooperation/fairness assumption.
+**Provisional transfer from formal methods.** A right can exist in text yet be dead in a reachable state. Verify safety, liveness, bounded liveness, and—practically—quorum safety under realistic recusal, vacancy, quorum, jurisdiction, deadline, delegation, escalation, strategic-noncooperation, capacity, and conflicting-valid-path states.
 
 ### C016 — Verifiably unpredictable federation audit sampling
 **Provisional transfer.** When random process/financial/quality auditing is independently justified: publish audit rights/scope; freeze the eligible universe before future randomness is knowable; precommit deterministic selection; use uncontrollable future randomness; and make the realized draw replayable afterward.
@@ -77,12 +77,28 @@ Operational core:
 - record when/why observation intensity changed;
 - keep trigger evidence distinct from monitoring-generated evidence;
 - treat low observation as missing information rather than zero risk;
-- use standardized role-based controls for sensitive powers where feasible;
 - preserve severe direct evidence rather than mechanically normalizing it away;
-- at escalation review, ask how much evidence would have existed under ordinary observation;
 - account for restrictions/monitoring that also change behavior/opportunity.
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-34.md`.
+
+### C022 — Cross-community measurement canaries
+**Provisional transfer from measurement-invariance, anchoring-vignette, and standardized-case research.** Before pooling community-reported outcomes whose classification is locally interpreted, periodically circulate identical synthetic cases and measure how different communities/research teams classify them.
+
+The purpose is not to create one official answer. It is to detect whether ostensibly shared categories such as `serious conflict`, `coercion`, `failed exit`, `safeguarding event`, or subjective wellbeing are being applied at materially different thresholds.
+
+Operational core:
+- build a small controlled case bank;
+- collect independent classifications before cross-community discussion;
+- treat disagreement as measurement evidence;
+- validate vignette equivalence and response consistency rather than assuming the same text means the same thing everywhere;
+- preserve raw reports separately from calibrated/adjusted layers;
+- rerun canaries after major governance, membership, schema, or reporting-incentive changes;
+- block or qualify pooling/trending when measurement compatibility is poor.
+
+C022 differs from C001: C001 probes hidden **normative disagreement**; C022 probes **empirical measurement/classification comparability**.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-38.md`.
 
 ## Recent empty novelty batches with practical lessons
 
@@ -92,12 +108,15 @@ Full audit: `runs/2026-08-15-orthogonal-tail-batch-34.md`.
 - **Batch 29:** hysteresis/anti-windup — threshold chatter, remedy saturation, and accumulation while correction is unavailable.
 - **Batch 32:** scale/frequency dependence — every claimed best practice needs a scaling regime and scale-closure audit.
 - **Batch 33:** benchmark selection/transfers — follow person/household outcomes so community improvement cannot be manufactured by moving hard cases elsewhere.
+- **Batch 35:** labor-credit recognition — audit the creditability pipeline, not merely nominal `one hour = one credit` equality.
+- **Batch 36:** quorum geometry — test incompatible-valid-path safety as an extension of C015.
+- **Batch 37:** irreversibility / real options — use an irreversibility ledger for genuinely high-consequence decisions.
 
 All practical translations are mirrored into the communities lessons layer.
 
 ## Hard rejection frontier
 
-Do not repromote technical restatements of: commodification/alienation; social capital/multiplexity; generic fission/propagule/fidelity; source-sink/modularity/founder/path-dependence; ordinary property/exit/liquidity; survivorship/endogeneity; generic audits/diversification/checks-and-balances; ordinary matching/pilots/continuity drills; access-control/process-conformance/compensating transactions; anti-structuring/procedural DoS/common-control; ordinary insurance/moral hazard; generic rescue forecasting; ordinary polycentric coordination/versioning/change-management; bullwhip/queueing/reporting culture; classic ratchet; generic hysteresis/anti-windup; voting-power mathematics/player splitting itself; general-equilibrium scaling; cream skimming/risk adjustment; or selective-label/predictive-policing theory itself.
+Do not repromote technical restatements of: commodification/alienation; social capital/multiplexity; generic fission/propagule/fidelity; source-sink/modularity/founder/path-dependence; ordinary property/exit/liquidity; survivorship/endogeneity; generic audits/diversification/checks-and-balances; ordinary matching/pilots/continuity drills; access-control/process-conformance/compensating transactions; anti-structuring/procedural DoS/common-control; ordinary insurance/moral hazard; generic rescue forecasting; ordinary polycentric coordination/versioning/change-management; bullwhip/queueing/reporting culture; classic ratchet; generic hysteresis/anti-windup; voting-power mathematics/player splitting itself; general-equilibrium scaling; cream skimming/risk adjustment; selective-label/predictive-policing theory itself; measurement invariance; anchoring vignettes; standardized-case measurement; robust statistics; or missing-data theory itself.
 
 ## Method findings
 
@@ -117,15 +136,17 @@ Do not repromote technical restatements of: commodification/alienation; social c
 - **M014:** weighted federations must design power under the complete rule, not visible weights.
 - **M015:** reproduction can carry an implicit federation political subsidy/penalty.
 - **M016:** when governance attention changes observability, the observation regime is part of evidence provenance.
+- **M017:** empirical community comparisons need a test of measurement comparability before pooling when local interpretation defines the categories.
 
 ## Provenance
 
 Latest runs:
-- `runs/2026-08-15-orthogonal-tail-batch-29.md`
-- `runs/2026-08-15-orthogonal-tail-batch-30.md`
-- `runs/2026-08-15-orthogonal-tail-batch-31.md`
 - `runs/2026-08-15-orthogonal-tail-batch-32.md`
 - `runs/2026-08-15-orthogonal-tail-batch-33.md`
 - `runs/2026-08-15-orthogonal-tail-batch-34.md`
+- `runs/2026-08-15-orthogonal-tail-batch-35.md`
+- `runs/2026-08-15-orthogonal-tail-batch-36.md`
+- `runs/2026-08-15-orthogonal-tail-batch-37.md`
+- `runs/2026-08-15-orthogonal-tail-batch-38.md`
 
 Earlier batches and recovered pre-deletion state remain under `runs/`.
