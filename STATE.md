@@ -26,13 +26,9 @@ Needs another targeted precedent attack before stronger promotion.
 
 ### C005 — Reproductive-variance trap — EMPIRICALLY STRENGTHENED
 
-Current strongest reproduction-specific result.
+Mean daughter count can substantially overstate reproducibility; the full parent-offspring distribution matters.
 
-Mean daughter count can substantially overstate reproducibility. The full parent-offspring distribution matters.
-
-The Manitoba Hutterite reconstruction now gives C005 a real empirical anchor.
-
-For **49 Manitoba colonies founded by 1970**:
+For the older reconstructed Manitoba Hutterite cohort (49 colonies founded by 1970):
 
 - recorded Manitoba daughters = 103;
 - mean K = 2.102;
@@ -42,26 +38,34 @@ For **49 Manitoba colonies founded by 1970**:
 - recorded-Manitoba `P(K=0) = 4.08%`;
 - top 10% of parents account for only ~22.3% of daughters.
 
-This is strongly non-jackpot-like: historical reproduction was broadly distributed across mature colonies rather than concentrated in a few superstar reproducers.
+This is strongly non-jackpot-like. Historical reproduction was broadly distributed across mature colonies rather than concentrated in a few superstar reproducers.
 
-Important scope limit: the source lists **Manitoba daughters only**. Cross-border daughters are omitted, so this is not a complete North-American offspring distribution and the true total-daughter zero rate could be even lower.
+Scope warning: the source lists Manitoba daughters only, so cross-border daughters are omitted.
 
-Data and reproducible calculation:
+Data / analysis / audit:
 
 - `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
 - `analysis/hutterite_reproduction_metrics.py`
-- audit: `runs/2026-08-15-hutterite-lineage-batch-09.md`
+- `runs/2026-08-15-hutterite-lineage-batch-09.md`
 
-### Why this matters
+### C006 — Descendant inflation / lineage-size sampling bias
 
-Distinguish:
+Current strongest research-method result.
 
-- historical spread;
-- mean reproduction;
-- typical reproducibility;
-- lineage robustness.
+When daughter communities inherit parent culture, prolific lineages contribute more observations to any present-day community sample. Therefore current-community sampling is mechanically weighted by past reproductive success even if every extant community is perfectly enumerated.
 
-A movement can have many communities or high mean daughter output because of a few extraordinary parents while an ordinary daughter remains unlikely to reproduce. Hutterite historical Manitoba reproduction appears much closer to the opposite pattern.
+This is distinct from ordinary survivorship/directory bias.
+
+The correct weighting depends on the estimand:
+
+- random founding attempt;
+- random current community;
+- random current resident;
+- future movement culture.
+
+A trait can become common in extant-community data because it increases reproduction even if it does not improve a separate outcome such as child/member welfare. Treating genealogically related daughter communities as independent can further inflate evidence.
+
+Audit: `runs/2026-08-15-orthogonal-tail-batch-10.md`.
 
 ## Demoted / derived
 
@@ -75,9 +79,13 @@ Useful, classic demographic measurement rule.
 
 ### D006 — Propagule burden / independent seedability
 
-Useful distinction: reliable fission by transferring a large fraction of an existing community does not demonstrate de novo seedability by a small founder team. But propagule-size/cultural-fidelity literatures already contain the mechanism; do not promote as novel.
+Useful distinction: reliable fission by transferring a large fraction of an existing community does not demonstrate de novo seedability by a small founder team. Propagule-size/cultural-fidelity literatures already contain the mechanism.
 
-## Non-stationarity warning for Hutterite data
+### D007 — Effective number of reproducing communities
+
+Potential quantitative tool for highly skewed movements; direct consequence of C005/population-genetic effective-size logic, not independent novelty.
+
+## Hutterite non-stationarity warning
 
 Later Manitoba cohorts show more zero recorded Manitoba daughters. Do not assume this is reproductive collapse because:
 
@@ -87,63 +95,43 @@ Later Manitoba cohorts show more zero recorded Manitoba daughters. Do not assume
 - the 1990s schism temporarily changed branching rates;
 - land-price/location constraints changed.
 
-The pre-1970 cohort is currently the cleanest descriptive test of whether historical reproduction was jackpot-like.
+## Exact next move — Batch 11
 
-## Exact next move — comparative + orthogonal Batch 10
+### A. Apply C006 to the user's existing community-research corpus
 
-### Empirical comparison
+Locate the canonical community-research repository/data and ask:
 
-Find a second movement with a parent-resolved lineage and more strongly overdispersed reproduction.
+1. Which sampled communities are daughters/branches of the same parent tradition?
+2. Are Hutterite colonies, Bruderhof sites, kibbutzim, FEC communities, cohousing projects, ecovillages, or religious-community branches being treated as independent examples when they share genealogy?
+3. Which existing conclusions are intended to describe a random community versus a random founding model/lineage?
+4. Would lineage-aware weighting materially change any synthesis?
 
-Priority targets:
+Do **not** automatically reweight; first identify the estimand and genealogy structure.
 
-1. church-planting networks with explicit parent-child identifiers and >=10–15 years follow-up;
-2. communal religious groups with fission genealogies;
-3. intentional-community federations with daughter lineages;
-4. denomination/congregation genealogies where daughter reproduction can be reconstructed.
+### B. Continue C005 comparison
 
-Target metrics:
+Find a movement with identifiable parent-child units and more overdispersed reproduction. Priority remains long-follow-up church-planting or other communal/religious fission genealogies.
 
-- `P(K=0)`;
-- mean/median/variance K;
-- top-decile share of daughters;
-- generation interval;
-- granddaughter reproduction;
-- propagule/subsidy burden;
-- extinction probability only where a branching approximation is defensible.
+### C. Continue C003 adversary
 
-Strong test:
+Search for explicit prior work where collective branch asset inheritance changes institutional variation/selection. Demote immediately on collision.
 
-> Holding mean reproduction roughly comparable, does lower parent-level reproductive variance predict deeper/more robust lineages?
+### D. Orthogonal Batch 11
 
-### C003 adversary
+Continue distant-domain sampling. Do not elaborate C005/C006 unless a new consequence survives the same literature gate.
 
-Continue searching for organizational/religious scholarship that treats **collective branch asset inheritance** explicitly as a pre-selection filter on institutional variants. Demote C003 immediately if found.
+Promising source domains not exhausted:
 
-### Orthogonal tail batch
+- causal graphical models with endogenous selection;
+- population-genetic genealogical statistics beyond simple effective size;
+- market design / matching under endogenous composition;
+- reliability under shared latent causes;
+- ecological succession and niche construction;
+- algorithmic search / novelty search;
+- information bottlenecks and lossy transmission;
+- developmental systems / evolutionary constraints.
 
-Generate >=12 candidate transfers from distant domains, literature-attack all plausible survivors, and show/promote only those that survive.
-
-Source domains for Batch 10:
-
-- causal inference / transportability;
-- compiler/interface contracts;
-- immune tolerance and immune repertoire;
-- developmental bottlenecks;
-- distributed fault containment;
-- market microstructure / price discovery;
-- mechanism design;
-- control theory / observability;
-- evolutionary search constraints.
-
-Avoid:
-
-- external-validity observations by themselves;
-- generic redundancy/resilience;
-- generic modularity/interdependence;
-- generic diversity/innovation;
-- ordinary checks-and-balances;
-- anything that merely renames the already-rejected social-theory branches.
+Reject ordinary versions of survivor bias, external validity, organizational forgetting, lifecycle theory, self-selection, modularity, resilience, or diversity.
 
 ## Persistence rule
 
