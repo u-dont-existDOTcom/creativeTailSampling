@@ -38,7 +38,7 @@ Keep narrow. Demote on a close target precedent.
 
 ### C005 — Reproductive-variance / superstar-reproduction trap
 
-**Status:** SURVIVING; strongest reproduction-specific result; empirically strengthened.
+**Status:** SURVIVING; strongest reproduction-specific result; empirically strengthened across three Hutterite samples/branches.
 
 Mean viable-daughter output can substantially overstate how reproducible a community design is. The full parent-offspring distribution matters.
 
@@ -49,7 +49,7 @@ Distinguish:
 3. typical reproducibility;
 4. lineage robustness.
 
-#### Manitoba Hutterite anchor
+#### Manitoba Schmiedeleut anchor
 
 For 49 reconstructed Manitoba colonies founded by 1970:
 
@@ -61,13 +61,39 @@ For 49 reconstructed Manitoba colonies founded by 1970:
 - recorded-Manitoba `P(K=0) = 4.08%`;
 - top 10% of parents account for ~22.3% of daughters.
 
-The older cohort is strongly non-jackpot-like: reproduction is broadly distributed rather than dominated by rare hyper-reproductive parents.
-
-A second empirical check found historical Manitoba colony expansion was also unusually stable across periods: reported compound annual colony growth stayed roughly **4.25%–5.75%**, and mean fission intervals roughly **13.6–15.2 years** over 1918–1975. Thus the lineage is not obviously being carried by a few extraordinary high-growth periods either.
+Historical period data also show stable Manitoba colony reproduction through 1918–1975: reported compound annual colony growth ~4.25%–5.75%, mean division interval ~13.6–15.2 years.
 
 Scope warning: the genealogy field is Manitoba daughters only; cross-border daughters are omitted.
 
-Batch 16 identified two comparative-data routes: FEEFHS Dariusleut/Lehrerleut tables with `Parent Colony` fields and church-planting family-tree datasets.
+#### Batch 17 cross-branch replication — FEEFHS 1973 tables
+
+To standardize censoring, Batch 17 reconstructed colonies founded **1918–1953 inclusive**, giving at least 20 years of possible daughter production before the 1973 table cutoff.
+
+**Lehrerleut** (`n=29` mature parents):
+
+- listed daughters = 53;
+- mean `K = 1.828`;
+- median `K = 1`;
+- population variance `1.453`;
+- variance/mean `0.795`;
+- `P(K=0) = 3.45%`;
+- top 10% share = `24.53%`;
+- maximum `K = 5`.
+
+**Dariusleut** (`n=33` mature parents):
+
+- listed daughters = 60;
+- mean `K = 1.818`;
+- median `K = 2`;
+- population variance `0.694`;
+- variance/mean `0.382`;
+- `P(K=0) = 0%`;
+- top 10% share = `20.0%`;
+- maximum `K = 3`.
+
+The same qualitative result now appears across distinct Hutterite branches: mature-parent reproduction is broadly distributed, not jackpot-dominated. Subject to historical table/node-identity caveats, the Dariusleut cohort is especially striking because every mature cohort node reproduced at least once by the cutoff.
+
+Operational shorthand: **make reproduction boring**. A strongly replicable community system should make daughter formation an ordinary lifecycle event for the median competent community rather than an exceptional achievement by a few charismatic or unusually capable founders.
 
 Data / analysis:
 
@@ -75,6 +101,10 @@ Data / analysis:
 - `analysis/hutterite_reproduction_metrics.py`
 - `data/hutterite_manitoba_period_growth_1918_1975.csv`
 - `analysis/hutterite_period_growth_log_check.py`
+- `data/hutterite_feefhs_1973_mature_cohorts.csv`
+- `analysis/hutterite_feefhs_reproduction_metrics.py`
+
+Full Batch 17 caveats and source normalization are in `runs/2026-08-15-orthogonal-tail-batch-17.md`.
 
 ### C006 — Descendant inflation / lineage-size sampling bias
 
@@ -90,31 +120,72 @@ The correct weighting depends on the estimand:
 - random current resident;
 - future movement culture/reproductive contribution.
 
-Applied to `u-dont-existDOTcom/communities`, C006 does **not** invalidate the current 158-finding P0 synthesis. That workflow is mechanism-bounded and treats repeated cases as corroboration rather than independent votes. Do not retrofit lineage weights there; carry genealogy/estimand controls into future comparative/prevalence analyses.
+Applied to `u-dont-existDOTcom/communities`, C006 does **not** invalidate the current mechanism-bounded P0 synthesis. Do not retrofit lineage weights there; carry genealogy/estimand controls into future comparative/prevalence analyses.
 
 ### C009 — Cohort-composition admission
 
-**Status:** SURVIVING / provisional cross-domain operational transfer.
+**Status:** SURVIVING / provisional cross-domain operational transfer; narrowed in Batch 17.
 
-When applicant value contains material complementarities or peer effects, sequential individual admission can be path-dependent and globally inferior even when each local decision is reasonable.
+Applicant utility may be **non-separable**: a candidate who looks poor against today's membership may belong to the best reachable future cohort, while individually acceptable applicants may compose into a poor cohort.
 
-Core distinction: applicant utility may be **non-separable**. A candidate who looks like a poor fit against today's membership may belong to the best reachable future cohort; conversely, individually acceptable candidates may compose into a bad cohort.
+Batch 17 confirms a major scope condition: this matters only when the candidate market is sufficiently **thick**. Mature communes may often receive applicants too sparsely for batching to be useful; founding, daughter formation, new-site openings, expansion waves, and multiple simultaneous vacancies are stronger use cases.
 
-Operational consequence for periods with several openings:
+Operational consequence when several plausible candidates genuinely overlap:
 
 - retain a provisional candidate pool rather than finalize every acceptable applicant immediately;
 - evaluate plausible candidate sets and interaction effects, not only individual fit;
 - use joint trial periods where feasible;
-- preserve voluntary exit and applicant autonomy rather than binding people into forced bundles.
+- preserve voluntary exit and applicant autonomy;
+- explicitly compare expected composition gain with vacancy, delay, and applicant-attrition costs.
 
-Target-domain screen in Batch 16 found intentional-community guidance to be predominantly sequential/probationary. Some forming cohousing projects construct affinity groups, but no close precedent was found for established-community cohort-aware admissions based explicitly on interaction effects.
+Ottawa Cohousing's forming-stage matchmaking/affinity-group process is a near precedent and supports the founding-stage scope correction; no close established-community cohort-admission precedent based explicitly on applicant interaction effects has yet been found.
 
 Demote if a close target precedent is found or if empirical interaction effects are trivial relative to individual fit.
+
+### C010 — Governance fault injection
+
+**Status:** SURVIVING / provisional cross-domain operational transfer from chaos engineering and continuity exercises.
+
+Having backups and succession plans is not equivalent to testing whether they work.
+
+Proposed transfer:
+
+> Under bounded conditions, deliberately simulate or safely induce temporary loss of a key person, permission, account, service, or infrastructure component and observe the community's actual ability to preserve essential functions.
+
+Examples include founder absence for one governance cycle, treasurer unavailability, loss of normal internet/phone access, facilitator absence, vehicle/supplier loss, or inaccessible records.
+
+The distinctive element is **testing dependency loss**, not merely documenting a contingency plan. Generic continuity practice already uses key-person-unavailable scenarios, but target searches did not find systematic intentional-community use of recurring governance/dependency fault injection.
+
+Safety boundary: never inject a live failure when plausible downside to health, children, medication, housing security, legal rights, or other necessities is material. Use tabletop/sandbox simulations for high-stakes functions.
+
+Prediction: communities that test actual dependency loss will discover more hidden single points of failure than equally documented communities that only discuss backups.
+
+### C011 — Shadow governance
+
+**Status:** SURVIVING / provisional cross-domain operational transfer from shadow-mode / parallel-run deployment.
+
+Intentional communities sometimes **live-pilot** a new governance system. The proposed intermediate step is different:
+
+> Before transferring authority to a substantially new governance process, run it nonbinding in parallel on the same admissible cases and compare what it would have decided with the incumbent process.
+
+Minimal architecture:
+
+1. incumbent process remains authoritative;
+2. shadow process receives the same admissible inputs;
+3. shadow decision/reasoning/time/dissent/recusal/evidence requirements are logged;
+4. analyze the **divergence cases**, not merely overall agreement;
+5. only then decide whether to revise, live-pilot, adopt, or reject the new process.
+
+Cambridge Cohousing reports a six-month live Dynamic Governance trial, demonstrating that governance pilots occur in the target domain; target searches have not yet found the same **parallel nonbinding decision comparison** structure.
+
+Limits: shadow behavior may differ from live behavior, duplication costs time, sensitive personal cases may be inappropriate, and agreement does not prove legitimacy.
+
+Prediction: shadow runs will expose high-impact decision divergences that abstract constitutional debate misses, especially around agenda control, evidence, vetoes, recusal, timing, and jurisdiction.
 
 ## Demoted / useful but not novel
 
 ### D001 — Flagship founder trap
-Demoted after spinout/social-movement literature attack. Batch 16 confirmed the collision: employee-spinout research already studies parent loss of key human capital/routines versus knowledge diffusion and offspring/ecosystem benefits.
+Demoted after spinout/social-movement literature attack. Employee-spinout research already studies parent loss of key human capital/routines versus knowledge diffusion and offspring/ecosystem benefits.
 
 ### D002 — Multi-parent daughter recombination
 Too close to cross-pollination/cultural recombination.
@@ -138,13 +209,19 @@ Potential tool derived from reproductive skew; not independent novelty.
 Former C007. Demoted after safeguarding/personnel-vetting precedent attack. Useful applied safety architecture, not a tail discovery.
 
 ### D009 — Arithmetic-growth mirage under shared environmental variation
-Former C008. The random-environment mathematics is real: arithmetic mean reproduction can have the wrong sign relative to long-run multiplicative/log growth. But the historical Manitoba Hutterite test shows the correction is negligible for the best current exemplar because reproduction was strikingly stable across periods. Retain as a conditional quantitative warning, not a current Creative Tail survivor.
+Former C008. Mathematically valid, but historical Manitoba Hutterite reproduction is too stable for the correction to matter materially in the best current exemplar.
 
 ### D010 — Failure-history inheritance
 Useful practice but not novel: organizational-learning literature explicitly studies negative knowledge / knowing what not to do.
 
 ### D011 — Spatial-vs-temporal replication attention tradeoff
 Rejected as novel after direct 2026 organizational-replication precedent: scaling new units and maintaining adherence in existing units compete for scarce attention.
+
+### D012 — Evidence-lineage counting
+Useful: many endorsers repeating one originating source do not create independent evidence. Too close to source-independence/provenance/pseudoreplication traditions for promotion.
+
+### D013 — Governance feedback-lag / reform oscillation
+Useful warning but too close to policy feedback, control-system delay, institutional repetition, and change-fatigue literatures.
 
 ## Hard rejection frontier
 
@@ -168,7 +245,9 @@ Do not repromote technical restatements of:
 - generic common-cause risk/diversification;
 - checks-and-balances/least privilege;
 - policy experimentation/laboratories of democracy;
-- generic matching/compatibility without non-separable cohort effects.
+- generic matching/compatibility without non-separable cohort effects;
+- generic business continuity / succession planning without a distinct transfer;
+- generic pilots without the parallel nonbinding structure of C011.
 
 ## Method findings
 
@@ -188,5 +267,6 @@ Latest detailed runs:
 - `runs/2026-08-15-orthogonal-tail-batch-14.md`
 - `runs/2026-08-15-c008-hutterite-empirical-test-15.md`
 - `runs/2026-08-15-orthogonal-tail-batch-16.md`
+- `runs/2026-08-15-orthogonal-tail-batch-17.md`
 
 Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
