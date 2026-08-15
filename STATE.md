@@ -8,7 +8,7 @@ Updated: 2026-08-15
 Adaptive high-information concrete cases + constitutional regression suite. Provisional.
 
 ### C003 — Asset-gated cultural mutation
-Narrow survivor only: collective branch inheritance may pre-filter which institutional variants become adequately capitalized competitors. Final precedent attack found adjacent fission/institutional-legacy/group-selection work but no close match explicitly modeling collective branch asset portability as a pre-selection filter. Leave provisional; do not elaborate further unless new evidence appears.
+Narrow survivor only: collective branch inheritance may pre-filter which institutional variants become adequately capitalized competitors. Leave provisional; do not elaborate further unless new evidence appears.
 
 ### C005 — Reproductive-variance / superstar-reproduction trap
 Strongest reproduction-specific result, now replicated across multiple Hutterite branches.
@@ -25,7 +25,7 @@ Strongest reproduction-specific result, now replicated across multiple Hutterite
 
 Historical period reproduction was also stable through 1918–1975.
 
-#### Batch 17 FEEFHS mature cohorts
+#### FEEFHS mature cohorts, Batch 17
 Cohort = colonies founded 1918–1953, observed through 1973 (>=20 years possible follow-up).
 
 **Lehrerleut, n=29**
@@ -52,124 +52,113 @@ Interpretation: broad-based ordinary-parent reproduction is not merely a Manitob
 
 Operational shorthand: **make reproduction boring** — daughter formation should be an ordinary lifecycle event for the median competent community rather than a rare founder feat.
 
-Files:
-- `data/hutterite_feefhs_1973_mature_cohorts.csv`
-- `analysis/hutterite_feefhs_reproduction_metrics.py`
-- full methodology/caveats in Batch 17.
+#### Batch 18 non-Hutterite screen
+No public parent-resolved church-plant dataset sufficient for a comparable K distribution was found yet. Aggregate church-planting research indicates reproduction is much less routine, but follow-up and unit definitions differ too much for a quantitative comparison. Use only as qualitative context.
 
 ### C006 — Descendant inflation / lineage-size sampling bias
-Survives. Audit against `u-dont-existDOTcom/communities` found no current flaw because the P0 synthesis is mechanism-bounded, not a prevalence estimator. Carry genealogy/estimand controls into future comparative datasets.
+Survives. The communities P0 synthesis is mechanism-bounded, not a prevalence estimator, so no retrofit is needed there. Carry genealogy/estimand controls into future comparative datasets.
 
 ### C009 — Cohort-composition admission
-Survives but is now explicitly **market-thickness bounded**.
+Survives but is **market-thickness bounded**.
 
-Non-separable applicant effects matter when several plausible candidates/households overlap in time. Do not delay ordinary sparse mature-community admissions merely to manufacture a batch.
-
-Best use cases:
-- founding;
-- daughter formation;
-- new-site opening;
-- expansion waves;
-- multiple simultaneous vacancies;
-- unusually thick applicant periods.
-
-Near precedent: Ottawa Cohousing deliberately matchmakes forming affinity groups, supporting the user's prediction that cohort thinking is more natural at formation.
-
-### C010 — Governance fault injection
-**New provisional survivor from Batch 17.**
-
-Transfer chaos engineering / continuity testing into communal governance and dependency design: safely simulate or induce temporary loss of a key person, permission, account, supplier, facilitator, communication channel, record store, or other critical dependency and observe what actually fails.
-
-Distinct from ordinary succession planning because it tests dependency loss rather than merely documenting a fallback.
-
-For high-stakes functions, use tabletop/sandbox simulation rather than live failure injection.
+Use only when several plausible applicants/households and several openings genuinely overlap. Best use cases: founding, daughter formation, new-site opening, expansion waves, multiple simultaneous vacancies. Do not delay sparse mature-community admissions merely to manufacture a batch.
 
 ### C011 — Shadow governance
-**New provisional survivor from Batch 17.**
+Survives Batch 18 attack.
 
-Before transferring real authority to a substantially new governance system, run the new process **nonbinding in parallel on the same admissible cases**. Compare divergence cases with the incumbent process before choosing live trial/adoption.
+Before transferring real authority to a substantially new governance system, run the new process **nonbinding in parallel on the same admissible cases**. Analyze divergence cases with the incumbent process before choosing live trial/adoption.
 
-Target communities do sometimes run live governance trials (e.g. Cambridge Cohousing's six-month Dynamic Governance trial), but the nearest-neighbor search has not yet found the same parallel nonbinding decision-comparison architecture in intentional communities.
+Target searches found live governance trials and other “shadow governance” meanings but not this same-case parallel nonbinding comparison structure in intentional communities.
 
-## Batch 17 demotions worth retaining as practical lessons
+### C012 — Metamorphic governance testing / constitutional invariance testing
+**New provisional survivor from Batch 18.**
 
-- applicant batching has a standard market-thickness/waiting tradeoff;
-- evidence-lineage independence is useful but known;
-- feedback-lag/reform oscillation is useful but known;
-- irreversible-action thresholds, graceful degradation, network interference, post-treatment attrition, sufficient-statistic documentation, dissent preservation and exploration/exploitation all collided with established source/target literatures.
+When a hard decision lacks an agreed ground-truth answer, test relations the community already claims should hold.
 
-## Exact next move — Batch 18
+Examples:
+- swap founder/newcomer status when status should be irrelevant;
+- swap faction or demographic identity when irrelevant;
+- add stronger admissible evidence and test expected monotonicity;
+- swap equivalent parties and test symmetry;
+- change proposer identity while holding subject matter fixed and test jurisdiction invariance.
 
-### A. Adversarially attack C010 and C011
+Workflow:
+1. state expected relation before seeing outcomes;
+2. minimally transform a past/hypothetical case;
+3. randomize/blind where feasible;
+4. process variants independently;
+5. compare output and reasoning;
+6. investigate failed invariants;
+7. preserve high-information pairs as constitutional regression tests.
 
-For C010 search:
-- intentional-community dependency drills;
-- founder/key-person absence exercises;
-- actual or tabletop failure tests of finance, governance, records, care or infrastructure;
-- adjacent cooperative/nonprofit practice close enough to collapse the transfer.
+C001 vs C012:
+- C001 discovers **where values differ**;
+- C012 tests **whether the process follows relations already claimed**, without needing a known correct answer.
 
-For C011 search:
-- intentional-community parallel governance bodies;
-- nonbinding duplicate decisions during governance transitions;
-- shadow councils/committees that process the same cases before authority transfer.
+Nearest neighbors exist in automated-decision metamorphic testing and matched-vignette/audit research, but no clear intentional-community self-testing implementation was found.
 
-Demote immediately on a close target precedent.
+## Newly demoted
 
-### B. C005 non-Hutterite comparison
+### D014 — Governance fault injection / dependency drills
+Former C010. Generic continuity practice explicitly exercises loss of key people and essential functions. Too close to established doctrine/common sense for the Creative Tail originality bar.
 
-The next evidentiary leap is not another Hutterite branch. Find a movement with explicit parent-child units and enough exposure to calculate offspring distribution.
+**Keep in communities practical lessons.** This is exactly why practical usefulness and originality now receive separate dispositions.
+
+### D015 — Seeded-fault review testing
+Useful training practice, but seeded-error audit research, mutation testing, red teaming and integrity testing already own the structure.
+
+## Exact next move — Batch 19
+
+### A. Adversarially attack C012
+Search for:
+- human institutional decision systems using metamorphic/invariance testing;
+- legal/administrative matched-case consistency testing beyond research studies;
+- intentional-community use of paired identity-swapped cases;
+- constitutional regression/invariance suites.
+
+If a close target implementation exists, demote immediately. If it survives, refine which metamorphic relations are safe and genuinely normatively invariant rather than encoding false symmetry.
+
+### B. Turn C011 + C012 into a bounded governance-testing stack
+Without claiming novelty for the combination, test whether the following sequence is operationally coherent:
+
+1. C001 edge-case discovery;
+2. C012 invariance/metamorphic tests;
+3. C011 nonbinding shadow run on real admissible cases;
+4. bounded live pilot;
+5. post-outcome review.
+
+Look for redundancy with existing governance-transition practice and demote any step already standard.
+
+### C. Continue C005 comparator search
+Need a real non-Hutterite parent→daughter dataset, not aggregate percentages.
 
 Priority:
-1. church-planting networks/denominations with downloadable parent/daughter rows;
-2. Bruderhof or another communal religious lineage if a reliable genealogy exists;
-3. intentional-community federations with daughter trees.
+1. denomination archives with parent-church fields;
+2. Exponential family-tree data if rows become public;
+3. Bruderhof/communal religious genealogy only if parent-child units can be defined without inventing them;
+4. historical movement archives.
 
-Need:
-- P(K=0)
-- mean/median/variance K
-- top-decile daughter share
-- generation interval
-- granddaughter reproduction
-- subsidy/propagule structure where available.
+Do not force a comparison from aggregates.
 
-Exponential explicitly solicits multi-generational church family trees, but Batch 18 should find actual rows rather than rely on a promotional list.
+### D. Orthogonal Batch 19
+Generate >=12 candidates from domains not exhausted by governance software-testing metaphors.
 
-### C. Promote useful non-original lessons to communities repo
-
-`u-dont-existDOTcom/communities` now has `COMMUNITY-DEVELOPMENT-LESSONS.md`. Every future community-tail result should receive two separate dispositions:
-
-1. originality disposition in this repo;
-2. practical-usefulness disposition in the communities lessons file.
-
-Do not let novelty rejection erase a useful operational lesson.
-
-### D. Orthogonal Batch 18
-
-Generate >=12 candidates from source domains not exhausted in Batch 17. Prefer mechanisms that change an actual decision, protocol, or measurement.
-
-Possible domains:
-- statistical process control / change-point detection;
-- distributed database consistency beyond generic redundancy;
-- ecological restoration thresholds;
-- adversarial mechanism design / collusion-resistant systems;
-- sequential experimental design;
-- coding/information theory beyond checksums;
-- reliability growth models;
-- evolutionary search constraints not reducible to diversity/founder effects.
+Prefer:
+- ecological succession/restoration mechanisms with a nontrivial operational mapping;
+- evolutionary developmental constraints;
+- information hazards / selective transparency;
+- market design beyond simple matching thickness;
+- mechanism design against coordinated factions/collusion;
+- reliability engineering at federation/movement level;
+- causal discovery from natural institutional variation.
 
 Reject on sight:
-- generic diversification;
-- founder/lifecycle effects;
-- newcomer overload;
-- generic due process;
-- liquidity runs;
-- modularity/interdependence;
-- survivorship/external validity;
-- generic fission/propagule effects;
-- generic matching/compatibility;
-- business continuity without active dependency testing;
-- governance pilots without the parallel nonbinding structure;
-- anything that merely gives familiar community advice technical vocabulary.
+- generic monitoring;
+- generic red teaming;
+- generic backup/succession exercises;
+- generic pilots;
+- generic fairness/blind review;
+- technical names for familiar community advice.
 
 ## Persistence rule
 After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, mirror practically useful lessons into the communities repo, and never rely on chat history as durable state.
