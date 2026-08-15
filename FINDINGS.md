@@ -4,7 +4,7 @@ Updated: 2026-08-15
 
 Compact index only. Full derivations, source collisions, rejected candidates, empirical reconstructions, and demotion history live under `runs/`; reproducible calculations/data live under `analysis/` and `data/`.
 
-A user familiarity veto or strong nearest-neighbor collision overrides promotion. Practical usefulness is tracked separately in `u-dont-existDOTcom/communities` even when originality fails.
+A user familiarity veto, active-project corpus collision, or strong nearest-neighbor literature collision overrides promotion. Practical usefulness is tracked separately in `u-dont-existDOTcom/communities` even when originality fails.
 
 ## Current survivors
 
@@ -60,25 +60,25 @@ Reusable tool: `analysis/weighted_voting_power.py`.
 **Provisional transfer linking voting power to reproduction.** Daughter formation/merger can create an accidental political subsidy or penalty. Calculate before/after power and use an aligned-preference split/merge counterfactual to isolate influence created solely by changed organizational boundaries.
 
 ### C021 — Scrutiny-conditioned evidence accounting
-**Provisional transfer from surveillance/selective-label research.** When suspicion changes observation intensity, later evidence must preserve that observation regime. Monitoring-discovered incident counts cannot silently become independent confirmation of the suspicion that caused extra scrutiny.
+**Provisional transfer from surveillance/selective-label research; passed internal corpus audit.** When suspicion changes observation intensity, later evidence must preserve that observation regime. Monitoring-discovered incident counts cannot silently become independent confirmation of the suspicion that caused extra scrutiny.
 
 ### C022 — Cross-community measurement canaries
-**Provisional measurement transfer.** Before pooling locally interpreted outcomes, circulate identical synthetic cases and compare how communities/research teams classify them. Use disagreement to detect threshold/schema heterogeneity; validate vignette equivalence; preserve raw versus calibrated layers.
+**Provisional measurement transfer; passed internal corpus audit.** Before pooling locally interpreted outcomes, circulate identical synthetic cases and compare how communities/research teams classify them. Use disagreement to detect threshold/schema heterogeneity; validate vignette equivalence; preserve raw versus calibrated layers.
 
 C022 differs from C001: C001 probes **normative disagreement**; C022 probes **empirical classification comparability**.
 
 ### C023 — Cumulative disclosure-budget / differencing guard
-**Provisional privacy transfer.** Small-community research privacy must be audited across the **joint history of overlapping aggregate releases**, not one table at a time. Maintain a release ledger, test differencing/reconstruction routes, use pooled/access-tiered publication, and treat formal privacy composition as a longitudinal constraint.
+**Provisional privacy transfer; passed internal corpus audit.** Small-community research privacy must be audited across the **joint history of overlapping aggregate releases**, not one table at a time. Maintain a release ledger, test differencing/reconstruction routes, use pooled/access-tiered publication, and treat formal privacy composition as a longitudinal constraint.
 
 ### C024 — Non-custodial federation research
-**Provisional privacy/trust transfer.** For suitable sensitive aggregate questions, minimize not only who may read raw responses but whether readable centralized raw responses ever need to exist.
+**Provisional privacy/trust transfer; passed internal corpus audit.** For suitable sensitive aggregate questions, minimize not only who may read raw responses but whether readable centralized raw responses ever need to exist.
 
 Use secure aggregation/MPC/federated analytics or split-trust computation where justified so neither local leadership nor the federation research office sees plaintext member inputs. Pair this with **C023 output-disclosure control**: hiding inputs does not make a tiny exact aggregate safe to release.
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-53.md`.
 
 ### C025 — Community resolution / living-will architecture
-**Provisional crisis-resolution transfer.** Before failure, distinguish **recovery of the institution** from **continuity of member-critical functions**.
+**Provisional crisis-resolution transfer; passed internal corpus audit with strong T-07/T-11 adjacency.** Before failure, distinguish **recovery of the institution** from **continuity of member-critical functions**.
 
 A community resolution plan maps which functions must survive even if the commune itself becomes nonviable—housing transition, food/water, medication/care, childcare/education, cash/benefits, transport, records, family contact, animal/land obligations—and predefines bridge/fallback providers, continuity horizons, member-portable records/benefits, and independent recovery-to-resolution triggers.
 
@@ -89,6 +89,17 @@ Core rule:
 The source model comes from bank-resolution/living-will systems that preserve critical functions without preserving the failing legal entity; the target transfer to communal crisis architecture is the surviving claim.
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-56.md`.
+
+### C026 — Adulthood option grant / neutral transition package
+**NARROW provisional survivor after internal corpus collision audit.** The communities corpus already owns **non-inherited adult membership**, child exit capacity, usable-exit concerns, transition support, and leaving-fund evidence. Therefore those are not C026.
+
+The only retained residual is:
+
+> **Portable launch/transition resources that make adult non-membership viable should be available before a person raised in the community opts into the adult property/work/governance regime, rather than requiring them to join first and later qualify for exit support.**
+
+This is a timing/symmetry claim about meaningful consent, not a claim to proportional communal property ownership.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-59.md` and `runs/2026-08-15-project-corpus-collision-audit-c021-c026.md`.
 
 ## Recent practical-only results
 
@@ -106,13 +117,13 @@ Earlier practical-only results remain documented under `runs/` and mirrored into
 
 ## Hard rejection frontier
 
-Do not repromote technical restatements of: commodification/alienation; social capital/multiplexity; generic fission/propagule/fidelity; source-sink/modularity/founder/path-dependence; ordinary property/exit/liquidity; survivorship/endogeneity; generic audits/checks-and-balances; ordinary matching/pilots/continuity drills; access-control/process-conformance/compensating transactions; ordinary insurance/moral hazard; generic rescue forecasting; change-management/versioning; bullwhip/queueing/reporting culture; classic ratchet; hysteresis/anti-windup; voting-power mathematics/player splitting itself; general-equilibrium scaling; cream skimming; selective-label theory; measurement invariance/anchoring vignettes; social-desirability/list/randomized-response/overclaiming methods; matching-with-couples mathematics; database reconstruction/differential-privacy theory; job-rotation theory; winner's-curse theory; gatekeeper/self-selection theory; secure-MPC/federated-analytics theory; safeguarding-reference theory; deductive-disclosure/stylometry theory; or shoulder-surfing/visual-privacy theory itself.
+Do not repromote technical restatements of: the active communities corpus itself; commodification/alienation; social capital/multiplexity; generic fission/propagule/fidelity; source-sink/modularity/founder/path-dependence; ordinary property/exit/liquidity; survivorship/endogeneity; generic audits/checks-and-balances; ordinary matching/pilots/continuity drills; access-control/process-conformance/compensating transactions; ordinary insurance/moral hazard; generic rescue forecasting; change-management/versioning; bullwhip/queueing/reporting culture; classic ratchet; hysteresis/anti-windup; voting-power mathematics/player splitting itself; general-equilibrium scaling; cream skimming; selective-label theory; measurement invariance/anchoring vignettes; social-desirability/list/randomized-response/overclaiming methods; matching-with-couples mathematics; database reconstruction/differential-privacy theory; job-rotation theory; winner's-curse theory; gatekeeper/self-selection theory; secure-MPC/federated-analytics theory; safeguarding-reference theory; deductive-disclosure/stylometry theory; or shoulder-surfing/visual-privacy theory itself.
 
 ## Method findings
 
 - **M001:** formalization is not novelty.
 - **M002:** user familiarity veto dominates model confidence.
-- **M003:** nearest-neighbor attack is mandatory before promotion.
+- **M003:** nearest-neighbor external literature attack is mandatory before promotion.
 - **M004:** nonstandard structural cross-domain transfer can count; same-domain rediscovery cannot.
 - **M005:** empty batches are successful.
 - **M006:** terminology changes do not rescue an existing structure.
@@ -130,7 +141,8 @@ Do not repromote technical restatements of: commodification/alienation; social c
 - **M018:** small-N confidentiality is a property of the whole release history and adversary knowledge, not each release independently.
 - **M019:** privacy architecture needs separate input-confidentiality and output-disclosure layers; solving one does not solve the other.
 - **M020:** in tiny co-residential groups, privacy also has independent participation, collection-scene, and response-fingerprint layers; protecting storage alone is insufficient.
+- **M021:** for an active research project, the project's own authoritative synthesis/crosswalk/ledger/lessons must be checked **before external novelty search**; internal rediscovery is an immediate demotion or narrowing event.
 
 ## Provenance
 
-Latest runs include `runs/2026-08-15-orthogonal-tail-batch-38.md` through `...-batch-58.md`. Earlier batches and recovered pre-deletion state remain under `runs/`.
+Latest runs include `runs/2026-08-15-orthogonal-tail-batch-38.md` through `...-batch-59.md`, plus `runs/2026-08-15-project-corpus-collision-audit-c021-c026.md`. Earlier batches and recovered pre-deletion state remain under `runs/`.
