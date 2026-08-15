@@ -2,142 +2,92 @@
 
 Updated: 2026-08-15
 
-## Current epistemic state
-
-The multiplex/relational-unbundling chain is rejected as a Creative Tail Sampling discovery. `MODEL.md` is historical/applied material only.
-
-Canonical protocol requires:
-
-- >=12 plain candidates per substantive tail batch;
-- common-sense compression;
-- nearest-neighbor literature attack before promotion;
-- user familiarity veto;
-- anti-elaboration after a familiar root is identified;
-- structural, not rhetorical, cross-domain mapping;
-- explicit acceptance of empty batches;
-- immediate GitHub persistence.
-
 ## Current survivors
 
 ### C001 — Active normative edge-case search
-
 Adaptive high-information concrete cases + constitutional regression suite. Provisional.
 
 ### C003 — Asset-gated cultural mutation
-
-Narrow survivor only: **collective branch inheritance as a pre-selection filter on which institutional variants can become adequately capitalized competitors**. Broad property/exit/innovation claims are old.
+Narrow survivor only: collective branch inheritance may pre-filter which institutional variants become adequately capitalized competitors. Broad property/exit/innovation claims are old.
 
 ### C005 — Reproductive-variance trap
+Current strongest reproduction-specific result.
 
-Empirically strengthened with reconstructed older Manitoba Hutterite lineage data. Parent-level daughter reproduction appears broadly distributed rather than jackpot-like.
+Older reconstructed Manitoba Hutterite cohort (49 colonies founded by 1970):
+- recorded Manitoba daughters = 103
+- mean K = 2.102
+- median K = 2
+- Var(K) = 1.724
+- Var/Mean = 0.820
+- recorded-Manitoba P(K=0) = 4.08%
+- top 10% of parents = ~22.3% of daughters
 
-Data:
+Historical period data also show stable colony reproduction through 1918–1975: reported compound annual colony growth ~4.25%–5.75%, mean division interval ~13.6–15.2 years.
 
+Thus the current Hutterite reproduction profile is both broadly parent-distributed and relatively period-stable.
+
+Data/scripts:
 - `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
 - `analysis/hutterite_reproduction_metrics.py`
+- `data/hutterite_manitoba_period_growth_1918_1975.csv`
+- `analysis/hutterite_period_growth_log_check.py`
 
 ### C006 — Descendant inflation / lineage-size sampling bias
-
-Current-community samples can be mechanically weighted by historical reproductive success. Applied to the user's `communities` corpus: **no current correction required** because the P0 ledger is mechanism-bounded rather than a prevalence estimator. Carry genealogy/estimand controls into future comparative analyses.
-
-### C008 — Arithmetic-growth mirage under shared environmental variation
-
-New provisional survivor from Batch 14.
-
-Under standard random-environment branching assumptions, pooled arithmetic mean reproduction can exceed 1 while expected log reproduction is negative and the typical lineage is subcritical.
-
-Illustration:
-
-- environment A: `m=4`;
-- environment B: `m=0.1`;
-- equal frequency;
-- arithmetic mean = `2.05`;
-- geometric mean ≈ `0.632`;
-- `E[log m] ≈ -0.458`.
-
-The target-domain search found community literature recognizing legal/economic context but not this stochastic-log-growth correction for community reproduction.
+Survives. Audit against `u-dont-existDOTcom/communities` found no current flaw because the P0 synthesis is mechanism-bounded, not a prevalence estimator. Carry genealogy/estimand controls into future comparative datasets.
 
 ## Newly demoted
 
 ### D008 — Low-base-rate evidence-lifecycle safeguard
+Former C007. Adjacent safeguarding/personnel-vetting systems already implement alert validation, adjudication states, cleared/unfounded outcomes, recency/context/mitigation, and reassessment.
 
-Former C007. Demoted after stronger safeguarding/personnel-vetting search showed alert validation, adjudication, cleared/unfounded outcomes, recency/context/mitigation, and reassessment are already established structures.
+### D009 — Arithmetic-growth mirage under shared environments
+Former C008. Mathematically valid, but historical Manitoba Hutterite reproduction is too stable for the arithmetic-vs-log correction to matter materially. Re-promote only on a real lineage where environmental variation changes the sign/conclusion.
 
 ### T107 — Exit-equity bank run
+Rejected: cooperative finance already explicitly recognizes withdrawal/redemption liquidity runs and designs delayed redemption around them.
 
-Rejected. Cooperative-bank and cooperative-capital literature already recognizes withdrawal/redemption liquidity runs; intentional-community finance already conditions exit payouts on liquidity/property preservation.
+## Exact next move — Batch 16
 
-### Other Batch-14 rejections
+### A. Keep C005 comparative test as highest-priority empirical task
+Find a real movement with parent-resolved, strongly overdispersed daughter production and adequate follow-up.
 
-- newcomer/recruitment bullwhip: target practice already recognizes absorption waves; control framing adds precision, not enough novelty;
-- critical slowing down: already applied to human social transformations;
-- small social bottleneck conflict-reset vs fidelity: fission/faultline + propagule + spinout inheritance literatures occupy the structure;
-- arrival-order priority effects: organizational imprinting/founder effects;
-- shared-environment covariance/diversification by itself: common-cause risk;
-- least-privilege/authority attenuation: established governance/security logic.
+Priority:
+1. church-planting networks/denominations with explicit parent-child identifiers;
+2. other communal religious fission genealogies;
+3. intentional-community federations with daughter trees.
 
-## Exact next move — Batch 15
+Need actual offspring distribution, not one statistic:
+- P(K=0)
+- mean/median/variance K
+- top-decile daughter share
+- generation interval
+- granddaughter reproduction
+- parent/federation subsidy
 
-### A. Attack C008 empirically
+### B. One final C003 precedent attack only
+Search specifically for organizational/religious work where **collective branch asset inheritance** is modeled as a pre-selection filter on institutional variants. On collision, demote. Otherwise leave provisional without further elaboration.
 
-Do not stop at the arithmetic/geometric toy example.
-
-Use real community lineage history to ask whether shared macroenvironment materially changes reproduction.
-
-Priority test:
-
-1. Hutterite fission rates across major historical regimes where data permit:
-   - pre/post migration from the US to Canada after WWI;
-   - Depression/land-market periods;
-   - wartime/legal-hostility regimes;
-   - later industrialization/land-cost changes;
-   - 1990s Schmiedeleut schism as a separate internal regime, not automatically an external environment.
-2. Fit only descriptive environment-conditioned rates unless lineage generations and shared environment states justify a BPRE.
-3. Ask whether pooled arithmetic reproduction materially differs from a log-growth-style summary.
-4. If the empirical distinction is negligible, weaken C008.
-
-### B. Continue C005 comparison
-
-Still seek a parent-resolved movement with genuinely overdispersed reproduction and adequate follow-up. Church planting remains suggestive but current aggregate data are not directly comparable to Hutterite lifetime fission.
-
-### C. One final C003 adversary only
-
-Do not elaborate C003 indefinitely. Search once more for scholarship explicitly treating branch asset inheritance as a filter on institutional variants. If a close precedent appears, demote. If none appears, leave provisional and move on.
-
-### D. Orthogonal Batch 15
-
-Generate >=12 candidates from source domains not exhausted by the last batches.
-
-Potential domains:
-
-- matching markets / market unraveling;
-- evolutionary game dynamics with correlated environments;
-- information hazards / secure information architecture;
-- causal invariance under institutional intervention;
-- stochastic control with irreversible actions;
-- social-learning mechanisms outside standard information cascades;
-- population genetics beyond simple effective size;
-- ecological disturbance regimes beyond generic resilience.
+### C. Orthogonal Batch 16
+Generate >=12 candidates that change operations/design, not just analysis. Candidate source domains:
+- matching-market unraveling / deferred acceptance
+- ecological priority/disturbance effects not reducible to founder imprinting
+- secure-information architectures / information hazards
+- irreversible-action stochastic control
+- mechanism design under hidden/correlated information
+- population-genetic or evolutionary search results beyond ordinary diversity/fidelity
+- network/epidemic results not reducible to centrality or common-cause risk
 
 Reject on sight:
-
-- generic diversification;
-- generic lifecycle/founder effects;
-- ordinary newcomer overload;
-- ordinary due process;
-- cooperative liquidity/run logic;
-- modularity/interdependence;
-- survivorship/external validity;
-- generic fission/propagule effects;
-- anything that merely gives familiar community advice a technical name.
+- generic diversification
+- founder/lifecycle effects
+- newcomer overload
+- due process
+- liquidity runs
+- modularity/interdependence
+- survivorship/external validity
+- generic fission/propagule effects
+- generic matching/compatibility unless a non-obvious market failure is demonstrated
+- anything that merely gives familiar community advice technical vocabulary.
 
 ## Persistence rule
-
-After every substantive batch:
-
-- save the full audit under `runs/`;
-- demote literature collisions immediately;
-- promote only survivors into `FINDINGS.md`;
-- preserve empirical data/scripts;
-- update this checkpoint;
-- never rely on chat history as durable state.
+After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, and never rely on chat history as durable state.
