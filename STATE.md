@@ -8,9 +8,9 @@ Updated: 2026-08-15
 Adaptive high-information concrete cases + constitutional regression suite. Provisional.
 
 ### C003 — Asset-gated cultural mutation
-Narrow survivor only: collective branch inheritance may pre-filter which institutional variants become adequately capitalized competitors. Broad property/exit/innovation claims are old.
+Narrow survivor only: collective branch inheritance may pre-filter which institutional variants become adequately capitalized competitors. Final precedent attack found adjacent fission/institutional-legacy/group-selection work but no close match explicitly modeling collective branch asset portability as a pre-selection filter. Leave provisional; do not elaborate further unless new evidence appears.
 
-### C005 — Reproductive-variance trap
+### C005 — Reproductive-variance / superstar-reproduction trap
 Current strongest reproduction-specific result.
 
 Older reconstructed Manitoba Hutterite cohort (49 colonies founded by 1970):
@@ -26,37 +26,60 @@ Historical period data also show stable colony reproduction through 1918–1975:
 
 Thus the current Hutterite reproduction profile is both broadly parent-distributed and relatively period-stable.
 
-Data/scripts:
-- `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
-- `analysis/hutterite_reproduction_metrics.py`
-- `data/hutterite_manitoba_period_growth_1918_1975.csv`
-- `analysis/hutterite_period_growth_log_check.py`
+New comparative-data leads from Batch 16:
+- Exponential explicitly solicits multi-generational church-planting family trees;
+- several denominations use explicit parent/daughter church structures;
+- FEEFHS exposes Dariusleut and Lehrerleut tables with `Parent Colony` fields, enabling a broader Hutterite lineage reconstruction beyond Manitoba.
 
 ### C006 — Descendant inflation / lineage-size sampling bias
 Survives. Audit against `u-dont-existDOTcom/communities` found no current flaw because the P0 synthesis is mechanism-bounded, not a prevalence estimator. Carry genealogy/estimand controls into future comparative datasets.
 
-## Newly demoted
+### C009 — Cohort-composition admission
+**New provisional survivor from Batch 16.**
 
-### D008 — Low-base-rate evidence-lifecycle safeguard
-Former C007. Adjacent safeguarding/personnel-vetting systems already implement alert validation, adjudication states, cleared/unfounded outcomes, recency/context/mitigation, and reassessment.
+When applicant value contains material complementarities or peer effects, sequential individual admission can be path-dependent and globally inferior even when each local decision is reasonable.
 
-### D009 — Arithmetic-growth mirage under shared environments
-Former C008. Mathematically valid, but historical Manitoba Hutterite reproduction is too stable for the arithmetic-vs-log correction to matter materially. Re-promote only on a real lineage where environmental variation changes the sign/conclusion.
+Key distinction: applicant utility may be non-separable. A person who is a bad fit against today's membership may belong to the best reachable future cohort; individually acceptable applicants may compose into a poor cohort.
 
-### T107 — Exit-equity bank run
-Rejected: cooperative finance already explicitly recognizes withdrawal/redemption liquidity runs and designs delayed redemption around them.
+Operational transfer:
+- when several openings exist, retain a provisional candidate pool;
+- evaluate plausible candidate sets, not only individual scores;
+- model pairwise/higher-order complementarities and conflict risks;
+- use joint trial periods where feasible;
+- preserve voluntary exit and do not bind applicants into forced bundles.
 
-## Exact next move — Batch 16
+Target-domain search found intentional-community guidance to be predominantly sequential/probationary. Some forming cohousing systems deliberately construct affinity groups, but this is not yet a close precedent for cohort-aware admission into established communities.
 
-### A. Keep C005 comparative test as highest-priority empirical task
-Find a real movement with parent-resolved, strongly overdispersed daughter production and adequate follow-up.
+Demote C009 if a close target precedent is found or if interaction effects among applicants are empirically trivial compared with individual fit.
 
+## Demoted / rejected relevant to Batch 16
+
+### D001 — Flagship founder trap
+Confirmed demoted. Employee-spinout literature already covers parent loss of key human capital/routines versus knowledge diffusion and offspring/ecosystem benefits.
+
+### Failure-history inheritance
+Useful practice but not novel: organizational-learning literature explicitly studies negative knowledge / knowing what not to do.
+
+### Rapid-scaling attention tradeoff
+Rejected as novel: 2026 Organization Science work directly studies spatial replication versus temporal retention competing for attention in scaling organizations.
+
+## Exact next move — Batch 17
+
+### A. Adversarial C009 target-domain search
+Search specifically for established intentional communities, communes, cohousing, monasteries, or other residential communities that deliberately admit **cohorts/bundles** based on interaction effects among applicants rather than evaluate applicants independently.
+
+If no close precedent:
+1. derive measurable interaction terms;
+2. specify when cohort selection is worth the added complexity;
+3. design a minimal non-algorithmic protocol communities can actually use;
+4. identify failure modes (cliques, discrimination, gaming, reduced applicant autonomy).
+
+### B. Continue C005 comparative empirical test
 Priority:
-1. church-planting networks/denominations with explicit parent-child identifiers;
-2. other communal religious fission genealogies;
-3. intentional-community federations with daughter trees.
+1. reconstruct Dariusleut/Lehrerleut parent-offspring distributions from FEEFHS;
+2. alternatively obtain church-planting family-tree rows from Exponential or a denomination.
 
-Need actual offspring distribution, not one statistic:
+Need actual offspring distribution:
 - P(K=0)
 - mean/median/variance K
 - top-decile daughter share
@@ -64,18 +87,18 @@ Need actual offspring distribution, not one statistic:
 - granddaughter reproduction
 - parent/federation subsidy
 
-### B. One final C003 precedent attack only
-Search specifically for organizational/religious work where **collective branch asset inheritance** is modeled as a pre-selection filter on institutional variants. On collision, demote. Otherwise leave provisional without further elaboration.
+### C. Orthogonal Batch 17
+Generate >=12 candidates from domains not exhausted by matching unless a deeper consequence follows from C009.
 
-### C. Orthogonal Batch 16
-Generate >=12 candidates that change operations/design, not just analysis. Candidate source domains:
-- matching-market unraveling / deferred acceptance
-- ecological priority/disturbance effects not reducible to founder imprinting
-- secure-information architectures / information hazards
-- irreversible-action stochastic control
-- mechanism design under hidden/correlated information
-- population-genetic or evolutionary search results beyond ordinary diversity/fidelity
-- network/epidemic results not reducible to centrality or common-cause risk
+Preferred source domains:
+- causal inference / experimental design
+- error-correcting codes beyond generic redundancy
+- ecological succession beyond founder/priority effects
+- distributed consensus under Byzantine-but-not-malicious noise
+- queueing networks beyond backlog/common bottlenecks
+- search theory / stopping rules
+- evolutionary developmental constraints
+- information geometry / sufficient statistics
 
 Reject on sight:
 - generic diversification
