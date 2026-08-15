@@ -4,7 +4,7 @@ Updated: 2026-08-15
 
 ## Durability
 
-GitHub is authoritative. Batches 21–31 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
+GitHub is authoritative. Batches 21–35 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
 
 ## Current survivors
 
@@ -21,67 +21,64 @@ GitHub is authoritative. Batches 21–31 are durably checkpointed. Every practic
 - **C017 — Intervention-aware rescue forecasts:** intervention-produced outcomes are not unadjusted labels for forecasts that triggered the intervention.
 - **C018 — Replicated-governance tombstones:** negative/deprecation knowledge must propagate with daughter/template replication channels.
 - **C019 — Power-targeted federation voting:** define desired representation, model both tiers, compute actual pivotal power under weights + quota, and solve/audit toward the intended distribution.
-- **C020 — Fission/merge representation-effect audit:** community reproduction/merger can create an implicit political subsidy or penalty. Measure the before/after power effect and decide whether any autonomy/community-unit premium is intentional.
+- **C020 — Fission/merge representation-effect audit:** community reproduction/merger can create an implicit political subsidy or penalty; measure before/after power and decide whether any autonomy/community-unit premium is intentional.
+- **C021 — Scrutiny-conditioned evidence accounting:** when suspicion changes observation intensity, preserve the observation regime as evidence provenance so monitoring-generated incident counts cannot silently validate the suspicion that caused the monitoring.
 
 Reusable voting tool:
 - `analysis/weighted_voting_power.py` — exact Banzhaf + Shapley-Shubik for small weighted games.
 
-## Latest batches
+## Batches 32–35
 
-### Batch 29 — hysteresis / anti-windup
-No novelty survivor. Practical threshold, saturation, tolling, release-criteria and chatter controls mirrored to communities.
+### Batch 32 — scaling regimes / scale closure
+No novelty survivor. Policy-scaling/general-equilibrium and ecovillage external-dependence literature own the mechanism. Practical research rule: every claimed best practice must state its scaling regime—scale-invariant, frequency-dependent, shared-capacity-limited, externally dependent/not scale-closed, or positive-network-effect.
 
-### Batch 30 — federation voting power
-C019 survived. Do not reduce to square-root weights; voting weight is not voting power.
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-32.md`.
 
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-30.md`.
+### Batch 33 — benchmark selection and intercommunity transfers
+No novelty survivor. Cream-skimming/risk-adjustment/provider-transfer literatures own the mechanism. Practical rule: do not let a community improve its report card by moving the hard outcome out of its denominator; follow person/household and burden across the movement.
 
-### Batch 31 — reproduction × representation
-C020 survived narrowly. Player splitting/merging math and dynamic child-community representation are already studied. The surviving target connection is to make the **political effect of legitimate communal fission/merger** an explicit planned-reproduction variable.
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-33.md`.
 
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-31.md`.
+### Batch 34 — scrutiny-conditioned evidence
+**C021 survived provisionally.** Predictive-policing/selective-label/surveillance-bias mechanisms are established. The target transfer is to record evidence provenance and the observation regime whenever suspicion changes how intensely a member is observed.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-34.md`.
+
+### Batch 35 — labor-credit recognition / multitasking
+No novelty survivor. Holmström–Milgrom multitask incentive theory owns the mechanism, and Twin Oaks already explicitly recognizes domestic work, childcare, teaching and some emotional/care labor.
+
+Practical rule: audit the **creditability pipeline**, not merely nominal `one hour = one credit` equality—legibility, eligibility, authorization, budget, scheduling, recordability, verification, credit rate, appeal, demographic distribution, uncredited burden and behavioral response.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-35.md`.
 
 ## Communities lessons persistence
 
 Current append-only supplements on `agent/final-research-synthesis`:
 - `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-ADDENDUM.md` — Batch 23–24;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-31.md`.
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-35.md`.
 
 Canonical `COMMUNITY-DEVELOPMENT-LESSONS.md` remains intact while parallel research edits continue. Consolidate only after resolving the latest branch head.
 
-## Exact next move — Batch 32
+## Exact next move — Batch 36
 
-### Primary target: frequency-dependent success of communal innovations
+Leave labor accounting and surveillance. Generate >=12 candidates from a different technical family.
 
-Core question:
-> **Can a community practice look like a best practice precisely because few communities use it, so movement-wide replication changes or destroys its payoff?**
+Priority source domains:
+- Byzantine/distributed agreement beyond generic checks and balances;
+- coding/information theory beyond generic redundancy;
+- matching/coalition formation with endogenous group boundaries;
+- topology/robustness of institutional interfaces;
+- irreversible stochastic control / real-options logic;
+- adversarial protocol design where legitimate parties can become temporarily unavailable or conflicted.
 
-Source-domain screen:
-- negative/positive frequency-dependent selection;
-- evolutionary games;
-- congestion/minority games;
-- policy scaling and general-equilibrium effects;
-- market saturation and induced competition;
-- causal inference with interference.
+Hard target:
+> Find a structural communal/federation rule that changes an actual constitution, interface, measurement, or reproduction mechanism and cannot be compressed to ordinary due process, decentralization, redundancy, or `have a backup`.
 
-Target applications:
-- businesses/niches copied across communities;
-- recruitment strategies competing for the same applicant pool;
-- common donors/funders/grants;
-- land/resource strategies whose payoff depends on rarity;
-- shared external mediators/professionals/resources;
-- governance innovations whose efficacy depends on being unusual relative to surrounding institutions;
-- movement research centers spreading one observed high-performing practice.
-
-Candidate operational distinction:
-- **scale-invariant practice:** expected benefit remains approximately stable as adoption rises;
-- **frequency-dependent practice:** expected benefit changes materially with movement adoption/prevalence;
-- **capacity-limited practice:** benefit collapses after a shared external resource saturates.
-
-Novelty bar:
-- `markets saturate` is obvious and fails;
-- generic interference/general equilibrium fails;
-- only a nonstandard community-research/replication rule or diagnostic that changes what gets scaled can survive.
+Candidate prompt:
+- can two individually valid decision quorums authorize mutually incompatible irreversible actions?;
+- can adding more appeal/review routes reduce consistency or create strategic routing?;
+- can a federation guarantee that an implicated faction cannot form *both* the deciding quorum and the appeal quorum even when recusals/vacancies change membership?;
+- can a decision be safely reversible until information value justifies crossing an irreversible boundary?
 
 ### Independent C005 comparator
 Continue only when a real non-Hutterite parent→daughter dataset with exposure time is available.
