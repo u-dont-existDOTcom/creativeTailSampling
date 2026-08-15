@@ -4,97 +4,131 @@ Updated: 2026-08-15
 
 ## Current epistemic state
 
-The multiplex/relational-unbundling chain is **not an accepted Creative Tail Sampling discovery**. It failed the user's familiarity veto and the literature-nearest-neighbor gate. `MODEL.md` is historical/applied material only; do not resume novelty search from it.
+The multiplex/relational-unbundling chain remains rejected as a Creative Tail Sampling discovery. `MODEL.md` is historical/applied material only.
 
-Canonical veto: `runs/2026-08-15-user-veto-multiplex-branch.md`.
-
-The protocol now requires:
-
-- common-sense compression;
-- explicit historical/literature nearest-neighbor attack;
-- user familiarity veto;
-- anti-elaboration once a root branch is familiar;
-- separation of same-domain rediscovery from nonstandard cross-domain transfer;
-- acceptance of empty batches rather than weak promotion.
+The protocol requires common-sense compression, literature-nearest-neighbor attack, user familiarity veto, anti-elaboration, cross-domain structural transfer criteria, and acceptance of empty batches.
 
 ## Current surviving cross-domain connections
 
 ### C001 — Active normative edge-case search
 
-Transfer active-learning / preference-elicitation logic into intentional-community governance.
+Still survives provisionally. Use adaptive concrete cases to reveal hidden value/governance disagreement, preserve high-information resolved cases as a constitutional regression suite, and separate baseline elicitation from deliberation because preferences can be sequence-sensitive or unstable.
 
-Instead of maximizing agreement on abstract values, adaptively choose concrete cases where members' currently plausible interpretations are most likely to disagree. Preserve resolved high-information cases as a constitutional regression suite and rerun them after rule/member changes.
+### C003 — Asset-gated cultural mutation
 
-Audit: `runs/2026-08-15-orthogonal-tail-batch-04.md`.
+Current strongest reproduction-specific candidate.
 
-### C002 — Flagship founder trap / founder-export externality
+Property/split architecture may control the **effective cultural mutation rate** of a community movement. Sanctioned daughters may inherit accumulated capital while dissenting institutional forks may have to reconstruct land, tools, treasury, reputation, and other capital from near zero.
 
-A successful flagship may retain exactly the experienced/high-agency members the wider movement needs to found daughters.
+The strongest implication is **selection blindness**:
 
-The potentially non-obvious part is the multilevel incentive conflict:
+> observed surviving community forms are selected from variants that the incumbent reproduction architecture allowed to become adequately capitalized competitors, not necessarily from the full set of plausible institutional designs.
 
-> parent community pays the immediate cost of exporting a proven member; much of the reproductive benefit accrues to the movement.
+Therefore high demographic daughter-production can coexist with low institutional experimentation.
 
-Therefore a movement can collectively underproduce founders even when every local community endorses expansion.
+Audit: `runs/2026-08-15-orthogonal-tail-batch-06.md`.
 
-Predictions to attack next:
+### C004 — Governance commutativity
 
-- high retention of proven potential founders may suppress daughter formation unless founder export is explicitly organized;
-- increasing flagship attractiveness may eventually reduce daughter production even while increasing local success;
-- movement/federation-level founder-export rewards or replacement pipelines may outperform generic recruitment if experienced founders are the bottleneck.
+Current strongest distributed-systems transfer.
 
-Audit: `runs/2026-08-15-reproduction-tail-batch-05.md`.
+Federation scalability may depend less on raw population/community count than on the **density of non-commuting decision pairs**: decisions whose effects modify shared state incompatibly and therefore genuinely require coordination/order.
 
-## Promising but unpromoted
+The design move is stronger than generic decentralization/subsidiarity:
 
-- **P001 multi-parent daughter communities as cultural recombination** — still risks collapsing to ordinary cross-pollination.
-- **P002 turnkey replication deletes developmental process** — still too close to tacit knowledge/path dependence/local adaptation.
+> redesign shared assets, namespaces, budgets, promises, and interfaces so a larger fraction of local decisions become order-independent rather than merely delegating existing conflicting decisions.
+
+Audit: `runs/2026-08-15-orthogonal-tail-batch-06.md`.
+
+## Demoted in Batch 06
+
+### D001 — Flagship founder trap / founder-export externality
+
+Demoted from C002 after adjacent-literature attack. Employee-spinout and social-movement literatures already occupy too much of the mechanism's conceptual neighborhood.
+
+### D002 — Multi-parent daughter recombination
+
+Too close to cross-pollination/cultural recombination/diverse founder experience.
+
+### D003 — Developmental-sequence replication
+
+Too close to tacit knowledge, organizational lifecycle, sequencing, and path dependence.
 
 ## Hard novelty boundary
 
-Do not repromote:
+Do not repromote familiar versions of:
 
-- commodification / alienation / specialization of social relations;
-- thick-vs-thin ties, embeddedness, social capital, multiplex-resource exchange;
-- specialization making people replaceable;
-- planned community fission / propagule reproduction;
-- cultural transmission fidelity/complexity thresholds;
-- source/sink institutional dynamics;
-- germline/reproductive specialization by itself;
-- costly signaling and opportunity/exit costs;
-- network modularity/fission;
-- cultural compression through repeated transmission;
+- commodification/alienation/specialization of social relations;
+- thick-vs-thin ties, embeddedness, social capital, multiplex exchange;
+- planned fission/propagule reproduction;
+- cultural fidelity/complexity thresholds;
+- source/sink movement dynamics;
+- germline/reproductive cadres by themselves;
+- costly signaling/exit costs;
+- modularity/fission;
 - recruitment-composition effects;
-- collective forkability;
-- generic migration/diversity tradeoffs;
-- key-person risk, stress inoculation, conflict queues;
-- local retention being an incomplete movement metric, by itself.
+- generic schism/forkability;
+- generic property disputes after schism;
+- ordinary institutional lifecycle/path dependence;
+- stress tests/redundancy without a stronger consequence;
+- generic subsidiarity/polycentricity unless a sharper structural criterion is supplied.
 
-## Exact next creative-tail move
+## Exact next creative-tail move — Batch 07
 
-Do **not** elaborate C002 into generic externality economics.
+Attack C003 and C004 rather than elaborate their language.
 
-Run an adversarial batch around the narrower question:
+### C003 adversary
 
-> If experienced founders really are a scarce reproductive resource, what counterintuitive structures follow that are not already captured by spinout, missionary, franchise, organizational-ecology, or social-movement institutionalization theory?
+Search religious-economics, organizational-property, schism, club-good, and institutional-innovation literatures specifically for:
 
-Also continue sampling orthogonally rather than anchoring on C002. Candidate distant domains:
+- property portability changing the frequency/viability of breakaway organizations;
+- asset ownership rules deterring doctrinal or institutional innovation;
+- incumbent control over branch capitalization biasing observed institutional selection.
 
-- evolutionary life-history allocation;
-- developmental biology;
-- distributed-systems failure recovery;
-- error-correcting codes / information theory;
-- experimental design / active learning;
-- mechanism design;
-- epidemiological reproduction thresholds.
+If that mechanism is already explicit, demote C003.
 
-For each candidate, require a target-domain prediction that would change what the community movement measures or does.
+If not, formalize the distinction between:
+
+- ordinary individual exit rights;
+- collective branch/fork inheritance rights;
+- parent-approved daughter inheritance;
+- process-triggered fork seed rights.
+
+Then attack the mechanism-design problem: can a fork-capital protocol permit genuine institutional experimentation without rewarding strategic asset stripping?
+
+### C004 adversary
+
+Search federalism, Ostrom/polycentricity, institutional modularity, near-decomposability, policy interdependence, fiscal externalities, and transaction-cost governance for an equivalent of the commutativity criterion.
+
+If 'non-commuting decision density' is merely another name for standard interdependence/spillovers/modularity, demote it.
+
+If it survives, make it operational:
+
+1. represent common community decisions as state transitions;
+2. define when two transitions commute for governance purposes;
+3. distinguish true conflicts from mere ideological disagreement;
+4. derive a measurable non-commutativity graph/density;
+5. test whether architectural changes can lower that density without centralization.
+
+### Orthogonal sampling
+
+Continue generating distant-domain candidates in parallel so the search does not anchor on C003/C004. Strong source domains for the next batch:
+
+- causal inference / experiment design;
+- cryptographic threshold systems;
+- ecological succession;
+- immune-system tolerance;
+- compiler/interface design;
+- evolutionary developmental constraints;
+- distributed fault containment;
+- market microstructure.
 
 ## Persistence rule
 
 After every substantive batch:
 
-- save full candidate/rejection audit under `runs/`;
-- promote only survivors to `FINDINGS.md`;
-- update this checkpoint immediately;
+- save the full audit under `runs/`;
+- immediately demote candidates that collide with existing theory;
+- promote only survivors into `FINDINGS.md`;
+- update this checkpoint;
 - never rely on chat history as durable state.
