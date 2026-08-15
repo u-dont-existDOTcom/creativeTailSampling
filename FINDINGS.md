@@ -107,6 +107,21 @@ The causal mechanism is not claimed as new. Performative prediction, treatment p
 
 Full audit: `runs/2026-08-15-orthogonal-tail-batch-23.md`.
 
+### C018 — Replicated-governance tombstones
+**Status:** SURVIVING / provisional cross-domain transfer from distributed-state deletion semantics and decision-record practice.
+
+Simple policy archives and amendment histories are already present in intentional-community practice and commons research. The surviving transfer is narrower:
+
+> **When a high-consequence governance pattern is retired for a known failure, propagate a durable deprecation record through the same daughter/template replication channels that could otherwise reintroduce it.**
+
+A useful tombstone records the semantic scope of the retired pattern, why it failed, evidence/counterexamples, replacement, context limits, and what process would be required to reconsider it. Daughter communities, forks, starter templates and restored handbooks should import/check tombstones as well as current positive rules.
+
+The aim is not eternal prohibition. It is forced institutional memory: a stale branch should not silently make a rejected pattern current again without confronting the reason it was retired.
+
+The semantic scope matters more than literal text. Renaming the old authority relation should not evade review.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-25.md`.
+
 ## Demoted / useful but not Creative Tail novelty
 
 Historical demotions remain fully documented in `runs/`. Important rejection frontier:
@@ -133,10 +148,14 @@ Historical demotions remain fully documented in `runs/`. Important rejection fro
 - **D045** experience-rated rescue contributions — insurance pricing/moral hazard.
 - **D046** correlated-risk reserve sizing — catastrophe/systemic-risk insurance.
 - **D047** first-come rescue race / distress legibility — common-pool and Goodhart/legibility effects.
+- **D048** split-brain/overlapping governance conflict — polycentric governance and federal conflict-resolution theory.
+- **D049** graceful degradation / partition modes / staggered reform — continuity, emergency management and policy experimentation.
+- **D050** interference-aware daughter experiments — causal inference under interference.
+- **D051** governance schema migration / metric versioning / tamper-evident commitments — established change-management, data-governance and secure-record practices.
 
 ## Hard rejection frontier
 
-Do not repromote technical restatements of: commodification/alienation; thick-vs-thin ties/social capital; generic division-of-labor effects; planned fission/propagule reproduction; cultural fidelity; cultural phylogenetic non-independence; cultural hitchhiking; source/sink dynamics; modularity/interdependence; founder/lifecycle effects; generic property/exit/liquidity; organizational forgetting; self-selection/endogeneity; survivorship/external validity; generic monitoring/auditing; common-cause diversification; checks-and-balances/least privilege; laboratories of democracy; generic matching; continuity/succession exercises; generic pilots; ordinary paired discrimination testing; legal holdout/cross-validation; generic organizational evolvability; generic privacy-preserving linkage; access-control leases/revocation; process conformance; compensating transactions; anti-structuring; vexatious-process controls; beneficial-ownership/common-control analysis; ordinary insurance/moral hazard; or generic anticipatory-action forecasting.
+Do not repromote technical restatements of: commodification/alienation; thick-vs-thin ties/social capital; generic division-of-labor effects; planned fission/propagule reproduction; cultural fidelity; cultural phylogenetic non-independence; cultural hitchhiking; source/sink dynamics; modularity/interdependence; founder/lifecycle effects; generic property/exit/liquidity; organizational forgetting; self-selection/endogeneity; survivorship/external validity; generic monitoring/auditing; common-cause diversification; checks-and-balances/least privilege; laboratories of democracy; generic matching; continuity/succession exercises; generic pilots; ordinary paired discrimination testing; legal holdout/cross-validation; generic organizational evolvability; generic privacy-preserving linkage; access-control leases/revocation; process conformance; compensating transactions; anti-structuring; vexatious-process controls; beneficial-ownership/common-control analysis; ordinary insurance/moral hazard; generic anticipatory-action forecasting; generic polycentric coordination; ordinary policy archives/version histories; or generic change management.
 
 ## Method findings
 
@@ -152,14 +171,15 @@ Do not repromote technical restatements of: commodification/alienation; thick-vs
 - **M010:** when a broad analogy collides, narrow the transferred object until it yields a distinct operational failure/test or dies.
 - **M011:** public accountability and adversarial unpredictability can coexist when rules are public, future randomness is unknowable, and realized selection is replayable.
 - **M012:** intervention-triggering predictions require intervention-aware evaluation; observed post-intervention outcomes are not automatically valid labels for the forecasts that caused the intervention.
+- **M013:** negative institutional knowledge must be evaluated at the replication channel, not merely the archive; preserved history can still fail if stale positive templates circulate separately from deprecation state.
 
 ## Provenance
 
 Latest detailed runs:
 
-- `runs/2026-08-15-orthogonal-tail-batch-20.md`
-- `runs/2026-08-15-orthogonal-tail-batch-21.md`
 - `runs/2026-08-15-orthogonal-tail-batch-22.md`
 - `runs/2026-08-15-orthogonal-tail-batch-23.md`
+- `runs/2026-08-15-orthogonal-tail-batch-24.md`
+- `runs/2026-08-15-orthogonal-tail-batch-25.md`
 
 Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
