@@ -4,7 +4,7 @@ Updated: 2026-08-15
 
 ## Durability
 
-GitHub is authoritative. Batches 21–43 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
+GitHub is authoritative. Batches 21–44 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel Escuelita/research work advances.
 
 ## Current survivors
 
@@ -28,10 +28,10 @@ GitHub is authoritative. Batches 21–43 are durably checkpointed. Every practic
 Reusable voting tool:
 - `analysis/weighted_voting_power.py` — exact Banzhaf + Shapley-Shubik for small weighted games.
 
-## Batches 38–43
+## Batches 38–44
 
 ### Batch 38 — robust movement research / measurement canaries
-**C022 survived provisionally.** Before pooling community-reported outcomes whose classification depends on local interpretation, use standardized synthetic cases to expose threshold/schema heterogeneity.
+**C022 survived provisionally.** Use standardized synthetic cases to expose cross-community classification-threshold heterogeneity before pooling locally interpreted outcomes.
 
 ### Batch 39 — value pluralism as a research-center limit
 No novelty survivor. Separate empirical outcomes, community valuation, and federation constitutional floors; use partial/Pareto outputs rather than hidden universal welfare weights.
@@ -46,20 +46,18 @@ No novelty survivor. Current-resident satisfaction is descriptive, not causal; f
 No novelty survivor. Admissions, expulsions, franchise, fission/merger and delegate-selection rules alter the future decision-maker population and therefore require reflexive constitutional scrutiny.
 
 ### Batch 43 — disclosure-incentive / preference-falsification gate
-No novelty survivor. Survey methodology, sensitive-question research and high-control-group methodology own the root mechanism.
+No novelty survivor. Member self-report is an incentive-sensitive evidence channel; privacy, independent custody, leaver channels, concrete behavior items and mode-sensitivity tests are foundational.
 
-Foundational practical architecture:
-- member self-report is an **incentive-sensitive evidence channel**, not a transparent welfare meter;
-- keep identifiable raw sensitive data outside local leadership;
-- make participation genuinely private and make anonymity plausible in small groups;
-- randomize privacy/mode where sample size permits to measure mode sensitivity;
-- use indirect sensitive-question methods cautiously and often federation-wide because communes are small;
-- collect current-member, leaver and non-self-report outcome channels separately;
-- ask concrete behavioral constraints separately from loaded identity labels;
-- measure perceived disclosure consequences;
-- do not use social-desirability scales as truth detectors.
+### Batch 44 — embedded reporting-bias diagnostics
+No novelty survivor. Social-desirability, overclaiming, list/randomized-response, criterion-validation and mode-experiment methods are established.
 
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-43.md`.
+Strong practical architecture:
+- do **not** infer face-saving mainly from low ordinary variance;
+- prefer known-truth foils, randomized direct-vs-indirect/privacy comparisons, identical mirror vignettes and independent-record anchors;
+- combine several diagnostics into a community/sample-level **reporting-pressure profile**, not an individual lie score;
+- use diagnostic convergence to qualify uncertainty and triangulation needs rather than mechanically correcting wellbeing/safety scores.
+
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-44.md`.
 
 ## Federation research-center gates
 
@@ -70,17 +68,17 @@ Before a strong comparative claim, ask:
 3. **Diffusion gate — Batch 40:** has research/recommendation changed institutional variation?
 4. **Selection gate — Batch 41:** has the design changed who remains observable?
 5. **Constituency gate — Batch 42:** has the design changed who controls future review/definition?
-6. **Disclosure-incentive gate — Batch 43:** do respondents have incentives/fears that systematically alter self-report?
+6. **Disclosure-incentive gate — Batches 43–44:** do respondents have incentives/fears that alter self-report, and what embedded diagnostics indicate about that pressure?
 
 ## Communities lessons persistence
 
 Current append-only supplements on `agent/final-research-synthesis`:
 - `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-ADDENDUM.md` — Batch 23–24;
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-43.md`.
+- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-25.md` through `...-BATCH-44.md`.
 
 Canonical `COMMUNITY-DEVELOPMENT-LESSONS.md` remains intact while parallel research edits continue. Consolidate only after resolving the latest branch head.
 
-## Exact next move — Batch 44
+## Exact next move — Batch 45
 
 ### Primary target: household/couple complementarity in federated applicant matching
 
