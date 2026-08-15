@@ -8,7 +8,7 @@ Updated: 2026-08-15
 Adaptive high-information concrete cases + constitutional regression suite. Provisional.
 
 ### C003 — Asset-gated cultural mutation
-Narrow survivor only: collective branch inheritance may pre-filter which institutional variants become adequately capitalized competitors. Leave provisional; do not elaborate further unless new evidence appears.
+Narrow survivor: collective branch inheritance may pre-filter which institutional variants become adequately capitalized competitors.
 
 ### C005 — Reproductive-variance / superstar-reproduction trap
 Strongest reproduction-specific result, replicated across multiple Hutterite branches.
@@ -20,146 +20,124 @@ Key mature-cohort signatures:
 - Lehrerleut 1918–1953: P(K=0)=3.45%, median K=1, top-10% share 24.53%
 - Dariusleut 1918–1953: P(K=0)=0%, median K=2, top-10% share 20.0%
 
-No comparable row-level non-Hutterite genealogy has yet been found. Aggregate church-planting figures remain qualitative context only.
-
 ### C006 — Descendant inflation / lineage-size sampling bias
-Survives. Carry explicit root/lineage/extant-community/resident estimands into future prevalence/comparative work.
+Survives. Carry explicit root/lineage/extant-community/resident estimands into future comparative work.
 
 ### C009 — Cohort-composition admission
-Survives but is market-thickness bounded. Best use: founding, daughter formation, new sites, expansion waves, several simultaneous vacancies. Do not manufacture batches in sparse mature-community applicant markets.
+Survives but is market-thickness bounded. Best use: founding, daughter formation, new sites, expansion waves, several simultaneous vacancies.
 
 ### C011 — Shadow governance
-Survives. Run a substantially new governance process nonbinding in parallel on the same admissible cases before authority transfer; analyze divergence cases before live pilot/adoption.
+Run a substantially new governance process nonbinding in parallel on the same admissible cases before authority transfer; analyze divergence before live pilot/adoption.
 
 ### C012 — Standing constitutional-relation testing
-Survives only in narrowed form. Identity-swapped paired tests are old; remaining candidate is a versioned suite of several predeclared relations such as irrelevance, symmetry, monotonicity and jurisdiction invariance.
+Narrow survivor: maintain versioned tests for relations the community claims should hold—irrelevance, symmetry, monotonicity, jurisdiction invariance—rather than claiming paired identity swaps are new.
 
 ### C013 — Federated reciprocal applicant clearing after exploration
-Survives Batch 20 in narrowed form.
-
-Historical kibbutz practice already had movement-level central applicant screening, so centralized intake/screening is not novel. The remaining transfer is:
-
-> after reciprocal preference discovery through visits/trials, coordinate commitments across autonomous communities while preserving opt-out and local admission authority.
-
-No close target-domain implementation has yet been found.
+Narrow survivor. Central intake/screening is old; remaining target transfer is coordinated reciprocal preference clearing across autonomous communities **after** visits/trials, preserving opt-out and local admission authority.
 
 ### C015 — Governance rights-liveness verification
-**New provisional survivor from Batch 21.**
+Survived a harder Batch 22 attack.
 
-Broad bylaw formalization/model checking is already known. The surviving transfer is narrower:
+Core test:
+> a right/remedy is not adequate merely because a clause permits it; under every realistic valid invocation, there must remain a permitted path to review/remedy/closure despite recusal, vacancy, quorum, jurisdiction, deadlines, delegation and escalation.
 
-> For an important communal right/remedy, verify that every realistic valid invocation still has a permitted path to review/remedy/closure despite adverse combinations of recusal, vacancy, quorum, jurisdiction, deadlines, delegation and escalation.
+Distinguish safety, liveness and bounded liveness. State every fairness/cooperation assumption explicitly; do not assume a conflicted/captured actor eventually cooperates unless the architecture routes around them.
 
-Distinguish:
-- safety: forbidden state/action never occurs;
-- liveness: promised remedy remains reachable under explicit assumptions;
-- bounded liveness: remedy completes within a defined procedural/time bound.
+### C016 — Verifiably unpredictable federation audit sampling
+**New provisional survivor from Batch 22.**
 
-Typical failure trace: appeal panel exists in text, but recusals + vacancy destroy quorum; only implicated local board can fill the vacancy; conflict rule bars it; no escalation exists; the appeal right is syntactically present but procedurally dead.
+When random federation oversight is justified:
+1. publicize audit scope/rights;
+2. freeze/commit the complete eligible universe before randomness is knowable;
+3. precommit sampling algorithm/sample size/exclusions;
+4. obtain future randomness not controlled by leadership/auditee;
+5. derive sample deterministically;
+6. make selection replayable/verifiable afterward.
 
-First-use targets:
-- complaint bypass;
-- expulsion/sanction appeal;
-- safeguarding escalation;
-- records access/correction;
-- exit valuation/payment;
-- emergency bypass;
-- leadership succession;
-- conflicted-adjudicator replacement;
-- federation review of a captured local body.
+The aim is to combine:
+- unpredictable selection before audit;
+- accountable/verifiable selection afterward.
 
-Full audit: `runs/2026-08-15-orthogonal-tail-batch-21.md`.
+Important: a random sample from a manipulable eligible list is not trustworthy. Universe completeness must be protected separately.
 
-## Batch 21 demotions / practical-only transfers
+Use for process/financial/quality audits, not randomized suspicion or punishment of members.
 
-- expiring authority / revocation latency → established privileged-access practice;
-- cascading derivative-authority revocation → established access-control delegation/revocation;
-- authority attenuation → capability/RBAC security;
-- governance conformance checking → process mining/compliance;
-- compensating transitions → Saga/compensating transactions + adjacent legal forms;
-- two-phase commitment → escrow/conditions precedent/probation;
-- fail-open/fail-closed defaults → safety/security/default-rule logic;
-- version tagging/event sourcing → audit/versioning;
-- emergency authority sunset → known constitutional/security pattern.
+Full audit: `runs/2026-08-15-orthogonal-tail-batch-22.md`.
 
-These can still enter the communities practical lessons layer.
+## Batch 22 practical-only results
 
-## Exact next move — Batch 22
+- threshold structuring/pattern evasion is known but relevant;
+- procedural denial-of-service/vexatious invocation is known and requires rights-preserving handling;
+- common-control/faction aggregation is beneficial-ownership/related-party logic;
+- risk-based + random audit floors are established;
+- secret evidentiary thresholds are a dangerous anti-gaming shortcut;
+- reviewer fault-domain diversity is useful but familiar.
 
-### A. Adversarially attack C015 harder
+## Exact next move — Batch 23
 
-Search specifically for:
-- formal verification of appeals, remedies, due process or grievance procedures as temporal/liveness properties;
-- model checking of recusal/quorum/vacancy/legal procedural deadlock;
-- executable law or e-institution work that verifies that a right/permission remains exercisable rather than merely allowed;
-- formal legal access-to-remedy work using reachability, liveness, bounded response, fairness assumptions or temporal logic.
+### A. Mirror Batch 21–22 useful lessons into communities repo
 
-Demote on a close match.
+Preserve current concurrent research edits. Add/relabel:
+- C015 rights-liveness verification;
+- revocation latency and cascading derivative-authority cleanup;
+- compensating actions/uncompensable steps for complex transitions;
+- explicit deadlock defaults and temporary-power sunsets;
+- conformance checking where logs are feasible;
+- C016 verifiably unpredictable audit sampling;
+- cumulative-pattern/anti-structuring warning;
+- procedural-DoS handling with independent safeguards;
+- common-control/faction-dependency audit;
+- risk-based + random audit floor.
 
-If it survives, derive a **minimal tool-independent specification format** rather than choosing software prematurely:
-- states;
-- roles;
-- transitions;
-- conflicts/recusals;
-- quorum;
-- deadlines/timeouts;
-- escalation;
-- safety properties;
-- liveness/bounded-liveness properties.
+### B. Adversarially attack C016
 
-### B. Mirror Batch 21 useful lessons into communities repo
+Search for close target precedents in:
+- cooperative federation audits;
+- NGO/humanitarian federation oversight;
+- participatory guarantee systems;
+- community land trusts/cohousing networks;
+- member-owned financial cooperatives.
 
-Add/relabel without novelty inflation:
-- rights liveness / deadlock verification (TAIL-PROVISIONAL if C015 survives);
-- revocation latency after role changes;
-- cascading derivative authority;
-- compensating actions for multi-step transitions;
-- identify uncompensable steps;
-- explicit fail-open/fail-closed/escalation defaults;
-- automatic sunset of temporary powers;
-- conformance checks when event logs are feasible.
+A mere random audit is not a collision. Require substantially the same:
+- universe committed before future randomness;
+- selection reproducible/verifiable afterward;
+- target cannot predict selection early enough to game it.
 
-Preserve concurrent Escuelita and other research updates.
+Demote if found.
 
-### C. Orthogonal Batch 22
+### C. Orthogonal Batch 23
 
-Do not continue mining generic distributed-systems vocabulary.
+Leave audit/randomness unless C016 attack yields a meaningful extension.
 
 Generate >=12 candidates from:
-- mechanism design against coordinated faction capture;
-- information disclosure where knowing the safeguard changes behavior;
-- adversarial search/security games with endogenous evasion;
-- queueing/triage only where it produces non-obvious rights consequences;
-- causal/mechanism discovery using a federation's daughter-community variation;
-- movement-level resource allocation externalities beyond applicant matching;
-- institutional design under adversaries who can strategically trigger or avoid procedures.
+- constitutional choice under **strategic procedural triggering**;
+- federated resource allocation externalities beyond applicant matching;
+- reversible delegation under changing local/federation jurisdiction;
+- causal discovery using natural differences among daughter communities without relying on generic phylogenetic methods;
+- mechanism design where local communities can misreport private information to obtain shared movement resources;
+- movement-level insurance/mutual aid where subsidy can change local risk-taking;
+- information aggregation under adversaries whose incentives differ from ordinary noisy observers.
 
-Possible hard questions:
-- can audit criteria be transparent while audit timing/sample selection remains unpredictable, without creating secret law?
-- can a safeguard remain reviewable while preventing actors from deterministically routing themselves around it?
-- can faction capture be made costly through endogenous randomization without undermining stable relationships?
-- do some rights require independent invocation channels whose existence is public but whose activation routing is not locally predictable?
+Hard questions:
+- can a federation allocate scarce rescue/seed funds without rewarding communities for making their own distress strategically legible?
+- can communities share catastrophic risk without subsidizing designs that externalize avoidable failure?
+- can daughter-community experimentation preserve autonomy while preventing the federation from learning only from communities that voluntarily report successes?
 
 Reject on sight:
-- generic random audits;
-- generic secret ballots;
-- generic transparency-vs-secrecy;
-- generic anti-collusion;
-- generic queue prioritization;
-- generic least privilege;
-- technical names for ordinary checks and balances.
+- generic insurance/moral hazard;
+- generic audits;
+- generic adverse selection;
+- generic voting/manipulation;
+- technical names for ordinary accountability.
 
 ### D. C005 comparator remains independent
 
-Continue only when a real non-Hutterite parent→daughter dataset with exposure time is found.
+Continue only when a real non-Hutterite parent→daughter dataset with exposure time is available.
 
 ## Two-repo disposition rule
-
 Every community-related candidate gets:
 1. originality disposition here;
 2. practical-usefulness disposition in `u-dont-existDOTcom/communities/COMMUNITY-DEVELOPMENT-LESSONS.md`.
-
-Novelty rejection must not erase practical knowledge.
 
 ## Persistence rule
 After every substantive batch: save full audit under `runs/`, demote collisions immediately, preserve empirical data/scripts, update `FINDINGS.md` and this checkpoint, mirror practical lessons into the communities repo, and never rely on chat history as durable state.
