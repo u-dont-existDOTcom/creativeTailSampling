@@ -4,7 +4,7 @@ Status: canonical working protocol, recovered 2026-08-15 and tightened after rep
 
 ## Purpose
 
-Use deliberate tail sampling to search for propositions that are genuinely non-obvious, useful, coherent, and consequential. The goal is not unusual wording or random novelty. It is to find propositions that remain interesting after being stated plainly **and after comparison with existing intellectual traditions**.
+Use deliberate tail sampling to search for propositions or **cross-domain transfers** that are genuinely non-obvious, useful, coherent, and consequential. The goal is not unusual wording or random novelty. It is to find ideas that remain interesting after being stated plainly **and after comparison with existing intellectual traditions**.
 
 The method is designed to resist the model's tendency to collapse back toward familiar, high-probability ideas and then mistake elaboration for discovery.
 
@@ -67,7 +67,16 @@ For social/community questions, the default collision set includes at minimum:
 
 This is not an exhaustive canon. Search broader when the candidate points elsewhere.
 
-**Rule:** if a competent reader of the relevant literature could reasonably say "this is basically X," the candidate is **not a creative-tail finding**. At most, preserve a distinctive application or operationalization as a derivative consequence.
+**Same-domain rediscovery rule:** if a competent reader of the *target-domain* literature could reasonably say "this is basically X," the candidate is **not a creative-tail finding**. At most, preserve a distinctive operationalization as derivative material.
+
+**Cross-domain transfer exception:** Creative Tail Sampling is partly a search for surprising connections between knowledge domains. A mechanism may be well known in a source domain and still survive if:
+
+1. the transfer into the target domain is not already standard;
+2. the mapping is structural rather than metaphorical decoration;
+3. it generates a distinctive prediction, measurement, or design rule that the target-domain framing would not obviously supply;
+4. targeted search does not reveal that substantially the same transfer is already established.
+
+Label such results **CROSS-DOMAIN CONNECTION**, not "new theory."
 
 When novelty matters, perform a targeted literature/web search for candidate survivors before promotion. Failure to find a precedent is not proof of originality; it merely clears one rejection gate.
 
@@ -108,8 +117,9 @@ A proposition that produces no non-obvious downstream consequences is weak even 
 
 Evaluate candidates on at least:
 
-- **originality** — survives both plain restatement and literature compression;
-- **insight** — reveals structure not captured by the familiar framing;
+- **originality** — survives plain restatement and target-domain literature compression;
+- **connection novelty** — for transfers, the cross-domain mapping is not already standard;
+- **insight** — reveals structure not captured by the familiar target framing;
 - **coherence** — no hidden contradictions or contrived assumptions;
 - **fitness** — relevant to the problem being explored;
 - **consequence** — generates downstream predictions/design implications;
@@ -127,11 +137,12 @@ If none survive, say **none survived** and generate another tail batch. Never lo
 A candidate becomes a serious finding only when it is:
 
 1. genuinely non-obvious to the user;
-2. not substantially contained in an existing named theory/tradition found by the historical/literature adversary;
-3. consequential;
-4. coherent;
-5. testable or at least discriminable in principle;
-6. sufficiently far from the established rejection frontier that it is not merely an ornate restatement.
+2. not substantially contained in an existing target-domain named theory/tradition;
+3. if cross-domain, a nonstandard structural transfer with distinctive consequences;
+4. consequential;
+5. coherent;
+6. testable or at least discriminable in principle;
+7. sufficiently far from the established rejection frontier that it is not merely an ornate restatement.
 
 Then treat it as the new search seed and tail-sample its implications.
 
