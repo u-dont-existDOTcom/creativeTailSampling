@@ -65,41 +65,21 @@ Historical period data also show stable Manitoba colony reproduction through 191
 
 Scope warning: the genealogy field is Manitoba daughters only; cross-border daughters are omitted.
 
-#### Batch 17 cross-branch replication — FEEFHS 1973 tables
+#### Cross-branch replication — FEEFHS 1973 tables
 
-To standardize censoring, Batch 17 reconstructed colonies founded **1918–1953 inclusive**, giving at least 20 years of possible daughter production before the 1973 table cutoff.
+Standardized mature cohort: colonies founded **1918–1953 inclusive**, giving at least 20 years of possible daughter production before the 1973 cutoff.
 
-**Lehrerleut** (`n=29` mature parents):
+**Lehrerleut** (`n=29` mature parents): daughters 53; mean `K=1.828`; median 1; population variance `1.453`; variance/mean `0.795`; `P(K=0)=3.45%`; top-10% share `24.53%`; max `K=5`.
 
-- listed daughters = 53;
-- mean `K = 1.828`;
-- median `K = 1`;
-- population variance `1.453`;
-- variance/mean `0.795`;
-- `P(K=0) = 3.45%`;
-- top 10% share = `24.53%`;
-- maximum `K = 5`.
+**Dariusleut** (`n=33` mature parents): daughters 60; mean `K=1.818`; median 2; population variance `0.694`; variance/mean `0.382`; `P(K=0)=0%`; top-10% share `20.0%`; max `K=3`.
 
-**Dariusleut** (`n=33` mature parents):
+The same qualitative result appears across distinct Hutterite branches: mature-parent reproduction is broadly distributed, not jackpot-dominated.
 
-- listed daughters = 60;
-- mean `K = 1.818`;
-- median `K = 2`;
-- population variance `0.694`;
-- variance/mean `0.382`;
-- `P(K=0) = 0%`;
-- top 10% share = `20.0%`;
-- maximum `K = 3`.
+Operational shorthand: **make reproduction boring**. A strongly replicable community system should make daughter formation an ordinary lifecycle event for the median competent community rather than an exceptional achievement by a few unusually capable founders.
 
-The same qualitative result now appears across distinct Hutterite branches: mature-parent reproduction is broadly distributed, not jackpot-dominated. Subject to historical table/node-identity caveats, the Dariusleut cohort is especially striking because every mature cohort node reproduced at least once by the cutoff.
+#### Non-Hutterite screen
 
-Operational shorthand: **make reproduction boring**. A strongly replicable community system should make daughter formation an ordinary lifecycle event for the median competent community rather than an exceptional achievement by a few charismatic or unusually capable founders.
-
-#### Batch 18 non-Hutterite screen
-
-A public row-level church-planting genealogy sufficient for a comparable `K` distribution was not found. Aggregate research does provide a qualitative contrast: Exponential summarized a 17-network study in which 22% of churches started in 2012 or earlier had produced at least one daughter within five years, while an Acts 29 annual report said 33% of its churches had gone on to plant a second-generation church. Follow-up, unit definition, subsidy, and reproduction mechanism differ too much for a numerical Hutterite-vs-church effect size.
-
-The bounded conclusion is only that near-universal mature-parent Hutterite reproduction is **not a generic consequence of organizations valuing reproduction**.
+A public row-level church-planting genealogy sufficient for a comparable `K` distribution has not yet been found. Aggregate church-planting evidence suggests reproduction is much less routine, but follow-up, unit definitions, subsidy, and mechanisms differ too much for a numerical Hutterite-vs-church effect size. Use only as qualitative context.
 
 Data / analysis:
 
@@ -116,15 +96,9 @@ Data / analysis:
 
 When daughter communities inherit parent culture, prolific lineages mechanically contribute more observations to present-day community samples. This is distinct from ordinary survivorship bias: even perfect enumeration gives descendant-rich lineages more sampling weight.
 
-The correct weighting depends on the estimand:
+The correct weighting depends on the estimand: random founding attempt/root, random lineage, random extant community, random current resident, or future movement culture/reproductive contribution.
 
-- random founding attempt/root;
-- random lineage;
-- random extant community;
-- random current resident;
-- future movement culture/reproductive contribution.
-
-Applied to `u-dont-existDOTcom/communities`, C006 does **not** invalidate the current mechanism-bounded P0 synthesis. Do not retrofit lineage weights there; carry genealogy/estimand controls into future comparative/prevalence analyses.
+Applied to `u-dont-existDOTcom/communities`, C006 does **not** invalidate the current mechanism-bounded P0 synthesis. Carry genealogy/estimand controls into future comparative/prevalence analyses.
 
 ### C009 — Cohort-composition admission
 
@@ -132,91 +106,107 @@ Applied to `u-dont-existDOTcom/communities`, C006 does **not** invalidate the cu
 
 Applicant utility may be **non-separable**: a candidate who looks poor against today's membership may belong to the best reachable future cohort, while individually acceptable applicants may compose into a poor cohort.
 
-This matters only when the candidate market is sufficiently thick. Mature communes may often receive applicants too sparsely for batching to be useful; founding, daughter formation, new-site openings, expansion waves, and multiple simultaneous vacancies are stronger use cases.
+This matters only when the candidate market is sufficiently thick. Mature communes may receive applicants too sparsely for batching to be useful; founding, daughter formation, new-site openings, expansion waves, and multiple simultaneous vacancies are stronger use cases.
 
-Operational consequence when several plausible candidates genuinely overlap:
+When several plausible candidates genuinely overlap: retain a provisional pool, evaluate candidate sets/interaction effects, use joint trials where feasible, preserve voluntary exit/autonomy, and compare composition gains with vacancy/delay/attrition costs.
 
-- retain a provisional candidate pool rather than finalize every acceptable applicant immediately;
-- evaluate plausible candidate sets and interaction effects, not only individual fit;
-- use joint trial periods where feasible;
-- preserve voluntary exit and applicant autonomy;
-- explicitly compare expected composition gain with vacancy, delay, and applicant-attrition costs.
-
-Ottawa Cohousing's forming-stage matchmaking/affinity-group process is a near precedent and supports the founding-stage scope correction; no close established-community cohort-admission precedent based explicitly on applicant interaction effects has yet been found.
-
-Demote if a close target precedent is found or if empirical interaction effects are trivial relative to individual fit.
+Ottawa Cohousing's forming-stage matchmaking/affinity-group process is a near precedent. No close established-community cohort-admission precedent based explicitly on interaction effects has yet been found.
 
 ### C011 — Shadow governance
 
-**Status:** SURVIVING / provisional cross-domain operational transfer from shadow-mode / parallel-run deployment; survived Batch 18 target attack.
+**Status:** SURVIVING / provisional cross-domain operational transfer from shadow-mode / parallel-run deployment.
 
-Intentional communities sometimes **live-pilot** a new governance system. The proposed intermediate step is different:
+Before transferring authority to a substantially new governance process, run it nonbinding in parallel on the same admissible cases and compare what it would have decided with the incumbent process.
 
-> Before transferring authority to a substantially new governance process, run it nonbinding in parallel on the same admissible cases and compare what it would have decided with the incumbent process.
+Minimal architecture: incumbent remains authoritative; shadow process receives the same admissible inputs; log its decision/reasoning/time/dissent/recusal/evidence requirements; analyze **divergence cases**; only then revise, live-pilot, adopt, or reject.
 
-Minimal architecture:
+Target searches found live governance trials and adjacent “shadow government” projects, but not the same-case nonbinding parallel decision-comparison architecture in intentional communities.
 
-1. incumbent process remains authoritative;
-2. shadow process receives the same admissible inputs;
-3. shadow decision/reasoning/time/dissent/recusal/evidence requirements are logged;
-4. analyze the **divergence cases**, not merely overall agreement;
-5. only then decide whether to revise, live-pilot, adopt, or reject the new process.
+Limits: shadow behavior can differ from live behavior, duplication costs time, sensitive cases may be inappropriate, and agreement does not prove legitimacy.
 
-Target searches found live governance trials and adjacent “shadow government” projects, but not the same-case nonbinding parallel decision-comparison architecture in intentional communities. A 2026 Phoenix Cohousing study also documents substantial difficulty and resistance during actual sociocracy implementation, reinforcing that abstract procedural appeal need not predict live effects.
+### C012 — Standing constitutional-relation testing
 
-Limits: shadow behavior may differ from live behavior, duplication costs time, sensitive personal cases may be inappropriate, and agreement does not prove legitimacy.
+**Status:** SURVIVING / provisional, **narrowed after Batch 19 nearest-neighbor attack**.
 
-Prediction: shadow runs will expose high-impact decision divergences that abstract constitutional debate misses, especially around agenda control, evidence, vetoes, recusal, timing, and jurisdiction.
+Identity-swapped paired testing itself is old: audit studies and matched-vignette experiments already vary race, sex, names, status, or other attributes while holding relevant facts constant.
 
-### C012 — Metamorphic governance testing / constitutional invariance testing
+The remaining proposed transfer is a **versioned constitutional relation suite** that tests several relations a community claims should hold even when no one knows the uniquely correct answer:
 
-**Status:** SURVIVING / provisional cross-domain operational transfer from metamorphic software testing and black-box bias auditing.
+- irrelevance/invariance;
+- symmetry between normatively equivalent parties;
+- monotonicity when relevant evidence strengthens;
+- jurisdiction invariance when proposer identity changes;
+- other predeclared relational properties specific to the community's rules.
 
-Hard governance cases often lack an agreed “oracle” that tells everyone the uniquely correct decision. But a community can still test whether its process obeys relations it already claims should hold.
+Workflow: state the expected relation first; create minimally transformed cases; blind/randomize where feasible; process independently; compare decisions and reasons; diagnose failures; preserve informative cases as regression tests.
 
-Core transfer:
+C001 vs C012:
+- **C001** discovers where members' values differ;
+- **C012** tests whether the process follows relations already claimed.
 
-> Change only a feature that the governing principle says should be irrelevant or predictably related, then test whether the outcome changes in the prohibited way.
+Demote if target-domain governance already maintains substantially equivalent standing relational/property test suites.
 
-Examples:
+### C013 — Federated applicant clearinghouse / pooled matching market
 
-- founder vs newcomer where status should be irrelevant;
-- popular vs unpopular member;
-- majority-faction vs minority-faction identity;
-- gendered/racialized names where identity is normatively irrelevant;
-- insider vs departing member asserting the same property right.
+**Status:** SURVIVING / provisional cross-domain operational transfer; matching-market mechanism itself is known.
 
-Metamorphic relations need not require identical outputs. They can encode:
+The user's C009 scarcity objection exposes a scale mismatch: an individual commune can have a thin applicant market even when the **movement-wide** market is thick.
 
-- **irrelevance:** irrelevant fact changes -> outcome should not change;
-- **symmetry:** swapping equivalent parties -> treatment should swap correspondingly;
-- **monotonicity:** stronger admissible evidence of the same relevant type should not weaken the response absent an explicit countervailing factor;
-- **jurisdiction invariance:** changing who proposes an action should not change the competent body when jurisdiction is subject-matter based.
+Current intentional-community/ecovillage infrastructure is primarily directories, profiles, classifieds, compatibility search, and local admission. Kibbutz movement infrastructure aggregates accepting settlements and supports local absorption; Bruderhof centrally allocates committed members within one worldwide body. A strong adjacent precedent exists in Israel's Mechinot residential gap-year network, which has run a centralized matching market across dozens of programs and thousands of applicants with rich diversity constraints.
 
-Protocol:
+The proposed intentional-community transfer is therefore not “invent matching,” but:
 
-1. choose a past or hypothetical case suitable for testing;
-2. state the expected relation before viewing paired outcomes;
-3. construct minimally transformed variants;
-4. randomize/blind identity/order where feasible;
-5. process variants independently;
-6. compare decisions and reasons;
-7. diagnose whether a failed relation reflects ambiguous rules, a wrongly assumed invariance, or inconsistent application;
-8. preserve high-information pairs as regression tests.
+> pool openings and seekers across autonomous communities, coordinate exploration and later commitments, while preserving reciprocal choice and local admission.
 
-Nearest-neighbor work exists in automated-decision bias auditing and matched-vignette/audit studies, but Batch 18 found no clear intentional-community practice using a versioned metamorphic test suite against its own human governance.
+Recommended **dynamic/hybrid** architecture rather than forced one-shot assignment:
 
-C012 is related to but distinct from C001:
+1. communities publish openings, hard constraints, trial windows, and relevant characteristics;
+2. seekers/households publish needs, hard constraints, preferences, skills/interests, and mobility limits;
+3. system proposes several plausible mutual exploration matches;
+4. visits/trials let both sides discover preferences;
+5. later, both sides mark/rank acceptable matches;
+6. a coordinated round recommends commitments while preserving opt-out;
+7. communities with multiple openings can optionally apply C009 cohort analysis;
+8. unmatched participants return to later rounds without strategic waitlist rewards.
 
-- **C001** seeks cases that reveal where values actually differ;
-- **C012** tests whether a process obeys relations the group already claims should hold even when the correct answer is unknown.
+Prediction: if local thinness matters, pooling should reduce simultaneous `compatible seeker unmatched + suitable vacancy open` states and premature commitment caused by uncertainty about later opportunities.
 
-Limits: “irrelevant” attributes can be contested; paired hypotheticals omit live context; members can learn the test; and inconsistency does not itself say which outcome was correct.
+Failure modes include standardized-screening pressure, strategic ranking/waiting, travel/learning cost, algorithmic authority, discrimination/legal constraints, household complementarities, and peer effects that violate simple matching assumptions.
+
+Demote if a true intentional-community/ecovillage federation already operates substantially this two-sided coordinated preference/commitment structure.
+
+### C014 — Federation-level hidden-harm under-ascertainment estimation
+
+**Status:** SURVIVING / provisional **research-control** transfer from Multiple Systems Estimation (capture–recapture); source method is established.
+
+A commune's formal complaint count can badly understate a harmful outcome. If several partially overlapping reporting/outcome channels exist, their overlap pattern can contain information about surveillance completeness.
+
+The viable scale is **federation/research-center**, not one small commune. Possible channels for one narrowly defined outcome category include internal complaint records, independent/federation reports, confidential exit interviews, lawful safeguarding/care records, anonymous follow-up, and relevant external records.
+
+Purpose:
+
+> estimate how incomplete the surveillance system may be and which channels miss which cases — never infer a specific unseen individual or use a model estimate as evidence for sanction.
+
+Required cautions from the source literature:
+
+- source dependence/referrals can seriously bias estimates;
+- capture probability varies across cases;
+- periods and case definitions must align;
+- linkage can be uncertain;
+- small cells can produce unstable estimates;
+- plausible models can yield very different totals;
+- confidentiality/deductive disclosure can be severe.
+
+Safer architecture: pool enough communities/years; preserve genuinely distinct capture mechanisms; model source dependence/heterogeneity; report sensitivity and wide uncertainty; use results only for surveillance design/hypothesis generation; externally validate where possible.
+
+A useful diagnostic does not require trusting one hidden-population point estimate: if distinct channels identify largely non-overlapping cases, a low formal-complaint count is weak evidence of low prevalence and may instead indicate under-ascertainment or incompatible channel definitions.
+
+Demote if close communal/federation safety research already uses multi-list under-ascertainment estimation, or realistic data are too sparse/dependent for useful bounds.
 
 ## Demoted / useful but not novel
 
 ### D001 — Flagship founder trap
-Demoted after spinout/social-movement literature attack. Employee-spinout research already studies parent loss of key human capital/routines versus knowledge diffusion and offspring/ecosystem benefits.
+Demoted after spinout/social-movement literature attack; keep as practical movement design.
 
 ### D002 — Multi-parent daughter recombination
 Too close to cross-pollination/cultural recombination.
@@ -225,68 +215,62 @@ Too close to cross-pollination/cultural recombination.
 Too close to tacit knowledge/path dependence/lifecycle.
 
 ### D004 — Governance commutativity
-Useful diagnostic; near-decomposability/interdependence/modularity owns the structural principle.
+Near-decomposability/interdependence/modularity owns the structural principle.
 
 ### D005 — Reproductive timing
-Useful classic-demography measurement rule.
+Classic demography measurement rule.
 
 ### D006 — Propagule burden / independent seedability
-Useful distinction between reliable fission and de-novo seedability; propagule-size/fidelity literature already contains the mechanism.
+Propagule-size/fidelity literature already contains the mechanism.
 
 ### D007 — Effective number of reproducing communities
-Potential tool derived from reproductive skew; not independent novelty.
+Tool derived from reproductive skew; not independent novelty.
 
 ### D008 — Low-base-rate evidence-lifecycle safeguard
-Former C007. Demoted after safeguarding/personnel-vetting precedent attack. Useful applied safety architecture, not a tail discovery.
+Safeguarding/personnel-vetting precedent owns the architecture.
 
-### D009 — Arithmetic-growth mirage under shared environmental variation
-Former C008. Mathematically valid, but historical Manitoba Hutterite reproduction is too stable for the correction to matter materially in the best current exemplar.
+### D009 — Arithmetic-growth mirage under shared environments
+Mathematically valid but materially negligible for the current Hutterite exemplar.
 
 ### D010 — Failure-history inheritance
-Useful practice but not novel: organizational-learning literature explicitly studies negative knowledge / knowing what not to do.
+Organizational-learning literature explicitly studies negative knowledge / knowing what not to do.
 
 ### D011 — Spatial-vs-temporal replication attention tradeoff
-Rejected as novel after direct 2026 organizational-replication precedent: scaling new units and maintaining adherence in existing units compete for scarce attention.
+Direct organizational-replication precedent exists.
 
 ### D012 — Evidence-lineage counting
-Useful: many endorsers repeating one originating source do not create independent evidence. Too close to source-independence/provenance/pseudoreplication traditions for promotion.
+Useful but established source-independence/provenance/pseudoreplication logic.
 
 ### D013 — Governance feedback-lag / reform oscillation
-Useful warning but too close to policy feedback, control-system delay, institutional repetition, and change-fatigue literatures.
+Useful but close to policy feedback/control-system delay/change-fatigue traditions.
 
 ### D014 — Governance fault injection / dependency drills
-Former **C010**. Demoted in Batch 18. Generic continuity practice already explicitly exercises loss of key people and essential functions, so the transfer does not clear the originality bar even though intentional communities may underuse it. Keep as a practical community-development lesson.
+Generic continuity practice already exercises loss of key people/functions. Keep as practical communal lesson.
 
 ### D015 — Seeded-fault review testing
-Useful training idea: place known errors into hypothetical proposals/case files and see whether review catches them. Too close to long-standing seeded-error audit research, mutation testing, red teaming, and integrity-testing traditions.
+Seeded-error audits, mutation testing, red teaming and integrity testing already own the mechanism.
+
+### D016 — Randomized-response sensitive surveys
+Established survey methodology; possible federation practice, not tail novelty.
+
+### D017 — Random reviewer assignment
+Established jury/audit/anti-corruption mechanism.
+
+### D018 — Threshold/dual-control critical access
+Established security and continuity practice.
+
+### D019 — Blind content-before-source review
+Established blind-review/structured-analysis practice.
+
+### D020 — Cross-community control comparisons
+Established comparative/causal inference practice.
+
+### D021 — Experienced-member secondments
+Established rotation/secondment/boundary-spanner practice.
 
 ## Hard rejection frontier
 
-Do not repromote technical restatements of:
-
-- commodification/alienation/specialization of social relations;
-- thick-vs-thin ties, embeddedness, social capital, multiplex exchange;
-- planned fission/propagule reproduction;
-- cultural fidelity/complexity thresholds;
-- source/sink dynamics;
-- modularity/near-decomposability/interdependence;
-- ordinary founder/lifecycle/path-dependence effects;
-- generic schism/forkability;
-- generic property/exit/liquidity effects;
-- cooperative withdrawal/redemption bank-run logic;
-- organizational forgetting;
-- self-selection/endogeneity;
-- survivorship/external-validity corrections;
-- ordinary critical-slowing-down applications;
-- newcomer-integration overload;
-- generic common-cause risk/diversification;
-- checks-and-balances/least privilege;
-- policy experimentation/laboratories of democracy;
-- generic matching/compatibility without non-separable cohort effects;
-- business continuity / succession exercises;
-- generic governance pilots without the parallel nonbinding structure of C011;
-- generic blind review / matched vignettes without the systematic constitutional-relation architecture of C012;
-- generic statistical monitoring/change-point detection.
+Do not repromote technical restatements of commodification/alienation; thick-vs-thin ties/social capital; planned fission/propagule reproduction; cultural fidelity thresholds; source/sink dynamics; modularity/interdependence; founder/lifecycle effects; generic schism/forkability; property/exit/liquidity; organizational forgetting; self-selection/endogeneity; survivorship/external validity; generic monitoring; newcomer overload; common-cause diversification; checks-and-balances/least privilege; laboratories of democracy; generic matching without non-separable cohort effects; continuity/succession exercises; generic governance pilots; ordinary paired discrimination testing; generic statistical monitoring/change-point detection; random juries/reviewer assignment; threshold access; blind review; comparative controls; and staff rotation.
 
 ## Method findings
 
@@ -296,18 +280,16 @@ Do not repromote technical restatements of:
 - **M004:** nonstandard structural cross-domain transfer can count; same-domain rediscovery cannot.
 - **M005:** empty batches are successful; prefer no result to weak promotion.
 - **M006:** terminology differences do not save a candidate when the target domain already implements the same structure.
-- **M007:** a mathematically surprising transfer that does not materially affect the best available target case should be demoted until a real consequential case is found.
+- **M007:** a mathematically surprising transfer that does not materially affect the best available target case should be demoted until a consequential case is found.
 - **M008:** practical usefulness and originality require separate dispositions; novelty demotion must not erase useful community-development knowledge.
 
 ## Provenance
 
 Latest detailed runs:
 
-- `runs/2026-08-15-c007-adversarial-screen-13.md`
-- `runs/2026-08-15-orthogonal-tail-batch-14.md`
-- `runs/2026-08-15-c008-hutterite-empirical-test-15.md`
 - `runs/2026-08-15-orthogonal-tail-batch-16.md`
 - `runs/2026-08-15-orthogonal-tail-batch-17.md`
 - `runs/2026-08-15-orthogonal-tail-batch-18.md`
+- `runs/2026-08-15-orthogonal-tail-batch-19.md`
 
 Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
