@@ -2,41 +2,39 @@
 
 Updated: 2026-08-15
 
-This file distinguishes **actual survivors** from useful-but-familiar material. A user familiarity veto or strong historical/literature compression overrides earlier promotion.
+This is the compact canonical index. Detailed derivations, literature collisions, empirical reconstructions, and rejected candidates live under `runs/`; data and reproducible calculations live under `data/` and `analysis/`.
 
-## Current result
+A user familiarity veto or strong literature compression overrides earlier promotion.
 
-### No accepted grand social-theory finding yet
+## Current status
 
-The multiplex/relational-unbundling branch failed the novelty gate. It remains historical/applied material only.
+No accepted grand social-theory finding yet. The earlier multiplex/relational-unbundling branch failed the novelty gate and is historical/applied material only.
 
 ## Current surviving cross-domain connections
 
 ### C001 — Active normative edge-case search
 
-**Status:** SURVIVING CROSS-DOMAIN CONNECTION; not claimed as academically unprecedented.
+**Status:** SURVIVING / provisional.
 
-Transfer active learning / preference elicitation + software regression testing into intentional-community values/governance.
+Transfer active learning + preference elicitation + regression testing into community governance.
 
-Instead of maximizing agreement on abstract values, adaptively select concrete cases where members' plausible interpretations are most likely to diverge. Collect baseline responses independently, separate measurement from deliberation, and preserve resolved high-information cases as a versioned **constitutional regression suite**. Re-run after membership/rule changes to expose semantic drift.
+Instead of maximizing abstract-values agreement, adaptively choose concrete cases most likely to distinguish members' plausible interpretations. Collect baseline responses independently, separate measurement from deliberation/socialization, and preserve resolved high-information cases as a versioned **constitutional regression suite**.
 
-Important caveat: moral preferences may be unstable, sequence-sensitive, noisy, or poorly represented by the elicitation model, so replicate/randomize some cases and do not assume one fixed latent utility function.
+Caveat: moral judgments can be sequence-sensitive/unstable; replicate/randomize some cases and do not assume one fixed latent utility function.
 
-Demote if a target-domain precedent is found using substantially the same adaptive case-selection + regression-suite architecture.
+Demote if a target precedent is found using substantially the same adaptive case-selection + regression-suite architecture.
 
-### C003 — Asset-gated cultural mutation — NARROW SURVIVOR
+### C003 — Asset-gated cultural mutation
 
-**Status:** SURVIVING CROSS-DOMAIN CONNECTION, narrowed after Batch 07.
+**Status:** NARROW SURVIVOR / provisional.
 
-Broad claims that property affects exit or innovation are **not novel**. Religious-exit research already treats property loss/renunciation as an exit cost; church-property law extensively addresses assets after schism; property-rights research shows ownership allocation can affect innovation.
+Broad claims that property affects exit or innovation are old. The remaining candidate is specifically:
 
-The remaining candidate is specifically about **collective branch inheritance as a pre-selection filter**:
+> **Collective branch inheritance can act as a pre-selection filter on which institutional variants receive enough inherited capital to become viable competitors.**
 
-> An incumbent reproduction architecture can alter which institutional variants are ever exposed to selection by determining which organizational branches inherit enough accumulated capital to become viable competitors.
+This can create **selection blindness**: a canonical community form may appear superior when alternative designs were systematically denied comparable land, tools, treasury, reputation, or other inherited resources before selection could test them.
 
-This creates possible **selection blindness**. A canonical community form can appear superior to alternatives when alternatives were systematically prevented from starting with comparable land, tools, treasury, reputation, or other inherited resources.
-
-The relevant distinctions are:
+Relevant distinctions:
 
 - individual exit rights;
 - collective fork/branch inheritance rights;
@@ -45,288 +43,173 @@ The relevant distinctions are:
 
 High demographic daughter production can therefore coexist with low institutional experimentation.
 
-Demote if existing scholarship is found explicitly modeling collective branch asset portability as a filter on institutional variation/evolution rather than merely documenting exit costs or property disputes.
+Demote on a close target-domain precedent explicitly treating collective branch asset portability as a filter on institutional variation/evolution.
 
-Audit: `runs/2026-08-15-orthogonal-tail-batch-06.md` and `runs/2026-08-15-adversarial-tail-batch-07.md`.
+Audits: Batch 06, Batch 07, Batch 11.
 
-### C005 — Reproductive-variance trap / superstar reproduction trap
+### C005 — Reproductive-variance / superstar-reproduction trap
 
-**Status:** SURVIVED CROSS-DOMAIN CONNECTION; current strongest reproduction-specific result; **empirically strengthened in Batch 09**.
+**Status:** SURVIVING; empirically strengthened.
 
-**Source:** branching-process theory.
+Mean viable-daughter output can substantially overstate how reproducible a community design is. The full parent-offspring distribution matters.
 
-A movement's mean number of viable daughter communities per parent can be high while the underlying community design remains **poorly reproducible**.
-
-The missing object is the full offspring distribution `P(K=k)`, where `K` is the number of viable daughters produced by a sufficiently mature community.
-
-#### Sharp example
-
-Two hypothetical designs both have mean daughter count = 2.
-
-- **A:** every parent produces exactly 2 viable daughters.
-- **B:** 90% produce 0; 10% produce 20.
-
-Same arithmetic mean. Under a simple Galton-Watson model, B has eventual extinction probability given by the smallest solution to `q = 0.9 + 0.1q^20`, approximately **91.8%** from one founding community.
+Illustration: two systems can both have mean `K=2`, while one has every parent produce 2 and another has 90% produce 0 / 10% produce 20. In a simple Galton-Watson model the latter has about a **91.8% eventual extinction probability from one founder**.
 
 Therefore distinguish:
 
-1. **historical spread** — many communities exist;
-2. **mean reproduction** — average daughter count;
-3. **typical reproducibility** — an ordinary daughter has a high chance of becoming reproductive itself;
-4. **lineage robustness** — low extinction risk without dependence on rare jackpot parents.
+1. historical spread;
+2. mean reproduction;
+3. typical reproducibility;
+4. lineage robustness.
 
-A movement can score high on 1 and 2 while scoring badly on 3 and 4.
+#### Manitoba Hutterite empirical anchor
 
-#### Empirical anchor — older Manitoba Hutterite lineage
+For 49 reconstructed Manitoba colonies founded by 1970:
 
-A manual reconstruction from the Manitoba Historical Society colony genealogy was saved at:
-
-- `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
-
-Reproducible metrics:
-
-- `analysis/hutterite_reproduction_metrics.py`
-
-Important scope limitation: the historical table explicitly lists **Manitoba Daughter(s)**, so offspring outside Manitoba are omitted. The values below are therefore Manitoba-lineage counts, not complete North-American lifetime offspring counts.
-
-For the **49 Manitoba colonies founded by 1970**:
-
-- total recorded Manitoba daughters = **103**;
+- recorded Manitoba daughters = 103;
 - mean `K = 2.102`;
 - median `K = 2`;
-- population variance `Var(K) = 1.724`;
-- variance / mean = **0.820**;
-- recorded-Manitoba `P(K=0) = 2/49 = 4.08%`;
-- top 10% of parent colonies account for only about **22.3%** of recorded daughters.
+- population variance `1.724`;
+- variance/mean `0.820`;
+- recorded-Manitoba `P(K=0) = 4.08%`;
+- top 10% of parents account for ~22.3% of daughters.
 
-One of the two zero-daughter colonies, Roseisle, closed in 1936 only seven years after founding. Because out-of-province daughters are omitted, the true total-daughter zero rate could be lower than 4.08%.
+The older cohort is strongly non-jackpot-like: reproduction is broadly distributed rather than dominated by rare hyper-reproductive parents.
 
-This older cohort is strikingly **non-jackpot-like**: reproduction is broadly distributed across mature colonies, the median is close to the mean, and the distribution is mildly underdispersed rather than dominated by a small number of hyper-reproductive parents.
+Scope warning: the genealogy field is **Manitoba daughters only**; cross-border daughters are omitted.
 
-A historical consistency check supports the underlying list's completeness through 1975: the reconstruction contains 62 colonies ever founded by then, while a 1977 Manitoba monograph reports 60 operating colonies; the genealogy explicitly contains two pre-1975 closures, giving exactly 60 surviving operations.
+Data / analysis:
 
-#### Non-stationarity warning
+- `data/hutterite_manitoba_mature_lineage_reconstruction.csv`
+- `analysis/hutterite_reproduction_metrics.py`
 
-Later Manitoba cohorts show many more recorded zero-Manitoba-daughter colonies, but this cannot be interpreted as simple reproductive collapse because:
-
-- later colonies are more right-censored;
-- the source omits daughters outside Manitoba;
-- Hutterite colonies increasingly added industrial operations to create jobs and delay branching;
-- the 1990s Schmiedeleut schism temporarily accelerated branching;
-- land prices/location constraints changed.
-
-Therefore Batch 09 treats the pre-1970 cohort as the cleaner descriptive test of whether the mature historical reproduction process was superstar-driven.
-
-#### Current inference
-
-C005 is **empirically strengthened, not proven**.
-
-The Hutterite case supplies a real example in which a famously persistent, multi-generational communal lineage appears to reproduce broadly across parent units rather than through rare reproductive jackpots.
-
-The next high-value test is a genuinely parent-resolved movement with strong overdispersion, so we can ask whether equal/similar mean reproduction but different offspring variance predicts different lineage depth and extinction risk.
-
-#### Measurement implication
-
-For mature communities, collect at minimum:
-
-- `K` = viable daughters founded;
-- `P(K=0)` = zero-daughter fraction;
-- median K;
-- variance/dispersion of K;
-- fraction of all daughters produced by top 10% of parents;
-- daughter survival criterion;
-- daughter-to-granddaughter reproduction;
-- reproductive timing;
-- propagule burden and federation/parent subsidy.
-
-Mean K alone is inadequate.
-
-Demote if target-domain scholarship is found already using offspring-distribution/branching extinction metrics to make substantially this distinction between movement growth and community-level reproducibility.
-
-Audits: `runs/2026-08-15-adversarial-tail-batch-07.md`, `runs/2026-08-15-empirical-reproduction-batch-08.md`, and `runs/2026-08-15-hutterite-lineage-batch-09.md`.
+Audits: Batches 07–09.
 
 ### C006 — Descendant inflation / lineage-size sampling bias
 
-**Status:** SURVIVED CROSS-DOMAIN CONNECTION; current strongest research-method result.
+**Status:** SURVIVING; audited against the user's real community-research corpus.
 
-**Source:** ancestral reproductive bias in branching processes + phylogenetic/clade sampling bias.
+When daughter communities inherit parent culture, prolific lineages mechanically contribute more observations to present-day community samples. This is distinct from ordinary survivorship bias: even perfect enumeration gives descendant-rich lineages more sampling weight.
 
-If some community lineages produce many daughters and others produce few, a contemporary survey that samples **communities** uniformly is mechanically weighted toward the cultures of prolific lineages. Each daughter creates another observation descended from the same historical experiment.
+A trait can therefore be prevalent among current communities because it raises reproduction even if it worsens a separate outcome such as child/member welfare.
 
-This is not ordinary survivorship bias. Even if every extant community were perfectly enumerated, a lineage with 20 daughters contributes up to 21 related observations while a non-reproducing lineage contributes one.
+The correct weighting depends on the estimand:
 
-#### Consequence
+- random founding attempt/root;
+- random lineage;
+- random extant community;
+- random current resident;
+- future movement culture/reproductive contribution.
 
-A trait can become common in a current-community dataset because it increases **reproduction**, even if it does not improve—and could even worsen—a separate outcome such as:
+#### Audit against `u-dont-existDOTcom/communities`
 
-- child happiness;
-- member welfare;
-- freedom;
-- conflict quality;
-- local stability;
-- environmental performance.
+C006 does **not** invalidate the current 158-finding P0 synthesis. That workflow is source/mechanism-bounded and explicitly treats repeated cases as corroboration rather than independent votes.
 
-If descendants inherit the trait, reproductive success itself determines how heavily that trait is represented in the sample.
+Do not retrofit lineage weights into that evidence ledger. Apply C006 when the project moves to comparative/prevalence/effectiveness claims and add genealogy fields then.
 
-Treating daughters as independent replications can then create a second problem: genealogical pseudoreplication inflates apparent evidence around inherited traits.
+Audits: Batch 10 and Batch 11.
 
-#### Estimand rule
+### C008 — Arithmetic-growth mirage under shared environmental variation
 
-There is no universal correction because different research questions require different probability measures.
+**Status:** SURVIVING CROSS-DOMAIN CONNECTION / provisional.
 
-- **Random founding attempt:** weight independent founding attempts/roots appropriately rather than letting descendants multiply the root's weight automatically.
-- **Random current community:** uniform extant-community weighting is legitimate, but the estimand is intentionally reproduction-weighted.
-- **Random current resident:** weight by community population.
-- **Future movement culture:** reproductive-value weighting may be exactly appropriate.
+C005 concerns parent-level reproductive variance. C008 concerns **environment-level multiplicative variation shared across many parents**.
 
-Therefore community research should state which estimand it is answering before deciding what a 'representative' sample means.
+In standard branching-process-in-random-environment models, long-run criticality depends on the log of environment-specific reproduction, not merely the arithmetic average daughter output.
 
-#### Target-domain screen
+Illustration: equally likely environments with expected reproduction `4` and `0.1` give:
 
-Commune/intentional-community methodology already recognizes major sampling problems, including undercounting short-lived or nameless communes, overrepresentation of institutionalized groups, availability/convenience bias, directory bias, and living-community survivor bias.
+- arithmetic mean `2.05 > 1`;
+- geometric mean `sqrt(0.4) ≈ 0.632 < 1`;
+- `E[log m] ≈ -0.458`.
 
-The targeted search did **not** locate an intentional-community method explicitly correcting for **daughter-community proliferation as a genealogical size-bias mechanism** or defining separate estimands for founding attempts versus extant descendant communities.
+Thus a pooled average can say “strongly above replacement” while the typical multiplicative lineage is subcritical under the model assumptions.
 
-#### Operational implication
+Target consequence: community-reproduction research should condition daughter output on shared macroenvironment (law, land regime, recession, persecution/migration shocks, etc.) instead of assuming all parent-years are exchangeable.
 
-Where feasible, community datasets should add:
+Generic jurisdiction diversification is **not** the discovery; the useful surprise is that arithmetic-average reproduction can give the wrong sign.
 
-- parent/founding lineage;
-- daughter relationships;
-- independent founding versus organizational offspring;
-- common federation/parent support;
-- lineage depth.
+Demote if target-domain community/organizational-reproduction work is found already applying substantially this stochastic-log-growth criterion, or if relevant environments are mostly idiosyncratic rather than shared.
 
-Then use genealogy-aware/hierarchical models, clustered uncertainty, and explicit sensitivity to lineage weighting where relevant. Do not blindly inverse-weight lineages; that merely changes the estimand.
+Audit: Batch 14.
 
-Demote C006 if target-domain work is found already making substantially this genealogical reproductive-size-bias distinction.
+## Demoted / useful but not novel
 
-Audit: `runs/2026-08-15-orthogonal-tail-batch-10.md`.
+### D001 — Flagship founder trap
 
-## Derived measurement rules — useful but below novelty threshold
-
-### D004 — Governance commutativity
-
-**Status:** DEMOTED from C004 after Batch 07.
-
-The order-independence test from distributed systems remains a useful way to diagnose whether two governance actions truly conflict, but near-decomposability, modularity, task interdependence, and interface governance already contain the structural principle. Do not repromote as a discovery.
-
-### D005 — Reproductive timing / generation interval
-
-Population growth depends on amount **and timing** of reproduction. This is classic demography, not a tail discovery, but it changes what a spreading-community project should measure:
-
-- time to first viable daughter;
-- daughter-founding age distribution;
-- time to granddaughter reproduction.
-
-Lifetime daughter count alone is insufficient.
-
-### D006 — Propagule burden / independent seedability
-
-**Status:** USEFUL MEASUREMENT DISTINCTION; not novel.
-
-Reliable fission reproduction does not imply that a community architecture can be recreated de novo by a small founder team.
-
-Measure how much mature structure each daughter inherits:
-
-- number/fraction of experienced members transferred;
-- land/capital/tools;
-- continuing parent/federation support;
-- whether daughters later reproduce without equivalent extraordinary subsidy.
-
-The underlying point is covered by propagule-size and cultural-transmission literatures, so do not repromote it as a discovery.
-
-### D007 — Effective number of reproducing communities
-
-**Status:** DERIVED QUANTITATIVE TOOL; not an independent discovery.
-
-When daughter production is highly skewed, census community count can greatly exceed the effective number of lineages contributing to future movement culture. Population-genetic effective-size concepts may be useful once multi-movement genealogies exist, but this follows directly from reproductive skew/C005.
-
-## Other demoted applied hypotheses
-
-### D001 — Flagship founder trap / founder-export externality
-
-Demoted after spinout/social-movement literature attack.
+Demoted after employee-spinout/social-movement literature attack.
 
 ### D002 — Multi-parent daughter recombination
 
-Too close to cross-pollination/cultural recombination/diverse founder experience.
+Too close to cross-pollination/cultural recombination.
 
 ### D003 — Developmental-sequence replication
 
-Too close to tacit knowledge, organizational lifecycle, sequencing, and path dependence.
+Too close to tacit knowledge/path dependence/lifecycle.
 
-## Known / derivative community material — DO NOT REPROMOTE AS NOVEL
+### D004 — Governance commutativity
 
-- specialization/commodification/alienation of social relations;
+Useful diagnostic; near-decomposability/interdependence/modularity already owns the structural principle.
+
+### D005 — Reproductive timing
+
+Useful classic-demography measurement rule.
+
+### D006 — Propagule burden / independent seedability
+
+Useful distinction between reliable fission and de-novo seedability; propagule-size/fidelity literature already contains the mechanism.
+
+### D007 — Effective number of reproducing communities
+
+Potential quantitative tool derived from reproductive skew; not independent novelty.
+
+### D008 — Low-base-rate evidence-lifecycle safeguard
+
+Previously C007. **Demoted after safeguarding/personnel-vetting precedent attack.**
+
+Useful applied rule: low-base-rate danger flags are hypotheses, not convictions; cleared/unfounded signals should not silently retain evidentiary weight; correlated reports do not multiply evidence; recency/context/mitigation matter; irreversible sanctions need conduct-specific evidence and independent review.
+
+The source architecture is already established in high-stakes safeguarding/vetting systems, so do not repromote it as a tail discovery.
+
+Audit: Batch 12 and Batch 13.
+
+## Hard rejection frontier
+
+Do not repromote technical restatements of:
+
+- commodification/alienation/specialization of social relations;
 - thick-vs-thin ties, embeddedness, social capital, multiplex exchange;
 - planned fission/propagule reproduction;
-- packet reproduction through experienced member splits;
-- propagule size/fidelity tradeoffs;
-- cultural-transmission complexity/fidelity thresholds;
-- germline/reproductive specialization;
-- source/sink institutional dynamics;
-- network modularity/near-decomposability/interdependence;
-- cultural compression through repeated transmission;
-- recruitment-composition effects;
+- cultural fidelity/complexity thresholds;
+- source/sink dynamics;
+- modularity/near-decomposability/interdependence;
+- ordinary founder/lifecycle/path-dependence effects;
 - generic schism/forkability;
-- ordinary individual religious exit costs;
-- generic property disputes after schism;
-- generic property-rights → innovation claims;
-- organizational lifecycle/path dependence;
-- policy experimentation/laboratories-of-democracy;
-- checks and balances/threshold approval;
-- institutionalized dissent/red teams;
-- Tiebout-style mobility/exit;
-- stress tests/redundancy without a stronger consequence;
-- mean reproduction number by itself;
-- shorter generation time spreads faster, by itself;
-- rare-task organizational forgetting;
-- founder-stage versus mature-stage governance by itself;
-- self-selection/endogeneity of community membership;
-- ordinary current-directory/survivor sampling bias.
+- generic property/exit/liquidity effects;
+- cooperative withdrawal/redemption bank-run logic;
+- organizational forgetting;
+- self-selection/endogeneity;
+- survivorship/external-validity corrections;
+- ordinary critical-slowing-down social-system applications;
+- newcomer-integration overload;
+- generic common-cause risk/diversification;
+- checks-and-balances/least privilege;
+- policy experimentation/laboratories of democracy.
 
-## Earlier provisional branches
+## Method findings
 
-### E001 — Epistemic firebreaks
-
-Too close to wisdom-of-crowds / information-cascade theory.
-
-### E002 — Whole-package ratification
-
-Too close to known social-choice problems.
-
-## Protocol lessons
-
-### M001 — Formalization is not novelty
-
-A familiar root idea does not become a tail discovery because downstream mechanisms receive technical names.
-
-### M002 — User familiarity veto dominates model confidence
-
-If the intended expert user immediately compresses the candidate to common sense or known theory, record the collision and move outward.
-
-### M003 — Nearest-neighbor literature attack before promotion
-
-Candidate survivors require explicit search for conceptual ancestors. This prevents obvious retrieval failures; it does not prove originality.
-
-### M004 — Cross-domain transfer can count, same-domain rediscovery cannot
-
-A known source-domain mechanism can survive if its target transfer is nonstandard and yields distinctive predictions/design rules.
-
-### M005 — Empty batches are successful
-
-Prefer 'nothing survived' over weak promotion.
+- **M001:** formalization is not novelty.
+- **M002:** user familiarity veto dominates model confidence.
+- **M003:** nearest-neighbor literature attack is mandatory before promotion.
+- **M004:** nonstandard structural cross-domain transfer can count; same-domain rediscovery cannot.
+- **M005:** empty batches are successful; prefer no result to weak promotion.
+- **M006:** terminology differences do not save a candidate when the target domain already implements the same structure.
 
 ## Provenance
 
-- recovered pre-deletion state: `runs/2026-08-15-recovered-pre-deletion-findings.md`
-- multiplex batches 01–03: historical exploration, later vetoed
-- user veto: `runs/2026-08-15-user-veto-multiplex-branch.md`
-- orthogonal batch 04: `runs/2026-08-15-orthogonal-tail-batch-04.md`
-- reproduction batch 05: `runs/2026-08-15-reproduction-tail-batch-05.md`
-- orthogonal batch 06: `runs/2026-08-15-orthogonal-tail-batch-06.md`
-- adversarial batch 07: `runs/2026-08-15-adversarial-tail-batch-07.md`
-- empirical batch 08: `runs/2026-08-15-empirical-reproduction-batch-08.md`
-- Hutterite lineage batch 09: `runs/2026-08-15-hutterite-lineage-batch-09.md`
-- orthogonal batch 10: `runs/2026-08-15-orthogonal-tail-batch-10.md`
+Detailed run history currently extends through:
+
+- `runs/2026-08-15-c007-adversarial-screen-13.md`
+- `runs/2026-08-15-orthogonal-tail-batch-14.md`
+
+Earlier batches and the recovered pre-deletion snapshot remain under `runs/`.
