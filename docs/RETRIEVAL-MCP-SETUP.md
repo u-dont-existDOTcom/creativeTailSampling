@@ -1,6 +1,8 @@
-# Exa + Parallel retrieval setup for Codex
+# Exa + Parallel retrieval setup
 
 This project uses Exa and Parallel only after retrieval-free candidate generation and the active-project corpus collision gate.
+
+**Codex is not required.** The canonical benchmark runner connects directly to the providers' Streamable HTTP MCP endpoints using the official Python MCP client. Codex, Claude Code, Cursor, or another MCP host may still be used interactively, but they are not part of the benchmark architecture.
 
 ## Servers
 
@@ -12,15 +14,16 @@ Exa Search MCP can run without an Exa key. Parallel Search MCP can run anonymous
 
 Official references:
 - Exa MCP: https://exa.ai/docs/reference/exa-mcp
-- Parallel Search MCP: https://docs.parallel.ai/integrations/mcp/search-mcp
+- Parallel MCP quickstart: https://docs.parallel.ai/integrations/mcp/quickstart
+- Parallel programmatic MCP use: https://docs.parallel.ai/integrations/mcp/programmatic-use
 - Parallel Task MCP: https://docs.parallel.ai/integrations/mcp/task-mcp
-- Parallel CLI: https://docs.parallel.ai/integrations/cli
+- MCP Python SDK: https://github.com/modelcontextprotocol/python-sdk
 
-## Give Codex the Parallel key without exposing it
+## Give the direct runner the Parallel key without exposing it
 
-Do not paste the key into chat and do not put a literal key in repository files or `~/.codex/config.toml`.
+Do not paste the key into chat and do not put a literal key in repository files.
 
-In the terminal from which you will launch Codex, enter:
+In the terminal where you will run the benchmark:
 
 ```bash
 read -rsp 'Paste Parallel API key: ' PARALLEL_API_KEY; echo
@@ -33,17 +36,32 @@ The prompt is silent, so the key does not appear on screen or in shell history. 
 [[ -n "${PARALLEL_API_KEY:-}" ]] && echo 'Parallel key is set' || echo 'Parallel key is missing'
 ```
 
-Then configure all three MCP servers:
+## Install the direct MCP runner
+
+From the repository root:
 
 ```bash
-bash scripts/setup_retrieval_mcp_codex.sh
+bash scripts/setup_direct_retrieval_runner.sh
+source .venv-retrieval/bin/activate
 ```
 
-The setup uses Codex's `--bearer-token-env-var PARALLEL_API_KEY` option. Codex config therefore stores the variable name, not its value.
+This installs the official Python MCP client in a project-local virtual environment. It does not alter any Codex configuration.
 
-Restart Codex after setup. The active Codex process must inherit the variable; setting it in another terminal after Codex has already started is insufficient.
+## Verify direct provider connectivity
 
-### Optional persistence across terminal restarts
+```bash
+bash scripts/check_retrieval_capabilities.sh
+```
+
+The check opens MCP sessions itself and verifies the provider tool surfaces:
+
+- Exa: `web_search_exa`, `web_fetch_exa`
+- Parallel Search: `web_search`, `web_fetch`
+- Parallel Task: `createDeepResearch`, `getStatus`, `getResultMarkdown`
+
+The benchmark must not begin paid deep-research escalation until the Task MCP connection succeeds.
+
+## Optional persistence across terminal restarts
 
 If you prefer a local permission-restricted environment file rather than re-entering the key for each shell:
 
@@ -57,28 +75,17 @@ printf '%s\n' '[ -f "$HOME/.config/creative-tail-sampling/parallel.env" ] && . "
 
 That file remains plaintext on your machine but is mode-restricted by `umask 077`. Do not place it inside the Git repository.
 
-## Parallel CLI
+## Optional Parallel CLI
 
-The CLI is optional and is used only for deep-research escalation or diagnostics. On Ubuntu/Zorin:
+The CLI is useful for diagnostics or manual deep-research experiments, but it is not required by the canonical benchmark runner.
 
 ```bash
 sudo apt install -y pipx
 pipx ensurepath
 pipx install 'parallel-web-tools[cli]' || pipx upgrade parallel-web-tools
-```
-
-It uses the same `PARALLEL_API_KEY` environment variable. Verify authentication with:
-
-```bash
 parallel-cli auth
 ```
 
-Parallel also supports interactive OAuth via `parallel-cli login` if you prefer not to use an API key for CLI calls.
+## Optional Codex configuration
 
-## Verify configuration
-
-```bash
-bash scripts/check_retrieval_capabilities.sh
-```
-
-Then restart/open Codex and use `/mcp`. Confirm that Exa exposes `web_search_exa`, `web_fetch_exa`, and `web_search_advanced_exa`; Parallel Search exposes `web_search` and `web_fetch`; and Parallel Task exposes deep-research/task tools. The benchmark must not begin paid deep-research escalation until Parallel Task authentication is confirmed.
+`scripts/setup_retrieval_mcp_codex.sh` remains available only as a convenience if you want to call Exa/Parallel interactively from Codex. It is not used to execute or score the benchmark.
