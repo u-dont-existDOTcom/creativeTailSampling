@@ -1,0 +1,17 @@
+{
+  "case_id": "C005",
+  "exit_code": 0,
+  "finished_at": "2026-08-16T08:42:13.857818+00:00",
+  "processor": "pro",
+  "response": {
+    "interaction_id": "trun_9ccf60423ac4453d9f270d27df7cf8cd",
+    "output_schema": "auto",
+    "processor": "pro",
+    "result_url": "https://platform.parallel.ai/play/deep-research/trun_9ccf60423ac4453d9f270d27df7cf8cd",
+    "run_id": "trun_9ccf60423ac4453d9f270d27df7cf8cd",
+    "status": "queued"
+  },
+  "run_id": "trun_9ccf60423ac4453d9f270d27df7cf8cd",
+  "started_at": "2026-08-16T08:42:12.668253+00:00",
+  "status": "ok"
+}

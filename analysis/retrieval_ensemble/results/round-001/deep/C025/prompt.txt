@@ -1,0 +1,23 @@
+Creative Tail Sampling precedent attack — C025
+
+Candidate proposition:
+A community should predefine how member-critical functions continue if the institution itself becomes nonviable, separating recovery of the organization from continuity of housing, care, food, records, transport, and other critical functions.
+
+Target domain:
+intentional communities, residential communities, nonprofits, and member-serving organizations
+
+Research task:
+Try to falsify the originality of the candidate. Find the strongest credible prior theory, research program, institutional practice, formal method, or documented proposal that substantially contains the same structural mechanism.
+
+Search broadly across terminology and disciplines, but distinguish carefully between:
+1. a mechanism that is merely familiar in a source domain; and
+2. evidence that substantially the same structural transfer or operational architecture is already established in the target domain.
+
+A familiar source-domain mechanism alone does not kill a cross-domain transfer. Find the strongest credible prior in the target domain or the closest documented transfer into it. Prefer primary literature, standards, official guidance, and original technical/historical sources. Do not infer originality from failure to find a precedent.
+
+Return a cited research report with:
+- strongest direct or near-direct precedents;
+- exactly which parts of the candidate each precedent contains;
+- what, if anything, remains as a narrower residual;
+- a final disposition of DIRECT COLLISION, ROOT COLLISION + NARROW RESIDUAL, or NO TARGET-DOMAIN COLLISION FOUND;
+- confidence and important search limitations.
