@@ -10,4 +10,5 @@ if [[ ! -x "$PY" ]]; then
   exit 2
 fi
 
-exec "$PY" "$ROOT/scripts/check_direct_retrieval_capabilities.py"
+cd "$ROOT"
+exec "$PY" -m scripts.check_direct_retrieval_capabilities
