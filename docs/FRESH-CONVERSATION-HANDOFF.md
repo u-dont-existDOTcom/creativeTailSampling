@@ -1,336 +1,272 @@
 # Creative Tail Sampling — Fresh Conversation Handoff
 
-Updated: 2026-08-16 12:40 UTC
+Updated: 2026-08-16
+Mode: P0 research only unless the user explicitly authorizes article editing
 
 ## Opening directive
 
-Continue the intentional-community Creative Tail / article-gap work from GitHub. **Do not reconstruct the project from chat history and do not repeat completed corpus reviews or Retrieval Ensemble Round 001.** Resolve current remote heads first because parallel work may have advanced them.
+Continue the intentional-community Creative Tail / article-gap project from GitHub. **Do not reconstruct it from chat history. Do not repeat the completed 198-finding communities corpus, Retrieval Ensemble Round 001, Batches 62–68, or the completed federation/experimental-ecology gap lane.**
 
-The immediate goal is to find **material gaps in Joel's current community article**, especially failure modes and design requirements that emerge only once multiple intentional communities form a federation / nearby experimental ecology. Keep strict originality separate from practical article usefulness.
+Resolve current remote heads before work because parallel branches may have advanced.
 
-Research mode remains P0 unless Joel explicitly authorizes article editing.
+The federation/experimental-ecology lane has now reached its explicit stopping rule: Batch 68 was a serious external communal-federation comparison and yielded no defensible new article gap, only stronger evidence for existing gaps. The current article-gap bank is G-001 through G-028.
+
+Research only until the user explicitly authorizes article integration.
 
 ---
 
-## Authoritative repositories and current checkpoint
+## Authoritative repositories / branches
 
-### 1. Creative Tail Sampling
+### Creative Tail Sampling
 
 Repository: `u-dont-existDOTcom/creativeTailSampling`
 
-Working retrieval branch at this checkpoint:
-- branch: `agent/exa-parallel-retrieval-ensemble`
-- head: `a24f9beaa504d861725bdd9535987fc8301cb7e1`
-- Retrieval Ensemble Round 001: complete
+Current continuation branch created in the latest session:
 
-Read first:
-1. `docs/FRESH-CONVERSATION-HANDOFF.md`
-2. `PROTOCOL.md`
-3. `STATE.md`
-4. `FINDINGS.md`
-5. `analysis/retrieval_ensemble/RUNBOOK.md`
-6. `runs/2026-08-16-retrieval-ensemble-round-001-final.md`
+`agent/federation-ecology-gap-continuation-20260816`
 
-### 2. Communities research / article-gap repository
+Resolve its live head before relying on a SHA.
+
+Read in this order:
+
+1. `docs/FRESH-CONVERSATION-HANDOFF.md` — this file;
+2. `PROTOCOL.md`;
+3. `STATE.md`;
+4. `FINDINGS.md`;
+5. `analysis/retrieval_ensemble/RUNBOOK.md`;
+6. `runs/2026-08-16-retrieval-ensemble-round-001-final.md`;
+7. `runs/2026-08-16-federation-ecology-article-gap-batch-65.md`;
+8. `runs/2026-08-16-federation-ecology-article-gap-batch-66.md`;
+9. `runs/2026-08-16-federation-ecology-article-gap-batch-67.md`;
+10. `runs/2026-08-16-federation-ecology-article-gap-batch-68.md`.
+
+`FINDINGS.md` remains authoritative for **strict Creative-Tail survivors**. Batches 65–68 created **zero new strict survivors**.
+
+### Communities research / article-gap repository
 
 Repository: `u-dont-existDOTcom/communities`
 
-Current research branch at this checkpoint:
-- branch: `agent/final-research-synthesis`
-- head: `6cac77aa606fd4fef157c45a37c1385be300ab48`
-- completed empirical corpus: 198 findings, F-001 through F-198
-- post-corpus practical/tail supplements: through Batch 64
-- post-corpus article-gap addendum: G-021 through G-025
+Current continuation branch:
+
+`agent/federation-ecology-gap-continuation-20260816`
+
+Resolve its live head before relying on a SHA.
 
 Read in this order:
-1. `docs/FRESH-CONVERSATION-HANDOFF.md`
-2. `docs/COMMUNITIES-WORKFLOW-ARCHITECTURE.md` — living Mermaid control map
-3. `recovered/COMMUNITIES-RESEARCH-STATE.md`
-4. `recovered/COMMUNITIES-FINAL-SYNTHESIS-REPORT.md`
-5. `recovered/COMMUNITIES-SYNTHESIS-CROSSWALK.csv`
-6. relevant rows of `recovered/COMMUNITIES-EVIDENCE-LEDGER.csv`
-7. `COMMUNITY-DEVELOPMENT-LESSONS.md`
-8. `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-62.md`
-9. `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-63.md`
-10. `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-64.md`
-11. `recovered/COMMUNITIES-ARTICLE-GAP-BANK.md`
-12. `recovered/COMMUNITIES-ARTICLE-GAP-ADDENDUM-2026-08-16.md`
 
-The original gap bank has G-001–G-020. The addendum is temporary and holds G-021–G-025 until the next full gap-bank regeneration.
+1. `docs/FRESH-CONVERSATION-HANDOFF.md` if needed for the older corpus recovery history;
+2. `docs/COMMUNITIES-WORKFLOW-ARCHITECTURE.md`;
+3. `recovered/COMMUNITIES-RESEARCH-STATE.md`;
+4. `recovered/COMMUNITIES-FINAL-SYNTHESIS-REPORT.md`;
+5. `recovered/COMMUNITIES-SYNTHESIS-CROSSWALK.csv`;
+6. relevant rows of `recovered/COMMUNITIES-EVIDENCE-LEDGER.csv`;
+7. `COMMUNITY-DEVELOPMENT-LESSONS.md`;
+8. `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-62.md` through `...-BATCH-68.md` as needed;
+9. **`recovered/COMMUNITIES-ARTICLE-GAP-BANK-CURRENT.md` — canonical current gap-bank manifest.**
 
-### 3. Universal architecture lessons
+Do **not** treat the older post-corpus addenda as competing current gap banks. They are provenance only:
 
-Repository: `u-dont-existDOTcom/universal-dev-architecture`, current `main`.
+- `recovered/COMMUNITIES-ARTICLE-GAP-ADDENDUM-2026-08-16.md`;
+- `recovered/COMMUNITIES-ARTICLE-GAP-ADDENDUM-BATCH-66-2026-08-16.md`;
+- `recovered/COMMUNITIES-ARTICLE-GAP-ADDENDUM-BATCH-67-2026-08-16.md`;
+- `recovered/COMMUNITIES-ARTICLE-GAP-ADDENDUM-BATCH-68-2026-08-16.md`.
 
-Important current patterns:
-- `patterns/living-mermaid-workflow-maps.md`
-- `patterns/chatgpt-developer-mcp-chat-lifecycle.md`
+The current manifest defines the bank as:
 
-The latter is important for the next conversation: developer MCP execution can be bound to conversation creation time.
+- G-001–G-020 from the verified original bank, unchanged;
+- reconciled G-021–G-028 in the manifest itself.
 
----
-
-## Critical fresh-chat MCP rule
-
-Exa Search and Parallel Search were registered as developer/custom MCPs after this older conversation was created. Empirical testing showed:
-
-- an old conversation can surface MCP schemas yet still fail actual calls with `FORBIDDEN: This conversation does not support developer MCPs`;
-- a **fresh normal conversation created after MCP registration** can execute the same tools;
-- moving the old conversation in/out of a Project does not repair it.
-
-Therefore the next worker should use a **new post-registration chat** and immediately perform actual read-only smoke calls, not merely inspect tool names:
-
-1. call Exa Search once;
-2. call Parallel Search once if desired as a capability check;
-3. verify Parallel Task/deep-research execution/authentication before relying on it.
-
-If the fresh chat executes successfully, use those tools directly. Do not waste time reconfiguring a working MCP because an older chat was lifecycle-incompatible.
-
-If a fresh post-registration chat still cannot execute them, use the direct provider/MCP runner in the Creative Tail repo where available and do **not** silently substitute ordinary web search as equivalent evidence for a strict originality gate.
+Current total: **28 material gaps = 14 B, 10 C, 4 D**.
 
 ---
 
-## Retrieval benchmark result — production rule
+## Retrieval benchmark / production gate
 
-Round 001 is complete; do not rerun it merely to reconfirm the numbers.
+Retrieval Ensemble Round 001 is complete. Do not rerun it merely to reconfirm the architecture.
 
-Historical reject/narrow positive set:
-- Exa Search: **8/8 correct = 100%**.
-- Parallel Search: **2/8 = 25%** conservatively, 3/8 under sensitivity scoring.
-- Exa + Parallel Search union: **8/8**.
-- Parallel Search incremental recall over Exa: **0/8**.
-- Parallel Task `pro`: materially useful target/near-target evidence on **all five** deep escalations and sharply narrowed C005, C006, and C025.
+Production rule:
 
-Production architecture:
-
-1. generation remains retrieval-free;
-2. hostile common-sense/user-familiarity veto first;
-3. latest communities internal-corpus collision next;
-4. **Exa Search mandatory** for routine semantic collision attack;
-5. Parallel Search optional corroboration/disagreement only;
+1. generation stays retrieval-free;
+2. hostile common-sense/user-familiarity veto;
+3. latest project-corpus collision;
+4. mandatory Exa semantic collision search;
+5. Parallel Search optional corroboration/disagreement;
 6. **Parallel Task deep research mandatory before strict originality promotion**;
 7. consequence/coherence/testability gate;
-8. promote only the surviving residual.
+8. promote only the residual.
 
-### User-facing tightening after this session
+Exa materially outperformed shallow Parallel Search in the completed benchmark; deep Parallel Task was still valuable on survivors. Do not substitute ordinary web search or shallow Parallel Search for the strict deep gate.
 
-Joel explicitly complained that common-sense candidates were wasting his time. Therefore:
+### User-facing obviousness rule
 
-- generate candidate batches privately;
-- compress each candidate to one boring sentence;
-- apply an aggressive `would Joel immediately say "obvious"?` veto **before** explaining it to him;
-- do not make Joel perform the obviousness filter manually;
-- if the candidate is being presented as a Creative-Tail discovery, do the internal-corpus + Exa + Parallel Task attack **before presenting it as a substantive survivor**, not after several paragraphs of elaboration.
+Generate candidate batches privately. Compress each candidate to a boring sentence and aggressively veto anything the user would immediately regard as obvious/common sense. Do not make the user perform this rejection manually.
 
-Useful article gaps need not be novel theories. Keep the labels separate:
-- `article gap / practical lesson` can be old in the literature and still belong in the article;
-- `strict Creative Tail survivor` requires the full originality gate.
+Keep these statuses separate:
 
-Examples rejected as novelty during the latest session because they are common sense or familiar:
-- corrigibility / watch how people respond to correction;
-- increase responsibility incrementally;
-- narrow controls versus ejection based on containment burden;
-- pilot before committing large resources;
-- preserve diversity / do not put all eggs in one basket.
+- strict Creative-Tail survivor;
+- empirical finding;
+- article gap;
+- practical lesson.
 
-Do not revive these with new terminology.
+A useful article gap need not be novel theory.
 
 ---
 
-## Owner corrections that define the current model
+## Fresh-chat MCP execution state from 2026-08-16
 
-### Intentional community is selective, not an all-inclusive social system
+The latest post-registration chat actually executed tools rather than trusting schema visibility:
 
-Do not design as if the commune must retain every dangerous person. The point is to create an actually safe high-trust community. Restorative justice is useful when it can work on a reasonable timescale; it is not the mandatory default. Serious/generalized danger can justify ejection.
+- **Exa Search: PASS**;
+- **Parallel Search: PASS**;
+- **Parallel Task: BLOCKED / not exposed in the current ChatGPT connector**.
 
-Joel's online therapy-circle example: an honesty problem is not itself automatic exclusion if the person acknowledges it; concealment and actual systemic risk matter. A residential commune has much higher and more continuous exposure, so the safe threshold differs.
+The available Parallel connector exposed search/fetch, not the Task/deep-research endpoint. Plugin Management found no separate Parallel Task connector. The repo fallback `scripts/run_parallel_deep_research.py` requires `parallel-cli` and `PARALLEL_API_KEY`, which were not available in the ChatGPT runtime.
 
-### Institutional experiments should not require social divorce
+Therefore Batches 65–68 made **zero strict originality promotions**.
 
-A subgroup should normally be able to test a different practice inside the parent community or immediately beside it, sharing selected resources/services/relationships, unless the experiment is genuinely incompatible.
-
-Joel's analogy: do not hand a child $10k to buy a dinosaur merely because they promise it will work; show some evidence first where proof is feasible. But preserve the existing C003 warning that some valuable institutional packages need land/scale/complementary changes before they can be cheaply demonstrated.
-
-The target is an **experimental communal ecology**, not only parent → schismatic daughter fission.
+In a future fresh chat, smoke-test actual Task execution again before strict promotion because connector capabilities may have changed. Do not infer success merely from schemas.
 
 ---
 
-## New post-corpus article gaps already identified
+## Owner corrections / model constraints that remain active
 
-These are **article-facing operational gaps**, not strict originality claims.
+### Selective community, not universal inclusion
 
-### G-021 — B — Experiment before fission / institutional R&D as a normal function
+The target is a genuinely safe, high-trust intentional community, not a system required to retain everyone. Restorative justice can be useful when workable on a reasonable timescale; serious/generalized danger can justify ejection. Do not convert every risk question into a duty to rehabilitate the person inside the commune.
 
-The article already owns forks and relational continuity. Missing residual: institutional variation should often begin as a nested or nearby seed experiment rather than waiting for crisis/incompatibility.
+### Experimentation without social divorce
 
-Gradient:
-`microexperiment → semi-autonomous project → nearby residential seed sharing services → independent sister community in local ecology/federation → distant branch only when needed`.
+Institutional variants should often be testable inside or immediately beside a parent community while sharing selected relationships/services/resources, rather than requiring schism first.
 
-Empirical analogue: Twin Oaks / Acorn / Living Energy Farm / Mimosa in Louisa County. Treat as a case lead, not proof of a single deliberate incubation protocol.
+But preserve C003: some institutional packages are asset/scale/complement gated and cannot fairly be rejected merely because they are expensive to prototype.
+
+### Preserve the user's arguments
+
+Research may challenge a thesis, but later article editing must not silently weaken or substitute the user's argument. If evidence conflicts, state the conflict explicitly.
+
+---
+
+## Current federation / experimental-ecology article gaps
+
+Full operational definitions are in `communities/recovered/COMMUNITIES-ARTICLE-GAP-BANK-CURRENT.md`.
+
+### G-021 — B — Experiment before fission
+
+Make institutional R&D a normal function: microexperiment → semi-autonomous project → nearby seed sharing selected services → independent sister community → distant branch only when necessary.
 
 ### G-022 — C — Boundary egalitarianism
 
-A commune can be egalitarian among full members while recreating hierarchy among volunteers, employees, interns, guests, dependents, renters, contractors, or sister-community workers.
-
-Core design rule: **standing should follow exposure, not only membership**. A nonmember does not get general governance power, but does need voice/review over the role-specific decisions that materially affect them.
-
-Target: **shared infrastructure without exported disenfranchisement**.
+Standing should follow material exposure as well as membership. Nonmembers do not automatically gain general governance rights, but workers/renters/guests/service participants need role-specific voice, safeguards, records, and review.
 
 ### G-023 — C — Federation anti-starvation
 
-The Federation of Egalitarian Communities nearly became operationally absent while member communes remained viable. Participant and later rebuild records describe neglected paperwork, delegates leaving without replacement, unattended calls, and local crises absorbing attention.
-
-Article implication: federation maintenance cannot be leftover labor after local work. Reserve translocal capacity for compliance, records, finance, succession, communications, meetings, and restart/minimum-operating-state checks.
+Federation maintenance cannot be leftover labor. Reserve capacity for compliance, records, finance, succession, meetings, restart, dispute functions actually assigned to the federation, and digital/policy decommissioning.
 
 ### G-024 — B — Modularize critical federation services
 
-Do not make every critical shared service fail with the general federation layer. Consider bounded, separately governed service modules for functions such as pooled health, records, safeguarding, appeals, or finance.
+The general federation is not the whole network. Preserve bilateral/local-cluster ties and function-specific institutions, and separate service authority from credit/guarantee authority so one risky function cannot silently become a movement-wide failure conduit.
 
-PEACH is only an architecture lead: it has governance independent from general FEC, but current evidence does **not** prove that this separation caused resilience during FEC dysfunction.
+### G-025 — C — Federation membership lifecycle
 
-### G-025 — C — Federation membership lifecycle / material-change requalification
+Accreditation should requalify after material institutional change. Preserve both transitional states and a stable non-convergent Friend/Ally relationship so cooperation does not imply forced institutional convergence.
 
-FEC created `Re-forming Community` status after major membership turnover, potential family-dominated remnants, and drift from defining income-sharing rules.
+### G-026 — B — Federation mobility needs an interface
 
-Do not let federation accreditation attach permanently to a community name, land parcel, or legal shell. Track separately:
-- people;
-- land/site;
-- legal entity/control;
-- governance/economic system;
-- mission;
-- federation accreditation.
+Formal permission to move is not usable mobility. Define responsibility for status, housing, health, records, accounting, benefits, tax, reimbursements, and transition disputes. Current FEC evidence also supplies the correction: interoperability can be a **thin adapter/interface**, not harmonization of every community's internal system.
 
-Material change should trigger review, not presumption of wrongdoing. Candidate lifecycle:
-`forming → in dialogue → full → re-forming → dormant → dissolved`.
+### G-027 — B — Purpose-specific intercommunity accounting
 
----
+Do not force every transfer into one parity ledger. Distinguish grant/direct aid, pooled protection, loan, guarantee/surety, shared-enterprise commitments, reciprocal exchange, and non-transactional learning/exploration/relationship transfer.
 
-## Important empirical leads from the Louisa cluster
+FEC history shows the failure of false parity; the Israeli cooperative crisis shows the opposite error, where broad mutual guarantees transmitted liabilities. **Solidarity is not unlimited joint liability.**
 
-Use source-level verification before publication-facing claims.
+### G-028 — B — Federation constitutional casebook
 
-Current reconstruction suggests:
-- Twin Oaks helped establish nearby Acorn rather than treating new formation as social severance;
-- early Acorn partly supported itself by making hammocks for Twin Oaks;
-- after Southern Exposure Seed Exchange grew, economic flow partly reversed and Acorn became economically useful to Twin Oaks members;
-- Twin Oaks reportedly contributed substantial startup labor to Living Energy Farm;
-- Mimosa used land/work interfaces with Twin Oaks/Acorn;
-- Cambia did not remain an income-sharing commune, showing the cluster did not magically make every experiment survive.
+Abstract principles need durable hard-case interpretation memory. Preserve high-information constitutional cases with facts, competing principles, initial judgments, final rationale, dissent, consequences, precedent scope, rule version, and rerun result after later rule revisions.
 
-High-value research question: whether dense communal clustering reduces startup/exit costs and lets institutional experiments specialize without rebuilding every shared service from zero.
-
-Do not infer causality from these historical leads without stronger comparison evidence.
+This is an article-facing federation application of existing strict survivor **C001**, not a new Creative-Tail survivor.
 
 ---
 
-## Current strict Creative Tail state
+## Batch 65–68 empirical results to preserve
 
-`STATE.md` and `FINDINGS.md` are authoritative. Important retrieval-induced changes include:
+### Batch 65 — mobility / federation topology
 
-- C016 was externally **demoted** from the strict survivor ledger because the public-randomness architecture already exists in RFC 3797/audit practice.
-- C001, C005, C006, C015, C025 were materially narrowed by deep retrieval.
-- C003, C011, C013, C018, C026 remain narrow residuals, not their generic roots.
+Historical FEC/Twin Oaks dual membership required tax, labor, health, PEACH, residence, and accounting coordination. The policy explicitly allowed switching frequency to be limited if accounting burden became excessive. This supports G-026.
 
-Do not re-expand narrow survivors into familiar broad claims.
+FEC history also showed:
 
-Do not repeat the completed internal-corpus audits of C001–C020 or C021–C026 unless the underlying communities corpus materially changes.
+- dispute/jurisdiction expectations without durable federation capacity;
+- stable non-full affiliation categories;
+- bilateral/local ties surviving formal federation weakness;
+- Acorn's departure as a useful but causally underdetermined stress case.
+
+Do not assign blame for the Acorn/Twin Oaks dispute from the thin public record.
+
+### Batch 66 — current FEC exchange redesign
+
+The current 2026 FEC Exchange Program explicitly replaces LEX/LETS because the old systems were transactional and falsely assumed parity between communities.
+
+The replacement has no formal labor-debt tracking and uses a thin interface for mutual aid, skill-sharing, relationship-building, renewal, and exploration. This creates G-027 and corrects G-026 away from unnecessary system harmonization.
+
+The retired old FEC domain also demonstrated a digital decommissioning risk; do not infer the cause of unrelated later content on that domain.
+
+### Batch 67 — Short Mountain constitutional edge case
+
+A FEC historical reconstruction says Short Mountain Sanctuary left in 1987 after its queer-sanctuary admission rule was treated as conflicting with the federation anti-discrimination principle.
+
+Older FEC rules distinguished blanket identity exclusions from demographic quotas; current September 2025 criteria explicitly allow affinity around a specific oppressed identity under stated conditions.
+
+Do **not** infer that Short Mountain caused the 2025 revision or that the historical decision was obviously right/wrong. The durable lesson is G-028/C001: preserve constitutional hard cases and rerun them when rules change.
+
+### Batch 68 — kibbutz/moshav federation comparison
+
+Israeli cooperative finance supplied a second federation-scale stress case. Multi-level mutual guarantees and credit intermediation helped finance development but also transmitted liabilities in the 1980s crisis. Reform progressively reduced/dismantled the guarantee structure and separated some service functions from financial intermediation.
+
+Disposition: **no G-029**. The broad contagion mechanism is common cooperative-finance knowledge. Use it only to strengthen G-024/G-027 and the distinction between aid, loans, guarantees, and committed shared-enterprise costs.
 
 ---
 
-## Living visual architecture
+## Federation-lane stopping decision
 
-The communities repo now contains:
+The bounded federation/experimental-ecology discovery lane is **closed for now**.
 
-`docs/COMMUNITIES-WORKFLOW-ARCHITECTURE.md`
+Reason:
 
-It has three Mermaid diagrams:
-1. end-to-end research → Creative Tail → Exa/Parallel → article-gap → editorial flow;
-2. novelty/promotion drill-down;
-3. evidence/persistence dataflow.
+- Batches 64–67 produced material new gaps/sharpenings;
+- Batch 68 was a serious second-system test and produced no defensible new gap;
+- the project's stopping rule says stop rather than manufacture marginal additions once a serious pass yields no material gap.
 
-Use it as the fast global orientation layer. Update it if the control flow materially changes.
+Reopen only if:
 
-The transferable pattern is merged into `u-dont-existDOTcom/universal-dev-architecture/patterns/living-mermaid-workflow-maps.md`.
+1. a materially new empirical case exposes a mechanism not represented in G-001–G-028; or
+2. article integration reveals a concrete unresolved research dependency.
 
 ---
 
-## Exact next steps
+## Exact next step
 
-### Step 0 — fresh MCP-enabled conversation
+**Do not edit the article until explicitly authorized.**
 
-Use a newly created post-registration normal chat. Smoke-test **actual execution** of Exa Search and Parallel Task before beginning strict tail promotion work.
+The research-side reconciliation is complete enough to hand off to article integration. When the user authorizes harmonization:
 
-### Step 1 — resolve heads and recover only current state
+1. use `communities/recovered/COMMUNITIES-ARTICLE-GAP-BANK-CURRENT.md` as the current change specification;
+2. select which B/C/D gaps actually require prose changes rather than dumping the bank into the article;
+3. verify publication-facing load-bearing empirical claims at source level before insertion;
+4. preserve the user's thesis and distinguish thesis from empirical evidence;
+5. harmonize structure/prose with the research;
+6. only afterward proceed to humanization/detector work.
 
-Re-resolve:
-- Creative Tail retrieval branch;
-- communities `agent/final-research-synthesis`;
-- universal-dev-architecture `main` only if a workflow lesson is needed.
-
-Do not rely on the SHAs above if newer commits exist.
-
-### Step 2 — continue the federation / experimental-ecology article-gap lane
-
-Primary question:
-
-> What important failure modes or design requirements appear **only when multiple reasonably healthy communes share people, services, businesses, review, money, or infrastructure**, and are missing or materially underdeveloped in Joel's article?
-
-Prefer **empirical federation/cluster failures and adaptations** over armchair abstraction. The FEC lane was more productive than generic theory.
-
-Generate a broad private tail batch, then common-sense-filter it before showing Joel anything.
-
-Promising empirical directions, in priority order:
-
-1. **FEC deeper reconstruction** — failed or abandoned shared functions, labor exchange, intercommunity obligations, community switching, disputes, mutual aid, shared businesses, and what actually survived the 2024–2026 rebuild.
-2. **Compare one or two other federated communal systems** only where they answer a specific mechanism exposed by FEC/Louisa; avoid an unbounded literature sweep.
-3. Look specifically for mechanisms that are not reducible to generic `centralization bad`, `coordination costs`, `free riding`, `have backups`, or `diversity good`.
-
-### Step 3 — gap disposition
-
-For each candidate:
-
-1. common-sense/user-familiarity veto;
-2. compare with G-001–G-025 and the 198-finding corpus;
-3. if it is merely useful/known, keep only as practical lesson;
-4. if it appears to be an article gap, verify the article comparator and source evidence;
-5. if claiming Creative-Tail originality, run mandatory Exa + Parallel Task before surfacing/promoting it.
-
-New article gaps should continue from **G-026** in the temporary addendum until the next gap-bank regeneration.
-
-### Step 4 — stopping rule for this research lane
-
-Continue bounded federation/experimental-ecology passes until a full serious pass produces **no material new article gap**, rather than inventing marginal ones to keep the list growing.
-
-Then:
-- regenerate/reconcile the main `COMMUNITIES-ARTICLE-GAP-BANK.md` so G-021+ are folded into one canonical list;
-- retire the temporary addendum;
-- update the Mermaid architecture if needed;
-- update communities and Creative Tail state/checkpoints.
-
-### Step 5 — article integration after the gap search closes
-
-Do not silently edit the article during research mode. Once Joel explicitly authorizes integration:
-
-1. use the reconciled gap bank as the change specification;
-2. preserve Joel's thesis/arguments exactly rather than weakening them;
-3. externally verify the publication-facing load-bearing claims selected for use;
-4. harmonize the article with the research;
-5. only afterward proceed to humanization/detector work.
+Until article editing is authorized, routine work should be limited to source verification or state maintenance, not more speculative gap generation.
 
 ---
 
 ## Interaction rules
 
-- Continue through routine next steps automatically; do not ask Joel to approve each search or batch.
-- Do not make him veto obvious ideas manually.
-- Do not present ordinary practical wisdom with technical labels as discovery.
-- Preserve his arguments; if evidence conflicts, state the conflict instead of silently rewriting the thesis.
-- Keep `strict originality`, `empirical finding`, `article gap`, and `practical lesson` as separate statuses.
+- Continue routine next steps automatically.
+- Do not ask the user to manually reject obvious candidates.
+- Do not present generic theory under new terminology as discovery.
+- Do not silently modify the user's thesis.
 - GitHub is durable memory; chat is disposable working RAM.
-- For long deliverables, prefer files/ZIPs over giant preview panes.
-
----
-
-## Copy/paste starter for the fresh conversation
-
-> Continue my intentional-community Creative Tail / article-gap research from `u-dont-existDOTcom/creativeTailSampling` and `u-dont-existDOTcom/communities`. First read `creativeTailSampling/docs/FRESH-CONVERSATION-HANDOFF.md`, then follow its current read order and resolve all branch heads before doing work. This is a fresh post-registration chat, so immediately smoke-test actual execution of Exa Search and Parallel Task; do not assume visible MCP schemas mean the tools work. Use the completed retrieval benchmark architecture: retrieval-free generation, hostile common-sense veto, latest communities-corpus collision, mandatory Exa routine search, and mandatory Parallel Task before presenting/promoting a strict Creative-Tail survivor. Do not make me manually reject obvious ideas. Continue the federation/experimental-ecology article-gap lane from G-021–G-025 and Batch 64, prioritize real empirical federation/cluster failures over generic theory, save all durable results back to GitHub, and continue automatically through routine next steps. Research only unless I explicitly authorize article editing.
+- Preserve source uncertainty and causal underdetermination.
+- Prefer empirical mechanism failures/adaptations over broad armchair abstractions.
