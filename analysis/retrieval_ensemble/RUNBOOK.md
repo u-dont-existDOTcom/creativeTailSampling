@@ -160,6 +160,25 @@ Report:
 
 Do not count an over-rejection as a correct narrowing. If history says `narrow`, the benchmark only counts `narrow` as the correct catch.
 
-## Adoption decision
+## Round 001 final verdict
 
-Make routine Exa + Parallel mandatory only if the benchmark shows meaningful complementary retrieval or earlier correct collision detection without excessive adjudication burden. If one provider adds negligible unique value, simplify the stack. Retain Parallel deep research only if it resolves a meaningful share of routine residual cases.
+Round 001 is complete. Canonical synthesis: `runs/2026-08-16-retrieval-ensemble-round-001-final.md`.
+
+Historical positive set results:
+
+- Exa Search: **8/8 correct = 100%**.
+- Parallel Search: **2/8 = 25%** conservatively; **3/8 = 37.5%** under sensitivity scoring for N018.
+- Routine Exa + Parallel union: **8/8 = 100%**.
+- Parallel Search incremental recall over Exa: **0/8**.
+
+Parallel Task `pro` added materially useful target-domain/near-target evidence on all five escalated survivor/boundary cases and sharply narrowed C005, C006, and C025.
+
+Therefore the production novelty gate is **modified B**:
+
+1. **Exa routine semantic collision attack: mandatory.**
+2. **Parallel Search routine lane: optional corroboration/disagreement only; not mandatory.**
+3. **Parallel Task deep research: mandatory before a routine survivor is promoted into the strict originality ledger.**
+4. **Generation remains retrieval-free.**
+5. **Only the residual surviving internal corpus + Exa routine + deep survivor attack may be promoted.**
+
+Do not re-run Round 001 simply to reconfirm these numbers. Start a new benchmark round only if provider behavior, query architecture, or the promotion protocol changes materially.
