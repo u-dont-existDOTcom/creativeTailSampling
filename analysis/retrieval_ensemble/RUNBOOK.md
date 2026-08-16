@@ -32,7 +32,7 @@ The wrapper:
 7. commits and pushes all completed checkpoints even when the round is incomplete;
 8. resumes by skipping only checkpoints whose status is `ok`.
 
-Routine Parallel Search is deliberately anonymous. `PARALLEL_API_KEY` is reserved for Parallel Task/deep-research escalation.
+Parallel Search may run anonymously for ad-hoc use, but the benchmark uses `PARALLEL_API_KEY` whenever it is available so a large frozen round is not truncated by the anonymous free-tier rate limit. The helper's optional-auth mode means **use the key if present, fall back anonymously only if absent**. Parallel Task/deep research always requires authentication.
 
 ## Conditions
 
@@ -116,13 +116,32 @@ A provider returning nothing is `no_collision_found`, never evidence of original
 
 ## Parallel deep-research escalation
 
-Use Task MCP or Parallel CLI only when:
+Use Parallel Task/CLI only when:
 
 - the routine ensemble finds no convincing precedent and the candidate would otherwise be promoted;
 - a plausible collision cannot be resolved from retrieved primary sources;
 - Exa and Parallel expose materially different conceptual neighborhoods and novelty depends on resolving them.
 
 Do not pay for deep research on cases already correctly rejected or narrowed by routine retrieval.
+
+Round 001's frozen escalation set is `C015`, `C001`, `C005`, `C006`, and `C025`. `C016` is excluded because routine retrieval already produced a decisive direct collision.
+
+Canonical escalation command:
+
+```bash
+bash scripts/run_parallel_deep_benchmark.sh
+```
+
+The wrapper:
+
+1. runs the full test suite before any paid task is created;
+2. verifies Parallel CLI authentication;
+3. launches at most one `pro` research run per frozen escalation case using `--no-wait`;
+4. commits/pushes every created `trun_...` ID before polling;
+5. polls those same IDs and stores the final JSON results;
+6. never relaunches an existing task on resume.
+
+The processor is intentionally frozen to `pro` for this benchmark so cost/quality are comparable across cases. Do not silently upgrade processors or add cases within the same benchmark round.
 
 ## Scoring
 
