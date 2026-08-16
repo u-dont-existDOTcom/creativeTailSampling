@@ -109,6 +109,23 @@ Label such results **CROSS-DOMAIN CONNECTION**, not "new theory."
 
 When novelty matters, perform a targeted literature/web search for candidate survivors before promotion. Failure to find a precedent is not proof of originality; it merely clears one rejection gate.
 
+#### Retrieval ensemble architecture — benchmark-validated 2026-08-16
+
+Round 001 retrospectively tested Exa Search, Parallel Search, and Parallel Task against frozen historical false-novelty/narrowing cases. The validated external retrieval sequence is now:
+
+1. **Do not retrieve during tail generation.** Keep creative recall low; web/literature retrieval begins only after a candidate survives the common-sense and active-project gates.
+2. **Exa semantic collision attack — mandatory routine lane.** Search independently across at least these query families before strict promotion:
+   - closest target-domain neighbor;
+   - alternate terminology / older vocabulary;
+   - source-domain mechanism plus evidence of transfer into the target domain;
+   - explicit falsification / strongest predecessor attack.
+3. **Adjudicate evidence rather than search snippets.** Fetch/read primary or full sources when the collision judgment depends on them. A retrieved URL is not itself a collision.
+4. **Parallel Search — optional corroboration/disagreement lane.** It may be used for cheap independent retrieval, but Round 001 did not justify making shallow Parallel Search mandatory: Exa caught all 8/8 historical positive cases while Parallel Search caught 2/8 conservatively (3/8 under sensitivity scoring), and the routine union added no recall over Exa.
+5. **Parallel Task deep research — mandatory survivor escalation before strict originality promotion.** If a candidate would still enter the strict originality ledger after routine Exa adjudication, run an independent deep nearest-neighbor/falsification attack. Do not feed it Exa's discovered precedents or evaluator labels; preserve retrieval independence. Do not spend deep research on candidates already rejected or narrowed below promotion threshold.
+6. **Promote only the surviving residual.** If retrieval finds a familiar root but not the whole mechanism, rewrite the candidate to the narrow residual actually left. If no residual remains, demote it. A provider returning nothing is `no collision found`, never proof of originality.
+
+The benchmark's canonical report is `runs/2026-08-16-retrieval-ensemble-round-001-final.md`; raw evidence and deep reports are under `analysis/retrieval_ensemble/results/round-001/`.
+
 ### 7. User familiarity veto
 
 If the user immediately recognizes the proposition as common sense or a familiar theory, demote it regardless of whether the formulation appears technically sharper.
