@@ -14,11 +14,12 @@ _STOPWORDS = {
 
 
 def parallel_headers(*, required: bool = True) -> dict[str, str]:
+    """Return Task auth headers; routine Search stays anonymous when not required."""
+    if not required:
+        return {}
     key = os.environ.get("PARALLEL_API_KEY", "").strip()
     if not key:
-        if required:
-            raise RuntimeError("PARALLEL_API_KEY is required for Parallel Task MCP")
-        return {}
+        raise RuntimeError("PARALLEL_API_KEY is required for Parallel Task MCP")
     return {"Authorization": f"Bearer {key}"}
 
 
