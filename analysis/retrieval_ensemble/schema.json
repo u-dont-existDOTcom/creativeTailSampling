@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Creative Tail Sampling retrieval ensemble benchmark case",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["case_id", "candidate_text", "historical_label", "expected_action", "known_collision_family", "source_run", "notes"],
+    "properties": {
+      "case_id": {"type": "string", "minLength": 1},
+      "candidate_text": {"type": "string", "minLength": 1},
+      "historical_label": {"enum": ["rejected", "narrowed", "survivor", "cross_domain"]},
+      "expected_action": {"enum": ["reject", "narrow", "adjudicate"]},
+      "known_collision_family": {"type": "string"},
+      "source_run": {"type": "string", "minLength": 1},
+      "notes": {"type": "string"}
+    },
+    "additionalProperties": false
+  }
+}
