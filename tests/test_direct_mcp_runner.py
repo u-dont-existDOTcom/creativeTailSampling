@@ -22,6 +22,7 @@ def test_direct_endpoints_do_not_depend_on_codex():
 def test_parallel_headers_read_key_from_environment_only(monkeypatch):
     monkeypatch.setenv("PARALLEL_API_KEY", "secret-value")
     assert parallel_headers() == {"Authorization": "Bearer secret-value"}
+    assert parallel_headers(required=False) == {}
     monkeypatch.delenv("PARALLEL_API_KEY")
     assert parallel_headers(required=False) == {}
 
