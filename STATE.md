@@ -1,23 +1,49 @@
 # Creative Tail Sampling — Resume State
 
-Updated: 2026-08-16 00:53 UTC
+Updated: 2026-08-16 after Retrieval Ensemble Round 001
 
 ## Durability
 
-GitHub is authoritative. Batches 21–59 are durably checkpointed. The retroactive active-project corpus audits of **C001–C020** and **C021–C026** are complete. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel research work advances.
+GitHub is authoritative. Batches 21–61 and the retroactive active-project corpus audits are durably checkpointed. Retrieval Ensemble Round 001 is complete, including 112 routine Exa/Parallel Search calls and five Parallel Task `pro` survivor escalations. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel research work advances.
 
 Fresh-conversation packet:
 - `docs/FRESH-CONVERSATION-HANDOFF.md`
+
+Retrieval benchmark final report:
+- `runs/2026-08-16-retrieval-ensemble-round-001-final.md`
 
 ## Mandatory promotion order for every future community-related candidate
 
 1. **Common-sense / user-familiarity adversary.** If it reduces to something the user already knows or ordinary common sense, reject as novel.
 2. **Active-project corpus collision gate.** Resolve the latest `u-dont-existDOTcom/communities` branch/head and check the final synthesis, crosswalk, evidence ledger, research state, canonical lessons, and later tail supplements.
-3. **External nearest-neighbor literature attack.** Search both source-domain and target-domain precedents.
-4. **Consequence / coherence / testability gate.** Derive downstream implications and a discriminating prediction.
-5. **Promotion only of the surviving residual.** Useful-but-known ideas go to the communities lessons layer, not the strict novelty ledger.
+3. **Routine external semantic collision gate — Exa mandatory.** Keep retrieval out of generation; after internal survival, run independent Exa searches for closest target neighbor, alternate terminology, source-domain transfer, and explicit falsification. Fetch primary/full sources where the collision judgment needs them.
+4. **Parallel Search optional.** Use for cheap independent corroboration or disagreement when useful, but do not require it for every candidate. Round 001 found no incremental historical-positive recall over Exa.
+5. **Deep survivor adversary — Parallel Task mandatory before strict promotion.** If a candidate would still enter the strict originality ledger after routine Exa adjudication, run an independent deep nearest-neighbor/falsification attack without feeding it Exa's discovered precedents or evaluator labels.
+6. **Consequence / coherence / testability gate.** Derive downstream implications and a discriminating prediction.
+7. **Promotion only of the surviving residual.** Useful-but-known ideas go to the communities lessons layer, not the strict novelty ledger.
 
-Empty novelty batches are successful.
+Empty novelty batches are successful. A provider returning nothing is `no collision found`, never evidence of originality.
+
+## Retrieval Ensemble Round 001 — final architecture result
+
+Historical positive set: 8 known reject/narrow cases.
+
+Routine conservative score:
+- **Exa Search: 8/8 = 100%.**
+- **Parallel Search: 2/8 = 25%** (3/8 = 37.5% under sensitivity scoring for borderline N018).
+- **Routine union: 8/8 = 100%.**
+- **Incremental recall of Parallel Search over Exa: 0/8.**
+
+Parallel Search's recurring failure mode was lexical/polysemous retrieval rather than structural-neighbor retrieval.
+
+Parallel Task deep research was then run on five surviving/boundary cases: C001, C005, C006, C015, C025. It materially added target-domain or near-target precedents on all five and substantially sharpened C005, C006, and C025.
+
+Final external architecture:
+- **Exa routine semantic attack: mandatory.**
+- **Parallel Search: optional corroboration.**
+- **Parallel Task deep survivor escalation: mandatory before strict originality promotion.**
+
+Do not re-run Round 001 unless a provider/tool or query architecture changes materially and a new benchmark round is explicitly needed.
 
 ## Completed internal-corpus audits
 
@@ -26,26 +52,34 @@ Empty novelty batches are successful.
 
 Do **not** repeat them unless the communities corpus materially changes.
 
-### Important narrowings from C001–C020 audit
+### Important narrowings from internal + external collision audits
 
+- **C001:** case-based normative reasoning, independent elicitation, deliberation sequencing, and precedent are known. Residual only: discriminating case selection → independent answers → deliberation → durable regression-test suite.
 - **C003:** not `assets matter`; only upstream capitalization pre-selecting which variants become viable competitors remains.
+- **C005:** parent→daughter communal/organizational reproduction is known. Residual only: use the parent-indexed **daughter-count distribution** (`P(K=0)`, median, dispersion, concentration) as the reproducibility criterion.
+- **C006:** lineage heterogeneity and sampling-unit choices are known. Residual only: explicitly correct communal-replication inference for descendant-size-biased extant-community sampling and declare the estimand/weighting unit.
 - **C011:** not `pilot governance`; only nonbinding execution of the new process on the **same real cases in parallel** with the incumbent remains.
 - **C013:** not `federations help mobility`; only coordinated reciprocal clearing **after visits/trials reveal preferences** remains.
-- **C015:** not `rights must work`; only formal safety/liveness/bounded-liveness verification of the governance state-space remains.
+- **C015:** not `rights must work` and not `quorum/vacancy can paralyze governance`; residual only: unified adversarial reachable-state safety/liveness/bounded-liveness verification across interacting governance states.
 - **C018:** not `remember mistakes`; only semantic tombstones propagated through the same replication channels as positive templates remain.
+- **C025:** not generic organizational/community continuity, devolution, resident transfer, or housing stewardship after dissolution. Residual only: integrated **permanent communal dissolution** across the complete member-critical function bundle without requiring reconstitution of the commune.
+- **C026:** not meaningful exit or leaving funds; residual only: neutral portable launch resources available **before adult opt-in**.
+
+### External demotion
+
+- **C016 — Verifiably unpredictable federation audit sampling:** removed from the strict survivor ledger. RFC 3797 already contains freeze/publish pool + predetermined algorithm + uncontrollable future randomness + immutable pool + public replay. Public randomness practice applies the same architecture to audit sampling. Keep only as a practical design rule.
 
 ## Current strict survivors
 
-- **C001 — Active normative edge-case search**
+- **C001 — Active normative edge-case search** — narrow integrated-pipeline residual
 - **C003 — Asset-gated cultural mutation** — narrow residual only
-- **C005 — Reproductive-variance / superstar-reproduction trap**
-- **C006 — Descendant inflation / lineage-size sampling bias**
+- **C005 — Reproductive-variance / superstar-reproduction trap** — narrow parent-indexed distributional residual
+- **C006 — Descendant inflation / lineage-size sampling bias** — narrow estimand/weighting residual
 - **C009 — Cohort-composition admission** — market-thickness bounded
 - **C011 — Shadow governance** — narrow same-case parallel-execution residual
 - **C012 — Standing constitutional-relation testing**
 - **C013 — Federated reciprocal applicant clearing** — narrow post-exploration clearing residual
-- **C015 — Governance rights-liveness verification** — formal-methods residual
-- **C016 — Verifiably unpredictable federation audit sampling**
+- **C015 — Governance rights-liveness verification** — narrow unified reachable-state verification residual
 - **C017 — Intervention-aware rescue forecasts**
 - **C018 — Replicated-governance tombstones**
 - **C019 — Power-targeted federation voting**
@@ -54,7 +88,7 @@ Do **not** repeat them unless the communities corpus materially changes.
 - **C022 — Cross-community measurement canaries**
 - **C023 — Cumulative disclosure-budget / differencing guard**
 - **C024 — Non-custodial federation research**
-- **C025 — Community resolution / living-will architecture**
+- **C025 — Community resolution / living-will architecture** — narrow permanent multi-function dissolution residual
 - **C026 — Adulthood option grant / neutral transition package** — narrow timing/symmetry residual only
 
 Canonical details: `FINDINGS.md`.
@@ -63,7 +97,7 @@ Canonical details: `FINDINGS.md`.
 
 ### C005 — Make reproduction boring
 
-Judge reproducibility by the **parent-offspring distribution**, not total spread or mean daughters alone.
+Judge reproducibility by the **parent-offspring distribution**, not total spread or mean daughters alone. The retrieval benchmark confirms that parent→daughter/fission/genealogy framing itself is established; the surviving transfer is the parent-indexed distributional evaluation rule.
 
 Current mature-parent Hutterite signatures:
 - Manitoba Schmiedeleut: `P(K=0)=4.08%`, median `K=2`, top-10% daughter share ~22.3%
@@ -135,6 +169,7 @@ C024 reusable architecture:
 
 ## Recent practical-only results
 
+- **C016:** publicly verifiable future-randomness audit selection is practical but not novel.
 - **B48:** destination-blind fission partitioning.
 - **B49:** prospectively record branching-process mechanism details; genealogy alone is insufficient.
 - **B50:** rotate authority without resetting competence; audit durable trainers/advisers/record custodians for shadow power.
@@ -151,17 +186,18 @@ Practical lessons are stored in `u-dont-existDOTcom/communities` on the current 
 
 Never overwrite the canonical communities research state with an older tail snapshot. Resolve the current branch first and append/merge safely.
 
-## Exact next move — Batch 61
+## Exact next move
 
-1. Resolve both GitHub heads and confirm no later checkpoint supersedes this state.
-2. Pick a genuinely **orthogonal** source family; do not remain trapped in survey/privacy/research-center methodology unless the user introduces a new insight there.
-3. Generate at least 12 plain candidate propositions.
-4. For each community-related candidate, run the **communities internal-corpus collision first**, then external nearest-neighbor literature attack.
-5. Derive at least three downstream consequences and a discriminating test for any survivor.
-6. Promote nothing merely because it is useful.
-7. Save the full audit under `runs/`.
-8. Update `FINDINGS.md` and this file.
-9. Mirror every practical community lesson—even failed novelty candidates—to the latest communities branch without overwriting parallel work.
+1. Integrate the completed retrieval-ensemble feature branch once verification shows no regression.
+2. Before the next creative batch, resolve the latest `communities` head because parallel work may have advanced it.
+3. Pick a genuinely **orthogonal** source family; do not remain trapped in survey/privacy/research-center methodology unless the user introduces a new insight there.
+4. Generate at least 12 plain candidate propositions **without retrieval**.
+5. For each community-related candidate, run the communities internal-corpus collision first.
+6. For internal survivors, run mandatory routine Exa semantic collision search.
+7. For any candidate still eligible for strict promotion, run independent Parallel Task deep research before assigning/promoting a tail ID.
+8. Derive at least three downstream consequences and a discriminating test for any survivor.
+9. Promote nothing merely because it is useful.
+10. Save the full audit under `runs/`; update `FINDINGS.md` and this file; mirror practical lessons to the latest communities branch without overwriting parallel work.
 
 ## User interaction rule
 
