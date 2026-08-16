@@ -45,20 +45,33 @@ Past problems should not all receive the same reputational half-life. Where the 
 
 The proposal that response to correction distinguishes tolerable flaws from dangerous ones was rejected by the user as common sense. Do not promote or revisit this as a strict novelty candidate.
 
-### P8 — Probation-state mismatch / status-conditional hazard
+### Rejected — P8 probation-state mismatch / incremental responsibility
 
-A prospective member is usually observed in an unusually low-power, high-scrutiny, high-exit-risk state. Some dangerous traits are conditional on the opposite state: secure belonging, accumulated reputation, control of resources, intimate dependency, authority, or access to lower-status members. A long trial can therefore generate false confidence if it samples only the applicant's low-power behavior. Admission screening should ask whether the observation regime resembles the states in which the relevant future harms could occur.
+The proposal that low-power probation may fail to reveal high-power behavior, and that responsibility/status should be increased incrementally, was rejected by the user as common sense. Preserve only as a practical screening lesson if needed; do not treat it as a novelty candidate.
 
-Consequences to test before external retrieval:
-- admission interviews and ordinary probation may be systematically least diagnostic for abuse-of-power traits;
-- bounded, low-risk increases in responsibility/status may reveal more than simply extending low-status probation;
-- references from people who previously depended on, worked under, dated, borrowed from, or otherwise occupied an asymmetric relationship with the applicant may carry information that peer references miss;
-- post-status-transition observation matters because some behavior can change discontinuously after membership, authority, cohabitation, parenthood, or economic dependence increases;
-- a single binary `probation -> full member` cliff may create a predictable masking incentive if the cost of ejection rises sharply after the cliff.
+### P9 — Exit-selected reputation / complaint depletion
+
+A member's apparent safety can improve because the people most harmed by, intolerant of, or perceptive about that member leave. The current population is then selected partly by compatibility with the person's behavior. This creates an endogenous-reputation problem: `everyone still here trusts X` is weak evidence if X's behavior has influenced who remains in the sample.
+
+Potential mechanism:
+- X repeatedly creates a moderate but real burden or risk;
+- the members most affected, most sensitive to it, or least willing to normalize it disproportionately exit;
+- complaints fall because complainers are gone, not because X improved;
+- the surviving culture becomes more tolerant of X;
+- X's apparent consensus reputation rises endogenously.
+
+This differs from ordinary face-saving and from scrutiny-triggered exit by making the *target person's behavior itself* a selection force on the observer population. A sufficiently influential bad actor can partially reshape the community by retention-selection rather than persuasion.
+
+Discriminating predictions before retrieval:
+- complaint rates about a risky/high-status member can decline after opponent/target exits even without observable behavior change;
+- current-member reputation should look more favorable than the reputation among former members who had high exposure to the person;
+- repeated exits clustered around one person's relationships or authority domain can be more diagnostic than current consensus about that person;
+- newcomers entering the same exposure channel may regenerate complaints after an apparent quiet period;
+- communities evaluating safety only from current residents will systematically underestimate risks that preferentially drive critics/targets out.
 
 ## Current best tail candidates
 
-The strongest non-obvious candidates are P1 (lifetime containment reliability), P2 (containment burden), P3 (transparency-tax adverse selection), and P8 (probation-state mismatch / status-conditional hazard). P5 is also a promising measurement consequence. P6 is probably a residual under the project's existing portable-risk-information architecture.
+The strongest remaining candidates are P1 (lifetime containment reliability), P2 (containment burden), P3 (transparency-tax adverse selection), and P9 (exit-selected reputation / complaint depletion). P5 is also a promising measurement consequence. P6 is probably a residual under the project's existing portable-risk-information architecture.
 
 ## Required next gates
 
