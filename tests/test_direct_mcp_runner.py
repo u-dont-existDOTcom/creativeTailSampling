@@ -19,10 +19,10 @@ def test_direct_endpoints_do_not_depend_on_codex():
     assert PARALLEL_TASK_URL == "https://task-mcp.parallel.ai/mcp"
 
 
-def test_parallel_headers_read_key_from_environment_only(monkeypatch):
+def test_parallel_headers_use_key_when_available_and_allow_anonymous_fallback(monkeypatch):
     monkeypatch.setenv("PARALLEL_API_KEY", "secret-value")
     assert parallel_headers() == {"Authorization": "Bearer secret-value"}
-    assert parallel_headers(required=False) == {}
+    assert parallel_headers(required=False) == {"Authorization": "Bearer secret-value"}
     monkeypatch.delenv("PARALLEL_API_KEY")
     assert parallel_headers(required=False) == {}
 
