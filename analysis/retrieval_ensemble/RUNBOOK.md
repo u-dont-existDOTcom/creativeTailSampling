@@ -13,6 +13,27 @@ Measure whether independent Exa and Parallel retrieval materially improve the Cr
 
 The fields `known_collision_family`, `expected_action`, `historical_label`, `notes`, and `source_run` are evaluator metadata. **Do not expose them to Exa or Parallel.** Provider prompts may consume only `case_id`, `candidate_text`, and the frozen query strings generated from `candidate_text`.
 
+## Canonical execution command
+
+The benchmark is Codex-independent. From the feature branch with the direct retrieval environment installed:
+
+```bash
+bash scripts/run_retrieval_benchmark.sh
+```
+
+The wrapper:
+
+1. runs the repository test suite;
+2. verifies direct Exa, Parallel Search, and Parallel Task connectivity;
+3. freezes and hashes the `round-001` query manifest before retrieval;
+4. collects the Exa and Parallel Search lanes independently and sequentially;
+5. checkpoints each individual call atomically;
+6. stops a provider lane after its first tool failure rather than hammering a rate-limited or schema-changed service;
+7. commits and pushes all completed checkpoints even when the round is incomplete;
+8. resumes by skipping only checkpoints whose status is `ok`.
+
+Routine Parallel Search is deliberately anonymous. `PARALLEL_API_KEY` is reserved for Parallel Task/deep-research escalation.
+
 ## Conditions
 
 Run the same cases under four conditions:
@@ -33,17 +54,19 @@ For each case, generate all four query families before invoking either provider:
 - `source_domain`
 - `falsification`
 
-Save the generated query manifest under `analysis/retrieval_ensemble/results/query_manifest.json`. Hash it before the first provider call. Do not edit the manifest after seeing retrieval results; if a query defect requires a change, create a new benchmark round and preserve the old round.
+Save the generated query manifest under the immutable round directory and hash it before the first provider call. Do not edit the manifest after seeing retrieval results; if a query defect requires a change, create a new benchmark round and preserve the old round.
 
 ## Initial provider passes
 
 ### Exa
 
-Use `web_search_exa` for each frozen query. Use `web_fetch_exa` on plausible collision sources. Use `web_search_advanced_exa` only when the ordinary Exa search leaves a concrete unresolved terminology/domain/date question; record that it was an advanced follow-up.
+Use `web_search_exa` for each frozen query. Use `web_fetch_exa` on plausible collision sources during the adjudication pass. Use `web_search_advanced_exa` only when ordinary Exa search leaves a concrete unresolved terminology/domain/date question; record that it was an advanced follow-up.
 
 ### Parallel Search
 
-Use `web_search` for each frozen query and `web_fetch` for plausible collision sources. Do not add terms learned from Exa until the first Parallel pass is complete.
+Use `web_search` for each frozen query and `web_fetch` on plausible collision sources during adjudication. Do not add terms learned from Exa until the first Parallel pass is complete.
+
+The routine collector stores raw search responses before any novelty judgment. This keeps retrieval measurement distinct from adjudication.
 
 ## Evidence standard
 
@@ -60,19 +83,22 @@ For a cross-domain candidate, source-domain familiarity alone does **not** kill 
 
 ## Output layout
 
-Store provider evidence separately during first pass:
+Routine retrieval is stored as:
 
 ```text
 analysis/retrieval_ensemble/results/
-  query_manifest.json
-  exa/<case_id>.jsonl
-  parallel/<case_id>.jsonl
-  ensemble/<case_id>.json
-  deep/<case_id>.jsonl
-  metrics.json
+  round-001/
+    query_manifest.json
+    query_manifest.sha256
+    schemas/
+      exa.json
+      parallel.json
+    raw/
+      exa/<case_id>/<query_family>.json
+      parallel/<case_id>/<query_family>.json
 ```
 
-Every JSONL row should be normalizable by `normalize_result`.
+Later adjudication/deep-search artifacts must remain downstream of these frozen raw responses rather than rewriting them.
 
 ## Ensemble adjudication
 
@@ -80,10 +106,11 @@ Only after both first-pass provider lanes are complete:
 
 1. mark substantially equivalent precedents that both found;
 2. mark credible precedents unique to Exa or Parallel;
-3. run `adjudicate` over the combined normalized records;
-4. allow one credible direct collision to reject even if the other provider missed it;
-5. preserve `root_plus_residual` as a narrowing event rather than flattening it into rejection;
-6. escalate unresolved `ambiguous` cases.
+3. fetch primary/full sources where snippets are insufficient;
+4. run `adjudicate` over the normalized evidence;
+5. allow one credible direct collision to reject even if the other provider missed it;
+6. preserve `root_plus_residual` as a narrowing event rather than flattening it into rejection;
+7. escalate unresolved `ambiguous` cases.
 
 A provider returning nothing is `no_collision_found`, never evidence of originality.
 
