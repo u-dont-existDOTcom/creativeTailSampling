@@ -190,7 +190,10 @@ async def collect_provider(
         tool_name = "web_search_exa"
     elif provider == "parallel":
         url = PARALLEL_SEARCH_URL
-        headers = parallel_headers(required=False) or None
+        # The benchmark is a sustained retrieval workload, not light anonymous use.
+        # Require the configured key so Parallel Search uses the authenticated
+        # higher-rate-limit lane and does not silently fall back to the free tier.
+        headers = parallel_headers(required=True)
         tool_name = "web_search"
     else:
         raise ValueError(f"unknown provider: {provider}")
