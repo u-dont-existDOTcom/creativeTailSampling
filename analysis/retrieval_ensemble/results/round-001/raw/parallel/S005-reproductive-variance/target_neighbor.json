@@ -1,0 +1,22 @@
+{
+  "case_id": "S005-reproductive-variance",
+  "error": "You've hit the free-tier rate limit for Parallel Search MCP. To continue with higher limits, add your own API key — set header `x-api-key: YOUR_KEY` or `Authorization: Bearer YOUR_KEY`. Get a key at https://platform.parallel.ai.",
+  "error_type": "MCPError",
+  "finished_at": "2026-08-16T06:44:13.205399+00:00",
+  "manifest_sha256": "6bdbe5e0b75c9f1f0779f0084513d901372d084b9131e3ab6a567636c2fec40c",
+  "provider": "parallel",
+  "query_family": "target_neighbor",
+  "request": {
+    "arguments": {
+      "objective": "Judge communal reproducibility by the parent-offspring distribution rather than total spread or mean daughters alone, including zero-offspring probability, median daughters, variance, and concentration in superstar parents. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim.",
+      "search_queries": [
+        "judge communal reproducibility parent-offspring distribution total",
+        "parent-offspring distribution total spread mean daughters",
+        "judge reproducibility distribution spread daughters precedent"
+      ]
+    },
+    "tool": "web_search"
+  },
+  "started_at": "2026-08-16T06:44:13.164253+00:00",
+  "status": "error"
+}

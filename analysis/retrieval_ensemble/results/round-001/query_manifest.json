@@ -1,0 +1,145 @@
+{
+  "cases": [
+    {
+      "candidate_text": "Communities become more resilient when important relationships and functions are multiplex rather than split into separate transactional roles.",
+      "case_id": "R001-multiplex-relational-unbundling",
+      "queries": {
+        "alternate_terminology": "Communities become more resilient when important relationships and functions are multiplex rather than split into separate transactional roles. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "Communities become more resilient when important relationships and functions are multiplex rather than split into separate transactional roles. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "Communities become more resilient when important relationships and functions are multiplex rather than split into separate transactional roles. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "Communities become more resilient when important relationships and functions are multiplex rather than split into separate transactional roles. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "A community spreads successfully when daughter groups reproduce the parent community's institutional package with enough fidelity.",
+      "case_id": "R002-generic-propagule-fidelity",
+      "queries": {
+        "alternate_terminology": "A community spreads successfully when daughter groups reproduce the parent community's institutional package with enough fidelity. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "A community spreads successfully when daughter groups reproduce the parent community's institutional package with enough fidelity. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "A community spreads successfully when daughter groups reproduce the parent community's institutional package with enough fidelity. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "A community spreads successfully when daughter groups reproduce the parent community's institutional package with enough fidelity. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "Members need portable resources and usable exit options so formal freedom to leave a community is meaningful in practice.",
+      "case_id": "R003-ordinary-exit-liquidity",
+      "queries": {
+        "alternate_terminology": "Members need portable resources and usable exit options so formal freedom to leave a community is meaningful in practice. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "Members need portable resources and usable exit options so formal freedom to leave a community is meaningful in practice. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "Members need portable resources and usable exit options so formal freedom to leave a community is meaningful in practice. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "Members need portable resources and usable exit options so formal freedom to leave a community is meaningful in practice. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "Branch inheritance can pre-filter which institutional variants receive enough land, capital, or reputation to become viable competitors, so apparent canonical superiority can partly reflect pre-selection capitalization.",
+      "case_id": "N003-asset-gated-cultural-mutation",
+      "queries": {
+        "alternate_terminology": "Branch inheritance can pre-filter which institutional variants receive enough land, capital, or reputation to become viable competitors, so apparent canonical superiority can partly reflect pre-selection capitalization. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "Branch inheritance can pre-filter which institutional variants receive enough land, capital, or reputation to become viable competitors, so apparent canonical superiority can partly reflect pre-selection capitalization. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "Branch inheritance can pre-filter which institutional variants receive enough land, capital, or reputation to become viable competitors, so apparent canonical superiority can partly reflect pre-selection capitalization. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "Branch inheritance can pre-filter which institutional variants receive enough land, capital, or reputation to become viable competitors, so apparent canonical superiority can partly reflect pre-selection capitalization. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "Before transferring authority to a substantially new governance process, run the new process nonbinding on the same real cases in parallel with the incumbent process and analyze divergence before live adoption.",
+      "case_id": "N011-shadow-governance",
+      "queries": {
+        "alternate_terminology": "Before transferring authority to a substantially new governance process, run the new process nonbinding on the same real cases in parallel with the incumbent process and analyze divergence before live adoption. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "Before transferring authority to a substantially new governance process, run the new process nonbinding on the same real cases in parallel with the incumbent process and analyze divergence before live adoption. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "Before transferring authority to a substantially new governance process, run the new process nonbinding on the same real cases in parallel with the incumbent process and analyze divergence before live adoption. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "Before transferring authority to a substantially new governance process, run the new process nonbinding on the same real cases in parallel with the incumbent process and analyze divergence before live adoption. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "After visits or trials reveal reciprocal preferences, federated communities can coordinate commitments so compatible seeker-vacancy pairs are not lost to isolated timing decisions while preserving local admission authority and opt-out.",
+      "case_id": "N013-federated-reciprocal-clearing",
+      "queries": {
+        "alternate_terminology": "After visits or trials reveal reciprocal preferences, federated communities can coordinate commitments so compatible seeker-vacancy pairs are not lost to isolated timing decisions while preserving local admission authority and opt-out. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "After visits or trials reveal reciprocal preferences, federated communities can coordinate commitments so compatible seeker-vacancy pairs are not lost to isolated timing decisions while preserving local admission authority and opt-out. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "After visits or trials reveal reciprocal preferences, federated communities can coordinate commitments so compatible seeker-vacancy pairs are not lost to isolated timing decisions while preserving local admission authority and opt-out. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "After visits or trials reveal reciprocal preferences, federated communities can coordinate commitments so compatible seeker-vacancy pairs are not lost to isolated timing decisions while preserving local admission authority and opt-out. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "A governance right can exist in text yet be dead in a reachable institutional state, so governance should be verified for safety, liveness, and bounded liveness under realistic recusal, vacancy, quorum, deadline, delegation, and noncooperation states.",
+      "case_id": "X015-governance-rights-liveness",
+      "queries": {
+        "alternate_terminology": "A governance right can exist in text yet be dead in a reachable institutional state, so governance should be verified for safety, liveness, and bounded liveness under realistic recusal, vacancy, quorum, deadline, delegation, and noncooperation states. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "A governance right can exist in text yet be dead in a reachable institutional state, so governance should be verified for safety, liveness, and bounded liveness under realistic recusal, vacancy, quorum, deadline, delegation, and noncooperation states. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "A governance right can exist in text yet be dead in a reachable institutional state, so governance should be verified for safety, liveness, and bounded liveness under realistic recusal, vacancy, quorum, deadline, delegation, and noncooperation states. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "A governance right can exist in text yet be dead in a reachable institutional state, so governance should be verified for safety, liveness, and bounded liveness under realistic recusal, vacancy, quorum, deadline, delegation, and noncooperation states. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "When a high-consequence governance pattern is retired for a known failure, propagate a semantic deprecation record through the same daughter, template, and fork channels that could otherwise resurrect it.",
+      "case_id": "N018-replicated-governance-tombstones",
+      "queries": {
+        "alternate_terminology": "When a high-consequence governance pattern is retired for a known failure, propagate a semantic deprecation record through the same daughter, template, and fork channels that could otherwise resurrect it. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "When a high-consequence governance pattern is retired for a known failure, propagate a semantic deprecation record through the same daughter, template, and fork channels that could otherwise resurrect it. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "When a high-consequence governance pattern is retired for a known failure, propagate a semantic deprecation record through the same daughter, template, and fork channels that could otherwise resurrect it. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "When a high-consequence governance pattern is retired for a known failure, propagate a semantic deprecation record through the same daughter, template, and fork channels that could otherwise resurrect it. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "Portable launch or transition resources that make adult non-membership viable should be available before a person raised in the community opts into the adult property, work, and governance regime, rather than requiring them to join first and later qualify for exit support.",
+      "case_id": "N026-adulthood-option-grant",
+      "queries": {
+        "alternate_terminology": "Portable launch or transition resources that make adult non-membership viable should be available before a person raised in the community opts into the adult property, work, and governance regime, rather than requiring them to join first and later qualify for exit support. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "Portable launch or transition resources that make adult non-membership viable should be available before a person raised in the community opts into the adult property, work, and governance regime, rather than requiring them to join first and later qualify for exit support. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "Portable launch or transition resources that make adult non-membership viable should be available before a person raised in the community opts into the adult property, work, and governance regime, rather than requiring them to join first and later qualify for exit support. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "Portable launch or transition resources that make adult non-membership viable should be available before a person raised in the community opts into the adult property, work, and governance regime, rather than requiring them to join first and later qualify for exit support. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "Use high-information concrete cases to distinguish plausible constitutional or value interpretations, collect independent answers before deliberation, and preserve resolved cases as regression tests.",
+      "case_id": "S001-active-normative-edge-cases",
+      "queries": {
+        "alternate_terminology": "Use high-information concrete cases to distinguish plausible constitutional or value interpretations, collect independent answers before deliberation, and preserve resolved cases as regression tests. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "Use high-information concrete cases to distinguish plausible constitutional or value interpretations, collect independent answers before deliberation, and preserve resolved cases as regression tests. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "Use high-information concrete cases to distinguish plausible constitutional or value interpretations, collect independent answers before deliberation, and preserve resolved cases as regression tests. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "Use high-information concrete cases to distinguish plausible constitutional or value interpretations, collect independent answers before deliberation, and preserve resolved cases as regression tests. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "Judge communal reproducibility by the parent-offspring distribution rather than total spread or mean daughters alone, including zero-offspring probability, median daughters, variance, and concentration in superstar parents.",
+      "case_id": "S005-reproductive-variance",
+      "queries": {
+        "alternate_terminology": "Judge communal reproducibility by the parent-offspring distribution rather than total spread or mean daughters alone, including zero-offspring probability, median daughters, variance, and concentration in superstar parents. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "Judge communal reproducibility by the parent-offspring distribution rather than total spread or mean daughters alone, including zero-offspring probability, median daughters, variance, and concentration in superstar parents. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "Judge communal reproducibility by the parent-offspring distribution rather than total spread or mean daughters alone, including zero-offspring probability, median daughters, variance, and concentration in superstar parents. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "Judge communal reproducibility by the parent-offspring distribution rather than total spread or mean daughters alone, including zero-offspring probability, median daughters, variance, and concentration in superstar parents. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "When evaluating communal success, prolific lineages mechanically contribute more extant observations, so analyses must state whether they sample founding attempts, lineages, extant communities, residents, or future movement contribution.",
+      "case_id": "S006-descendant-inflation",
+      "queries": {
+        "alternate_terminology": "When evaluating communal success, prolific lineages mechanically contribute more extant observations, so analyses must state whether they sample founding attempts, lineages, extant communities, residents, or future movement contribution. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "When evaluating communal success, prolific lineages mechanically contribute more extant observations, so analyses must state whether they sample founding attempts, lineages, extant communities, residents, or future movement contribution. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "When evaluating communal success, prolific lineages mechanically contribute more extant observations, so analyses must state whether they sample founding attempts, lineages, extant communities, residents, or future movement contribution. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "When evaluating communal success, prolific lineages mechanically contribute more extant observations, so analyses must state whether they sample founding attempts, lineages, extant communities, residents, or future movement contribution. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "For federation audits, freeze the eligible universe before future randomness is knowable, precommit deterministic selection, use uncontrollable future randomness, and make the realized draw replayable afterward.",
+      "case_id": "X016-unpredictable-audit-sampling",
+      "queries": {
+        "alternate_terminology": "For federation audits, freeze the eligible universe before future randomness is knowable, precommit deterministic selection, use uncontrollable future randomness, and make the realized draw replayable afterward. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "For federation audits, freeze the eligible universe before future randomness is knowable, precommit deterministic selection, use uncontrollable future randomness, and make the realized draw replayable afterward. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "For federation audits, freeze the eligible universe before future randomness is knowable, precommit deterministic selection, use uncontrollable future randomness, and make the realized draw replayable afterward. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "For federation audits, freeze the eligible universe before future randomness is knowable, precommit deterministic selection, use uncontrollable future randomness, and make the realized draw replayable afterward. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    },
+    {
+      "candidate_text": "A community should predefine how member-critical functions continue if the institution itself becomes nonviable, separating recovery of the organization from continuity of housing, care, food, records, transport, and other critical functions.",
+      "case_id": "X025-community-resolution-living-will",
+      "queries": {
+        "alternate_terminology": "A community should predefine how member-critical functions continue if the institution itself becomes nonviable, separating recovery of the organization from continuity of housing, care, food, records, transport, and other critical functions. Search for substantially the same mechanism described with different terminology, older vocabulary, or an adjacent discipline's language. Prefer conceptual equivalence over phrase matching.",
+        "falsification": "A community should predefine how member-critical functions continue if the institution itself becomes nonviable, separating recovery of the organization from continuity of housing, care, food, records, transport, and other critical functions. Try to falsify the originality of this proposition. Find the strongest credible predecessor or established equivalent that would justify rejecting or materially narrowing a novelty claim.",
+        "source_domain": "A community should predefine how member-critical functions continue if the institution itself becomes nonviable, separating recovery of the organization from continuity of housing, care, food, records, transport, and other critical functions. Identify any field outside the target domain where the same structural mechanism is already well established, then look for evidence that this mechanism has already been transferred into the target domain.",
+        "target_neighbor": "A community should predefine how member-critical functions continue if the institution itself becomes nonviable, separating recovery of the organization from continuity of housing, care, food, records, transport, and other critical functions. Find the closest established theory, mechanism, institutional practice, or prior proposal in the same target domain that substantially contains this claim."
+      }
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,38 @@
+{
+  "captured_at": "2026-08-16T06:43:42.846034+00:00",
+  "provider": "parallel",
+  "schema": {
+    "properties": {
+      "model_name": {
+        "description": "The identifier of the LLM model making this tool call (e.g. 'claude-opus-4.7', 'gpt-5.5', 'gemini-2.5-pro'). Before the first call, verify the exact active model slug from trusted runtime/session metadata or active client configuration. Pass the full slug verbatim; never shorten or substitute a model-family alias like 'gpt-5'. Used for product analytics only; does not affect search behavior.",
+        "maxLength": 100,
+        "type": "string"
+      },
+      "objective": {
+        "description": "Natural-language description of what the web search is trying to find.\nTry to make the search objective atomic, looking for a specific piece of information. May include guidance about preferred sources or freshness.",
+        "title": "Objective",
+        "type": "string"
+      },
+      "search_queries": {
+        "description": "Concise keyword search queries, 3-6 words\neach, which may include search operators. At least one query is required;\nprovide 2-3 for best results. For broad tasks, you can include multiple\nrelated queries in a single call instead of chaining web_search calls. The\nqueries should be related to the objective.",
+        "items": {
+          "type": "string"
+        },
+        "title": "Search Queries",
+        "type": "array"
+      },
+      "session_id": {
+        "description": "Stable identifier for the current conversation. Generate a random value (UUID or 32+ character hex string) at the start of your session and reuse the exact same value on every web_search / web_fetch call. Do NOT change it between turns. Used for free-tier rate limiting and correlating your tool calls in our logs; ignored on paid-tier keys.",
+        "maxLength": 100,
+        "type": "string"
+      }
+    },
+    "required": [
+      "objective",
+      "search_queries"
+    ],
+    "title": "v1_search_toolArguments",
+    "type": "object"
+  },
+  "tool": "web_search"
+}
