@@ -14,89 +14,90 @@ OpenAI currently documents that ChatGPT Pro users can connect custom MCP apps in
 
 Therefore:
 
-1. **Exa Search MCP — expose to ChatGPT now.** Read/search/fetch only.
-2. **Parallel Search MCP — expose to ChatGPT now.** Read/search/fetch only.
-3. **Parallel Task MCP — keep direct/repo-side by default.** Test in ChatGPT only if the tool scanner/permission model explicitly accepts its deep-research tools under Pro's read/fetch boundary. Do not rely on it in ChatGPT until verified.
+1. **Parallel Search MCP — first ChatGPT compatibility target.** Parallel publishes explicit ChatGPT setup instructions.
+2. **Exa Search MCP — second target.** Exa supports generic remote MCP clients but does not currently publish a ChatGPT-specific setup recipe in its MCP documentation.
+3. **Parallel Task MCP — keep direct/repo-side as the durable default.** Parallel documents ChatGPT setup, but Pro's read/fetch boundary and the Task MCP's task-creation surface make it nonessential for the interactive path.
 
 ## ChatGPT custom app setup
 
-Enable Developer Mode in ChatGPT web, then create a custom app from Settings → Apps → Create.
+Enable Developer Mode in ChatGPT web, then create a custom app from Settings → Apps/Connectors → Create. ChatGPT custom MCP support is experimental; vendor docs explicitly warn that it may not work reliably.
 
-### Exa
+### Parallel Search — use the vendor's ChatGPT-specific endpoint
 
-Name: `Exa Search`
+Name: `Parallel Search MCP`
 
-Remote MCP endpoint:
-
-```text
-https://mcp.exa.ai/mcp?tools=web_search_exa,web_fetch_exa,web_search_advanced_exa
-```
-
-Authentication: none for the free tier. Add an Exa key later only if rate limits justify it.
-
-Expected tools:
-
-- `web_search_exa`
-- `web_fetch_exa`
-- `web_search_advanced_exa`
-
-### Parallel Search
-
-Name: `Parallel Search`
-
-Preferred ChatGPT endpoint:
+Use exactly the endpoint Parallel currently documents for ChatGPT:
 
 ```text
-https://search.parallel.ai/mcp-oauth
+https://search-mcp.parallel.ai/mcp
 ```
 
-Authentication: OAuth. This avoids embedding a literal Parallel API key into app configuration and uses Parallel's auth-enforced Search MCP endpoint.
+Authentication: **OAuth**.
 
 Expected tools:
 
 - `web_search`
 - `web_fetch`
 
-If OAuth is unavailable in the ChatGPT setup UI, use the standard endpoint with Bearer API-key authentication if the UI explicitly supports secret/header authentication:
+Do not substitute the generic programmatic endpoint or the `/mcp-oauth` endpoint when testing ChatGPT compatibility. Those are valid Parallel MCP endpoints in other clients, but Parallel's ChatGPT installation page currently specifies `search-mcp.parallel.ai/mcp` + OAuth.
+
+### Exa — simplified compatibility attempt
+
+Name: `Exa Search`
+
+Start with the bare remote endpoint rather than a tool-filtered query-string URL:
 
 ```text
-https://search.parallel.ai/mcp
+https://mcp.exa.ai/mcp
 ```
 
-Never paste the Parallel API key into conversation text or commit it to GitHub.
+Authentication: none for the free tier.
 
-### Parallel Task — provisional
+Expected default tools:
 
-Endpoint:
+- `web_search_exa`
+- `web_fetch_exa`
+
+Only after the bare endpoint scans successfully should the optional advanced tool be enabled with the `tools=` query parameter.
+
+### Parallel Task — optional later test
+
+Parallel's current ChatGPT instructions specify:
 
 ```text
 https://task-mcp.parallel.ai/mcp
 ```
 
-Authentication: OAuth or Bearer key is required.
+Authentication: OAuth.
 
-Expected tools currently include:
+Because the repository already has a verified direct Task MCP connection, ChatGPT Task exposure is not required for Creative Tail Sampling to function.
 
-- `createDeepResearch`
-- `getStatus`
-- `getResultMarkdown`
+## Interpreting ChatGPT `Unknown error`
 
-Because ChatGPT Pro currently permits custom MCPs only within the read/fetch permission boundary, do not make Parallel Task a required ChatGPT dependency. The repository's direct Task MCP connection remains canonical for deep-research escalation.
+A successful connection from the repository's standard MCP client proves the remote server and credentials are working, but does not prove ChatGPT's custom-app scanner accepts the server. ChatGPT performs its own tool scan/authentication flow and custom MCP support remains experimental.
+
+When ChatGPT shows only `Unknown error`:
+
+1. test **Parallel Search first** using the exact vendor-documented ChatGPT endpoint and OAuth;
+2. if that fails, treat it as a ChatGPT/Parallel custom-app compatibility problem rather than changing the working repo runner;
+3. test Exa separately with the bare URL and no auth;
+4. do not block the Creative Tail Sampling workflow on ChatGPT exposure—the direct runner remains authoritative.
 
 ## Verification
 
-After creating Exa and Parallel Search apps:
+After creating a custom app:
 
-1. Click **Scan Tools** during app creation and verify the expected tool names.
-2. Create the apps.
+1. Click **Scan Tools** and verify the expected tool names.
+2. Create the app.
 3. Open a fresh chat.
-4. Select both custom apps from the tools/app menu.
-5. Ask ChatGPT to make one clearly identified Exa search and one clearly identified Parallel search for the same harmless query.
-6. Confirm both tools execute independently rather than falling back to generic web search.
+4. Select the custom app from the tools/app menu.
+5. Ask ChatGPT to make one clearly identified search.
+6. Confirm the custom tool executes rather than generic web search.
 
 ## Source references
 
 - OpenAI Developer Mode / MCP apps: https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta
 - Exa MCP: https://exa.ai/docs/reference/exa-mcp
-- Parallel MCP quickstart: https://docs.parallel.ai/integrations/mcp/quickstart
+- Parallel Search MCP, including ChatGPT setup: https://docs.parallel.ai/integrations/mcp/search-mcp
+- Parallel Task MCP, including ChatGPT setup: https://docs.parallel.ai/integrations/mcp/task-mcp
 - Parallel programmatic/auth details: https://docs.parallel.ai/integrations/mcp/programmatic-use
