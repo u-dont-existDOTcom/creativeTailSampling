@@ -46,12 +46,22 @@ The dispatch failed with:
 
 The harness then instructed the conversation to rediscover the tools. Rediscovery again showed the Task namespace and four exposed functions (`createDeepResearch`, `createTaskGroup`, `getResultMarkdown`, `getStatus`), but a subsequent filtered discovery became inconsistent and listed only the ordinary installed connectors.
 
+After the repository checkpoint was safely persisted, the conversation performed a second clean control attempt:
+
+1. rediscover the full `Parallels_Task_MCP` namespace;
+2. confirm that `getStatus` is visibly exposed;
+3. call `getStatus` on the original `trun_201682d6febd4300b1742888d33c1c53` without creating another Task.
+
+The second call failed with the same `Resource not found: Parallels_Task_MCP.getStatus` dispatch error. This makes the follow-up-control problem reproducible within the current chat rather than a one-off call-order issue.
+
+An unauthenticated ordinary-web fallback reaches Parallel's sign-in surface rather than a readable private task result, so web browsing is not an equivalent result-retrieval path for this run.
+
 Disposition:
 
 - **Task creation capability: PASS.**
-- **Task result-poll/retrieval capability in this exact chat: unresolved connector-dispatch issue.**
+- **Task result-poll/retrieval capability in this exact chat: unresolved reproducible connector-dispatch issue.**
 - Do not reinterpret the follow-up dispatch failure as evidence that `createDeepResearch` did not run.
-- Before a future strict originality promotion depends on a Task report, verify that the created run can also be retrieved/adjudicated through `getStatus`/`getResultMarkdown` or another supported Task-result path.
+- Before a future strict originality promotion depends on a Task report, verify that the created run can also be retrieved/adjudicated through `getStatus`/`getResultMarkdown` or another authenticated supported Task-result path.
 - Do not launch duplicate deep tasks merely because result polling is temporarily unavailable; preserve and reuse the existing `trun_...` ID.
 
 ## Production-gate consequence
