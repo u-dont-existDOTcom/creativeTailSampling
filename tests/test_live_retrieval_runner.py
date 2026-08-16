@@ -1,6 +1,10 @@
+import asyncio
 import json
+from contextlib import asynccontextmanager
 from pathlib import Path
+from types import SimpleNamespace
 
+import analysis.retrieval_ensemble.live_runner as live_runner
 from analysis.retrieval_ensemble.live_runner import (
     build_manifest,
     manifest_digest,
@@ -54,3 +58,39 @@ def test_successful_checkpoint_is_skipped_but_error_is_retriable(tmp_path: Path)
     failed.parent.mkdir(parents=True)
     failed.write_text(json.dumps({"status": "error"}))
     assert should_skip(failed) is False
+
+
+def test_parallel_benchmark_lane_requires_authenticated_headers(monkeypatch, tmp_path: Path):
+    seen = {}
+
+    def fake_parallel_headers(*, required=True):
+        seen["required"] = required
+        return {"Authorization": "Bearer test-key"}
+
+    class FakeSession:
+        async def list_tools(self):
+            return SimpleNamespace(
+                tools=[SimpleNamespace(name="web_search", inputSchema={})]
+            )
+
+    @asynccontextmanager
+    async def fake_session(url, headers=None):
+        seen["url"] = url
+        seen["headers"] = headers
+        yield FakeSession()
+
+    monkeypatch.setattr(live_runner, "parallel_headers", fake_parallel_headers)
+    monkeypatch.setattr(live_runner, "_session", fake_session)
+
+    result = asyncio.run(
+        live_runner.collect_provider(
+            "parallel",
+            {"cases": []},
+            "manifest-digest",
+            tmp_path,
+        )
+    )
+
+    assert result is True
+    assert seen["required"] is True
+    assert seen["headers"] == {"Authorization": "Bearer test-key"}
