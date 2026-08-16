@@ -1,0 +1,75 @@
+{
+  "cases": {
+    "N003-asset-gated-cultural-mutation": {
+      "exa_sources": 10,
+      "file": "compact/N003-asset-gated-cultural-mutation.md",
+      "parallel_sources": 10
+    },
+    "N011-shadow-governance": {
+      "exa_sources": 10,
+      "file": "compact/N011-shadow-governance.md",
+      "parallel_sources": 10
+    },
+    "N013-federated-reciprocal-clearing": {
+      "exa_sources": 10,
+      "file": "compact/N013-federated-reciprocal-clearing.md",
+      "parallel_sources": 10
+    },
+    "N018-replicated-governance-tombstones": {
+      "exa_sources": 10,
+      "file": "compact/N018-replicated-governance-tombstones.md",
+      "parallel_sources": 10
+    },
+    "N026-adulthood-option-grant": {
+      "exa_sources": 10,
+      "file": "compact/N026-adulthood-option-grant.md",
+      "parallel_sources": 9
+    },
+    "R001-multiplex-relational-unbundling": {
+      "exa_sources": 10,
+      "file": "compact/R001-multiplex-relational-unbundling.md",
+      "parallel_sources": 10
+    },
+    "R002-generic-propagule-fidelity": {
+      "exa_sources": 10,
+      "file": "compact/R002-generic-propagule-fidelity.md",
+      "parallel_sources": 7
+    },
+    "R003-ordinary-exit-liquidity": {
+      "exa_sources": 10,
+      "file": "compact/R003-ordinary-exit-liquidity.md",
+      "parallel_sources": 10
+    },
+    "S001-active-normative-edge-cases": {
+      "exa_sources": 10,
+      "file": "compact/S001-active-normative-edge-cases.md",
+      "parallel_sources": 10
+    },
+    "S005-reproductive-variance": {
+      "exa_sources": 10,
+      "file": "compact/S005-reproductive-variance.md",
+      "parallel_sources": 10
+    },
+    "S006-descendant-inflation": {
+      "exa_sources": 10,
+      "file": "compact/S006-descendant-inflation.md",
+      "parallel_sources": 9
+    },
+    "X015-governance-rights-liveness": {
+      "exa_sources": 10,
+      "file": "compact/X015-governance-rights-liveness.md",
+      "parallel_sources": 10
+    },
+    "X016-unpredictable-audit-sampling": {
+      "exa_sources": 10,
+      "file": "compact/X016-unpredictable-audit-sampling.md",
+      "parallel_sources": 10
+    },
+    "X025-community-resolution-living-will": {
+      "exa_sources": 10,
+      "file": "compact/X025-community-resolution-living-will.md",
+      "parallel_sources": 10
+    }
+  },
+  "round": "round-001"
+}
