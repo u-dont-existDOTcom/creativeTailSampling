@@ -15,7 +15,11 @@ Activate with:
   source "$VENV/bin/activate"
 
 Then verify direct MCP connectivity with:
-  python scripts/check_direct_retrieval_capabilities.py
+  cd "$ROOT"
+  python -m scripts.check_direct_retrieval_capabilities
+
+Or simply run:
+  bash scripts/check_retrieval_capabilities.sh
 
 No Codex process is required.
 EOF
