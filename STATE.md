@@ -1,42 +1,50 @@
 # Creative Tail Sampling — Resume State
 
-Updated: 2026-08-15
+Updated: 2026-08-16 00:53 UTC
 
 ## Durability
 
-GitHub is authoritative. Batches 21–59 are durably checkpointed. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel research work advances.
+GitHub is authoritative. Batches 21–59 are durably checkpointed. The retroactive active-project corpus audits of **C001–C020** and **C021–C026** are complete. Every practical community lesson is mirrored append-only to `u-dont-existDOTcom/communities` while parallel research work advances.
 
-## Mandatory communities-corpus gate
+Fresh-conversation packet:
+- `docs/FRESH-CONVERSATION-HANDOFF.md`
 
-Before **any future community-related candidate is promoted**, resolve the latest `u-dont-existDOTcom/communities` research branch/head and check, in order:
+## Mandatory promotion order for every future community-related candidate
 
-1. `recovered/COMMUNITIES-FINAL-SYNTHESIS-REPORT.md`;
-2. `recovered/COMMUNITIES-SYNTHESIS-CROSSWALK.csv`;
-3. `recovered/COMMUNITIES-EVIDENCE-LEDGER.csv` for relevant source-level rows;
-4. `recovered/COMMUNITIES-RESEARCH-STATE.md`;
-5. `COMMUNITY-DEVELOPMENT-LESSONS.md` plus later tail supplements.
+1. **Common-sense / user-familiarity adversary.** If it reduces to something the user already knows or ordinary common sense, reject as novel.
+2. **Active-project corpus collision gate.** Resolve the latest `u-dont-existDOTcom/communities` branch/head and check the final synthesis, crosswalk, evidence ledger, research state, canonical lessons, and later tail supplements.
+3. **External nearest-neighbor literature attack.** Search both source-domain and target-domain precedents.
+4. **Consequence / coherence / testability gate.** Derive downstream implications and a discriminating prediction.
+5. **Promotion only of the surviving residual.** Useful-but-known ideas go to the communities lessons layer, not the strict novelty ledger.
 
-A direct internal collision is an immediate demotion. A root collision can leave only a clearly stated narrower residual. External literature novelty screening happens **after** this project-corpus check.
+Empty novelty batches are successful.
 
-This rule was added after the owner correctly noticed that later tail batches were using the communities PR/lessons state but not consistently re-reading the 198-finding research corpus before promotion.
+## Completed internal-corpus audits
 
-Retroactive audit completed for C021–C026:
-- C021–C025 remain materially additive provisionally;
-- C026 was narrowed because the corpus already owns non-inherited adult membership, exit capacity, transition support, and leaving-fund evidence.
+- `runs/2026-08-15-project-corpus-collision-audit-c001-c020.md`
+- `runs/2026-08-15-project-corpus-collision-audit-c021-c026.md`
 
-Audit: `runs/2026-08-15-project-corpus-collision-audit-c021-c026.md`.
+Do **not** repeat them unless the communities corpus materially changes.
 
-## Current survivors
+### Important narrowings from C001–C020 audit
+
+- **C003:** not `assets matter`; only upstream capitalization pre-selecting which variants become viable competitors remains.
+- **C011:** not `pilot governance`; only nonbinding execution of the new process on the **same real cases in parallel** with the incumbent remains.
+- **C013:** not `federations help mobility`; only coordinated reciprocal clearing **after visits/trials reveal preferences** remains.
+- **C015:** not `rights must work`; only formal safety/liveness/bounded-liveness verification of the governance state-space remains.
+- **C018:** not `remember mistakes`; only semantic tombstones propagated through the same replication channels as positive templates remain.
+
+## Current strict survivors
 
 - **C001 — Active normative edge-case search**
-- **C003 — Asset-gated cultural mutation**
-- **C005 — Reproductive-variance trap** — Hutterite reproduction broadly distributed across three branch samples; **make reproduction boring**.
+- **C003 — Asset-gated cultural mutation** — narrow residual only
+- **C005 — Reproductive-variance / superstar-reproduction trap**
 - **C006 — Descendant inflation / lineage-size sampling bias**
-- **C009 — Cohort-composition admission**
-- **C011 — Shadow governance**
+- **C009 — Cohort-composition admission** — market-thickness bounded
+- **C011 — Shadow governance** — narrow same-case parallel-execution residual
 - **C012 — Standing constitutional-relation testing**
-- **C013 — Federated reciprocal applicant clearing**
-- **C015 — Governance rights-liveness verification**
+- **C013 — Federated reciprocal applicant clearing** — narrow post-exploration clearing residual
+- **C015 — Governance rights-liveness verification** — formal-methods residual
 - **C016 — Verifiably unpredictable federation audit sampling**
 - **C017 — Intervention-aware rescue forecasts**
 - **C018 — Replicated-governance tombstones**
@@ -47,85 +55,114 @@ Audit: `runs/2026-08-15-project-corpus-collision-audit-c021-c026.md`.
 - **C023 — Cumulative disclosure-budget / differencing guard**
 - **C024 — Non-custodial federation research**
 - **C025 — Community resolution / living-will architecture**
-- **C026 — Adulthood option grant / neutral transition package** — **narrow residual only**: transition resources should exist before adult opt-in rather than requiring join-first/leave-later.
+- **C026 — Adulthood option grant / neutral transition package** — narrow timing/symmetry residual only
+
+Canonical details: `FINDINGS.md`.
+
+## Major empirical/reproduction state
+
+### C005 — Make reproduction boring
+
+Judge reproducibility by the **parent-offspring distribution**, not total spread or mean daughters alone.
+
+Current mature-parent Hutterite signatures:
+- Manitoba Schmiedeleut: `P(K=0)=4.08%`, median `K=2`, top-10% daughter share ~22.3%
+- Lehrerleut 1918–1953: `P(K=0)=3.45%`, median `K=1`, top-10% share 24.53%
+- Dariusleut 1918–1953: `P(K=0)=0%`, median `K=2`, top-10% share 20.0%
+
+A strongly replicable communal system should make daughter formation an ordinary lifecycle event for the median competent community rather than a rare founder feat.
+
+### Fission-process lane
+
+High-value Hutterite lesson: **destination-blind partitioning** — construct two viable groups first, then assign mother/daughter destination through a neutral/precommitted procedure.
+
+Do not impute this to every historical split. Event-level process data are sparse. Preserve `unknown`.
 
 Reusable artifacts:
-- `analysis/weighted_voting_power.py`
 - `analysis/branching_process_covariates.md`
-- `analysis/non_custodial_federation_research_architecture.md`
 - `data/hutterite_branching_process_events_preliminary.csv`
 
-## Recent batches 53–59
-
-### Batch 53 — non-custodial federation research
-**C024 survived provisionally.** For suitable sensitive aggregate questions, avoid central plaintext custody through secure aggregation/MPC/federated analytics or split trust; separately control outputs under C023.
-
-### Batch 54 — federation-level young-adult social/relationship viability
-No novelty survivor. Hutterites provide direct intercolony mobility precedent; kibbutz evidence shows co-reared local peer groups should not be assumed to form a future partner pool. Minimum viable community scale and movement/network social scale are different variables.
-
-### Batch 55 — portable safety information
-No novelty survivor. Transport structured, scoped, versioned evidence/risk packets rather than global person labels; evidentiary state, observation regime, correction/reversal and role scope must travel with the record.
-
-### Batch 56 — community resolution / living will
-**C025 survived provisionally.** Distinguish recovery of the existing institution from continuity of member-critical functions. Preplan bridge providers, portable records/benefits, continuity horizons and independent recovery-to-resolution triggers.
-
-### Batch 57 — structural non-anonymity
-No novelty survivor. In tiny communes, handwriting, prose style, anecdotes, audio, timing and demographic/context combinations can identify respondents even without names. Treat expressive responses as identifiable confidential microdata unless proven otherwise.
-
-### Batch 58 — collection-scene privacy
-No novelty survivor. Someone can see the response before submission; add a separate physical/digital completion-scene layer covering shoulder-surfing, shared devices, unattended forms/screens, timing and safe pause/resume.
-
-### Batch 59 — adult re-consent / option capacity
-**C026 survives only narrowly after internal corpus audit.** The project already owned non-inherited adult membership and usable-exit/transition components. Retained residual: portable adult non-membership capacity should precede opt-in to the adult communal regime.
+Pause the C005 mechanism-comparison lane until additional event-level parent→daughter partition-process sources appear.
 
 ## Federation research-center validity gates
 
 Before a strong comparative claim, ask:
 
-1. **Project-corpus gate:** is the candidate already in the completed communities findings/synthesis/lessons?
+1. **Project-corpus gate:** is this already in the completed communities corpus?
 2. **Measurement gate — C022:** are constructs/categories commensurate?
-3. **Valuation gate — Batch 39:** is there a legitimate common evaluative rule?
-4. **Diffusion gate — Batch 40:** has research/recommendation changed institutional variation?
-5. **Selection gate — Batch 41:** has the design changed who remains observable?
-6. **Constituency gate — Batch 42:** has the design changed who controls future review/definition?
-7. **Disclosure-incentive gate — Batches 43–44:** do respondents have incentives/fears that alter self-report, and what embedded diagnostics indicate about that pressure?
-8. **Privacy-composition gate — C023:** can joint release history reidentify sensitive responses?
-9. **Discovery-selection gate — Batch 51:** was the reported `best` selected from many noisy candidates using the same data used to estimate its effect?
+3. **Valuation gate:** is there a legitimate common evaluative rule?
+4. **Diffusion gate:** has research/recommendation changed institutional variation?
+5. **Selection gate:** has the design changed who remains observable?
+6. **Constituency gate:** has the design changed who controls future review/definition?
+7. **Disclosure-incentive gate:** do respondents have incentives/fears/identity pressures altering self-report?
+8. **Privacy-composition gate — C023:** can joint releases reconstruct sensitive responses?
+9. **Discovery-selection gate:** was the reported `best` selected from many noisy candidates using the same data used to estimate its effect?
 
-## Communal survey/privacy layers
+### Value-pluralism architecture
 
-1. **Participation privacy** — can locals tell who participated?
-2. **Collection-scene privacy** — can someone observe the answer during creation or while left unattended? (Batch 58)
-3. **Input confidentiality** — who can inspect submitted raw answers? (C024)
-4. **Response-fingerprint privacy** — can style/handwriting/voice/context identify the author? (Batch 57)
-5. **Output/composition privacy** — can aggregate releases reconstruct the answer? (C023)
+Separate:
+- empirical causal/outcome layer;
+- community-specific valuation layer;
+- federation constitutional floor.
 
-Solving four does not solve the fifth.
+Do not publish one universal scalar `best commune` ranking unless the normative aggregation rule itself is explicitly governed.
+
+### Survey / face-saving architecture
+
+Self-report is an **incentive-sensitive evidence channel**, not a transparent welfare meter.
+
+Embedded diagnostic preference:
+- known-truth foil/overclaiming items;
+- randomized direct vs privacy-enhanced/indirect versions;
+- identical mirror vignettes;
+- independent-record anchors where ethical;
+- privacy/mode randomization where sample size permits.
+
+Use convergence to build a **sample/community reporting-pressure profile**, never an individual lie score.
+
+### Small-N privacy stack
+
+1. participation privacy;
+2. collection-scene privacy;
+3. input confidentiality;
+4. response-fingerprint privacy;
+5. output/composition privacy.
+
+Solving one does not solve the others.
+
+C024 reusable architecture:
+- `analysis/non_custodial_federation_research_architecture.md`
+
+## Recent practical-only results
+
+- **B48:** destination-blind fission partitioning.
+- **B49:** prospectively record branching-process mechanism details; genealogy alone is insufficient.
+- **B50:** rotate authority without resetting competence; audit durable trainers/advisers/record custodians for shadow power.
+- **B51:** winner's curse — preserve discovery/confirmation separation before advertising a `best practice` found by broad search.
+- **B52:** admissions process burden is itself a selection pressure.
+- **B54:** minimum viable community scale and minimum viable federation/network social scale differ.
+- **B55:** portable safety information should be structured, scoped, versioned evidence/risk packets rather than global person labels.
+- **B57:** expressive responses in tiny communes may be structurally identifiable from style/context.
+- **B58:** privacy begins during completion; shoulder-surfing/shared devices/timing require a separate collection-scene layer.
 
 ## Communities lessons persistence
 
-Append-only supplements on `agent/final-research-synthesis` now extend through:
-- `COMMUNITY-DEVELOPMENT-LESSONS-TAIL-BATCH-59.md`.
+Practical lessons are stored in `u-dont-existDOTcom/communities` on the current research branch. At the last checkpoint, tail supplements extended through **Batch 59**.
 
-The interrupted Batch 56 write was checked, found missing, and restored.
+Never overwrite the canonical communities research state with an older tail snapshot. Resolve the current branch first and append/merge safely.
 
-Canonical `COMMUNITY-DEVELOPMENT-LESSONS.md` remains untouched while parallel research state exists. Consolidate only after resolving the latest branch head.
+## Exact next move — Batch 61
 
-## Exact next move — Batch 60
+1. Resolve both GitHub heads and confirm no later checkpoint supersedes this state.
+2. Pick a genuinely **orthogonal** source family; do not remain trapped in survey/privacy/research-center methodology unless the user introduces a new insight there.
+3. Generate at least 12 plain candidate propositions.
+4. For each community-related candidate, run the **communities internal-corpus collision first**, then external nearest-neighbor literature attack.
+5. Derive at least three downstream consequences and a discriminating test for any survivor.
+6. Promote nothing merely because it is useful.
+7. Save the full audit under `runs/`.
+8. Update `FINDINGS.md` and this file.
+9. Mirror every practical community lesson—even failed novelty candidates—to the latest communities branch without overwriting parallel work.
 
-### First task: retroactive internal-corpus audit of earlier survivors C001–C020
+## User interaction rule
 
-Before creating any new community-tail candidate, compare the older survivor list against the final synthesis/crosswalk/ledger and demote/narrow anything already owned by the 198-finding corpus.
-
-Priority collision suspects:
-- C011 versus existing reversible trials / `shadow governance beneath formal democracy` language;
-- C015 versus direct-rights/appeal/usability architecture;
-- C003/C005/C006 versus T-11 succession/fission/movement-continuity findings;
-- C009/C013 versus membership pipeline evidence;
-- C018 versus record preservation/organizational memory;
-- C020 versus planned-fission evidence.
-
-Only after this audit resume orthogonal sampling.
-
-### Independent C005 mechanism lane
-Pause until additional event-level partition-process sources become available. Preserve unknown rather than impute.
+Continue automatically through routine next steps. Do not stop to ask approval after each batch. User objections are search evidence and immediately update the novelty frontier. Preserve the user's arguments rather than silently weakening them.
