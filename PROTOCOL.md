@@ -31,17 +31,47 @@ Remove metaphors, new labels, rhetorical intensity, unusual vocabulary, and exam
 
 A candidate only counts as novel if it remains interesting in boring language.
 
-### 4. Common-sense compression adversary
+### 4. PRE-OUTPUT common-sense / user-familiarity veto — MANDATORY
 
-Try aggressively to compress the proposition into:
+**This gate happens before any candidate is explained to the user.** Do not spend a paragraph making an obvious idea sound sophisticated and then wait for the user to reject it.
 
-- common sense;
-- a familiar aphorism;
-- a standard textbook idea;
-- a trivial consequence of something already accepted;
-- an ordinary mechanism with new terminology.
+For every candidate, first compress it to one plain sentence and attack it with all of the following questions:
 
-If this succeeds, reject the candidate.
+1. Would an intelligent non-specialist likely infer this immediately from the setup?
+2. Is it ordinary practical wisdom, management advice, relationship advice, apprenticeship logic, risk management, or a familiar proverb with technical vocabulary added?
+3. Is it only a more formal version of something the user has already said, accepted, or rejected?
+4. Would the user likely respond with some version of `yes, obviously`, `that's common sense`, or `of course`?
+5. Does removing the new label make the apparent novelty disappear?
+6. Is the supposed insight just `do X gradually`, `watch what people actually do`, `people behave differently with power`, `bad actors exploit trust`, `listen to dissenters`, `correct errors`, `screen dangerous people`, or another first-order implication a competent person would already use?
+7. Does it generate a genuinely surprising prediction or design consequence **before** elaboration, rather than becoming interesting only after several paragraphs of exposition?
+
+If **any** of 1–6 is strongly yes and 7 is no, reject silently as a novelty candidate. It may still be logged as practical/common-sense material, but do not present it as the next discovery.
+
+#### User-specific rejection frontier
+
+Treat previous user rejections as a hard prior. In this project, the following are already known-common-sense and must not be resurfaced as discoveries:
+
+- complementary specialization with redundancy trade-offs;
+- influencers / central people matter;
+- the person with less to lose has more bargaining power;
+- put the best representatives out front;
+- people can simply veto proposals they reject;
+- observe behavior rather than declarations;
+- corrigibility / see how someone responds to correction;
+- increase responsibility and authority incrementally;
+- people may behave worse once they have more power or security;
+- dangerous people may exploit trust and friendship;
+- serious persistent danger may justify ejection rather than indefinite rehabilitation.
+
+This list is cumulative. Every user `obvious/common sense` rejection expands it.
+
+#### Anti-time-wasting presentation rule
+
+- Do not present a candidate until it has survived this gate.
+- Do not give more than **one sentence** to a candidate that has not yet survived the gate.
+- Generate and reject weak candidates internally/in the run log; the user should see only survivors or a concise statement that none survived.
+- If uncertain whether a candidate is obvious, err toward rejection and sample farther into the tail.
+- A sharper vocabulary, matrix, metric, or formalization does **not** rescue an obvious root proposition.
 
 ### 5. Active-project corpus collision gate — MANDATORY BEFORE EXTERNAL NOVELTY SEARCH
 
@@ -115,7 +145,7 @@ If the user immediately recognizes the proposition as common sense or a familiar
 
 Do not defend a failed novelty claim by explaining why the restatement is more precise. Precision can make an old idea useful; it does not make it new.
 
-Record the failure as a stronger boundary for subsequent sampling.
+Record the failure as a stronger boundary for subsequent sampling and add it to the pre-output rejection frontier in Step 4.
 
 ### 8. Coherence / realism gate
 
