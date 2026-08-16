@@ -1,0 +1,128 @@
+[
+  {
+    "case_id": "R001-multiplex-relational-unbundling",
+    "candidate_text": "Communities become more resilient when important relationships and functions are multiplex rather than split into separate transactional roles.",
+    "historical_label": "rejected",
+    "expected_action": "reject",
+    "known_collision_family": "multiplex networks, embeddedness, social capital, Gemeinschaft/Gesellschaft, commodification and alienation",
+    "source_run": "runs/2026-08-15-multiplex-tail-batch-01.md",
+    "notes": "Canonical hard rejection frontier says social capital/multiplexity and adjacent embeddedness traditions are not novel tail findings."
+  },
+  {
+    "case_id": "R002-generic-propagule-fidelity",
+    "candidate_text": "A community spreads successfully when daughter groups reproduce the parent community's institutional package with enough fidelity.",
+    "historical_label": "rejected",
+    "expected_action": "reject",
+    "known_collision_family": "propagule pressure, organizational reproduction, cultural transmission fidelity, founder effects",
+    "source_run": "runs/2026-08-15-empirical-reproduction-batch-08.md",
+    "notes": "Generic fission/propagule/fidelity is explicitly on the hard rejection frontier."
+  },
+  {
+    "case_id": "R003-ordinary-exit-liquidity",
+    "candidate_text": "Members need portable resources and usable exit options so formal freedom to leave a community is meaningful in practice.",
+    "historical_label": "rejected",
+    "expected_action": "reject",
+    "known_collision_family": "exit rights, liquidity, outside options, credible exit, property and transition support",
+    "source_run": "runs/2026-08-15-project-corpus-collision-audit-c021-c026.md",
+    "notes": "The communities corpus already owned usable exit, leaving support, and non-inherited adult membership before C026 was narrowed."
+  },
+  {
+    "case_id": "N003-asset-gated-cultural-mutation",
+    "candidate_text": "Branch inheritance can pre-filter which institutional variants receive enough land, capital, or reputation to become viable competitors, so apparent canonical superiority can partly reflect pre-selection capitalization.",
+    "historical_label": "narrowed",
+    "expected_action": "narrow",
+    "known_collision_family": "resource dependence, organizational ecology, founder effects, path dependence; residual is pre-competition capitalization selection among institutional variants",
+    "source_run": "runs/2026-08-15-c003-final-precedent-attack-16.md",
+    "notes": "Broad assets-matter claim was demoted; only the pre-selection capitalization residual survived."
+  },
+  {
+    "case_id": "N011-shadow-governance",
+    "candidate_text": "Before transferring authority to a substantially new governance process, run the new process nonbinding on the same real cases in parallel with the incumbent process and analyze divergence before live adoption.",
+    "historical_label": "narrowed",
+    "expected_action": "narrow",
+    "known_collision_family": "shadow mode, parallel run, pilot governance, change management; residual is same-case simultaneous execution rather than a generic pilot",
+    "source_run": "FINDINGS.md#C011",
+    "notes": "The project state explicitly narrows C011 away from generic pilot governance."
+  },
+  {
+    "case_id": "N013-federated-reciprocal-clearing",
+    "candidate_text": "After visits or trials reveal reciprocal preferences, federated communities can coordinate commitments so compatible seeker-vacancy pairs are not lost to isolated timing decisions while preserving local admission authority and opt-out.",
+    "historical_label": "narrowed",
+    "expected_action": "narrow",
+    "known_collision_family": "matching markets, clearinghouses, mobility networks; residual is post-exploration reciprocal clearing without centralized admission",
+    "source_run": "FINDINGS.md#C013",
+    "notes": "Broad federations-help-mobility framing was rejected; only coordinated clearing after preferences are revealed survived."
+  },
+  {
+    "case_id": "X015-governance-rights-liveness",
+    "candidate_text": "A governance right can exist in text yet be dead in a reachable institutional state, so governance should be verified for safety, liveness, and bounded liveness under realistic recusal, vacancy, quorum, deadline, delegation, and noncooperation states.",
+    "historical_label": "cross_domain",
+    "expected_action": "adjudicate",
+    "known_collision_family": "formal verification, model checking, temporal logic, distributed-systems liveness transferred to governance rights",
+    "source_run": "FINDINGS.md#C015",
+    "notes": "Known source-domain formal-methods mechanism; benchmark tests whether retrieval distinguishes source familiarity from a potentially nonstandard target transfer."
+  },
+  {
+    "case_id": "N018-replicated-governance-tombstones",
+    "candidate_text": "When a high-consequence governance pattern is retired for a known failure, propagate a semantic deprecation record through the same daughter, template, and fork channels that could otherwise resurrect it.",
+    "historical_label": "narrowed",
+    "expected_action": "narrow",
+    "known_collision_family": "software tombstones, schema deprecation, negative knowledge management, replicated-state metadata; residual is propagation through institutional replication channels",
+    "source_run": "FINDINGS.md#C018",
+    "notes": "Broad remember-mistakes claim was demoted; only semantic tombstones traveling through positive replication channels survived."
+  },
+  {
+    "case_id": "N026-adulthood-option-grant",
+    "candidate_text": "Portable launch or transition resources that make adult non-membership viable should be available before a person raised in the community opts into the adult property, work, and governance regime, rather than requiring them to join first and later qualify for exit support.",
+    "historical_label": "narrowed",
+    "expected_action": "narrow",
+    "known_collision_family": "meaningful consent, exit rights, transition support, non-inherited membership; residual is timing symmetry before adult opt-in",
+    "source_run": "runs/2026-08-15-orthogonal-tail-batch-59.md",
+    "notes": "Only the timing/symmetry residual survived the active-project corpus collision."
+  },
+  {
+    "case_id": "S001-active-normative-edge-cases",
+    "candidate_text": "Use high-information concrete cases to distinguish plausible constitutional or value interpretations, collect independent answers before deliberation, and preserve resolved cases as regression tests.",
+    "historical_label": "survivor",
+    "expected_action": "adjudicate",
+    "known_collision_family": "case-based reasoning, constitutional hard cases, software regression testing, Delphi-style independent judgment",
+    "source_run": "FINDINGS.md#C001",
+    "notes": "Current provisional transfer; newly found collisions require substantive adjudication rather than automatic rejection."
+  },
+  {
+    "case_id": "S005-reproductive-variance",
+    "candidate_text": "Judge communal reproducibility by the parent-offspring distribution rather than total spread or mean daughters alone, including zero-offspring probability, median daughters, variance, and concentration in superstar parents.",
+    "historical_label": "survivor",
+    "expected_action": "adjudicate",
+    "known_collision_family": "branching processes, reproductive variance, offspring distributions, skewed organizational reproduction",
+    "source_run": "runs/2026-08-15-empirical-reproduction-batch-08.md",
+    "notes": "Empirically strengthened project survivor; search should test whether the exact communal-design transfer is established."
+  },
+  {
+    "case_id": "S006-descendant-inflation",
+    "candidate_text": "When evaluating communal success, prolific lineages mechanically contribute more extant observations, so analyses must state whether they sample founding attempts, lineages, extant communities, residents, or future movement contribution.",
+    "historical_label": "survivor",
+    "expected_action": "adjudicate",
+    "known_collision_family": "size-biased sampling, survivorship, length-biased sampling, phylogenetic sampling bias",
+    "source_run": "runs/2026-08-15-c006-community-corpus-audit-11.md",
+    "notes": "Current research-control survivor; likely source-domain neighbors exist, target application needs adjudication."
+  },
+  {
+    "case_id": "X016-unpredictable-audit-sampling",
+    "candidate_text": "For federation audits, freeze the eligible universe before future randomness is knowable, precommit deterministic selection, use uncontrollable future randomness, and make the realized draw replayable afterward.",
+    "historical_label": "cross_domain",
+    "expected_action": "adjudicate",
+    "known_collision_family": "commit-reveal, verifiable randomness, cryptographic lotteries, randomized auditing transferred to federation governance",
+    "source_run": "FINDINGS.md#C016",
+    "notes": "Known source mechanisms; benchmark tests whether providers find the target transfer or only generic cryptographic randomness."
+  },
+  {
+    "case_id": "X025-community-resolution-living-will",
+    "candidate_text": "A community should predefine how member-critical functions continue if the institution itself becomes nonviable, separating recovery of the organization from continuity of housing, care, food, records, transport, and other critical functions.",
+    "historical_label": "cross_domain",
+    "expected_action": "adjudicate",
+    "known_collision_family": "bank resolution, living wills, business continuity, critical-function preservation transferred to intentional communities",
+    "source_run": "runs/2026-08-15-orthogonal-tail-batch-56.md",
+    "notes": "Explicit transfer from bank-resolution architecture; test for established communal/nonprofit analogues."
+  }
+]
