@@ -36,7 +36,13 @@ set +e
 rc=$?
 set -e
 
+if [[ "$rc" -ne 0 ]]; then
+  "$PY" -m scripts.report_retrieval_benchmark_errors --round round-001 || true
+fi
+
 # Preserve every completed checkpoint even if a provider rate-limits or fails.
+# Use a runner-local identity so a fresh clone does not require personal Git
+# identity configuration and we never mutate the user's global git config.
 git add "$RESULTS"
 if ! git diff --cached --quiet; then
   if [[ "$rc" -eq 0 ]]; then
@@ -44,7 +50,9 @@ if ! git diff --cached --quiet; then
   else
     message='benchmark: checkpoint partial round-001 retrieval'
   fi
-  git commit -m "$message"
+  git -c user.name="Creative Tail Sampling Runner" \
+      -c user.email="creative-tail-sampling@localhost" \
+      commit -m "$message"
   git push origin HEAD
 fi
 
