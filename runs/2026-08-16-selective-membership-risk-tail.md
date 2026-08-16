@@ -41,9 +41,24 @@ Within a federation, voluntary departure before a final safety decision can allo
 
 Past problems should not all receive the same reputational half-life. Where the causal risk mechanism is plausibly transient and behavior changes under observation, trust can recover. Where the mechanism is persistent or the harm is catastrophic and difficult to contain, access/membership restrictions may rationally remain much longer. Forgiveness, relationship repair, access restoration, and residential membership are distinct decisions.
 
+### Rejected — Corrigibility as the key safety trait
+
+The proposal that response to correction distinguishes tolerable flaws from dangerous ones was rejected by the user as common sense. Do not promote or revisit this as a strict novelty candidate.
+
+### P8 — Probation-state mismatch / status-conditional hazard
+
+A prospective member is usually observed in an unusually low-power, high-scrutiny, high-exit-risk state. Some dangerous traits are conditional on the opposite state: secure belonging, accumulated reputation, control of resources, intimate dependency, authority, or access to lower-status members. A long trial can therefore generate false confidence if it samples only the applicant's low-power behavior. Admission screening should ask whether the observation regime resembles the states in which the relevant future harms could occur.
+
+Consequences to test before external retrieval:
+- admission interviews and ordinary probation may be systematically least diagnostic for abuse-of-power traits;
+- bounded, low-risk increases in responsibility/status may reveal more than simply extending low-status probation;
+- references from people who previously depended on, worked under, dated, borrowed from, or otherwise occupied an asymmetric relationship with the applicant may carry information that peer references miss;
+- post-status-transition observation matters because some behavior can change discontinuously after membership, authority, cohabitation, parenthood, or economic dependence increases;
+- a single binary `probation -> full member` cliff may create a predictable masking incentive if the cost of ejection rises sharply after the cliff.
+
 ## Current best tail candidates
 
-The strongest non-obvious candidates are P1 (lifetime containment reliability), P2 (containment burden), and P3 (transparency-tax adverse selection). P5 is also a promising measurement consequence. P6 is probably a residual under the project's existing portable-risk-information architecture.
+The strongest non-obvious candidates are P1 (lifetime containment reliability), P2 (containment burden), P3 (transparency-tax adverse selection), and P8 (probation-state mismatch / status-conditional hazard). P5 is also a promising measurement consequence. P6 is probably a residual under the project's existing portable-risk-information architecture.
 
 ## Required next gates
 
