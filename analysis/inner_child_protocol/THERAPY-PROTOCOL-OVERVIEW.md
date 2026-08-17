@@ -29,10 +29,12 @@ flowchart TD
     B -- "no" --> D{"Actor and primary problem class?"}
     D -- "supporting another / caring for dependent" --> E["Supporter or caregiver route<br/>maps 12 and 14"]
     D -- "external · medical · grief · certainty · actual harm · problem portfolio" --> F["Use the relevant outer drill-down<br/>maps 00 and 10–13"]
+    D -- "skill · scaffold · insight–action gap" --> F2["Capability / teaching / scaffold route<br/>map 15"]
     D -- "internal developmental · identity · trust · reparenting" --> G{"Enough operation-specific capacity?"}
     D -- "mixed / unknown" --> H["Low-demand support + collect discriminating information"]
     E --> O["Outcome, adverse-effect, and next-need review"]
     F --> O
+    F2 --> O
     H --> X
 
     G -- "no" --> I["Reduce demand; regulate; borrow capacity; choose lower-demand operation"]
@@ -65,7 +67,7 @@ flowchart TD
 ## Global runtime invariants
 
 1. **Actor and beneficiary precede formulation.** Do not formulate an absent third party as though they were the user.
-2. **Problem class precedes inner-state routing.** Current danger, medical conditions, resource deficits, relationship conduct, legal/practical constraints, grief, and actual harm are not automatically inner-child problems.
+2. **Problem class precedes inner-state routing.** Current danger, medical conditions, resource deficits, relationship conduct, legal/practical constraints, grief, actual harm, and skill deficits are not automatically inner-child problems.
 3. **Inner work may be primary, adjunctive, deferred, or irrelevant to the next action.** It must not replace necessary external action.
 4. **Permission/risk routing precedes therapeutic operation selection.**
 5. **Safety is longitudinal.** A locally warm response can still reinforce avoidance, dependence, certainty inflation, coercion, or intensity chasing over turns.
@@ -83,20 +85,25 @@ flowchart TD
 17. **Nurturer care is not payment for obedience.** Accountability, limits, restitution, and care can coexist.
 18. **The present adult owns external behavior and consequences.** Inner reluctance does not erase another person's rights, consent, or real obligations.
 19. **Adult capacity is function × context, not one scalar.** Real competence remains real even when qualities are uneven.
-20. **A large problem portfolio requires bottleneck selection before prescribing a large program.**
-21. **Repeated reassurance may become accommodation.** Give bounded factual help when appropriate, but do not become a certainty ritual.
-22. **Reality uncertainty requires a dual track.** Validate distress; neither endorse nor ridicule uncertain causal claims; assess verifiable facts, sleep, substances, medication changes, function, and risk.
-23. **Actual harm requires accountability architecture.** Non-cruelty does not erase victim safety, evidence, consequences, or qualified legal/clinical consultation.
-24. **Grief is not automatically pathology or treatment failure.** Assess safety and impairment separately from the existence of sorrow, numbness, anger, or continuing bonds.
-25. **Historical and experiential provenance remains explicit.** Source type, factual confidence, personal meaning, and action authority stay separate.
-26. Preserve the owner's claim that felt sense **may** recover something conditioning obscured, while never treating felt sense as historical proof.
-27. **Depth is not integration.**
-28. **Internalization is not self-sufficiency.**
-29. **No poor-outcome shortcut.** Use the full differential before challenging a narrower mechanism or broader model; deterioration overrides identical repetition.
-30. **Pain is not the only route to care.**
-31. **No-arrears abolishes punitive accumulation, not accountability, restitution, or clinically necessary dose.**
-32. **Missing material information remains unknown.** Collect it, choose an operation that does not require it, or defer/escalate.
-33. **The full composite protocol is research-stage.** Do not present the unified topology as a clinically validated complete treatment.
+20. **Awareness is not control.** Witness capacity or intellectual insight does not prove inhibition, procedural skill, emotion access, generalization, or the ability to execute an alternative under activation.
+21. **Missing knowledge or instruction is not a missing inner parent.** Educational deprivation, inaccessible teaching, executive-function needs, and practical skill gaps may require instruction or accommodation.
+22. **External scaffold loss is not failed internalization.** Identify what the tool/helper supplied, preserve acquired gains, and replace or retain support as needed.
+23. **A stated identity or bodily/social boundary is not presumed avoidance.** Do not turn asexuality, disability accommodation, privacy, or a clear sexual boundary into an exposure target without independent evidence and consent.
+24. **Another person's legitimate interest does not transfer authority over the user's body.** Shared consequences may require information and discussion; bodily consent remains with the person whose body is involved.
+25. **A large problem portfolio requires bottleneck selection before prescribing a large program.**
+26. **Repeated reassurance may become accommodation.** Give bounded factual help when appropriate, but do not become a certainty ritual.
+27. **Reality uncertainty requires a dual track.** Validate distress; neither endorse nor ridicule uncertain causal claims; assess verifiable facts, sleep, substances, medication changes, function, and risk.
+28. **Actual harm requires accountability architecture.** Non-cruelty does not erase victim safety, evidence, consequences, or qualified legal/clinical consultation.
+29. **Grief and major life transition are not automatically pathology or treatment failure.** Assess safety and impairment separately from sorrow, numbness, regret, role disorientation, or continuing bonds.
+30. **Historical and experiential provenance remains explicit.** Source type, factual confidence, personal meaning, and action authority stay separate.
+31. Preserve the owner's claim that felt sense **may** recover something conditioning obscured, while never treating felt sense as historical proof.
+32. **Depth is not integration.**
+33. **Internalization is not self-sufficiency.**
+34. **No poor-outcome shortcut.** Use the full differential before challenging a narrower mechanism or broader model; deterioration overrides identical repetition.
+35. **Pain is not the only route to care.**
+36. **No-arrears abolishes punitive accumulation, not accountability, restitution, or clinically necessary dose.**
+37. **Missing material information remains unknown.** Collect it, choose an operation that does not require it, or defer/escalate.
+38. **The full composite protocol is research-stage.** Do not present the unified topology as a clinically validated complete treatment.
 
 ## Required drill-downs
 
@@ -115,5 +122,6 @@ flowchart TD
 12. [`maps/12-MEDICAL-SUBSTANCE-PERINATAL-AND-DEPENDENT-SAFETY.md`](maps/12-MEDICAL-SUBSTANCE-PERINATAL-AND-DEPENDENT-SAFETY.md)
 13. [`maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md`](maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md)
 14. [`maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md`](maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md)
+15. [`maps/15-CAPABILITY-SKILL-SCAFFOLD-AND-INSIGHT-ACTION-GAP.md`](maps/15-CAPABILITY-SKILL-SCAFFOLD-AND-INSIGHT-ACTION-GAP.md)
 
 Material topology changes must update this overview and the relevant drill-down/ledger in the same logical change.
