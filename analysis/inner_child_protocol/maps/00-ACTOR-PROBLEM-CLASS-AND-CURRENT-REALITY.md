@@ -14,9 +14,10 @@ flowchart TD
     D -- "danger / basic needs" --> H["Closed-loop safety or practical support"]
     D -- "medical / substance / perinatal / possible mania or psychosis" --> I["Condition-specific route<br/>map 12"]
     D -- "external relationship / practical / structural" --> J["Current-reality assessment"]
-    D -- "grief / loss" --> K["Grief route<br/>map 13"]
+    D -- "grief / loss / major transition" --> K["Grief/transition route<br/>map 13"]
     D -- "certainty / reassurance / memory / reality uncertainty" --> L["Epistemic route<br/>map 10"]
     D -- "actual or potential harm by user" --> M["Accountability route<br/>map 11"]
+    D -- "skill / education / scaffold / insight–action gap" --> M2["Capability route<br/>map 15"]
     D -- "internal developmental / identity / trust" --> N["Canonical inner-child route"]
     D -- "large portfolio / materially mixed" --> O["Urgency + dependency graph → one bottleneck"]
     D -- "unclear" --> P["Low-demand support + discriminating information"]
@@ -34,12 +35,14 @@ flowchart TD
 | `request_actor` | `self`, `supporter`, `caregiver`, `clinician_like_helper`, `mixed`, `unknown` |
 | `beneficiary_present` | Whether the person whose internal state would be formulated is actually participating |
 | `original_concern_pending` | The concern to return to after safety interruption |
-| `primary_problem_class` | Danger/basic needs; medical/substance/perinatal; external/relational/practical; grief; certainty/reality uncertainty; actual harm; internal developmental; portfolio; mixed/unknown |
+| `primary_problem_class` | Danger/basic needs; medical/substance/perinatal; external/relational/practical; grief/transition; certainty/reality uncertainty; actual harm; capability/skill/scaffold; internal developmental; portfolio; mixed/unknown |
 | `current_external_danger` | Current observable danger or credible threat, not inferred solely from affect |
 | `basic_needs_failure` | Food, shelter, medicine, sleep, care coverage, communication, transport, or other prerequisite failure |
 | `decision_impact` | Private/reversible; consequential but reversible; high-impact third-party; irreversible |
 | `third_party_rights_or_consent` | Whether proposed action affects another person's body, privacy, property, safety, relationship, caregiving, or legal interests |
+| `bodily_autonomy` | Whether another person's preference or shared interest is being mistaken for authority over the user's body |
 | `structural_load` | Objective demand relative to available capacity/resources |
+| `skill_or_instruction_deficit` | Actual missing knowledge, teaching, practice, or accessibility rather than an inferred inner-parent deficit |
 | `problem_portfolio_present` | Whether several coupled problems require dependency/bottleneck analysis |
 | `physical_cost` | Medical burden, recovery time, reversibility, and functional cost of the proposed action |
 
@@ -83,6 +86,37 @@ Pain may explain conduct without excusing it. Another person's complaint may con
 - **Irreversible or hard-to-reverse:** dangerous confrontation, permanent allegation/publication, major medical/legal action.
 
 Internal reports can inform all four levels. They do not by themselves authorize the latter two. High-impact decisions require present-adult reality testing, rights, consent, obligations, consequences, and appropriate expertise.
+
+## Bodily autonomy and shared interests
+
+A partner, co-parent, family member, clinician, or community may have legitimate interests in consequences that involve the user's body. Those interests can justify information-sharing, discussion, support planning, and attention to a dependent's needs. They do **not** transfer decision authority over the user's body.
+
+For breastfeeding, sex, pregnancy, contraception, medical treatment, pain, disability accommodation, and similar cases, separate:
+
+```text
+whose body is involved
+current consent and bodily burden
+relevant medical information and uncertainty
+child/dependent or partner interests
+practical consequences and available alternatives
+coercion or retaliation
+who owns the final bodily decision
+```
+
+Do not use inner-child obedience, Guide authority, relationship duty, or another person's disappointment to override bodily consent.
+
+## Stated identity and boundary are not presumed avoidance
+
+A stated sexual orientation, asexuality, disability accommodation, privacy limit, sensory boundary, or clear sexual/social `no` is not automatically a Protector response that should be exposed or negotiated away.
+
+Before calling a boundary avoidance, establish independent evidence that:
+
+- the person wants a different outcome;
+- the restriction is driven by fear/compulsion rather than identity, values, preference, pain, or access need;
+- the proposed approach is consensual and proportionate;
+- no third party is using therapy language to pressure the person.
+
+The bot may help with exclusion, communication, or uncertainty without making the identity/boundary itself the treatment target.
 
 ## Affect is not a decision-competence test
 
