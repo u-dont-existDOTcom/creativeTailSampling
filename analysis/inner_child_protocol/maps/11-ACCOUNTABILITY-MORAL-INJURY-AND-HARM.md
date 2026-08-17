@@ -9,7 +9,7 @@ flowchart TD
     B -- "no" --> D{"What is established?"}
     D -- "confirmed act / retained harmful material / clear breach" --> E["Accountability route"]
     D -- "reactive force during boundary violation / danger" --> E2["Sequence, consent, proportionality, and continuing danger review"]
-    D -- "intrusive feared act / uncertain memory / compulsive confession" --> F["Certainty route<br/>map 10"]
+    D -- "intrusive feared act / uncertain memory / compulsive confession" --> F["Certainty and disclosure-rights route<br/>map 10"]
     D -- "disputed or incomplete" --> G["Preserve uncertainty; collect only action-relevant facts"]
 
     E --> H["Separate behavior, impact, current risk, victim rights, evidence, legal/ethical constraints"]
@@ -60,6 +60,23 @@ The same inner parent:
 
 Care is not withdrawn, but care does not neutralize responsibility.
 
+## Confession and disclosure boundary
+
+Do not decide from guilt intensity that disclosure is owed, and do not decide from an OCD/confession label that disclosure is never owed.
+
+Route first to the matrix in map 10. Material factors include:
+
+- whether another person is currently at risk;
+- whether informed consent, health, finances, legal interests, or an important relationship decision depend on the information;
+- whether the event is documented, directly remembered, uncertain, inferred, or potentially a false memory;
+- whether a concrete harm can be repaired;
+- whether the information was already disclosed in substance;
+- whether each confession produces only brief relief and a more detailed doubt;
+- whether disclosure would mainly recruit another person into regulating the user's guilt;
+- whether qualified ethical, legal, or clinical consultation is needed before contact.
+
+When safety or another person's material right-to-know is present, anti-compulsion reasoning cannot erase it. When the content is uncertain, remote, already disclosed, and the urge is repetitive relief-seeking, accountability language cannot be used to prescribe a confession ritual.
+
 ## Repair boundaries
 
 Repair/restitution should be:
@@ -100,3 +117,4 @@ Do not respond with shame, a larger vow, or immediate absolution.
 - Do not encourage evidence destruction or direct confession/contact merely for emotional relief.
 - Do not treat intrusive thoughts as confirmed acts.
 - Do not erase a prior consent violation or treat all violence as context-free equivalence.
+- Do not suppress a material safety or consent disclosure merely because confession can be compulsive.
