@@ -2,8 +2,8 @@
 
 Updated: 2026-08-17  
 Authoritative repo: `u-dont-existDOTcom/creativeTailSampling`  
-Active branch: `agent/inner-child-real-query-hardening-007-final`  
-Batch-006 merged base: `75c2b6ba23e7298953715024c0cc1a79b22b78a3`  
+Authoritative merged `main`: `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`  
+Batch-006 merge checkpoint: `75c2b6ba23e7298953715024c0cc1a79b22b78a3`  
 Original one-parent semantic checkpoint: `db591713a3feb0a1576943408ae356685c0034ec`  
 Mode: research / therapy-protocol architecture / real-query hardening; **do not edit article prose unless explicitly authorized**
 
@@ -20,14 +20,14 @@ Resolve current GitHub heads, then read:
 7. Batch 006 and 007 real-query audits
 8. both real-query corpus manifests and all individual case records
 9. both InnerSignalGraph merge addenda
-10. the latest run records
+10. the latest run and verification records
 
 ## Canonical architecture
 
 The therapy topology contains:
 
 1. actor/beneficiary and primary-problem-class routing;
-2. outer safety, current-reality, medical, certainty, accountability, grief, consent, and capability routes;
+2. outer safety, current-reality, medical, certainty, accountability, grief/transition, consent/provider, and capability routes;
 3. the inner-child/reparenting subprotocol;
 4. outcome, burden, adverse-effect, and longitudinal-safety loops.
 
@@ -46,11 +46,11 @@ The system determines whether inner work is primary, adjunctive, deferred, or ir
 
 Batch 006 added maps 00 and 10–14, the outer router, and 16 real unprimed fixtures. It merged through PR #1 as `75c2b6ba23e7298953715024c0cc1a79b22b78a3`.
 
-## Batch 007 — active
+## Batch 007 — merged
 
-Batch 007 adds map 15 and twelve additional real, unprimed fixtures.
+Batch 007 added map 15 and twelve further real, unprimed fixtures. It merged through PR #2 as `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`.
 
-New active corrections:
+Active Batch 007 corrections:
 
 - awareness is not behavioral control;
 - missing education/instruction is not missing Guide;
@@ -68,6 +68,7 @@ Batch 007 records:
 - `analysis/inner_child_protocol/REAL-QUERY-TRACE-AUDIT-BATCH-007.md`
 - `analysis/inner_child_protocol/real-query-batch-007/`
 - Batch 007 gap/evidence/correction/crosswalk/operation supplements
+- `analysis/inner_child_protocol/VERIFICATION-BATCH-007.md`
 - `docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-007.md`
 - `runs/2026-08-17-inner-child-real-query-map-hardening-007.md`
 
