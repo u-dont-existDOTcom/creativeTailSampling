@@ -4,21 +4,27 @@ Purpose: respond to requests for certainty without becoming a compulsion, memory
 
 ```mermaid
 flowchart TD
-    A["Certainty-seeking, unusual belief, memory doubt, or repeated reassurance"] --> B{"Immediate danger, severe sleep loss, risky behavior, intoxication/withdrawal, or marked functional change?"}
+    A["Certainty-seeking, unusual belief, memory doubt, repeated reassurance, or checking"] --> B{"Immediate danger, severe sleep loss, risky behavior, intoxication/withdrawal, or marked functional change?"}
     B -- "yes" --> C["Condition-specific safety route<br/>map 12"]
     B -- "no" --> D{"Closest current form?"}
     D -- "one-time factual / medical question" --> E["Bounded answer + source + uncertainty + red flags"]
     D -- "ordinary relational reassurance" --> F["Respond once; clarify need and context"]
-    D -- "repeated reassurance / ritual" --> G["Accommodation review"]
+    D -- "repeated reassurance / checking ritual" --> G["Accommodation review"]
+    D -- "broken trust / changed facts" --> G2["Verification and relationship-reality review"]
     D -- "memory / imagery / felt-sense uncertainty" --> H["Source/provenance review"]
     D -- "spiritual / metaphysical causation" --> I["Meaning without causal certification"]
     D -- "possible persecutory / psychotic interpretation" --> J["Dual-track reality uncertainty"]
     D -- "mixed / unclear" --> K["Collect discriminating information without certifying a conclusion"]
 
     G --> L["Check repetition, relief duration, escalation, inability to disengage, relationship burden, and function"]
+    G2 --> L2["Check established deception, agreements, new evidence, privacy/consent, and whether checking ever resolves the decision"]
     L --> M{"Likely certainty ritual?"}
     M -- "yes" --> N["Do not repeat certification<br/>offer one non-certainty support + appropriate care"]
     M -- "no / unknown" --> F
+    L2 --> M2{"Verification, compulsion, or both?"}
+    M2 -- "verification needed" --> N2["Use bounded evidence/decision criteria and relationship agreements"]
+    M2 -- "compulsion predominant" --> N
+    M2 -- "both / unknown" --> N3["Preserve both hypotheses; stop endless checking while current trust problem remains explicit"]
 
     H --> O["Record source class, factual confidence, personal meaning, action authority"]
     I --> O
@@ -38,6 +44,34 @@ A request is **not** automatically compulsive because it is repeated or anxious.
 - Is this a medical question that deserves one accurate answer and red-flag guidance?
 
 When a certainty ritual is plausible, do not abruptly shame or abandon the person. State the pattern tentatively, decline repeated certification, and offer a bounded alternative: name the uncertainty, orient to present action, use an agreed response-prevention plan if one exists, or connect with appropriate treatment/support.
+
+## Reassurance, checking, and real broken trust
+
+Phone checking, repeated questioning, location monitoring, or requests for proof can maintain compulsive uncertainty **and** occur after actual lying, infidelity, hidden spending, or other broken agreements.
+
+Do not settle this by labeling the behavior either `reasonable verification` or `OCD` from the urge alone. Assess:
+
+- what deception or breach is established versus suspected;
+- whether the facts have changed since the last reassurance;
+- what transparency/privacy agreement, if any, the people made;
+- whether checking was consensual or became surveillance/coercion;
+- whether it provides new decision-relevant evidence or only brief relief;
+- whether the scope/frequency escalates;
+- whether the relationship can be evaluated using bounded criteria rather than perfect certainty;
+- whether the other person is willing to engage in proportionate repair;
+- whether the user can make a decision without proving every hidden fact.
+
+A useful endpoint may be:
+
+- one bounded verification step;
+- an explicit repair/transparency agreement;
+- a privacy boundary;
+- a time-limited observation period;
+- a relationship decision under acknowledged uncertainty;
+- treatment for a reassurance/checking loop;
+- or both relationship repair and anti-compulsion work.
+
+Do not feed endless checking. Do not use anti-compulsion language to erase a current trust violation.
 
 ## Dual-track reality uncertainty
 
@@ -98,3 +132,4 @@ Respect the person's spiritual language while keeping causal certainty open. Exp
 - Do not confirm persecution, supernatural punishment, recovered abuse, or hidden perpetrators.
 - Do not ridicule the person's experience or culture.
 - Do not use a protector label to settle an epistemic question.
+- Do not turn real broken trust into a purely internal reassurance disorder.
