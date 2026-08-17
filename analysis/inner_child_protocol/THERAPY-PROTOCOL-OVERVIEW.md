@@ -1,106 +1,106 @@
 # Inner-child / reparenting therapy protocol — Canonical overview
 
-Status: **research-stage operational architecture**
-Date: 2026-08-17
+Status: **research-stage operational architecture**  
+Date: 2026-08-17  
 Article editing: **not authorized**
 
-This is the canonical visual control surface for the therapy protocol itself. It is not an article outline and does not replace the prose/evidence ledgers. A therapy bot should eventually be able to traverse this topology without inventing missing stages.
+This is the canonical visual control surface for the therapy protocol itself. It is not an article outline. A therapy bot should be able to traverse this topology without inventing missing stages.
 
 ## Canonical inner-parent model — one parent, three qualities
 
 The protocol has **one inner parent / integrated adult**, not three separate inner parents.
 
-**Nurturer, Protector, and Guide are three distinguishable qualities or functions of that one parent:**
-
 - the parent **nurtures**;
 - the parent **protects**;
 - the parent **guides**.
 
-They are separated in the maps only because the capacities can be unevenly developed, context-specific, temporarily unavailable, confused with maladaptive substitutes, or borrowed one at a time. The therapeutic target is their **integration into one coherent adult presence**, not the construction of three independent internal characters.
+Nurturer, Protector, and Guide are separated only because those qualities can be unevenly developed, context-specific, temporarily unavailable, confused with maladaptive substitutes, or borrowed one at a time. The developmental target is their integration into **one coherent parental presence**.
 
-This is a global anti-reification rule. Capitalized labels are functional shorthand for routing and reflection.
-
-## Status vocabulary
-
-- `CURRENT ARTICLE` — rule is already materially present in the frozen article.
-- `PRACTICAL ADDITION` — operationally useful addition; novelty is irrelevant.
-- `PROVISIONAL` — plausible protocol structure not yet ready to become a hard runtime rule.
-- `RESEARCH NEEDED` — requires targeted evidence/collision attack.
-- `KNOWN PRIOR ART` — useful but established.
-- `STRICT TAIL SURVIVOR` — reserved for a residual that clears all Creative-Tail gates.
-- `REJECTED FOR NOVELTY` — may remain useful but is not original.
-- `SAFETY / EPISTEMIC GATE` — constraint that can veto deeper work, operation availability, or certainty.
+Capitalized labels are functional shorthand, not claims that three independent internal persons exist.
 
 ## Canonical control flow
 
 ```mermaid
 flowchart TD
-    X["Longitudinal bot safety + operation-permission pass<br/>PRACTICAL ADDITION · SAFETY GATE"] --> A["Assess current therapeutic state<br/>CURRENT ARTICLE"]
-    A --> B{"Present-oriented and enough capacity for next operation?"}
-    B -- "no" --> C["Reduce demand/intensity; regulate; borrow capacity; practical safety / external support<br/>CURRENT ARTICLE + PRACTICAL ADDITION"]
+    X["Longitudinal safety + operation-permission pass<br/>SAFETY GATE"] --> A["Collect request actor, original concern, and minimum current state"]
+    A --> B{"Immediate danger, basic-needs failure, or condition-specific instability?"}
+    B -- "yes" --> C["Closed-loop safety / medical / dependent handoff<br/>Preserve original concern"]
     C --> X
-    B -- "yes" --> D{"Enough witness capacity for proposed task?"}
-    D -- "no" --> E["Borrow one quality/function of the inner parent / witness or choose lower-demand operation<br/>CURRENT ARTICLE"]
-    E --> F["Adult apprenticeship<br/>receive → observe → participate → initiate → internalize<br/>CURRENT ARTICLE"]
-    D -- "yes" --> G["Assess one inner parent's Nurturer / Protector / Guide qualities by context<br/>PRACTICAL ADDITION"]
-    F --> G
-    G --> H{"What blocks or routes contact?"}
-    H -- "guard / distrust / numbness / escape" --> I["Meet response first; classify action; consent / safety-reality review; prediction-based trust<br/>CURRENT ARTICLE + PRACTICAL ADDITION"]
-    I --> H
-    H -- "child/self unclear" --> J["Identity formation + differentiation + experimental play<br/>CURRENT ARTICLE"]
-    J --> K["Child-state contact when available<br/>CURRENT ARTICLE"]
-    H -- "child accessible" --> K
-    K --> L["Relational reparenting: one inner parent expressing nurture + protection + guidance<br/>CURRENT ARTICLE"]
-    L --> M["Positive ordinary relationship + visible adult action<br/>CURRENT ARTICLE + PRACTICAL ADDITION"]
-    M --> N{"Commitment / trust test succeeds?"}
-    N -- "yes" --> O["Widen context; integrate functions into one inner parent; keep healthy interdependence<br/>CURRENT ARTICLE + PRACTICAL ADDITION"]
-    N -- "miss" --> P["Acknowledge → impact → repair → diagnose → resize / renegotiate → return<br/>PRACTICAL ADDITION"]
-    P --> M
-    O --> Q{"Deeper / altered-state access?"}
-    Q -- "yes" --> R["Sober baseline + adult-capacity + provenance + integration-load gate<br/>CURRENT ARTICLE + SAFETY GATE"]
-    R --> S["Depth/access/intensity tracked separately from integration<br/>OWNER CORRECTION"]
-    Q -- "no" --> T["Ordinary-life integration / functioning / choice"]
-    S --> T
-    T --> U["Outcome + adverse-effect + failure diagnosis<br/>PRACTICAL ADDITION"]
-    U -- "missing prerequisite / access failure" --> X
-    U -- "function-specific failure" --> G
-    U -- "support needed" --> V["External support / re-borrowing one parental quality as needed<br/>CURRENT ARTICLE + PRACTICAL ADDITION"]
-    V --> X
-    U -- "stable gains" --> W["Ongoing relationship with one inner parent: play, care, protection, direction, chosen support"]
-    W --> X
+    B -- "no" --> D{"Actor and primary problem class?"}
+    D -- "supporting another / caring for dependent" --> E["Supporter or caregiver route<br/>maps 12 and 14"]
+    D -- "external · medical · grief · certainty · actual harm · problem portfolio" --> F["Use the relevant outer drill-down<br/>maps 00 and 10–13"]
+    D -- "internal developmental · identity · trust · reparenting" --> G{"Enough operation-specific capacity?"}
+    D -- "mixed / unknown" --> H["Low-demand support + collect discriminating information"]
+    E --> O["Outcome, adverse-effect, and next-need review"]
+    F --> O
+    H --> X
+
+    G -- "no" --> I["Reduce demand; regulate; borrow capacity; choose lower-demand operation"]
+    I --> X
+    G -- "yes" --> J{"Enough witness capacity for the proposed step?"}
+    J -- "no" --> K["Borrow one quality/function of the inner parent or a witness"]
+    K --> L["receive → observe → participate → initiate → internalize"]
+    J -- "yes" --> M["Assess one inner parent's nurturing / protecting / guiding qualities by context"]
+    L --> M
+    M --> N{"What routes contact?"}
+    N -- "guard / distrust / numbness / escape" --> P["Meet response first; scoped consent; safety/reality review"]
+    P --> N
+    N -- "child/self unclear" --> Q["Identity formation + differentiation + experimental play"]
+    Q --> R["Child-state contact when available"]
+    N -- "child accessible" --> R
+    R --> S["Relational reparenting by one parent through nurturing, protecting, and guiding"]
+    S --> T["Positive ordinary relationship + visible adult action"]
+    T --> U{"Commitment / trust test succeeds?"}
+    U -- "miss" --> V["Acknowledge → impact → repair → diagnose → resize / renegotiate → return"]
+    V --> T
+    U -- "yes" --> W["Widen context; integrate parental qualities; retain healthy interdependence"]
+    W --> Y{"Deeper or altered-state access?"}
+    Y -- "yes" --> Z["Sober baseline + capacity + provenance + integration-load gate"]
+    Z --> AA["Depth/access/intensity tracked separately from integration"]
+    Y -- "no" --> O
+    AA --> O
+    O --> X
 ```
 
-## Runtime invariants
+## Global runtime invariants
 
-These constraints apply across the graph rather than belonging to only one node.
-
-1. **There is one inner parent / integrated adult with three qualities, not three parents.** Nurturer, Protector, and Guide are analytic distinctions within one parental presence. The functions may be assessed, borrowed, or developed separately, but successful internalization integrates them. Do not invite the user to construct three independent parent-entities unless that is clearly their own chosen metaphor and it remains nonliteral.
-2. **Permission/risk routing precedes therapeutic operation selection.** First determine what classes of operation are currently permitted and what safety-relevant information is missing; only then choose among allowed reparenting operations. Safety judgment, operation selection and user-facing delivery must remain conceptually inspectable as separate responsibilities.
-3. **Safety is longitudinal, not single-turn.** Track relevant multi-turn trajectories for deterioration and vulnerability-amplifying loops; a locally warm/supportive response can still reinforce avoidance, dependency, memory certainty, parts reification, coercion, failure debt, intensity chasing, or model self-sealing over time.
-4. **Use operation-specific capacity, not a global `ready/not ready` identity.** The gate asks whether the person currently has—or can safely borrow—enough of the capacities this specific next operation consumes. Do not require symptom-free calm, zero distress, or indefinite stabilization before all meaningful work.
-5. **Present safety outranks depth.** Loss of orientation, meaningful functional deterioration, escalating compulsion, or inability to choose/stop routes toward de-escalation and support rather than deeper elicitation.
-6. **Do not force optional introspection.** A guard response is information, not an obstacle to defeat. Clear refusal stops or changes that optional exercise; a later attempt is not owed and requires renewed consent. At the same time, the bot must distinguish destabilization from tolerable difficulty so it does not automatically reward avoidance in external or genuinely chosen approach behavior.
-7. **States report; the present adult integrates.** Child/protector/critic language represents working perspectives/functions. Reports of affect, sensation, preference, memory, imagery or prediction are meaningful data but are not automatically external facts or commands.
-8. **Protector alarms trigger review, not truth or permanent veto.** The protecting quality of the one inner parent checks present danger, evidence, reversibility, capacity, alternatives, time pressure and appropriate expertise.
-9. **Guide proposes; the present adult commits.** The guiding quality can surface values, direction and proportionate difficulty but cannot compel inward work or use `growth` to justify coercion.
-10. **Do not diagnose a part from one signal.** Numbness, reluctance, anger, distraction, or silence may reflect protection, ordinary disagreement, fatigue, a present grievance, technique mismatch, or another explanation. User disagreement lowers confidence in the bot's formulation rather than confirming it.
-11. **Adult capacity is not one scalar even though the adult is one integrated parent.** Its nurturing, protecting, and guiding qualities can be available unevenly by context. Real competence can coexist with possible parentification-linked overfunctioning or other costly asymmetry; do not call competence fake or infer parentification without developmental evidence.
-12. **Nurturer care is not payment for obedience.** The same inner parent may protect or guide firmly while its nurturing quality remains warm/non-cruel. Behavior can have limits without love withdrawal.
-13. **The present adult owns external behavior and consequences.** Internal reluctance is relevant information; it does not erase real obligations, another person's consent, or the consequences of action/inaction.
-14. **Use parts/function language provisionally / as-if.** A useful inner perspective or parental quality is not thereby an authenticated independent person, diagnosis, danger detector, or historical witness.
-15. **Historical provenance remains explicit.** Distress, conviction, imagery, dream material, hypnosis, felt sense, or entheogenic experience do not by themselves establish a historical event. Preserve the owner's distinct claim that felt sense **may** recover something conditioning obscured.
-16. **Depth is not integration.** Depth concerns richness/degree of contact and normally access and/or intensity; integration concerns what is incorporated into ordinary understanding, behavior, functioning, and choice. Neither substitutes for the other.
-17. **Internalization is not self-sufficiency.** `receive → observe → participate → initiate → internalize` remains the developmental target. Internalization means parental capacities become functions of the **one inner parent**. Friendship, therapy, community, co-regulation, and practical support may remain.
-18. **No poor-outcome shortcut.** `No improvement yet` routes to a differential failure diagnosis; it does not directly route to `reparenting is wrong for this person`.
-19. **Pain is not the only route to care.** Ordinary play, curiosity, beauty, companionship, silliness, celebration, and exploration belong in the continuing relationship.
-20. **No-arrears means no punitive accumulation, not no accountability or no therapeutic dose.** Missed internal care practice can resume from the present; external consequences and dose-sensitive treatment requirements remain separate questions.
-21. **Intervention matching is a heuristic, not a role diagnosis.** Nurturer/Protector/Guide substitution has strong prior-art neighbors in mode-specific therapy. Use actual response/outcome to test whether the currently expressed parental quality addresses the active process; simplify to ordinary formulation if the triad adds no decision value.
-22. **Keep the three-quality distinction only if it earns its complexity.** The Nurturer/Protector/Guide vocabulary should be simplified if it produces more avoidance, coercion, reification, memory certainty, decision delay or procedural burden without improving clarity, safe approach, self-endorsed action, trust repair, autonomy or functioning. Simplification must not erase the unity of the inner parent.
-23. **Missing material information is a gate.** If a transition depends on a safety/fit field that is genuinely unknown, collect it, choose an operation that does not require it, or defer/escalate. Do not fabricate the field from conversational tone.
-24. **Provisional ideas do not silently become runtime law.** Integration-load thresholds, post-de-escalation recognition criteria, and other live candidates remain visibly provisional until their evidence/adjudication is adequate.
+1. **Actor and beneficiary precede formulation.** Do not formulate an absent third party as though they were the user.
+2. **Problem class precedes inner-state routing.** Current danger, medical conditions, resource deficits, relationship conduct, legal/practical constraints, grief, and actual harm are not automatically inner-child problems.
+3. **Inner work may be primary, adjunctive, deferred, or irrelevant to the next action.** It must not replace necessary external action.
+4. **Permission/risk routing precedes therapeutic operation selection.**
+5. **Safety is longitudinal.** A locally warm response can still reinforce avoidance, dependence, certainty inflation, coercion, or intensity chasing over turns.
+6. **Preserve the original concern through safety interruption.** Crisis routing may interrupt but must not erase what the person was trying to discuss.
+7. **Use the person's language first.** Framework vocabulary remains internal or tentative unless it clearly helps and the person accepts it.
+8. **Frame rejection is corrective evidence.** Stop or revise a rejected formulation; do not treat disagreement as confirmation.
+9. **Consent is operation-scoped.** A refusal may concern content, modality, intensity, timing, helper, or all engagement. A later attempt is not owed.
+10. **Optional introspection, minimum necessary safety/fit disclosure, and treatment-goal authority are distinct.**
+11. **External handoffs are closed-loop.** Relevant → private/reachable → attempted → response → bridge/handoff; naming a resource alone is not completion.
+12. **Use operation-specific capacity, including physical capacity.** Distress, medical burden, sleep loss, intoxication, withdrawal, recovery time, and functional cost can alter what is safe.
+13. **Present safety outranks depth.**
+14. **States report; the present adult integrates.** Internal reports are meaningful data, not automatic external facts or commands.
+15. **Protector alarms trigger review, not truth or permanent veto.** Past learning and present danger may coexist.
+16. **Guide proposes; the present adult commits.** Guide cannot compel optional introspection or use growth to justify coercion.
+17. **Nurturer care is not payment for obedience.** Accountability, limits, restitution, and care can coexist.
+18. **The present adult owns external behavior and consequences.** Inner reluctance does not erase another person's rights, consent, or real obligations.
+19. **Adult capacity is function × context, not one scalar.** Real competence remains real even when qualities are uneven.
+20. **A large problem portfolio requires bottleneck selection before prescribing a large program.**
+21. **Repeated reassurance may become accommodation.** Give bounded factual help when appropriate, but do not become a certainty ritual.
+22. **Reality uncertainty requires a dual track.** Validate distress; neither endorse nor ridicule uncertain causal claims; assess verifiable facts, sleep, substances, medication changes, function, and risk.
+23. **Actual harm requires accountability architecture.** Non-cruelty does not erase victim safety, evidence, consequences, or qualified legal/clinical consultation.
+24. **Grief is not automatically pathology or treatment failure.** Assess safety and impairment separately from the existence of sorrow, numbness, anger, or continuing bonds.
+25. **Historical and experiential provenance remains explicit.** Source type, factual confidence, personal meaning, and action authority stay separate.
+26. Preserve the owner's claim that felt sense **may** recover something conditioning obscured, while never treating felt sense as historical proof.
+27. **Depth is not integration.**
+28. **Internalization is not self-sufficiency.**
+29. **No poor-outcome shortcut.** Use the full differential before challenging a narrower mechanism or broader model; deterioration overrides identical repetition.
+30. **Pain is not the only route to care.**
+31. **No-arrears abolishes punitive accumulation, not accountability, restitution, or clinically necessary dose.**
+32. **Missing material information remains unknown.** Collect it, choose an operation that does not require it, or defer/escalate.
+33. **The full composite protocol is research-stage.** Do not present the unified topology as a clinically validated complete treatment.
 
 ## Required drill-downs
 
+0. [`maps/00-ACTOR-PROBLEM-CLASS-AND-CURRENT-REALITY.md`](maps/00-ACTOR-PROBLEM-CLASS-AND-CURRENT-REALITY.md)
 1. [`maps/01-STATE-ASSESSMENT-AND-ROUTING.md`](maps/01-STATE-ASSESSMENT-AND-ROUTING.md)
 2. [`maps/02-ADULT-FUNCTION-ARCHITECTURE.md`](maps/02-ADULT-FUNCTION-ARCHITECTURE.md)
 3. [`maps/03-PROTECTOR-RESISTANCE-HANDLING.md`](maps/03-PROTECTOR-RESISTANCE-HANDLING.md)
@@ -110,14 +110,10 @@ These constraints apply across the graph rather than belonging to only one node.
 7. [`maps/07-EXTERNAL-SUPPORT-ARCHITECTURE.md`](maps/07-EXTERNAL-SUPPORT-ARCHITECTURE.md)
 8. [`maps/08-OUTCOME-FAILURE-DIAGNOSIS.md`](maps/08-OUTCOME-FAILURE-DIAGNOSIS.md)
 9. [`maps/09-BOT-SAFETY-AND-ROUTING.md`](maps/09-BOT-SAFETY-AND-ROUTING.md)
+10. [`maps/10-REASSURANCE-CERTAINTY-AND-REALITY-UNCERTAINTY.md`](maps/10-REASSURANCE-CERTAINTY-AND-REALITY-UNCERTAINTY.md)
+11. [`maps/11-ACCOUNTABILITY-MORAL-INJURY-AND-HARM.md`](maps/11-ACCOUNTABILITY-MORAL-INJURY-AND-HARM.md)
+12. [`maps/12-MEDICAL-SUBSTANCE-PERINATAL-AND-DEPENDENT-SAFETY.md`](maps/12-MEDICAL-SUBSTANCE-PERINATAL-AND-DEPENDENT-SAFETY.md)
+13. [`maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md`](maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md)
+14. [`maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md`](maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md)
 
-## Companion control artifacts
-
-- `ARTICLE-PROTOCOL-CROSSWALK.md` — article explanation versus protocol behavior.
-- `PROTOCOL-GAP-LEDGER.md` — dead ends, missing recognition criteria, conflict points, fallback gaps and safety risks.
-- `CANDIDATE-STATUS-LEDGER.md` — retained/provisional/rejected Tail ideas with runtime disposition.
-- `EVIDENCE-LEDGER.md` — support, challenges, limitations and unresolved research for protocol nodes.
-- `candidate-ledger-batch-004.csv` — frozen retrieval-free structural-gap batch plus post-retrieval adjudication.
-- `retrieval/REMAINING-PROTOCOL-GAPS-EXA-20260817.md` — evidence for operation-specific readiness, intervention matching, parentification assessment and longitudinal bot routing.
-
-Material topology changes must update this overview in the same change as the corresponding protocol-state change.
+Material topology changes must update this overview and the relevant drill-down/ledger in the same logical change.
