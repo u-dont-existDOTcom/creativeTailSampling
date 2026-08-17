@@ -10,8 +10,9 @@ Purpose: ensure no substantive retained/provisional idea lives only in prose not
 **No Batch 002–004 item is currently promoted as a `STRICT TAIL SURVIVOR`.**
 
 - Many high-value practical additions have strong prior art.
-- Several Batch-002 `promising_but_blocked` items are no longer blocked because Exa and Parallel actually execute in this fresh chat; the completed/pending attacks substantially reduce their novelty case.
-- A few structures remain `PROVISIONAL / RESEARCH NEEDED` because their safety/utility is unresolved, not because they are being held open as originality claims.
+- Batch-002 items previously marked `promising_but_blocked` are no longer provider-blocked: actual Exa and Parallel Task execution succeeded in this fresh conversation.
+- The no-arrears and internal-jurisdiction families both failed strict originality while materially improving the practical protocol.
+- A few structures remain `PROVISIONAL / RESEARCH NEEDED` because their recognition criteria or utility are unresolved, not because they are being held open as originality claims.
 
 ---
 
@@ -41,9 +42,9 @@ Batch 001 was a preliminary improvement analysis rather than a canonical candida
 | ICB002-04 | Internalization should generalize across contexts/stress | PRACTICAL ADDITION · KNOWN PRIOR ART | map 02 + map 07 | REJECTED FOR NOVELTY |
 | ICB002-05 | Stalled session may be wrong adult function | PRACTICAL ADDITION / formulation hypothesis | map 02 | REJECTED FOR NOVELTY |
 | ICB002-06 | Nurturer care remains through refusal/failure/disagreement | PRACTICAL ADDITION · KNOWN PRIOR ART | map 02, map 04 | REJECTED FOR NOVELTY |
-| ICB002-07 | Protector override should be narrow/safety-linked/reviewed | PRACTICAL SAFETY RULE, with caution about over-formalizing parts | map 01, map 03 | REJECTED FOR NOVELTY; full constitution not promoted |
+| ICB002-07 | Protector override should be narrow/safety-linked/reviewed | PRACTICAL SAFETY RULE: Protector alarm triggers review, not truth/permanent veto | map 01, map 03 | REJECTED FOR NOVELTY |
 | ICB002-08 | Unlimited choice can abandon a flooded/young state; structure can preserve meaningful choice | PRACTICAL ADDITION · KNOWN PRIOR ART | map 03 + map 05 | REJECTED FOR NOVELTY |
-| ICB002-09 | Explicit jurisdiction across child/adult/Protector/Guide/Nurturer | MINIMAL RULE SET retained; formal constitution remains research question | overview + maps 01/03; Parallel task pending | REJECTED FOR NOVELTY based on IFS/Schema/TA collision |
+| ICB002-09 | Explicit jurisdiction across child/adult/Protector/Guide/Nurturer | THIN INTERFACE CONTRACT retained; formal internal constitution rejected as unnecessary unless future comparative evidence shows added value | overview + map 03 + Parallel evidence record | REJECTED FOR NOVELTY after Exa + Parallel |
 | ICB002-10 | No-arrears after missed reparenting practice | PRACTICAL ADDITION: `abolish punitive accumulation, not accountability/dose` | map 04 + dedicated evidence record | REJECTED FOR NOVELTY after Exa + Parallel |
 | ICB002-11 | Broken promise needs acknowledgment/repair/resize/return | PRACTICAL ADDITION · KNOWN PRIOR ART | map 04 | REJECTED FOR NOVELTY |
 | ICB002-12 | Promise size below demonstrated reliability | CURRENT ARTICLE / minor operationalization | map 04 | REJECTED INTERNAL COLLISION |
@@ -90,19 +91,19 @@ Batch 004 was frozen retrieval-free after source recovery/provider smoke tests b
 | ID | Short proposition | Current disposition | Runtime location | Strict originality disposition |
 |---|---|---|---|---|
 | ICP004-01 | Readiness is a vector of capacities, not one regulation scalar | PRACTICAL ADDITION | map 01 | REJECTED FOR NOVELTY |
-| ICP004-02 | Adult-function substitution can stall treatment | PRACTICAL ADDITION / hypothesis | map 02 | REJECTED FOR NOVELTY; exact matrix may still be evaluated for utility |
-| ICP004-03 | Honor `not now` but consider non-coercive later review/re-entry condition | PROVISIONAL / RESEARCH NEEDED | map 03 | NO STRICT PROMOTION; likely known-root synthesis; safety utility unresolved |
+| ICP004-02 | Adult-function substitution can stall treatment | PRACTICAL ADDITION / hypothesis | map 02 | REJECTED FOR NOVELTY; exact matrix still needs utility testing |
+| ICP004-03 | A guard's `not now` stops optional introspection now; later revisit only with renewed consent, not an automatic retry obligation | PRACTICAL ADDITION; precommitted re-entry contract rejected | map 03 | REJECTED FOR NOVELTY after independent hostile review |
 | ICP004-04 | Distinguish tolerable difficulty from destabilization | PRACTICAL ADDITION · KNOWN PRIOR ART | maps 01/03 | KNOWN PRIOR ART |
-| ICP004-05 | Explicit internal jurisdiction by function | Minimal conflict rules retained; formal constitution under independent Parallel attack | overview + maps 01/03 | REJECTED FOR NOVELTY from IFS/Schema/TA collisions |
+| ICP004-05 | Use thin adult-led role interface rather than formal internal constitution | PRACTICAL ADDITION; full constitution rejected | overview + map 03 + Parallel evidence record | REJECTED FOR NOVELTY after Exa + Parallel |
 | ICP004-06 | Limits without withdrawal of Nurturer warmth | PRACTICAL ADDITION · KNOWN PRIOR ART | map 02 | KNOWN PRIOR ART |
-| ICP004-07 | No-arrears does not erase external consequences | PRACTICAL ADDITION | map 04 | REJECTED FOR NOVELTY |
+| ICP004-07 | No-arrears does not erase external consequences or dose | PRACTICAL ADDITION | map 04 | REJECTED FOR NOVELTY |
 | ICP004-08 | Promise only substantially controllable behavior | PRACTICAL ADDITION | map 04 | REJECTED FOR NOVELTY |
 | ICP004-09 | Trust evidence is domain/context specific | PRACTICAL ADDITION · KNOWN PRIOR ART | map 04 | KNOWN PRIOR ART |
 | ICP004-10 | One helper supplying N/P/G + memory interpretation + belonging | PRACTICAL CONCENTRATION-RISK CHECKLIST; reject unproven nonlinear mechanism | map 07 | REJECTED FOR NOVELTY |
 | ICP004-11 | Borrowed-adult failure-safe without self-sufficiency | PRACTICAL ADDITION | map 07 | REJECTED FOR NOVELTY |
-| ICP004-12 | Unresolved integration load gates further depth escalation | PROVISIONAL / SAFETY SUPPORT; no fixed interval | map 06 | REJECTED FOR NOVELTY as broad principle; exact gate still RESEARCH NEEDED |
+| ICP004-12 | Unresolved integration load gates further deliberate depth escalation | PROVISIONAL / SAFETY SUPPORT; no fixed interval | map 06 | REJECTED FOR NOVELTY as broad principle; exact recognition remains RESEARCH NEEDED |
 | ICP004-13 | Provenance tag experiential material at ingestion | SAFETY / EPISTEMIC GATE | map 06 | KNOWN PRIOR ART / operational transfer |
-| ICP004-14 | Require restored capacity before depth re-entry after de-escalation | PROVISIONAL / SAFETY SUPPORT | maps 01/06 | REJECTED FOR NOVELTY; criteria still RESEARCH NEEDED |
+| ICP004-14 | Require restored capacity before depth re-entry after de-escalation | PROVISIONAL / SAFETY SUPPORT | maps 01/06 | REJECTED FOR NOVELTY; exact recognition remains RESEARCH NEEDED |
 | ICP004-15 | Ordinary positive contact independent of crisis | PRACTICAL ADDITION · KNOWN PRIOR ART | overview + map 05 | KNOWN PRIOR ART |
 | ICP004-16 | Differentiation should not default to isolation | SAFETY / EPISTEMIC GATE | map 05 | REJECTED FOR NOVELTY |
 | ICP004-17 | User contestability lowers confidence in bot parts interpretation | CORRECTION · KNOWN PRIOR ART | map 03 | KNOWN PRIOR ART |
@@ -110,14 +111,18 @@ Batch 004 was frozen retrieval-free after source recovery/provider smoke tests b
 | ICP004-19 | Parentified pseudo-adult requires function × context assessment | PRACTICAL ADDITION · KNOWN PRIOR ART | map 02 | KNOWN PRIOR ART |
 | ICP004-20 | Safe adult action can precede clear child imagery/contact | CURRENT ARTICLE | overview/map 01 | REJECTED INTERNAL COLLISION |
 
-## Active unresolved candidates after this audit
+## Active unresolved protocol candidates after this audit
 
-These remain research/design questions because they can change bot behavior:
+These remain research/design questions because they can still change bot behavior:
 
-1. **ICP004-03:** can later re-entry after a guard's `not now` be structured without covert coercion or avoidance reinforcement?
-2. **ICP004-05 practical form:** after novelty rejection, does a more explicit internal-jurisdiction map improve routing over a simpler `present adult integrates inputs and owns consequences` rule? Parallel Task is answering this.
-3. **ICP004-12:** what observable state criteria should gate further depth when integration is incomplete, given no validated universal timing threshold?
-4. **ICP004-14:** how much restored orientation/choice/function is enough before re-entry after de-escalation without inventing pseudoprecise scoring?
-5. **ICB002-05 / ICP004-02:** can the adult-function substitution matrix reliably improve intervention selection, or does it merely rename ordinary formulation?
+1. **ICP004-12:** what observable state criteria should gate further deliberate depth escalation when integration is incomplete, given no validated universal timing threshold?
+2. **ICP004-14:** how much restored orientation/choice/function is enough after de-escalation before deeper re-entry without inventing pseudoprecise scoring?
+3. **ICB002-05 / ICP004-02:** does the Nurturer/Protector/Guide function-substitution matrix reliably improve intervention selection, or merely rename ordinary case formulation?
+4. **Future machine routing:** which recognition/failure fields must be mandatory before a transition rather than merely available as narrative context?
+
+### Questions closed in this pass
+
+- **Guard re-entry:** do **not** encode a precommitted retry contract. A clear refusal stops/changes optional introspection; later work requires renewed consent. Anti-avoidance reasoning remains relevant to classification, external responsibility and self-endorsed graded approach.
+- **Internal constitution:** do **not** build a formal inner legal order. Retain the thin interface contract only if it demonstrably resolves conflict with acceptable complexity: states report; Protector triggers review; Guide proposes; Nurturer cares; optional introspection requires consent; the present adult integrates and owns external action/consequences.
 
 Everything else in the retained practical set is already represented in the active Mermaid architecture or explicitly preserved as research history.
