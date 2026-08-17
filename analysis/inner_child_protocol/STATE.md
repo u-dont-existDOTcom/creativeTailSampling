@@ -1,16 +1,16 @@
 # Inner-child / reparenting therapy protocol — Resume state
 
 Updated: 2026-08-17  
-Active Batch-006 branch: `agent/inner-child-real-query-hardening-006`  
-Parent checkpoint: `9733c9244ba5a688753a85c21c43eb8f21538e09`  
-Pre-Batch-006 therapy-semantic checkpoint: `db591713a3feb0a1576943408ae356685c0034ec`  
+Active branch: `agent/inner-child-real-query-hardening-007-final`  
+Batch-006 merged base: `75c2b6ba23e7298953715024c0cc1a79b22b78a3`  
+One-parent semantic checkpoint before real-query hardening: `db591713a3feb0a1576943408ae356685c0034ec`  
 Mode: research / protocol architecture / real-query testing; **article editing not authorized**
 
 ## Canonical control surface — read first
 
 - [`THERAPY-PROTOCOL-OVERVIEW.md`](THERAPY-PROTOCOL-OVERVIEW.md)
 
-The protocol is now explicitly a **thin actor/problem-class router plus an inner-child/reparenting subprotocol**. The bot must not route every complex problem directly into child/protector work.
+The protocol is a thin actor/problem-class router plus focused outer safety/authority routes and the inner-child/reparenting subprotocol. Do not route every complex problem directly into child/protector work.
 
 ## Focused maps
 
@@ -29,6 +29,7 @@ The protocol is now explicitly a **thin actor/problem-class router plus an inner
 12. [`maps/12-MEDICAL-SUBSTANCE-PERINATAL-AND-DEPENDENT-SAFETY.md`](maps/12-MEDICAL-SUBSTANCE-PERINATAL-AND-DEPENDENT-SAFETY.md)
 13. [`maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md`](maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md)
 14. [`maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md`](maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md)
+15. [`maps/15-CAPABILITY-SKILL-SCAFFOLD-AND-INSIGHT-ACTION-GAP.md`](maps/15-CAPABILITY-SKILL-SCAFFOLD-AND-INSIGHT-ACTION-GAP.md)
 
 ## Owner-locked ontology and distinctions
 
@@ -38,68 +39,78 @@ The protocol is now explicitly a **thin actor/problem-class router plus an inner
 - Felt sense **may know what the conditioned self was trained to forget**, while never becoming historical proof by itself.
 - `No improvement yet` enters the failure differential rather than directly rejecting reparenting or prescribing unchanged repetition.
 
-## Batch 006 material change
+## Real-query hardening state
 
-Before witness, child, protector, or one-inner-parent routing, the system now determines:
+### Batch 006 — merged
 
-1. who the requested help is for;
-2. whether danger/basic needs/condition-specific instability overrides ordinary work;
-3. the primary problem class;
-4. whether inner-child work is primary, adjunctive, deferred, or irrelevant to the next action.
+Batch 006 added the actor/problem-class/current-reality router plus maps 10–14 and 16 real, unprimed fixtures. It was merged through PR #1 as commit `75c2b6ba23e7298953715024c0cc1a79b22b78a3`.
 
-New first-class routes cover current external reality, reassurance/certainty, actual harm/accountability, medical/substance/perinatal/dependent safety, grief, scoped consent, frame repair, third-party support, and problem-portfolio bottlenecks.
+### Batch 007 — active branch
 
-## Real-query validation state
+Twelve further real, unprimed original-post cases tested:
 
-- First ten real, unprimed Reddit problems exposed the missing current-reality/actor router.
-- Orthogonal Batch 006 added 16 further real original-post fixtures.
-- Twelve passed the first repaired topology.
-- Four exposed bounded defects—minor/guardian authority, numbness versus competence, collateral-information permission, and overbroad slowing—which were repaired in the same batch.
-- Query text contains no added target-framework vocabulary; expected routes remain outside model input.
+- educational deprivation and capability;
+- real deception versus checking accommodation;
+- insight without behavioral control;
+- therapist pregnancy/termination;
+- new-parent role transition;
+- asexuality and sexualized social pressure;
+- loss of an external self-care scaffold;
+- pleasure/rest with family obligations;
+- breastfeeding and bodily autonomy;
+- fever-dream memory uncertainty;
+- suicide-system distrust;
+- sexual-boundary violation and reactive force.
 
-Durable records:
+Material Batch 007 corrections:
 
-- [`REAL-QUERY-TRACE-AUDIT-BATCH-006.md`](REAL-QUERY-TRACE-AUDIT-BATCH-006.md)
-- [`real-query-batch-006/README.md`](real-query-batch-006/README.md)
-- [`real-query-batch-006/manifest.json`](real-query-batch-006/manifest.json)
-- individual machine-readable cases under [`real-query-batch-006/cases/`](real-query-batch-006/cases/)
-- [`CORRECTION-LEDGER-BATCH-006.md`](CORRECTION-LEDGER-BATCH-006.md)
-- [`ARTICLE-PROTOCOL-CROSSWALK-SUPPLEMENT-BATCH-006.md`](ARTICLE-PROTOCOL-CROSSWALK-SUPPLEMENT-BATCH-006.md)
-- [`OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-006.md`](OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-006.md)
-- [`PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-006.md`](PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-006.md)
-- [`EVIDENCE-LEDGER-SUPPLEMENT-BATCH-006.md`](EVIDENCE-LEDGER-SUPPLEMENT-BATCH-006.md)
-- [`../../docs/REAL-QUERY-BENCHMARK-SELECTION-PLAN-2026-08-17.md`](../../docs/REAL-QUERY-BENCHMARK-SELECTION-PLAN-2026-08-17.md)
-- [`../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-006.md`](../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-006.md)
-- [`../../runs/2026-08-17-inner-child-real-query-map-hardening-006.md`](../../runs/2026-08-17-inner-child-real-query-map-hardening-006.md)
+1. awareness/witness capacity does not establish behavioral control;
+2. missing education/instruction is not missing Guide capacity;
+3. external scaffold loss is not failed internalization;
+4. checking may be both a certainty loop and a response to real deception;
+5. provider transition requires continuity/termination architecture;
+6. major role-transition ambivalence is not automatically pathology;
+7. stated identity/bodily/social boundaries are not presumed avoidance;
+8. legitimate interests do not transfer authority over another adult's body;
+9. safety-system distrust requires transparent, non-canned risk conversation;
+10. reactive force requires chronology and consent context without false equivalence.
 
-## Evidence and gap ledgers
+## Batch 007 records
 
-The existing canonical ledgers remain authoritative for Batches 001–004. Read them together with the append-only Batch 006 supplements:
+- [`REAL-QUERY-TRACE-AUDIT-BATCH-007.md`](REAL-QUERY-TRACE-AUDIT-BATCH-007.md)
+- [`real-query-batch-007/README.md`](real-query-batch-007/README.md)
+- [`real-query-batch-007/manifest.json`](real-query-batch-007/manifest.json)
+- individual cases under [`real-query-batch-007/cases/`](real-query-batch-007/cases/)
+- [`CORRECTION-LEDGER-BATCH-007.md`](CORRECTION-LEDGER-BATCH-007.md)
+- [`PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-007.md`](PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-007.md)
+- [`EVIDENCE-LEDGER-SUPPLEMENT-BATCH-007.md`](EVIDENCE-LEDGER-SUPPLEMENT-BATCH-007.md)
+- [`ARTICLE-PROTOCOL-CROSSWALK-SUPPLEMENT-BATCH-007.md`](ARTICLE-PROTOCOL-CROSSWALK-SUPPLEMENT-BATCH-007.md)
+- [`OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-007.md`](OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-007.md)
+- [`../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-007.md`](../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-007.md)
+- [`../../runs/2026-08-17-inner-child-real-query-map-hardening-007.md`](../../runs/2026-08-17-inner-child-real-query-map-hardening-007.md)
 
-- [`PROTOCOL-GAP-LEDGER.md`](PROTOCOL-GAP-LEDGER.md)
-- [`PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-006.md`](PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-006.md)
-- [`EVIDENCE-LEDGER.md`](EVIDENCE-LEDGER.md)
-- [`EVIDENCE-LEDGER-SUPPLEMENT-BATCH-006.md`](EVIDENCE-LEDGER-SUPPLEMENT-BATCH-006.md)
+Read all base ledgers together with both Batch 006 and Batch 007 supplements.
 
 ## Strict originality state
 
-No Batch 006 correction is promoted as a strict Tail survivor. These are practical/safety corrections and known-prior-art transfers. The primary objective is protocol correctness.
+No Batch 006 or Batch 007 correction is promoted as a strict Tail survivor. These are practical, safety, autonomy, ethical-prior-art, and epistemic corrections.
 
 ## Current unresolved frontier
 
-1. Keep the outer router thin enough to outperform a simpler competitor.
-2. Detect reassurance accommodation over turns without withholding ordinary factual support.
-3. Calibrate possible mania/psychosis escalation without collusion or excessive false positives.
-4. Define which closed-loop handoff states are genuinely observable.
-5. Determine mandatory runtime fields and `unknown` semantics for each operation.
-6. Continue with the next highest-coverage real-query batch rather than selecting near-duplicate dramatic cases.
+1. Does map 15 improve intervention selection over a simpler functional analysis enough to justify its complexity?
+2. Can insight versus control be routed with a small field set rather than a burdensome interview?
+3. When is permanent external scaffolding healthy accommodation versus harmful dependence or commercial manipulation?
+4. How should provider transitions be represented without pretending to adjudicate professional ethics or compel a provider?
+5. How can identity/boundary uncertainty be explored without pathologizing a stated identity or clear `no`?
+6. How can crisis-system transparency avoid both canned coercion and evasion guidance?
+7. Continue the next benchmark only where a case can expose a missing permission, authority, epistemic, handoff, or exit rule.
 
 ## Exact next move
 
-1. Resolve the live branch/PR head.
-2. Make the InnerSignalGraph worker consume the Batch 006 addendum and 16 black-box fixtures.
-3. Run the next benchmark frontier in `docs/REAL-QUERY-BENCHMARK-SELECTION-PLAN-2026-08-17.md`.
-4. Patch topology only for operation-permission or authority defects; keep case-specific variants as regression fixtures.
+1. Resolve the live Batch 007 branch/PR head.
+2. Make InnerSignalGraph consume both Batch 006 and Batch 007 addenda and all 28 new fixtures.
+3. Test map 15 against simpler functional analysis in the executable runtime.
+4. Select the next real-query batch from remaining high-risk gaps rather than near-duplicate dramatic cases.
 5. Keep article prose unchanged until explicit authorization.
 
 ## Evidence-status warning
