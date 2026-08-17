@@ -21,10 +21,12 @@ flowchart TD
     L -- "yes" --> M["Re-borrow as maintenance / access restoration<br/>PRACTICAL ADDITION"]
     M --> J
     L -- "no" --> N["Ongoing chosen support"]
-    A --> O{"One helper controls many functions / interpretations / belonging?"}
-    O -- "yes" --> P["Concentration-risk review<br/>PROVISIONAL"]
-    P --> Q["Restore disagreement, exit, alternate supports, independent judgment"]
-    Q --> F
+    A --> O{"One helper concentrated across care / protection / guidance / interpretation / belonging?"}
+    O -- "yes" --> P["Concentration-risk review<br/>PRACTICAL ADDITION"]
+    P --> Q{"Disagreement, exit, alternatives and judgment remain intact?"}
+    Q -- "yes" --> F
+    Q -- "no" --> R["Reduce authority concentration; restore independent judgment / alternate support / domain boundaries"]
+    R --> F
 ```
 
 ## Support types are not interchangeable
@@ -95,25 +97,39 @@ Potential warning signs:
 - leaving the method/helper becomes framed as pathology, betrayal, lack of healing, or proof the helper was right;
 - person becomes less able to initiate ordinary adult action without helper ratification;
 - ambiguous memory/altered-state material is interpreted toward the helper's preferred narrative;
-- helper becomes the only meaningful source of belonging.
+- helper becomes the only meaningful source of belonging;
+- realistic alternate supports are discouraged or made to seem disloyal.
 
-## External-helper concentration risk — `PROVISIONAL / RESEARCH NEEDED`
+## External-helper concentration risk — `PRACTICAL ADDITION / REJECTED FOR NOVELTY`
 
-Live candidate:
+Exa collision work found extensive prior art around psychotherapy dependency, transference, therapist power, multiple-role/boundary risk, undue influence, autonomy, suggestibility, and psychedelic-therapy `guru` dynamics. It did **not** establish a special nonlinear mechanism caused by the exact Nurturer + Protector + Guide + memory-interpreter + belonging bundle.
 
-> Risk may increase when one person simultaneously becomes Nurturer, Protector, Guide, interpreter of ambiguous memories/experiences, and primary source of belonging.
+Therefore the active protocol uses the bundle as a **risk-review trigger**, not a pathology score and not an originality claim.
 
-The broad idea of authority concentration/dependency is not novel. The unresolved question is whether the **bundled function profile** gives a useful therapy-specific diagnostic beyond generic dependency/transference/undue influence.
+### Review the consequences, not the role count
 
-Until researched, practical safeguards include:
+A helper can appropriately provide several relational functions. Ask whether concentration is accompanied by:
 
-- keep borrowed functions narrow;
-- preserve independent sources of information and relationship;
-- keep medical/legal/high-stakes judgments in the appropriate domains;
+- decreasing ability to disagree;
+- decreasing perceived alternatives;
+- decreasing ability to initiate ordinary adult action without ratification;
+- expansion into domains outside the helper's competence;
+- helper-directed certainty about ambiguous memories/altered-state material;
+- social isolation or helper becoming the only meaningful belonging source;
+- impaired ability to leave, obtain a second view, or survive a temporary absence.
+
+If those are absent, mere multi-function support is not evidence of harmful dependency.
+
+### Practical safeguards
+
+- keep borrowed functions as explicit as useful: `what exactly am I borrowing here?`;
+- preserve independent sources of information and relationship where feasible;
+- keep medical/legal/high-stakes judgments in appropriate domains;
 - preserve the ability to disagree and exit;
-- distinguish `this person made me feel safe here` from `this person is wise about everything`.
+- distinguish `this person made me feel safe here` from `this person is wise about everything`;
+- when a single stable therapist appropriately supplies multiple functions, do not manufacture artificial diversification merely to lower a role count.
 
-Do not require artificial diversification if one stable therapist is appropriate; concentration is a risk factor to examine, not proof of harm.
+Evidence record: `../retrieval/PROTOCOL-HARDENING-EXA-20260817.md`, section 3.
 
 ## Re-borrowing after stress — `PRACTICAL ADDITION / KNOWN ROOT`
 
