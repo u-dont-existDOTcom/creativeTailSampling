@@ -1,41 +1,71 @@
 # Drill-down 02 — Adult-function architecture
 
-Purpose: assess and build **Nurturer, Protector, and Guide as distinct functions**, including borrowed versus internal capacity, function-by-context availability, and possible parentification-linked overfunctioning.
+Purpose: assess and build **one integrated inner parent / adult expressed through three core qualities or functions: Nurturer, Protector, and Guide**, including borrowed versus internal capacity, function-by-context availability, and possible parentification-linked overfunctioning.
+
+## One parent, three qualities — canonical interpretation
+
+**Nurturer, Protector, and Guide are not three separate inner parents.** They are three distinguishable capacities of the **same inner parent / integrated adult**.
+
+Think:
+
+`one inner parent → nurturing + protecting + guiding`
+
+not:
+
+`three inner parents → Nurturer + Protector + Guide`.
+
+The functions are separated in the protocol because they can be developed unevenly, become unavailable in different contexts, be confused with maladaptive substitutes, and sometimes need to be borrowed one at a time. The developmental target, however, is **integration**: one coherent adult presence that can care, protect, and guide as the situation requires.
+
+This distinction is also an anti-reification safeguard. The capitalized labels are functional shorthand for therapy and routing, not claims that three independent internal persons exist.
 
 ```mermaid
 flowchart TD
-    A["Assess adult function × context"] --> B["Nurturer: warmth / non-attack / receiving emotion"]
-    A --> C["Protector: safety / boundaries / competence / follow-through"]
-    A --> D["Guide: values / direction / standards / development"]
+    A["One inner parent / integrated adult"] --> B["Nurturer quality<br/>warmth / non-attack / receiving emotion"]
+    A --> C["Protector quality<br/>safety / boundaries / competence / follow-through"]
+    A --> D["Guide quality<br/>values / direction / standards / development"]
     B --> E{"Available in target context?"}
     C --> F{"Available in target context?"}
     D --> G{"Available in target context?"}
-    E -- "no" --> H["Borrow Nurturer function"]
-    F -- "no" --> I["Borrow Protector function"]
-    G -- "no" --> J["Borrow Guide function"]
+    E -- "no" --> H["Borrow / develop nurturing function"]
+    F -- "no" --> I["Borrow / develop protecting function"]
+    G -- "no" --> J["Borrow / develop guiding function"]
     H --> K["receive → observe → participate → initiate → internalize"]
     I --> K
     J --> K
-    E -- "yes" --> L["Use Nurturer"]
-    F -- "yes" --> M["Use Protector"]
-    G -- "yes" --> N["Use Guide when prerequisites hold"]
-    K --> O["Test function in ordinary contexts"]
+    E -- "yes" --> L["Inner parent nurtures"]
+    F -- "yes" --> M["Inner parent protects"]
+    G -- "yes" --> N["Inner parent guides when prerequisites hold"]
+    K --> O["Integrate function into the same inner parent; test in ordinary contexts"]
     O --> P{"Portable enough?"}
-    P -- "not yet" --> Q["Re-borrow / practice missing context<br/>PRACTICAL ADDITION"]
+    P -- "not yet" --> Q["Re-borrow / practice missing quality or context<br/>PRACTICAL ADDITION"]
     Q --> K
-    P -- "yes" --> R["Internalized function + healthy interdependence"]
+    P -- "yes" --> R["One integrated inner parent with flexible access to all three qualities + healthy interdependence"]
     A --> S{"High competence + costly asymmetry?"}
     S -- "yes" --> T{"Developmental parentification evidence present?"}
     T -- "yes / plausible" --> U["Possible parentification-linked overfunctioning<br/>PRACTICAL ADDITION"]
     T -- "no / unknown" --> V["Describe function imbalance without assuming parentification"]
-    U --> W["Preserve competence; practice receiving, play, safe dependence, need expression, flexible non-management"]
+    U --> W["Preserve competence; develop missing parental qualities: receiving, play, safe dependence, need expression, flexible non-management"]
     V --> W
     W --> A
 ```
 
+## Why split the one parent into three functions at all?
+
+The split is **analytic and operational, not ontological**.
+
+It helps answer questions that a single global `inner parent strength` score would hide:
+
+- Can the same inner parent comfort but not protect?
+- Can it protect through action but become cruel when guidance is needed?
+- Can it guide effectively at work but disappear during attachment panic?
+- Is one quality being imitated by a maladaptive process, such as control masquerading as protection or criticism masquerading as guidance?
+- Does the person need to borrow only one missing parental quality rather than handing broad authority to another person?
+
+Once the distinction has done its diagnostic work, the protocol should return to the **unity of the parent**. A healthy adult response can and often should express several qualities simultaneously—for example, `I care about you, I will not let this keep harming us, and here is what we are going to do next.`
+
 ## Function × context matrix
 
-Do not ask only `does this person have an inner adult?` Ask which function is accessible **where**.
+Do not ask only `does this person have an inner adult?` Ask which **quality of the one inner parent** is accessible **where**.
 
 Suggested contexts:
 
@@ -53,14 +83,16 @@ Suggested contexts:
 
 A profile can be highly uneven. Examples:
 
-- excellent Protector/Guide at work, collapsed Protector in attachment panic;
-- strong Nurturer toward others, almost none toward self;
-- strong Guide while calm, punitive inherited critic under shame;
+- excellent Protector/Guide qualities at work, collapsed Protector quality in attachment panic;
+- strong Nurturer quality toward others, almost none toward self;
+- strong Guide quality while calm, punitive inherited critic under shame;
 - compulsive caregiving and responsibility with weak receiving, play, dependence, or vulnerability.
+
+Unevenness does **not** imply multiple parents. It means one adult system has unevenly available capacities.
 
 ## Adult-function semantics
 
-| Function | Primary jurisdiction in current article | Recognition of healthy access | Common failure / counterfeit | Primary fallback |
+| Quality/function of the one inner parent | Primary role in current article | Recognition of healthy access | Common failure / counterfeit | Primary fallback |
 |---|---|---|---|---|
 | Nurturer | Receives pain/emotion without attack | Warmth or at minimum non-cruelty; emotion can exist without earning care | Conditional warmth; soothing used to avoid necessary action; inherited shame voice masquerading as care | Borrow warmth/non-attack from a safe exemplar; start with `I will not attack you` |
 | Protector | Safety, boundaries, competence, practical follow-through | Concrete proportional action; boundaries; ordinary life becomes safer/more reliable | Control/overfunctioning; compulsive caretaking; rigid self-management | One minimally competent action; borrow external structure/support |
@@ -126,14 +158,14 @@ Do **not** respond by simply prescribing more responsibility. Test whether the m
 
 Schema Therapy provides direct prior art for matching interventions to active modes/needs and changing strategy when the current mode changes. Therefore the broad idea is not a novel mechanism.
 
-The project-specific Nurturer/Protector/Guide matrix remains useful only as a **case-formulation heuristic**.
+The project-specific Nurturer/Protector/Guide matrix remains useful only as a **case-formulation heuristic about qualities of one inner parent**.
 
 ### Two-step mismatch check
 
 When an intervention stalls, ask:
 
 1. **What process/state is active?** Vulnerability/pain, actual danger or boundary problem, inherited attack/shame, avoidance/protection, ordinary practical problem, values/direction conflict, etc.
-2. **What function is the current response supplying?** Nurture, protection/action, guidance/structure, or something else.
+2. **What parental quality is the current response supplying?** Nurture, protection/action, guidance/structure, or something else.
 
 A mismatch becomes plausible when the response repeatedly fails to address the active need or predictably worsens the maintaining process.
 
@@ -145,6 +177,8 @@ Examples:
 - Nurturer used against Guide: soothing repeatedly becomes escape from a self-endorsed necessary action;
 - Protector used against child contact: control permanently replaces any voluntary relationship/contact;
 - problem-solving when the person was trying to contact and tolerate emotion rather than solve it.
+
+These are **imbalances within one parent**, not conflicts among three parents.
 
 ### Outcome-based correction
 
@@ -158,15 +192,19 @@ Do not declare a mismatch merely because the theory predicts one. Use:
 
 ### Complexity falsifier
 
-If `what process is active? → what response actually helps?` performs as well as the Nurturer/Protector/Guide substitution matrix with less rigidity/procedural burden, simplify the bot. The triad should earn its complexity.
+If `what process is active? → what response actually helps?` performs as well as the Nurturer/Protector/Guide quality matrix with less rigidity/procedural burden, simplify the bot. The triad should earn its analytic complexity without obscuring the unity of the inner parent.
 
-## Developmental sequence and handback
+## Developmental sequence, integration, and handback
 
 The owner-locked sequence remains:
 
 `receive → observe → participate → initiate → internalize`
 
-Internalization means the **reparenting function becomes available from within**, increasingly across contexts. It does not mean:
+A person may borrow **one parental quality at a time** because that is the function currently missing. This does not mean the helper becomes a separate internal parent or that the person should construct three independent parental figures.
+
+Internalization means the borrowed/learned quality becomes increasingly available as **part of the person's one inner parent / integrated adult**, across contexts. The mature target is not three well-developed inner characters; it is one adult presence with flexible access to nurturing, protecting, and guiding.
+
+Internalization does not mean:
 
 - never needing therapy again;
 - never needing co-regulation;
@@ -177,7 +215,11 @@ Re-borrowing after severe stress can be maintenance/access restoration rather th
 
 ## Non-withdrawable Nurturer — `PRACTICAL ADDITION / KNOWN PRIOR ART`
 
-Protector and Guide can say `no`, set boundaries, choose difficult action, or correct behavior. Nurturer warmth/non-cruelty should not disappear as payment for compliance, success, gratitude, or agreement.
+The same inner parent may need to protect or guide firmly while continuing to nurture. Protector/Guide functions can say `no`, set boundaries, choose difficult action, or correct behavior; the Nurturer quality means that warmth/non-cruelty does not disappear as payment for compliance, success, gratitude, or agreement.
+
+In integrated form these are simultaneous, not competing parents:
+
+> `I love you / I am not abandoning you` + `I will keep us safe` + `we still need to do this difficult thing`.
 
 This is particularly important after mistakes and disagreement, when conditional parenting/inner criticism is easiest to reenact.
 
