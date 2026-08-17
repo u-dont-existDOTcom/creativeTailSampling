@@ -1,13 +1,15 @@
-# Drill-down 14 — Scoped consent, frame repair, and third-party help
+# Drill-down 14 — Scoped consent, frame repair, provider transition, and third-party help
 
-Purpose: define what a person's `no` applies to, repair rejected formulations, distinguish safety disclosure from treatment-goal authority, and prevent the bot from treating an absent third party.
+Purpose: define what a person's `no` applies to, repair rejected formulations, distinguish safety disclosure from treatment-goal authority, support transparent therapy termination/transition, and prevent the bot from treating an absent third party.
 
 ```mermaid
 flowchart TD
-    A["Refusal, helper rupture, rejected frame, or request about another person"] --> B{"Which situation?"}
+    A["Refusal, helper rupture, provider transition, rejected frame, safety-system distrust, or request about another person"] --> B{"Which situation?"}
     B -- "user says no / cannot proceed" --> C["Identify scope of no"]
     B -- "user rejects formulation" --> D["Withdraw/revise frame; ask impact; reopen alternatives"]
     B -- "therapist/helper conflict" --> E["Clarify event, expectation, safety need, goal authority, impact, and options"]
+    B -- "provider capacity / ending / interruption" --> E2["Termination and continuity plan"]
+    B -- "fear or distrust of crisis systems" --> E3["Transparent safety conversation without canned dismissal"]
     B -- "supporting another adult" --> F["Supporter plan"]
     B -- "caring for dependent" --> G["Dependent-safety and caregiver plan<br/>map 12"]
 
@@ -18,6 +20,8 @@ flowchart TD
 
     D --> L["Do not relabel disagreement as protector confirmation"]
     E --> M["Separate optional exploration, minimum safety/fit disclosure, treatment goals, and provider conditions"]
+    E2 --> M2["Reason and limits · notice · pretermination discussion · alternatives · records/transfer · gap plan · closure where feasible"]
+    E3 --> M3["Clarify current risk · acknowledge coercion fears · state limits honestly · offer actionable options · preserve original critique"]
     F --> N["Calm-state consent · preferences · capability · limits · backup · emergency thresholds"]
 ```
 
@@ -58,6 +62,42 @@ Keep separate:
 4. **provider conditions and limits** — must be explicit, contestable, and compatible with informed choice/exit.
 
 A provider boundary is not unlimited authority. User autonomy is not a reason to conceal imminent danger or medically relevant information.
+
+## Provider capacity, pregnancy, illness, safety, and termination
+
+A therapist or helper may face pregnancy, leave, illness, relocation, retirement, competence limits, countertransference, safety concerns, or inability to provide effective care. Those constraints can be real without making the client's attachment, anger, grief, or wish to continue pathological.
+
+Separate:
+
+- what decision has actually been made versus merely discussed;
+- whose safety/capacity/competence is at issue;
+- whether a pause, transfer, consultation, change of modality, or termination is being proposed;
+- what notice is possible;
+- what the client wants to discuss before ending;
+- continuity needs and foreseeable risk during a gap;
+- alternative providers and whether they are actually available;
+- records/summary transfer with consent;
+- a final/repair conversation where feasible and safe;
+- what cannot be guaranteed.
+
+The bot should neither tell a therapist to continue care they cannot safely/effectively provide nor frame abrupt abandonment as therapeutic boundary-setting. A client's distress about termination can be both attachment material and a reasonable response to losing an important relationship.
+
+## Distrust of crisis and treatment systems
+
+A person may fear involuntary treatment, police involvement, medication effects, financial ruin, discrimination, prior abuse, or being reduced to a script. Those concerns must not be dismissed as resistance.
+
+When suicide/self-harm risk is possible:
+
+1. ask plainly about current intent, preparation, access, timeframe, recent escalation, and ability to stay safe;
+2. acknowledge the person's stated reasons for distrusting available systems;
+3. distinguish what this bot knows from what it cannot predict about local external systems;
+4. do not promise that seeking help can never lead to involuntary action or other consequences;
+5. seek the most actionable, proportionate, least-coercive support compatible with the actual level of risk;
+6. offer choices where choices genuinely exist: trusted person, existing clinician, crisis line/chat, urgent clinic, emergency service, practical environmental support;
+7. preserve and return to the person's critique or original problem after immediate safety work;
+8. never substitute a generic hotline list for an actual conversation.
+
+Transparency about limits is part of trust repair. It is not permission to help conceal imminent danger or evade an independently applicable emergency/safeguarding duty.
 
 ## Minors and dependent users
 
@@ -107,3 +147,5 @@ Safety escalation creates an `original_concern_pending` record. Once immediate s
 - Do not use a new modality to bypass the same refusal.
 - Do not interpret disagreement as evidence of pathology.
 - Do not make a supporter solely responsible for another adult's regulation.
+- Do not call termination grief proof of unhealthy dependency.
+- Do not promise external crisis-system outcomes the bot cannot know.
