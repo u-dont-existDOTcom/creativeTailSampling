@@ -1,1 +1,30 @@
-{"schema_version":"real-unprimed-therapy-query-benchmark-v3","created_at":"2026-08-17","base_main":"75c2b6ba23e7298953715024c0cc1a79b22b78a3","branch":"agent/inner-child-real-query-hardening-007","corpus_policy":{"real_public_reddit_original_posts":true,"usernames_removed":true,"light_paraphrase":true,"comments_not_used_to_prime_expected_route":true,"later_updates_not_used_to_prime_expected_route":true,"target_framework_terms_added_to_queries":false,"claims_unverified":true},"case_count":12,"case_files":["cases/RQ7-01.json","cases/RQ7-02.json","cases/RQ7-03.json","cases/RQ7-04.json","cases/RQ7-05.json","cases/RQ7-06.json","cases/RQ7-07.json","cases/RQ7-08.json","cases/RQ7-09.json","cases/RQ7-10.json","cases/RQ7-11.json","cases/RQ7-12.json"]}
+{
+  "schema_version": "real-unprimed-therapy-query-benchmark-v3",
+  "created_at": "2026-08-17",
+  "base_main": "75c2b6ba23e7298953715024c0cc1a79b22b78a3",
+  "branch": "agent/inner-child-real-query-hardening-007-final",
+  "corpus_policy": {
+    "real_public_reddit_original_posts": true,
+    "usernames_removed": true,
+    "light_paraphrase": true,
+    "comments_not_used_to_prime_expected_route": true,
+    "later_updates_not_used_to_prime_expected_route": true,
+    "target_framework_terms_added_to_queries": false,
+    "claims_unverified": true
+  },
+  "case_count": 12,
+  "case_files": [
+    "cases/RQ7-01.json",
+    "cases/RQ7-02.json",
+    "cases/RQ7-03.json",
+    "cases/RQ7-04.json",
+    "cases/RQ7-05.json",
+    "cases/RQ7-06.json",
+    "cases/RQ7-07.json",
+    "cases/RQ7-08.json",
+    "cases/RQ7-09.json",
+    "cases/RQ7-10.json",
+    "cases/RQ7-11.json",
+    "cases/RQ7-12.json"
+  ]
+}
