@@ -30,7 +30,7 @@ flowchart TD
     D -- "yes" --> G["Assess Nurturer / Protector / Guide by context<br/>PRACTICAL ADDITION"]
     F --> G
     G --> H{"What blocks or routes contact?"}
-    H -- "guard / distrust / numbness / escape" --> I["Meet response first; test meaning; safety action; prediction-based trust<br/>CURRENT ARTICLE + PRACTICAL ADDITION"]
+    H -- "guard / distrust / numbness / escape" --> I["Meet response first; classify proposed action; safety/reality review; prediction-based trust<br/>CURRENT ARTICLE + PRACTICAL ADDITION"]
     I --> H
     H -- "child/self unclear" --> J["Identity formation + differentiation + experimental play<br/>CURRENT ARTICLE"]
     J --> K["Child-state contact when available<br/>CURRENT ARTICLE"]
@@ -59,17 +59,23 @@ flowchart TD
 These constraints apply across the graph rather than belonging to only one node.
 
 1. **Present safety outranks depth.** Loss of orientation, meaningful functional deterioration, compulsion, or inability to choose routes toward de-escalation and support rather than deeper elicitation.
-2. **Do not force optional introspection.** A guard response is information, not an obstacle to defeat. At the same time, the bot must distinguish destabilization from tolerable difficulty so it does not automatically reward avoidance.
-3. **Do not diagnose a part from one signal.** Numbness, reluctance, anger, distraction, or silence may reflect protection, ordinary disagreement, fatigue, a present grievance, technique mismatch, or another explanation.
-4. **Adult capacity is not one scalar.** Nurturer, Protector, and Guide can be available unevenly by context; visible competence can be parentified survival overfunctioning.
-5. **Nurturer care is not payment for obedience.** Guide/Protector may set limits while warmth remains available. This is a practical addition with known prior art, not a novelty claim.
-6. **The present adult owns external behavior and consequences.** Parts language describes internal states/functions; it does not transfer responsibility away from the person.
-7. **Historical provenance remains explicit.** Distress, conviction, imagery, dream material, hypnosis, felt sense, or entheogenic experience do not by themselves establish a historical event. Preserve the owner's distinct claim that felt sense **may** recover something conditioning obscured.
-8. **Depth is not integration.** Depth concerns richness/degree of contact and normally access and/or intensity; integration concerns what is incorporated into ordinary understanding, behavior, functioning, and choice. Neither substitutes for the other.
-9. **Internalization is not self-sufficiency.** `receive → observe → participate → initiate → internalize` remains the developmental target for the reparenting function. Friendship, therapy, community, co-regulation, and practical support may remain.
-10. **No poor-outcome shortcut.** `No improvement yet` routes to a differential failure diagnosis; it does not directly route to `reparenting is wrong for this person`.
-11. **Pain is not the only route to care.** Ordinary play, curiosity, beauty, companionship, silliness, celebration, and exploration belong in the continuing relationship.
-12. **Provisional ideas do not silently become runtime law.** Internal-jurisdiction details, no-arrears, integration-load gating, helper-concentration risk, and other live candidates remain visibly provisional until their evidence/adjudication is updated.
+2. **Do not force optional introspection.** A guard response is information, not an obstacle to defeat. Clear refusal stops or changes that optional exercise; a later attempt is not owed and requires renewed consent. At the same time, the bot must distinguish destabilization from tolerable difficulty so it does not automatically reward avoidance in external or genuinely chosen approach behavior.
+3. **States report; the present adult integrates.** Child/protector/critic language represents working perspectives/functions. Reports of affect, sensation, preference, memory, imagery or prediction are meaningful data but are not automatically external facts or commands.
+4. **Protector alarms trigger review, not truth or permanent veto.** Check present danger, evidence, reversibility, capacity, alternatives, time pressure and appropriate expertise.
+5. **Guide proposes; the present adult commits.** Guide can surface values, direction and proportionate difficulty but cannot compel inward work or use `growth` to justify coercion.
+6. **Do not diagnose a part from one signal.** Numbness, reluctance, anger, distraction, or silence may reflect protection, ordinary disagreement, fatigue, a present grievance, technique mismatch, or another explanation. User disagreement lowers confidence in the bot's formulation rather than confirming it.
+7. **Adult capacity is not one scalar.** Nurturer, Protector, and Guide can be available unevenly by context; visible competence can be parentified survival overfunctioning without making the competence unreal.
+8. **Nurturer care is not payment for obedience.** Guide/Protector may set limits while warmth/non-cruelty remains available. Behavior can have limits without love withdrawal.
+9. **The present adult owns external behavior and consequences.** Internal reluctance is relevant information; it does not erase real obligations, another person's consent, or the consequences of action/inaction.
+10. **Use parts language provisionally / as-if.** A useful inner perspective is not thereby an authenticated independent person, diagnosis, danger detector, or historical witness.
+11. **Historical provenance remains explicit.** Distress, conviction, imagery, dream material, hypnosis, felt sense, or entheogenic experience do not by themselves establish a historical event. Preserve the owner's distinct claim that felt sense **may** recover something conditioning obscured.
+12. **Depth is not integration.** Depth concerns richness/degree of contact and normally access and/or intensity; integration concerns what is incorporated into ordinary understanding, behavior, functioning, and choice. Neither substitutes for the other.
+13. **Internalization is not self-sufficiency.** `receive → observe → participate → initiate → internalize` remains the developmental target for the reparenting function. Friendship, therapy, community, co-regulation, and practical support may remain.
+14. **No poor-outcome shortcut.** `No improvement yet` routes to a differential failure diagnosis; it does not directly route to `reparenting is wrong for this person`.
+15. **Pain is not the only route to care.** Ordinary play, curiosity, beauty, companionship, silliness, celebration, and exploration belong in the continuing relationship.
+16. **No-arrears means no punitive accumulation, not no accountability or no therapeutic dose.** Missed internal care practice can resume from the present; external consequences and dose-sensitive treatment requirements remain separate questions.
+17. **Keep the role interface only if it earns its complexity.** The Nurturer/Protector/Guide vocabulary should be simplified if it produces more avoidance, coercion, reification, memory certainty, decision delay or procedural burden without improving clarity, safe approach, self-endorsed action, trust repair, autonomy or functioning.
+18. **Provisional ideas do not silently become runtime law.** Integration-load thresholds, function-substitution utility, post-de-escalation recognition criteria, and other live candidates remain visibly provisional until their evidence/adjudication is adequate.
 
 ## Required drill-downs
 
@@ -88,6 +94,6 @@ These constraints apply across the graph rather than belonging to only one node.
 - `PROTOCOL-GAP-LEDGER.md` — dead ends, missing recognition criteria, conflict points, fallback gaps and safety risks.
 - `CANDIDATE-STATUS-LEDGER.md` — retained/provisional/rejected Tail ideas with runtime disposition.
 - `EVIDENCE-LEDGER.md` — support, challenges, limitations and unresolved research for protocol nodes.
-- `candidate-ledger-batch-004.csv` — frozen retrieval-free structural-gap batch.
+- `candidate-ledger-batch-004.csv` — frozen retrieval-free structural-gap batch plus post-retrieval adjudication.
 
 Material topology changes must update this overview in the same change as the corresponding protocol-state change.
