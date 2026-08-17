@@ -18,10 +18,12 @@ flowchart TD
     L --> M["Diagnose why it failed"]
     M --> N["Resize / redesign / explicitly retire or renegotiate promise"]
     N --> O{"What obligation remains?"}
-    O -- "internal care practice" --> P["Resume from present; no punitive catch-up debt<br/>PROVISIONAL no-arrears"]
+    O -- "missed internal care practice" --> P["Resume from present; no punitive catch-up debt<br/>PRACTICAL ADDITION"]
     O -- "external consequence" --> Q["Repair / restitution / task may still be owed<br/>PRACTICAL ADDITION"]
+    O -- "dose-sensitive therapy" --> S["Preserve clinically necessary practice/dose without moral debt"]
     P --> R["Return without demanding forgiveness or immediate trust"]
     Q --> R
+    S --> R
     R --> B
 ```
 
@@ -68,6 +70,8 @@ not:
 
 `promise → miss → shame → bigger promise`.
 
+Alliance-rupture research strongly supports the general importance of recognizing ruptures, accepting responsibility where appropriate, exploring their impact, and restoring collaboration. The transfer from therapist-client rupture to an internal self-relationship is an architectural application, not a novel mechanism claim.
+
 ### Failure diagnosis after a miss
 
 Ask which explanation best fits rather than assuming moral failure:
@@ -98,19 +102,23 @@ If it was unrealistic:
 
 This distinguishes honest learning from moving the goalposts.
 
-## No-arrears rule — `PROVISIONAL / RESEARCH NEEDED`
+## No-arrears rule — `PRACTICAL ADDITION / REJECTED FOR NOVELTY`
 
-Candidate:
+Exa semantic collision plus independent Parallel Task falsification found no recognized named reparenting/IFS `no-arrears rule`, but the component logic is already strongly represented by CBT homework troubleshooting, relapse-prevention lapse handling, self-compassion after failure, graded behavioral activation, goal re-engagement, and ordinary habit-return advice. Exposure/ERP evidence supplies the crucial limitation that adequate therapeutic practice can matter.
 
-> Missed reparenting/self-care practice generally should not accumulate into punitive catch-up debt. The miss becomes information about capacity/design/sequencing/avoidance/reality, and care resumes from the present.
+Current rule:
 
-Important boundary:
+> **Abolish punitive accumulation, not accountability or therapeutic dose.** A missed reparenting/self-care practice does not automatically create catch-up debt. Name the miss, diagnose what it reveals, repair any actual breach, and choose a present-tense next action that still serves the therapeutic function.
 
-> **No-arrears is not no-accountability.** An internal practice may expire; an external consequence may not. If the miss harmed somebody, left a bill unpaid, violated a real agreement, or created another concrete obligation, appropriate repair/restitution/action can remain due.
+### Three separate accounting questions
 
-This boundary prevents a self-compassion rule from becoming an avoidance rule.
+1. **Internal care practice:** a missed journaling/reparenting/check-in session usually does not mean the person now `owes` multiple compensatory sessions. Resume from the present and redesign if misses repeat.
+2. **External consequence:** if the miss harmed somebody, left a bill unpaid, violated an agreement, or created another concrete obligation, appropriate repair/restitution/action can remain due.
+3. **Dose-sensitive treatment:** an evidence-based treatment may require sufficient total practice/exposure/repetition. Preserve that therapeutic requirement through planning/rescheduling; do not translate it into shame or moral debt.
 
-Parallel Task deep research on the no-arrears candidate is active under run `trun_201682d6febd4300b59f13e08a55ce07`; do not promote strict originality before that result is adjudicated with Exa evidence.
+Repeated misses are **trend data**. They increase the need to reformulate capacity, avoidance, task design, support, sequencing, environmental barriers or treatment fit. They do not justify endless identical retries.
+
+Evidence record: `../retrieval/NO-ARREARS-EXA-PARALLEL-20260817.md`.
 
 ## Success signals
 
@@ -120,7 +128,8 @@ Parallel Task deep research on the no-arrears candidate is active under run `tru
 - misses are acknowledged faster;
 - repair behavior increases;
 - trust becomes evidence-sensitive instead of reassurance-sensitive;
-- a breach no longer automatically ends the whole practice.
+- a breach no longer automatically ends the whole practice;
+- missed practice does not generate punitive backlog while needed therapeutic dose/accountability is still preserved.
 
 ## Failure signals
 
@@ -129,4 +138,5 @@ Parallel Task deep research on the no-arrears candidate is active under run `tru
 - redefining the promise after failure to preserve a `success` narrative;
 - demanding gratitude/forgiveness/trust after repair;
 - using no-arrears to evade external responsibility;
+- using no-arrears to eliminate a dose-dependent treatment mechanism;
 - globalizing one success into `the adult is now trustworthy everywhere`.
