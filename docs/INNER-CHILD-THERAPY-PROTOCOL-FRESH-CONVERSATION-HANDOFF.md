@@ -2,7 +2,8 @@
 
 Updated: 2026-08-17
 Authoritative repo: `u-dont-existDOTcom/creativeTailSampling`
-Working branch at creation: `agent/inner-child-therapy-protocol-mermaid-20260817`
+Active working branch at this checkpoint: `agent/inner-child-therapy-protocol-mermaid-20260817`
+Base inner-child head: `7cb7ad8f75fdb3a423157a94c8c23ba78712031c`
 Mode: research / therapy-protocol architecture / evidence hardening; **do not edit article prose unless explicitly authorized**
 
 ## Recover GitHub state first
@@ -17,14 +18,15 @@ For this lane, read:
 4. `FINDINGS.md`
 5. **`analysis/inner_child_protocol/STATE.md`**
 6. **`analysis/inner_child_protocol/THERAPY-PROTOCOL-OVERVIEW.md`**
-7. all eight `analysis/inner_child_protocol/maps/*.md` drill-downs
+7. all **nine** `analysis/inner_child_protocol/maps/*.md` drill-downs
 8. `analysis/inner_child_protocol/PROTOCOL-GAP-LEDGER.md`
 9. `analysis/inner_child_protocol/ARTICLE-PROTOCOL-CROSSWALK.md`
 10. `analysis/inner_child_protocol/CANDIDATE-STATUS-LEDGER.md`
 11. `analysis/inner_child_protocol/EVIDENCE-LEDGER.md`
-12. current retrieval records under `analysis/inner_child_protocol/retrieval/`
-13. `analysis/inner_child_article/OWNER-CORRECTIONS-BATCH-001.md`
-14. Batch 002/003 candidate ledgers and runs as needed.
+12. `runs/2026-08-17-inner-child-therapy-protocol-map-audit-004.md`
+13. current retrieval records under `analysis/inner_child_protocol/retrieval/`
+14. `analysis/inner_child_article/OWNER-CORRECTIONS-BATCH-001.md`
+15. Batch 002/003 candidate ledgers/runs as needed.
 
 The **canonical therapy Mermaid overview is mandatory reading**. The therapy bot is expected to rely heavily on that operational topology rather than infer workflow from prose.
 
@@ -39,7 +41,7 @@ especially:
 - `patterns/living-mermaid-workflow-maps.md`
 - `patterns/chatgpt-developer-mcp-chat-lifecycle.md`
 
-Mermaid rule: overview + focused drill-downs, living and source-controlled. If protocol topology changes materially, update the map in the same change.
+Mermaid rule: overview + focused drill-downs, living and source-controlled. If protocol topology changes materially, update the map in the same logical change.
 
 ## Article source
 
@@ -49,32 +51,35 @@ Current article source resolved from File Library:
 - created 2026-08-16 11:57:27 UTC
 - inherited contemporaneous SHA-256 `2d81a6d01fc5b31f96ca9ca3a54a3109d4b80d56114089d1acb4471110631fe4`
 
-The current runtime reopened the parsed article but did not have raw File Library bytes to recompute the SHA. Preserve that distinction.
+The current runtime reopened the parsed article but did not have raw File Library bytes to recompute the SHA. Preserve that distinction. Later same-named File Library entries were handoff packets, not newer article revisions.
 
 ## Primary goal
 
 Make the **actual therapy protocol** complete, internally coherent, operational and failure-resistant for eventual therapy-bot use.
 
-Creative Tail Sampling is one discovery mechanism. Useful known prior art should be promoted into the practical protocol freely; strict originality still requires the full hostile gate.
+Creative Tail Sampling is one discovery mechanism. Useful known prior art should enter the practical protocol when justified; strict originality still requires the full hostile gate.
 
 ## Canonical protocol architecture
 
-Canonical overview:
+Overview:
 
 `analysis/inner_child_protocol/THERAPY-PROTOCOL-OVERVIEW.md`
 
 Drill-downs:
 
-1. state assessment / routing
-2. adult-function architecture
-3. protector / resistance handling
-4. trust / promise / rupture / repair
-5. identity / differentiation
-6. depth / altered states
-7. external support
-8. outcome / failure diagnosis
+1. state assessment / routing;
+2. adult-function architecture;
+3. protector / resistance handling;
+4. trust / promise / rupture / repair;
+5. identity / differentiation;
+6. depth / altered states;
+7. external support;
+8. outcome / failure diagnosis;
+9. **therapy-bot longitudinal safety / operation-permission routing**.
 
 Do not replace them with one mega-graph.
+
+The ninth map is intentionally bot-specific: it evaluates relevant multi-turn safety trajectory, missing information and operation permissions before ordinary therapeutic operation selection.
 
 ## Owner-locked distinctions
 
@@ -104,61 +109,67 @@ Preserve: felt sense **may know what the conditioned self was trained to forget*
 
 Historical certainty/source provenance safeguards coexist with this claim.
 
-## Current provider state
+## Provider state — actual execution works
 
-Actual fresh-chat smoke tests succeeded:
+Fresh-chat execution succeeded for:
 
 - `exa_mcp_search.web_search_exa`
 - `Parallels_Task_MCP.createDeepResearch`
 - `Parallels_Task_MCP.getStatus`
 - `Parallels_Task_MCP.getResultMarkdown`
 
-Completed Parallel run:
+Completed Parallel runs:
 
 - no-arrears: `trun_201682d6febd4300b59f13e08a55ce07`
+- internal-jurisdiction hardening: `trun_201682d6febd430086d514bfd8db3648`
 
-Live at handoff creation:
+Both final results are persisted under `analysis/inner_child_protocol/retrieval/`. **No Parallel task from Batch 004 remains live.**
 
-- internal-jurisdiction protocol-hardening run: `trun_201682d6febd430086d514bfd8db3648`
+## Strongest practical changes now active
 
-Poll automatically and persist the result. Do not stop at a Task URL/ID.
-
-## Current strongest practical additions
-
-- Nurturer / Protector / Guide assessed by **function × context**, not one adult-capacity score.
-- Parentified people may have genuine competence plus survival-driven imbalance; do not call competence fake.
-- Explicit adult-function substitution troubleshooting.
-- Contestable protector/parts formulation; disagreement is not diagnostic proof.
-- Guard respect + anti-avoidance distinction: optional introspection stays voluntary; tolerable chosen difficulty is not the same as destabilization.
-- Nurturer care/non-cruelty does not become contingent on obedience, success, gratitude or agreement.
-- Prediction-based, domain-specific trust repair.
-- Broken-promise rupture/repair and explicit promise renegotiation.
-- No-arrears: `abolish punitive accumulation, not accountability or therapeutic dose`.
-- Ordinary positive child-adult relationship outside crisis.
-- Differentiation is not default isolation.
-- Source provenance at ingestion as a safety/epistemic gate.
-- Integration-load check before deliberate depth escalation; no universal waiting interval.
-- External-helper concentration as a dependency/power **review checklist**, not proof of pathology and not a special nonlinear mechanism.
-- Outcome/adverse-effect monitoring plus explicit failure localization.
+- **Safety/permission before operation selection.** The bot first determines what classes of operation are currently permitted and what material safety/fit information is missing.
+- **Longitudinal safety.** Explicitly test multi-turn loops involving avoidance/reassurance, dependency/authority, memory certainty, parts reification, coercive growth, failure debt, intensity chasing and model sealing.
+- **Operation-specific capacity, not global `ready/not ready`.** Use the least restrictive sufficient gate for the next bounded operation; do not require symptom-free calm or indefinite stabilization.
+- **Function × context**, not one adult-capacity score.
+- **Parentification correction.** Real competence remains real; separate developmental-history evidence from current costly overfunctioning/function imbalance. If history is unknown, do not infer parentification.
+- **Function/intervention matching is known prior art.** N/P/G mismatch is a practical formulation heuristic and must earn its complexity against simpler case formulation.
+- **Contestable/as-if parts formulation.** User disagreement lowers confidence; role labels are not diagnoses or historical witnesses.
+- **Guard `not now`.** A clear refusal stops/changes optional introspection. A later attempt is not owed; later work requires renewed consent. Anti-avoidance reasoning does not authorize forced re-entry.
+- **Thin adult-led interface, not internal constitution.** States report; Protector triggers review; Guide proposes; Nurturer cares; present adult integrates facts/values/obligations/expertise/consequences and owns external action.
+- **Nurturer care/non-cruelty is not contingent on obedience, success, gratitude or agreement.**
+- **Prediction-based, domain-specific trust repair.**
+- **Broken-promise repair:** miss → acknowledge → impact → repair → diagnose → resize/renegotiate → return.
+- **No-arrears:** `abolish punitive accumulation, not accountability or therapeutic dose`.
+- **Ordinary positive relationship outside crisis.**
+- **Differentiation is not default isolation.**
+- **Source provenance at ingestion** with confidence/meaning separate from source class.
+- **Integration-load check before deliberate depth escalation; no universal waiting interval or debt score.**
+- **External-helper concentration is a review checklist**, not proof of pathology or a special nonlinear mechanism.
+- **Outcome/adverse-effect monitoring plus explicit failure localization.**
+- **Missing material information is a gate:** collect it, choose an operation that does not require it, or defer/escalate instead of guessing.
 
 ## Strict Tail state
 
-No Batch 002–004 candidate is currently promoted as a strict Tail survivor.
+No Batch 002–004 candidate is promoted as a strict Tail survivor.
 
-This is not a failure. Protocol hardening is the primary objective.
+That is compatible with success because protocol hardening is the primary objective.
 
-No-arrears failed strict novelty after Exa + independent Parallel while remaining useful.
+Key novelty decisions:
 
-Internal jurisdiction/constitution is already heavily collided by IFS Self leadership, Schema Therapy Healthy Adult/limited reparenting, Transactional Analysis/ego-state structures and autonomy-supportive parenting. The live Parallel task is evaluating the **minimal useful rule set**, not trying to save novelty.
+- no-arrears: practical rule retained; strict novelty rejected after Exa + independent Parallel;
+- internal jurisdiction/constitution: strict novelty rejected; formal constitution rejected in favor of a thin interface;
+- parentification/function imbalance: known roots; terminology/routing corrected;
+- function matching: direct Schema Therapy prior art at the general level;
+- longitudinal bot-safety architecture: strong current digital-mental-health prior art; practical safety addition, not Tail novelty.
 
 ## Current unresolved structural questions
 
-1. Can a guard's `not now` have a later review/re-entry architecture without creating covert coercion or automatic retry?
-2. How explicit should internal jurisdiction be once novelty is discarded?
-3. Does function-substitution diagnosis improve actual intervention choice beyond generic formulation?
-4. What non-pseudoprecise criteria should define enough integration/restored capacity before further depth?
-5. What restored state is enough after de-escalation before deeper re-entry?
-6. Which recognition/failure fields must a future bot be required to collect before traversing a transition?
+1. What qualitative observations are enough for deliberate depth re-entry after destabilization/incomplete integration without pseudoprecise scoring, zero-distress requirements or indefinite stabilization?
+2. Does the N/P/G intervention-mismatch matrix improve routing over the simpler `what process is active → what response helps?` formulation?
+3. Which current-function signs of possible parentification-linked overfunctioning are worth collecting without overpathologizing competence or inferring unestablished developmental history?
+4. Which recognition/failure/provenance/permission fields must a future implementation require for each transition, and how should `unknown` constrain operations?
+5. Does the thin role interface outperform the simpler adult-led competitor in clarity, safe action, autonomy, functioning and burden?
+6. How should longitudinal bot safety be validated in real multi-turn use, including privacy/retention, false-positive escalation, missed gradual risk and actionable external-support paths?
 
 ## Retrieval architecture for any new strict candidate
 
@@ -177,12 +188,15 @@ Do not retrieve during initial candidate generation.
 
 Known/practical mechanisms do not need novelty gates before entering the practical ledger when their correctness/safety is sufficiently established.
 
+## Evidence-status warning
+
+The full Mermaid architecture is a **research-stage synthesis**, not a validated unified treatment. Individual components have varying levels of direct or adjacent support. Current mental-health chatbot safety research supports architectural safeguards but does not establish that a future deployment of this protocol is safe.
+
 ## Exact next actions
 
-1. Poll/retrieve Parallel Task `trun_201682d6febd430086d514bfd8db3648`.
-2. Persist the result under `analysis/inner_child_protocol/retrieval/`.
-3. If it changes runtime architecture, update the canonical overview and relevant drill-down in the same change.
-4. Complete the Batch-004 run record and exact checkpoint.
-5. Verify Mermaid topology for dead ends, missing observable routing information and loops without exits.
-6. Keep article→protocol crosswalk synchronized.
-7. Do not edit article prose yet.
+1. Resolve the current GitHub branch head; do not trust the SHA in an old handoff over the live branch.
+2. Read `analysis/inner_child_protocol/STATE.md`, the canonical overview, all nine maps, gap/candidate/evidence ledgers, article crosswalk and Batch-004 run record.
+3. Continue practical research on the six unresolved recognition/comparative/deployment questions above before building the software schema.
+4. Keep maps, ledgers and evidence synchronized in the same logical protocol changes.
+5. For any new strict candidate, restart with retrieval-free generation before Exa/Parallel.
+6. Keep article prose unchanged until the owner explicitly authorizes editing.
