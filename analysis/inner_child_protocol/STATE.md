@@ -1,8 +1,8 @@
 # Inner-child / reparenting therapy protocol — Resume state
 
 Updated: 2026-08-17  
-Active branch: `agent/inner-child-real-query-hardening-007-final`  
-Batch-006 merged base: `75c2b6ba23e7298953715024c0cc1a79b22b78a3`  
+Authoritative merged `main`: `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`  
+Batch-006 merge checkpoint: `75c2b6ba23e7298953715024c0cc1a79b22b78a3`  
 One-parent semantic checkpoint before real-query hardening: `db591713a3feb0a1576943408ae356685c0034ec`  
 Mode: research / protocol architecture / real-query testing; **article editing not authorized**
 
@@ -43,11 +43,13 @@ The protocol is a thin actor/problem-class router plus focused outer safety/auth
 
 ### Batch 006 — merged
 
-Batch 006 added the actor/problem-class/current-reality router plus maps 10–14 and 16 real, unprimed fixtures. It was merged through PR #1 as commit `75c2b6ba23e7298953715024c0cc1a79b22b78a3`.
+Batch 006 added the actor/problem-class/current-reality router plus maps 10–14 and 16 real, unprimed fixtures. It merged through PR #1 as commit `75c2b6ba23e7298953715024c0cc1a79b22b78a3`.
 
-### Batch 007 — active branch
+### Batch 007 — merged
 
-Twelve further real, unprimed original-post cases tested:
+Batch 007 added map 15 and twelve further real, unprimed original-post cases. It merged through PR #2 as commit `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`.
+
+The tested cases covered:
 
 - educational deprivation and capability;
 - real deception versus checking accommodation;
@@ -88,6 +90,7 @@ Material Batch 007 corrections:
 - [`OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-007.md`](OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-007.md)
 - [`../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-007.md`](../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-007.md)
 - [`../../runs/2026-08-17-inner-child-real-query-map-hardening-007.md`](../../runs/2026-08-17-inner-child-real-query-map-hardening-007.md)
+- [`VERIFICATION-BATCH-007.md`](VERIFICATION-BATCH-007.md)
 
 Read all base ledgers together with both Batch 006 and Batch 007 supplements.
 
@@ -107,10 +110,10 @@ No Batch 006 or Batch 007 correction is promoted as a strict Tail survivor. Thes
 
 ## Exact next move
 
-1. Resolve the live Batch 007 branch/PR head.
-2. Make InnerSignalGraph consume both Batch 006 and Batch 007 addenda and all 28 new fixtures.
-3. Test map 15 against simpler functional analysis in the executable runtime.
-4. Select the next real-query batch from remaining high-risk gaps rather than near-duplicate dramatic cases.
+1. Make InnerSignalGraph consume both Batch 006 and Batch 007 addenda and all 28 new fixtures.
+2. Test map 15 against simpler functional analysis in the executable runtime.
+3. Select the next real-query batch from remaining high-risk gaps rather than near-duplicate dramatic cases.
+4. Patch topology only for genuine permission/authority/epistemic/handoff/exit defects.
 5. Keep article prose unchanged until explicit authorization.
 
 ## Evidence-status warning
