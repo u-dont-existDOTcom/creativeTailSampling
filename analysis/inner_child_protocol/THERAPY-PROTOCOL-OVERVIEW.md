@@ -30,11 +30,13 @@ flowchart TD
     D -- "supporting another / caring for dependent" --> E["Supporter or caregiver route<br/>maps 12 and 14"]
     D -- "external · medical · grief · certainty · actual harm · problem portfolio" --> F["Use the relevant outer drill-down<br/>maps 00 and 10–13"]
     D -- "skill · scaffold · insight–action gap" --> F2["Capability / teaching / scaffold route<br/>map 15"]
+    D -- "high-impact refusal · capacity concern · treatment ambivalence" --> F3["Supported-choice / capacity / ambivalence route<br/>map 16"]
     D -- "internal developmental · identity · trust · reparenting" --> G{"Enough operation-specific capacity?"}
     D -- "mixed / unknown" --> H["Low-demand support + collect discriminating information"]
     E --> O["Outcome, adverse-effect, and next-need review"]
     F --> O
     F2 --> O
+    F3 --> O
     H --> X
 
     G -- "no" --> I["Reduce demand; regulate; borrow capacity; choose lower-demand operation"]
@@ -75,7 +77,7 @@ flowchart TD
 7. **Use the person's language first.** Framework vocabulary remains internal or tentative unless it clearly helps and the person accepts it.
 8. **Frame rejection is corrective evidence.** Stop or revise a rejected formulation; do not treat disagreement as confirmation.
 9. **Consent is operation-scoped.** A refusal may concern content, modality, intensity, timing, helper, or all engagement. A later attempt is not owed.
-10. **Optional introspection, minimum necessary safety/fit disclosure, and treatment-goal authority are distinct.**
+10. **Optional introspection, minimum necessary safety/fit disclosure, treatment-goal authority, and legal decision capacity are distinct.**
 11. **External handoffs are closed-loop.** Relevant → private/reachable → attempted → response → bridge/handoff; naming a resource alone is not completion.
 12. **Use operation-specific capacity, including physical capacity.** Distress, medical burden, sleep loss, intoxication, withdrawal, recovery time, and functional cost can alter what is safe.
 13. **Present safety outranks depth.**
@@ -103,7 +105,10 @@ flowchart TD
 35. **Pain is not the only route to care.**
 36. **No-arrears abolishes punitive accumulation, not accountability, restitution, or clinically necessary dose.**
 37. **Missing material information remains unknown.** Collect it, choose an operation that does not require it, or defer/escalate.
-38. **The full composite protocol is research-stage.** Do not present the unified topology as a clinically validated complete treatment.
+38. **Decision capacity is decision-specific and time-specific.** Presume capacity; support the person's own decision-making first; an unwise decision, diagnosis, risk, or lack of `insight` does not itself establish incapacity. The bot never certifies legal/clinical capacity.
+39. **Ambivalence is not resistance or incapacity.** Keep the person's own goal, minimum safety, harm reduction, full change, provider conditions, and third-party safety distinct.
+40. **Concern does not create surrogate authority.** A supporter may report risk, set limits, and protect dependents without becoming another adult's sole monitor, guarantor, or legal decision-maker.
+41. **The full composite protocol is research-stage.** Do not present the unified topology as a clinically validated complete treatment.
 
 ## Required drill-downs
 
@@ -123,5 +128,6 @@ flowchart TD
 13. [`maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md`](maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md)
 14. [`maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md`](maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md)
 15. [`maps/15-CAPABILITY-SKILL-SCAFFOLD-AND-INSIGHT-ACTION-GAP.md`](maps/15-CAPABILITY-SKILL-SCAFFOLD-AND-INSIGHT-ACTION-GAP.md)
+16. [`maps/16-DECISION-CAPACITY-SUPPORTED-CHOICE-AND-AMBIVALENCE.md`](maps/16-DECISION-CAPACITY-SUPPORTED-CHOICE-AND-AMBIVALENCE.md)
 
 Material topology changes must update this overview and the relevant drill-down/ledger in the same logical change.
