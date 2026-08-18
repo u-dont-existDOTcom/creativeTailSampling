@@ -1,9 +1,10 @@
 # Inner-child / reparenting therapy protocol — Resume state
 
 Updated: 2026-08-17  
-Authoritative merged `main`: `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`  
-Batch-006 merge checkpoint: `75c2b6ba23e7298953715024c0cc1a79b22b78a3`  
-One-parent semantic checkpoint before real-query hardening: `db591713a3feb0a1576943408ae356685c0034ec`  
+Active Batch-008 branch: `agent/inner-child-real-query-hardening-008`  
+Current merged base: `e10d773edc65344bd88c73991e2b9d268d189bc1`  
+Batch-007 therapy merge: `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`  
+Original one-parent semantic checkpoint before real-query hardening: `db591713a3feb0a1576943408ae356685c0034ec`  
 Mode: research / protocol architecture / real-query testing; **article editing not authorized**
 
 ## Canonical control surface — read first
@@ -30,6 +31,7 @@ The protocol is a thin actor/problem-class router plus focused outer safety/auth
 13. [`maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md`](maps/13-GRIEF-LOSS-AND-NONPATHOLOGICAL-PAIN.md)
 14. [`maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md`](maps/14-SCOPED-CONSENT-FRAME-REPAIR-AND-THIRD-PARTY-HELP.md)
 15. [`maps/15-CAPABILITY-SKILL-SCAFFOLD-AND-INSIGHT-ACTION-GAP.md`](maps/15-CAPABILITY-SKILL-SCAFFOLD-AND-INSIGHT-ACTION-GAP.md)
+16. [`maps/16-DECISION-CAPACITY-SUPPORTED-CHOICE-AND-AMBIVALENCE.md`](maps/16-DECISION-CAPACITY-SUPPORTED-CHOICE-AND-AMBIVALENCE.md)
 
 ## Owner-locked ontology and distinctions
 
@@ -43,78 +45,82 @@ The protocol is a thin actor/problem-class router plus focused outer safety/auth
 
 ### Batch 006 — merged
 
-Batch 006 added the actor/problem-class/current-reality router plus maps 10–14 and 16 real, unprimed fixtures. It merged through PR #1 as commit `75c2b6ba23e7298953715024c0cc1a79b22b78a3`.
+- PR #1; merge `75c2b6ba23e7298953715024c0cc1a79b22b78a3`.
+- Added map 00, maps 10–14, and 16 real unprimed fixtures.
 
 ### Batch 007 — merged
 
-Batch 007 added map 15 and twelve further real, unprimed original-post cases. It merged through PR #2 as commit `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`.
+- PR #2; therapy merge `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`.
+- Post-merge state reconciliation on `main`: `e10d773edc65344bd88c73991e2b9d268d189bc1`.
+- Added map 15 and 12 real unprimed fixtures.
+- Key corrections: awareness ≠ control; missing instruction ≠ missing Guide; scaffold loss ≠ failed internalization; bodily/social identity boundaries are not presumed avoidance; provider transition, safety-system distrust, and reactive self-protection became explicit.
 
-The tested cases covered:
+### Batch 008 — active branch
 
-- educational deprivation and capability;
-- real deception versus checking accommodation;
-- insight without behavioral control;
-- therapist pregnancy/termination;
-- new-parent role transition;
-- asexuality and sexualized social pressure;
-- loss of an external self-care scaffold;
-- pleasure/rest with family obligations;
-- breastfeeding and bodily autonomy;
-- fever-dream memory uncertainty;
-- suicide-system distrust;
-- sexual-boundary violation and reactive force.
+Batch 008 adds map 16 and eleven further real, unprimed fixtures.
 
-Material Batch 007 corrections:
+New active corrections:
 
-1. awareness/witness capacity does not establish behavioral control;
-2. missing education/instruction is not missing Guide capacity;
-3. external scaffold loss is not failed internalization;
-4. checking may be both a certainty loop and a response to real deception;
-5. provider transition requires continuity/termination architecture;
-6. major role-transition ambivalence is not automatically pathology;
-7. stated identity/bodily/social boundaries are not presumed avoidance;
-8. legitimate interests do not transfer authority over another adult's body;
-9. safety-system distrust requires transparent, non-canned risk conversation;
-10. reactive force requires chronology and consent context without false equivalence.
+1. decision capacity is decision-specific and time-specific;
+2. an unwise decision, diagnosis, family disagreement, risk, or `lack of insight` does not itself establish incapacity;
+3. supported decision-making precedes substitute decision-making where feasible;
+4. the bot does not certify capacity, appoint a surrogate, or infer lawful authority;
+5. treatment ambivalence is not resistance or incapacity;
+6. person-owned goal, minimum safety, harm reduction, full change, provider conditions, and third-party/dependent safety remain distinct;
+7. severe eating-disorder risk routes to specialist medical/ED care without individualized chatbot refeeding instructions;
+8. confession compulsion and a material right-to-know require a differential;
+9. supporting a suicidal adult does not make the supporter sole monitor, guarantor, or surrogate;
+10. suicide risk and coercive relational effect can coexist;
+11. prior medication benefit and current adverse effects/contraindication can coexist;
+12. leaving a totalizing childhood role/worldview may require safety, identity plurality, practical independence, and alternate belonging.
 
-## Batch 007 records
+Batch 008 records:
 
-- [`REAL-QUERY-TRACE-AUDIT-BATCH-007.md`](REAL-QUERY-TRACE-AUDIT-BATCH-007.md)
-- [`real-query-batch-007/README.md`](real-query-batch-007/README.md)
-- [`real-query-batch-007/manifest.json`](real-query-batch-007/manifest.json)
-- individual cases under [`real-query-batch-007/cases/`](real-query-batch-007/cases/)
-- [`CORRECTION-LEDGER-BATCH-007.md`](CORRECTION-LEDGER-BATCH-007.md)
-- [`PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-007.md`](PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-007.md)
-- [`EVIDENCE-LEDGER-SUPPLEMENT-BATCH-007.md`](EVIDENCE-LEDGER-SUPPLEMENT-BATCH-007.md)
-- [`ARTICLE-PROTOCOL-CROSSWALK-SUPPLEMENT-BATCH-007.md`](ARTICLE-PROTOCOL-CROSSWALK-SUPPLEMENT-BATCH-007.md)
-- [`OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-007.md`](OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-007.md)
-- [`../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-007.md`](../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-007.md)
-- [`../../runs/2026-08-17-inner-child-real-query-map-hardening-007.md`](../../runs/2026-08-17-inner-child-real-query-map-hardening-007.md)
-- [`VERIFICATION-BATCH-007.md`](VERIFICATION-BATCH-007.md)
+- [`REAL-QUERY-TRACE-AUDIT-BATCH-008.md`](REAL-QUERY-TRACE-AUDIT-BATCH-008.md)
+- [`real-query-batch-008/README.md`](real-query-batch-008/README.md)
+- [`real-query-batch-008/manifest.json`](real-query-batch-008/manifest.json)
+- individual fixtures under [`real-query-batch-008/cases/`](real-query-batch-008/cases/)
+- [`CORRECTION-LEDGER-BATCH-008.md`](CORRECTION-LEDGER-BATCH-008.md)
+- [`PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-008.md`](PROTOCOL-GAP-LEDGER-SUPPLEMENT-BATCH-008.md)
+- [`EVIDENCE-LEDGER-SUPPLEMENT-BATCH-008.md`](EVIDENCE-LEDGER-SUPPLEMENT-BATCH-008.md)
+- [`ARTICLE-PROTOCOL-CROSSWALK-SUPPLEMENT-BATCH-008.md`](ARTICLE-PROTOCOL-CROSSWALK-SUPPLEMENT-BATCH-008.md)
+- [`OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-008.md`](OPERATION-PERMISSION-AND-REQUIRED-FIELDS-SUPPLEMENT-BATCH-008.md)
+- [`../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-008.md`](../../docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-008.md)
+- [`../../runs/2026-08-17-inner-child-real-query-map-hardening-008.md`](../../runs/2026-08-17-inner-child-real-query-map-hardening-008.md)
 
-Read all base ledgers together with both Batch 006 and Batch 007 supplements.
+Read base ledgers together with Batch 006, 007, and 008 supplements.
+
+## Real-query totals
+
+- Batch 006: 16
+- Batch 007: 12
+- Batch 008: 11
+- total after merge: **39 real, unprimed fixtures**
+
+Batch 008 produced one new focused map, four targeted cross-map repairs, and six pass-without-new-topology cases. This is evidence of diminishing architectural returns rather than a reason to stop regression testing.
 
 ## Strict originality state
 
-No Batch 006 or Batch 007 correction is promoted as a strict Tail survivor. These are practical, safety, autonomy, ethical-prior-art, and epistemic corrections.
+No Batch 006–008 correction is promoted as a strict Tail survivor. These are practical, safety, autonomy, capacity, ethical-prior-art, clinical-prior-art, and epistemic corrections.
 
 ## Current unresolved frontier
 
-1. Does map 15 improve intervention selection over a simpler functional analysis enough to justify its complexity?
-2. Can insight versus control be routed with a small field set rather than a burdensome interview?
-3. When is permanent external scaffolding healthy accommodation versus harmful dependence or commercial manipulation?
-4. How should provider transitions be represented without pretending to adjudicate professional ethics or compel a provider?
-5. How can identity/boundary uncertainty be explored without pathologizing a stated identity or clear `no`?
-6. How can crisis-system transparency avoid both canned coercion and evasion guidance?
-7. Continue the next benchmark only where a case can expose a missing permission, authority, epistemic, handoff, or exit rule.
+1. Does map 16 improve route selection over a simpler supported-decision checklist enough to justify its complexity?
+2. What is the smallest reliable field set for consent, goal endorsement, decision capacity concern, and actual authority?
+3. How should culturally collective/family decision norms be represented without erasing individual consent or imposing one legal culture?
+4. Can dissociation/lost time be routed without prematurely selecting DID, psychosis, neurological illness, substance effects, or ordinary forgetting?
+5. Can the outer router remain useful when housing, food, medical, legal, or safeguarding resources are genuinely unavailable?
+6. How should reciprocal relationship harm and parenting guilt preserve accountability and dependent safety without forcing a single offender/victim story?
+7. Stop architecture expansion if the next small high-coverage batch produces no high-severity authority, permission, epistemic, handoff, capacity, or exit defect.
 
 ## Exact next move
 
-1. Make InnerSignalGraph consume both Batch 006 and Batch 007 addenda and all 28 new fixtures.
-2. Test map 15 against simpler functional analysis in the executable runtime.
-3. Select the next real-query batch from remaining high-risk gaps rather than near-duplicate dramatic cases.
-4. Patch topology only for genuine permission/authority/epistemic/handoff/exit defects.
-5. Keep article prose unchanged until explicit authorization.
+1. Resolve and merge the Batch 008 PR.
+2. Make InnerSignalGraph consume Batch 006–008 addenda and all 39 fixtures.
+3. Compare maps 15 and 16 against simpler deterministic competitors.
+4. Run one smaller saturation batch (6–10 cases) across the unresolved frontier.
+5. Stop adding topology if that batch produces no high-severity structural defect.
+6. Keep article prose unchanged until explicit authorization.
 
 ## Evidence-status warning
 

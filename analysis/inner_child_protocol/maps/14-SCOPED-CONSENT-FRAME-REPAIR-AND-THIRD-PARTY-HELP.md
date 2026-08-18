@@ -11,7 +11,8 @@ flowchart TD
     B -- "provider capacity / ending / interruption" --> E2["Termination and continuity plan"]
     B -- "fear or distrust of crisis systems" --> E3["Transparent safety conversation without canned dismissal"]
     B -- "supporting another adult" --> F["Supporter plan"]
-    B -- "caring for dependent" --> G["Dependent-safety and caregiver plan<br/>map 12"]
+    B -- "caring for dependent" --> G["Dependent-safety and caregiver plan<br/>maps 12 and 16"]
+    B -- "request to force care / capacity concern" --> G2["Supported-choice / capacity route<br/>map 16"]
 
     C --> H{"Scope?"}
     H -- "content" --> I["Do not request the content"]
@@ -22,7 +23,7 @@ flowchart TD
     E --> M["Separate optional exploration, minimum safety/fit disclosure, treatment goals, and provider conditions"]
     E2 --> M2["Reason and limits · notice · pretermination discussion · alternatives · records/transfer · gap plan · closure where feasible"]
     E3 --> M3["Clarify current risk · acknowledge coercion fears · state limits honestly · offer actionable options · preserve original critique"]
-    F --> N["Calm-state consent · preferences · capability · limits · backup · emergency thresholds"]
+    F --> N["Calm-state preferences · current risk · capability · supporter safety · limits · backup · emergency thresholds"]
 ```
 
 ## Scope-of-no fields
@@ -59,9 +60,10 @@ Keep separate:
 1. **optional therapeutic exploration** — requires present consent;
 2. **minimum necessary safety/fit information** — a provider may need enough information to determine whether a setting is safe/appropriate;
 3. **treatment-goal selection** — should be transparent and collaborative;
-4. **provider conditions and limits** — must be explicit, contestable, and compatible with informed choice/exit.
+4. **provider conditions and limits** — must be explicit, contestable, and compatible with informed choice/exit;
+5. **decision capacity** — a decision- and time-specific qualified assessment, not a synonym for agreement, insight, diagnosis, or risk.
 
-A provider boundary is not unlimited authority. User autonomy is not a reason to conceal imminent danger or medically relevant information.
+A provider boundary is not unlimited authority. User autonomy is not a reason to conceal imminent danger or medically relevant information. Route capacity disputes to map 16.
 
 ## Provider capacity, pregnancy, illness, safety, and termination
 
@@ -109,21 +111,44 @@ Separate:
 - proportionate accommodation that supports functioning;
 - accommodation that expands into surveillance, coercion, hidden keys, ritualized checking, or control of another person's ordinary movement;
 - the minor's growing autonomy and skills;
-- current neglect, intoxication, violence, or other caregiver impairment.
+- current neglect, intoxication, violence, financial exploitation, or other caregiver impairment.
 
-A useful family plan can include predictable notice, a reachable backup adult, and age-appropriate coping without promising continuous location reporting or endorsing coercive control. When a caregiver cannot or will not obtain help, consider safe school, medical, family, community, or safeguarding channels appropriate to the person's location.
+A useful family plan can include predictable notice, a reachable backup adult, and age-appropriate coping without promising continuous location reporting or endorsing coercive control. When a caregiver cannot or will not obtain help, consider safe school, medical, family, community, financial-protection, or safeguarding channels appropriate to the person's location.
 
 ## Supporting another adult
 
-Do not diagnose or formulate the absent person. Help the user build a calm-state support agreement:
+Do not diagnose or formulate the absent person. Help the user build a realistic supporter plan.
 
-- what the other person says helps or harms;
-- signs that indicate emergency;
-- what the user can realistically provide;
+First assess:
+
+- what the other person has actually said or done;
+- current suicide/harm signals and emergency thresholds;
+- whether the supporter is physically safe;
+- whether the supporter is pregnant, ill, sleep-deprived, financially dependent, isolated, or caring for a child/dependent;
+- whether threats of death, collapse, or self-harm are also controlling the supporter's movement, relationship decisions, money, or ability to rest;
+- what professional or community supports have actually accepted responsibility;
+- what the supporter can realistically provide without becoming sole monitor.
+
+Then define:
+
+- what the other person says helps or harms when they can participate;
 - availability and communication limits;
 - backup people/services;
-- how to avoid becoming the sole regulator or authority;
-- what happens if the plan fails.
+- practical, legal, financial, housing, and dependent-safety contingencies;
+- what happens if the person refuses all help;
+- what the supporter will do at a specified emergency threshold;
+- how the supporter can leave or sleep without pretending to guarantee the other adult's survival.
+
+### Suicide risk and relational coercion can coexist
+
+A suicidal statement must be assessed as a real safety signal. It can also have the effect—or sometimes the purpose—of making another person feel unable to leave, sleep, disclose, set a boundary, or protect a child. Do not force a binary between `genuine risk` and `manipulation` from one message.
+
+Respond on two tracks:
+
+1. **risk track:** concrete current-risk information, appropriate escalation, and documented handoff attempts;
+2. **supporter-agency track:** the supporter is not required to remain in danger, surrender bodily/financial autonomy, or provide continuous surveillance as the price of caring.
+
+A spouse, parent, adult child, or friend generally cannot simply `make` another adult accept therapy. Concern does not create legal decision authority. Route capacity/compulsory-treatment questions to map 16 and jurisdiction-appropriate qualified help.
 
 ## Qualified recipient before trust experiments
 
@@ -146,6 +171,8 @@ Safety escalation creates an `original_concern_pending` record. Once immediate s
 - Do not treat `not now` as a scheduled retry contract.
 - Do not use a new modality to bypass the same refusal.
 - Do not interpret disagreement as evidence of pathology.
-- Do not make a supporter solely responsible for another adult's regulation.
+- Do not make a supporter solely responsible for another adult's regulation or survival.
+- Do not tell a supporter that staying in a relationship or home is required to keep the other person alive.
 - Do not call termination grief proof of unhealthy dependency.
 - Do not promise external crisis-system outcomes the bot cannot know.
+- Do not declare another adult incapable or appoint the user as surrogate.

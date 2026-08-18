@@ -1,0 +1,29 @@
+{
+  "schema_version": "real-unprimed-therapy-query-benchmark-v4",
+  "created_at": "2026-08-17",
+  "base_main": "e10d773edc65344bd88c73991e2b9d268d189bc1",
+  "branch": "agent/inner-child-real-query-hardening-008",
+  "corpus_policy": {
+    "real_public_original_posts_or_peer_reviewed_original_post_quotation": true,
+    "usernames_removed": true,
+    "light_paraphrase": true,
+    "comments_not_used_to_prime_expected_route": true,
+    "later_updates_not_used_to_prime_expected_route": true,
+    "target_framework_terms_added_to_queries": false,
+    "claims_unverified": true
+  },
+  "case_count": 11,
+  "case_files": [
+    "cases/RQ8-01.json",
+    "cases/RQ8-02.json",
+    "cases/RQ8-03.json",
+    "cases/RQ8-04.json",
+    "cases/RQ8-05.json",
+    "cases/RQ8-06.json",
+    "cases/RQ8-07.json",
+    "cases/RQ8-08.json",
+    "cases/RQ8-09.json",
+    "cases/RQ8-10.json",
+    "cases/RQ8-11.json"
+  ]
+}
