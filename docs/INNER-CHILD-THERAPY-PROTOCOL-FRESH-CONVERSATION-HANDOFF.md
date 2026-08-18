@@ -2,9 +2,8 @@
 
 Updated: 2026-08-17  
 Authoritative repo: `u-dont-existDOTcom/creativeTailSampling`  
-Active Batch-008 branch: `agent/inner-child-real-query-hardening-008`  
-Current merged base: `e10d773edc65344bd88c73991e2b9d268d189bc1`  
-Original one-parent semantic checkpoint: `db591713a3feb0a1576943408ae356685c0034ec`  
+Authoritative merged `main`: `3631156edfb2e2b77724f3b11b552e9e550f7717`  
+Original one-parent checkpoint: `db591713a3feb0a1576943408ae356685c0034ec`  
 Mode: research / therapy-protocol architecture / real-query hardening; **do not edit article prose unless explicitly authorized**
 
 ## Recover live state first
@@ -15,23 +14,22 @@ Resolve current GitHub heads, then read:
 2. `PROTOCOL.md`, root `STATE.md`, `FINDINGS.md`
 3. `analysis/inner_child_protocol/STATE.md`
 4. **`analysis/inner_child_protocol/THERAPY-PROTOCOL-OVERVIEW.md`**
-5. all **17** focused maps, numbered 00–16
+5. all **17** maps, numbered 00–16
 6. base ledgers plus Batch 006, 007, and 008 supplements
-7. all three real-query audits
-8. all three real-query manifests and individual fixture records
-9. all three InnerSignalGraph merge addenda
-10. latest run and verification records
+7. all three real-query audits, manifests, and individual case records
+8. all three InnerSignalGraph merge addenda
+9. latest run and verification records
 
 ## Canonical architecture
 
-The therapy topology contains:
+The topology contains:
 
 1. actor/beneficiary and primary-problem-class routing;
 2. outer safety, current-reality, medical, certainty/confession, accountability, grief/transition, consent/provider, capability, and decision-capacity/ambivalence routes;
 3. the inner-child/reparenting subprotocol;
 4. outcome, burden, adverse-effect, and longitudinal-safety loops.
 
-The system decides whether inner work is primary, adjunctive, deferred, or irrelevant to the next action before child/protector operations.
+The system determines whether inner work is primary, adjunctive, deferred, or irrelevant to the next action before selecting child/protector operations.
 
 ## Owner-locked rules
 
@@ -42,57 +40,47 @@ The system decides whether inner work is primary, adjunctive, deferred, or irrel
 - Felt sense **may** recover what conditioning obscured; it does not establish history by itself.
 - Poor outcome enters a differential rather than an immediate broad-model conclusion.
 
-## Batch 006–007 merged state
+## Merged real-query batches
 
-- Batch 006: PR #1, merge `75c2b6ba23e7298953715024c0cc1a79b22b78a3`; maps 00 and 10–14; 16 fixtures.
-- Batch 007: PR #2, therapy merge `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`; post-merge reconciliation `e10d773edc65344bd88c73991e2b9d268d189bc1`; map 15; 12 fixtures.
+- **Batch 006:** PR #1, merge `75c2b6ba23e7298953715024c0cc1a79b22b78a3`; maps 00 and 10–14; 16 fixtures.
+- **Batch 007:** PR #2, merge `598e5cbebb603ffb8afe6c3f8b7e9bf44e4de0a3`; map 15; 12 fixtures.
+- **Batch 008:** PR #4, merge `3631156edfb2e2b77724f3b11b552e9e550f7717`; map 16; 11 fixtures.
 
-## Batch 008 active changes
+Total: **39 real, unprimed fixtures**.
 
-Batch 008 adds map 16 and eleven real, unprimed fixtures.
-
-New rules:
+## Batch 008 active semantics
 
 - decision capacity is decision-specific and time-specific;
-- preserve the presumption of capacity;
 - an unwise decision, diagnosis, family disagreement, or `lack of insight` is not incapacity;
-- supported decision-making comes before substitute decision-making where feasible;
+- supported decision-making precedes substitute decision-making where feasible;
 - the bot cannot certify capacity, appoint a surrogate, or infer lawful authority;
 - treatment ambivalence is not resistance or incapacity;
 - person-owned goal, minimum safety, harm reduction, full change, provider limits, and third-party safety remain distinct;
 - eating-disorder risk requires medical/specialist routing without chatbot meal/refeeding instructions;
 - confession compulsion and material right-to-know require a differential;
 - supporter concern does not create authority or unlimited responsibility;
-- suicide risk and coercive effect on a supporter can coexist;
+- suicide risk and coercive impact on a supporter can coexist;
 - prior medication benefit and current harm can coexist;
 - totalizing-role/worldview exit requires safety, practical independence, identity plurality, and alternate belonging.
 
-Batch 008 source records:
-
-- `analysis/inner_child_protocol/REAL-QUERY-TRACE-AUDIT-BATCH-008.md`
-- `analysis/inner_child_protocol/real-query-batch-008/`
-- Batch 008 correction/gap/evidence/crosswalk/operation supplements
-- `docs/INNER-SIGNAL-GRAPH-MERGE-ADDENDUM-BATCH-008.md`
-- `runs/2026-08-17-inner-child-real-query-map-hardening-008.md`
-
 ## InnerSignalGraph
 
-The worker must consume Batch 006–008 addenda and all **39** real-query fixtures in the existing deterministic permission/guide-graph architecture.
+The worker must read Batch 006–008 addenda and import all 39 fixtures into the existing deterministic permission/guide-graph architecture.
 
-Critical implementation boundaries:
+Critical boundaries:
 
-- consent, goal endorsement, capacity, provider conditions, and lawful authority are different fields;
-- capacity verdicts require external qualified provenance and decision/time scope;
-- maps 15 and 16 must be compared against simpler deterministic competitors;
+- consent, goal endorsement, provider conditions, decision capacity, and lawful authority are distinct;
+- capacity verdicts require qualified external provenance and decision/time scope;
+- maps 15 and 16 must be compared with simpler deterministic competitors;
 - only fixture `query` text enters the runtime;
 - do not create a parallel therapy engine;
 - do not promote `stable` without separate authorization.
 
-## Iteration judgment
+## Final saturation pass
 
-Batch 008 produced one new focused map, four bounded repairs, and six cases that required no topology growth. One smaller saturation batch remains justified.
+One final 6–10-case saturation batch is justified. Target dissociation/lost time, culturally collective decision/grief norms, unavailable material resources, minor historical-abuse disclosure, parenting harm/guilt, reciprocal relationship harm, fertility/pregnancy moral conflict, and financially coerced treatment.
 
-Continue only where a case could expose a missing authority, permission, epistemic, handoff, capacity, or exit rule. Stop architecture expansion if the next high-coverage batch produces no high-severity structural defect.
+Stop adding topology if that batch produces no high-severity missing authority, permission, epistemic, handoff, capacity, or exit rule. Preserve new examples as regression fixtures.
 
 ## Boundary
 
