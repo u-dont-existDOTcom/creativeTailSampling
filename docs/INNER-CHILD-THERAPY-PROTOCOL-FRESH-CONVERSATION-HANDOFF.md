@@ -2,8 +2,8 @@
 
 Updated: 2026-08-18  
 Authoritative repo: `u-dont-existDOTcom/creativeTailSampling`  
-Active saturation branch before merge: `agent/inner-child-real-query-saturation-009`  
-Base merged main: `c24fef6f3700fe3795d81edfcc6aba38ff685898`  
+Authoritative merged main: `a9baae8d4646948752cd26061a1eadb9911df683`  
+Batch 009 merge: PR #6 / `a9baae8d4646948752cd26061a1eadb9911df683`  
 Original one-parent checkpoint: `db591713a3feb0a1576943408ae356685c0034ec`  
 Mode: research / executable protocol validation; **do not edit article prose unless explicitly authorized**
 
@@ -19,7 +19,7 @@ Resolve current GitHub heads, then read:
 6. base ledgers plus Batch 006–009 supplements
 7. all four real-query audits, manifests, and 49 individual case records
 8. all four InnerSignalGraph merge addenda
-9. latest run and verification records
+9. latest run, verification, and post-merge receipt records
 
 ## Canonical ontology
 
