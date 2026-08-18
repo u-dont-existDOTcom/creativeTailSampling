@@ -23,10 +23,17 @@ flowchart TD
     D -- "large portfolio / materially mixed" --> O["Urgency + dependency graph → one bottleneck"]
     D -- "unclear" --> P["Low-demand support + discriminating information"]
 
+    H --> H2{"Relevant support actually reachable?"}
+    H2 -- "yes" --> H3["Attempt contact / access and verify response or bridge"]
+    H2 -- "no / waitlisted / unaffordable / excluded" --> H4["Constraint-aware fallback<br/>name barrier · reduce immediate harm · smallest reachable substitute · preserve unmet need · retry trigger"]
+
     J --> Q["Facts / disputed facts / rights / consent / bilateral impact / constraints / physical cost"]
     Q --> R{"Would inner work help without replacing external action?"}
     R -- "yes, adjunctively" --> N
     R -- "no / not yet" --> S["Concrete action, appropriate expertise, support, or monitoring"]
+    S --> S2{"Required resource reachable?"}
+    S2 -- "yes" --> H3
+    S2 -- "no" --> H4
 ```
 
 ## Required recognition fields
@@ -53,6 +60,11 @@ flowchart TD
 | `minimum_safety_goal` | The least safety target that cannot be omitted |
 | `harm_reduction_goal` | A bounded risk-reduction target when full change is not endorsed |
 | `lawful_decision_maker_status` | `self`, `authorised_surrogate`, `disputed`, `unknown`, `not_applicable`; jurisdiction-dependent |
+| `required_external_resource` | The actual resource/condition needed rather than a generic referral category |
+| `resource_access_status` | `reachable_now`, `reachable_later`, `waitlisted`, `unaffordable`, `ineligible`, `geographically_unavailable`, `unsafe_to_access`, `unknown` |
+| `access_barrier` | Cost, transport, language, disability access, documentation, age, guardian control, eligibility, waitlist, privacy, coercion, or another concrete barrier |
+| `fallback_limit` | What the reachable substitute can and cannot provide |
+| `retry_or_advocacy_trigger` | When and how the unresolved external need should be revisited |
 
 ## Current-reality assessment
 
@@ -85,6 +97,24 @@ repair_or_protection_needed
 ```
 
 Pain may explain conduct without excusing it. Another person's complaint may contain useful information without justifying contempt, coercion, or control.
+
+## Resource-unavailable fallback
+
+The correct external answer may be real while the service, money, bed, clinician, transport, guardian cooperation, or legal route is not currently available.
+
+When a material resource cannot be reached:
+
+1. name the needed resource and the concrete access barrier;
+2. do not repeat the same referral as though repetition creates availability;
+3. do not imply the user failed to try unless actual attempts are known;
+4. identify the smallest reachable substitute that reduces immediate harm;
+5. state the substitute's limits and do not call it equivalent care;
+6. preserve documents, waitlist status, eligibility evidence, contact history, and other material that may help later access;
+7. define a retry, escalation, advocacy, or changed-condition trigger;
+8. keep the unmet need visible in outcome review;
+9. do not transform lack of housing, food, healthcare, respite, safeguarding, or accessible treatment into an inner-parent or motivation deficit.
+
+A constraint-aware fallback is not proof that the situation is adequately treated. It is the best bounded next action under an explicitly unresolved external deficit.
 
 ## Decision-impact rule
 
@@ -185,4 +215,5 @@ This map exits when:
 - the actor and beneficiary are clear enough;
 - the primary problem class is clear enough for one bounded next operation;
 - material unknowns are explicitly preserved;
+- any external resource is classified as reachable, delayed, unavailable, or unknown rather than assumed;
 - the route is classified as inner work primary, adjunctive, deferred, or not relevant now.

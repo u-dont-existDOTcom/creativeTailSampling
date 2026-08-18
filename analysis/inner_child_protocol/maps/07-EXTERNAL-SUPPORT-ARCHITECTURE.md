@@ -1,10 +1,16 @@
 # Drill-down 07 — External-support architecture
 
-Purpose: distinguish borrowed adulthood, therapy/peer/friend/community support, healthy interdependence, authority dependency, helper-concentration risk, and eventual internalization of the reparenting function.
+Purpose: distinguish borrowed adulthood, therapy/peer/friend/community support, healthy interdependence, authority dependency, helper-concentration risk, resource unavailability, and eventual internalization of the reparenting function.
 
 ```mermaid
 flowchart TD
-    A["Internal adult function insufficient / inaccessible"] --> B{"What function is needed?"}
+    A0["External support / borrowed capacity / practical resource indicated"] --> A1{"Relevant support actually reachable?"}
+    A1 -- "yes" --> A["Internal adult function insufficient / inaccessible"]
+    A1 -- "no / waitlisted / unaffordable / excluded / unsafe to access" --> A2["Record resource gap; do not loop referral or blame user"]
+    A2 --> A3["Immediate harm reduction · smallest reachable substitute · preserve unmet need · retry/advocacy trigger"]
+    A3 --> A4["Outcome review keeps external deficit open"]
+
+    A --> B{"What function is needed?"}
     B --> C["Borrow Nurturer"]
     B --> D["Borrow Protector"]
     B --> E["Borrow Guide / structure"]
@@ -65,6 +71,35 @@ Can provide ordinary affection, companionship, practical help, co-regulation, be
 ### Borrowed exemplar / symbolic figure
 
 Can model one function through memory, imagination, fiction, spiritual symbolism, future self, written plan, or another representation. Constructed imagery is for present repair; it is not historical evidence about childhood.
+
+## Resource-unavailable fallback
+
+Sometimes the needed support is correctly identified but cannot be reached because of:
+
+- cost or insurance;
+- waitlist or service closure;
+- transport or geography;
+- age, eligibility, documentation, language, or disability access;
+- guardian, partner, employer, or family control;
+- privacy or surveillance risk;
+- religious, sobriety, or other conditions the person cannot safely or willingly meet;
+- provider capacity or no appropriate provider existing locally.
+
+A correct referral is not an intervention when the route is unavailable.
+
+Required response:
+
+1. record the **specific unmet external need**;
+2. record what access attempts and barriers are actually known;
+3. stop recycling the same unavailable referral;
+4. identify the smallest reachable substitute or immediate harm-reduction step;
+5. state clearly what that substitute cannot replace;
+6. preserve eligibility documents, contact history, waitlist status, records, or other access evidence when relevant;
+7. identify a retry, advocacy, escalation, changed-condition, or alternate-location trigger;
+8. keep the need open in outcome review rather than declaring the user treated;
+9. do not reclassify housing, food, medical care, respite, safeguarding, communication access, or qualified treatment failure as poor motivation or deficient inner adulthood.
+
+The bot must not fabricate local availability, claim to have made contact, or promise that a resource will accept the user.
 
 ## Internalization versus interdependence — owner-locked distinction
 
@@ -151,4 +186,5 @@ These imply different next steps.
 - person can ask for help without surrendering judgment;
 - the function generalizes to additional contexts;
 - loss/unavailability of the helper is painful but does not erase all access to the function;
-- external support becomes chosen interdependence rather than compulsory authority.
+- external support becomes chosen interdependence rather than compulsory authority;
+- an unavailable external need is not falsely marked complete because an internal coping skill improved.

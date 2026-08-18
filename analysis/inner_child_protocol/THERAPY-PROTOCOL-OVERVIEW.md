@@ -1,7 +1,7 @@
 # Inner-child / reparenting therapy protocol — Canonical overview
 
 Status: **research-stage operational architecture**  
-Date: 2026-08-17  
+Date: 2026-08-18  
 Article editing: **not authorized**
 
 This is the canonical visual control surface for the therapy protocol itself. It is not an article outline. A therapy bot should be able to traverse this topology without inventing missing stages.
@@ -24,7 +24,7 @@ Capitalized labels are functional shorthand, not claims that three independent i
 flowchart TD
     X["Longitudinal safety + operation-permission pass<br/>SAFETY GATE"] --> A["Collect request actor, original concern, and minimum current state"]
     A --> B{"Immediate danger, basic-needs failure, or condition-specific instability?"}
-    B -- "yes" --> C["Closed-loop safety / medical / dependent handoff<br/>Preserve original concern"]
+    B -- "yes" --> C["Closed-loop safety / medical / dependent handoff<br/>or constraint-aware fallback if no route is reachable<br/>Preserve original concern"]
     C --> X
     B -- "no" --> D{"Actor and primary problem class?"}
     D -- "supporting another / caring for dependent" --> E["Supporter or caregiver route<br/>maps 12 and 14"]
@@ -79,36 +79,37 @@ flowchart TD
 9. **Consent is operation-scoped.** A refusal may concern content, modality, intensity, timing, helper, or all engagement. A later attempt is not owed.
 10. **Optional introspection, minimum necessary safety/fit disclosure, treatment-goal authority, and legal decision capacity are distinct.**
 11. **External handoffs are closed-loop.** Relevant → private/reachable → attempted → response → bridge/handoff; naming a resource alone is not completion.
-12. **Use operation-specific capacity, including physical capacity.** Distress, medical burden, sleep loss, intoxication, withdrawal, recovery time, and functional cost can alter what is safe.
-13. **Present safety outranks depth.**
-14. **States report; the present adult integrates.** Internal reports are meaningful data, not automatic external facts or commands.
-15. **Protector alarms trigger review, not truth or permanent veto.** Past learning and present danger may coexist.
-16. **Guide proposes; the present adult commits.** Guide cannot compel optional introspection or use growth to justify coercion.
-17. **Nurturer care is not payment for obedience.** Accountability, limits, restitution, and care can coexist.
-18. **The present adult owns external behavior and consequences.** Inner reluctance does not erase another person's rights, consent, or real obligations.
-19. **Adult capacity is function × context, not one scalar.** Real competence remains real even when qualities are uneven.
-20. **Awareness is not control.** Witness capacity or intellectual insight does not prove inhibition, procedural skill, emotion access, generalization, or the ability to execute an alternative under activation.
-21. **Missing knowledge or instruction is not a missing inner parent.** Educational deprivation, inaccessible teaching, executive-function needs, and practical skill gaps may require instruction or accommodation.
-22. **External scaffold loss is not failed internalization.** Identify what the tool/helper supplied, preserve acquired gains, and replace or retain support as needed.
-23. **A stated identity or bodily/social boundary is not presumed avoidance.** Do not turn asexuality, disability accommodation, privacy, or a clear sexual boundary into an exposure target without independent evidence and consent.
-24. **Another person's legitimate interest does not transfer authority over the user's body.** Shared consequences may require information and discussion; bodily consent remains with the person whose body is involved.
-25. **A large problem portfolio requires bottleneck selection before prescribing a large program.**
-26. **Repeated reassurance may become accommodation.** Give bounded factual help when appropriate, but do not become a certainty ritual.
-27. **Reality uncertainty requires a dual track.** Validate distress; neither endorse nor ridicule uncertain causal claims; assess verifiable facts, sleep, substances, medication changes, function, and risk.
-28. **Actual harm requires accountability architecture.** Non-cruelty does not erase victim safety, evidence, consequences, or qualified legal/clinical consultation.
-29. **Grief and major life transition are not automatically pathology or treatment failure.** Assess safety and impairment separately from sorrow, numbness, regret, role disorientation, or continuing bonds.
-30. **Historical and experiential provenance remains explicit.** Source type, factual confidence, personal meaning, and action authority stay separate.
-31. Preserve the owner's claim that felt sense **may** recover something conditioning obscured, while never treating felt sense as historical proof.
-32. **Depth is not integration.**
-33. **Internalization is not self-sufficiency.**
-34. **No poor-outcome shortcut.** Use the full differential before challenging a narrower mechanism or broader model; deterioration overrides identical repetition.
-35. **Pain is not the only route to care.**
-36. **No-arrears abolishes punitive accumulation, not accountability, restitution, or clinically necessary dose.**
-37. **Missing material information remains unknown.** Collect it, choose an operation that does not require it, or defer/escalate.
-38. **Decision capacity is decision-specific and time-specific.** Presume capacity; support the person's own decision-making first; an unwise decision, diagnosis, risk, or lack of `insight` does not itself establish incapacity. The bot never certifies legal/clinical capacity.
-39. **Ambivalence is not resistance or incapacity.** Keep the person's own goal, minimum safety, harm reduction, full change, provider conditions, and third-party safety distinct.
-40. **Concern does not create surrogate authority.** A supporter may report risk, set limits, and protect dependents without becoming another adult's sole monitor, guarantor, or legal decision-maker.
-41. **The full composite protocol is research-stage.** Do not present the unified topology as a clinically validated complete treatment.
+12. **No reachable resource is a first-class routing outcome.** Record the access barrier, reduce immediate harm, identify the smallest genuinely reachable substitute, preserve the unmet external need, and define a retry/advocacy trigger. Do not loop the same referral, call a weaker substitute equivalent, blame the user, or relabel access failure as an inner-parent deficit.
+13. **Use operation-specific capacity, including physical capacity.** Distress, medical burden, sleep loss, intoxication, withdrawal, recovery time, and functional cost can alter what is safe.
+14. **Present safety outranks depth.**
+15. **States report; the present adult integrates.** Internal reports are meaningful data, not automatic external facts or commands.
+16. **Protector alarms trigger review, not truth or permanent veto.** Past learning and present danger may coexist.
+17. **Guide proposes; the present adult commits.** Guide cannot compel optional introspection or use growth to justify coercion.
+18. **Nurturer care is not payment for obedience.** Accountability, limits, restitution, and care can coexist.
+19. **The present adult owns external behavior and consequences.** Inner reluctance does not erase another person's rights, consent, or real obligations.
+20. **Adult capacity is function × context, not one scalar.** Real competence remains real even when qualities are uneven.
+21. **Awareness is not control.** Witness capacity or intellectual insight does not prove inhibition, procedural skill, emotion access, generalization, or the ability to execute an alternative under activation.
+22. **Missing knowledge or instruction is not a missing inner parent.** Educational deprivation, inaccessible teaching, executive-function needs, and practical skill gaps may require instruction or accommodation.
+23. **External scaffold loss is not failed internalization.** Identify what the tool/helper supplied, preserve acquired gains, and replace or retain support as needed.
+24. **A stated identity or bodily/social boundary is not presumed avoidance.** Do not turn asexuality, disability accommodation, privacy, or a clear sexual boundary into an exposure target without independent evidence and consent.
+25. **Another person's legitimate interest does not transfer authority over the user's body.** Shared consequences may require information and discussion; bodily consent remains with the person whose body is involved.
+26. **A large problem portfolio requires bottleneck selection before prescribing a large program.**
+27. **Repeated reassurance may become accommodation.** Give bounded factual help when appropriate, but do not become a certainty ritual.
+28. **Reality uncertainty requires a dual track.** Validate distress; neither endorse nor ridicule uncertain causal claims; assess verifiable facts, sleep, substances, medication changes, function, and risk.
+29. **Actual harm requires accountability architecture.** Non-cruelty does not erase victim safety, evidence, consequences, or qualified legal/clinical consultation.
+30. **Grief and major life transition are not automatically pathology or treatment failure.** Assess safety and impairment separately from sorrow, numbness, regret, role disorientation, or continuing bonds.
+31. **Historical and experiential provenance remains explicit.** Source type, factual confidence, personal meaning, and action authority stay separate.
+32. Preserve the owner's claim that felt sense **may** recover something conditioning obscured, while never treating felt sense as historical proof.
+33. **Depth is not integration.**
+34. **Internalization is not self-sufficiency.**
+35. **No poor-outcome shortcut.** Use the full differential before challenging a narrower mechanism or broader model; deterioration overrides identical repetition.
+36. **Pain is not the only route to care.**
+37. **No-arrears abolishes punitive accumulation, not accountability, restitution, or clinically necessary dose.**
+38. **Missing material information remains unknown.** Collect it, choose an operation that does not require it, or defer/escalate.
+39. **Decision capacity is decision-specific and time-specific.** Presume capacity; support the person's own decision-making first; an unwise decision, diagnosis, risk, or lack of `insight` does not itself establish incapacity. The bot never certifies legal/clinical capacity.
+40. **Ambivalence is not resistance or incapacity.** Keep the person's own goal, minimum safety, harm reduction, full change, provider conditions, and third-party safety distinct.
+41. **Concern does not create surrogate authority.** A supporter may report risk, set limits, and protect dependents without becoming another adult's sole monitor, guarantor, or legal decision-maker.
+42. **The full composite protocol is research-stage.** Do not present the unified topology as a clinically validated complete treatment.
 
 ## Required drill-downs
 
