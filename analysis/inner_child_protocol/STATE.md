@@ -1,8 +1,8 @@
 # Inner-child / reparenting therapy protocol — Resume state
 
 Updated: 2026-08-18  
-Active saturation branch: `agent/inner-child-real-query-saturation-009`  
-Base merged `main`: `c24fef6f3700fe3795d81edfcc6aba38ff685898`  
+Authoritative merged `main`: `a9baae8d4646948752cd26061a1eadb9911df683`  
+Batch-009 therapy merge: PR #6 / `a9baae8d4646948752cd26061a1eadb9911df683`  
 Batch-008 therapy merge: `3631156edfb2e2b77724f3b11b552e9e550f7717`  
 Original one-parent checkpoint before real-query hardening: `db591713a3feb0a1576943408ae356685c0034ec`  
 Mode: research / protocol architecture / executable handoff; **article editing not authorized**
@@ -136,11 +136,10 @@ Do not create a parallel therapy engine. Do not promote `stable` without separat
 
 ## Exact next move
 
-1. Verify and merge Batch 009.
-2. Make InnerSignalGraph import all 49 fixtures and Batch 009 access-state semantics.
-3. Run black-box, multi-turn, A001, H001, and regression testing.
-4. Seek qualified review of the highest-risk authority/capacity/safeguarding nodes.
-5. Keep article prose unchanged until explicit authorization.
+1. Make InnerSignalGraph import all 49 fixtures and Batch 009 access-state semantics.
+2. Run black-box, multi-turn, A001, H001, and regression testing.
+3. Seek qualified review of the highest-risk authority/capacity/safeguarding nodes.
+4. Keep article prose unchanged until explicit authorization.
 
 ## Evidence warning
 
