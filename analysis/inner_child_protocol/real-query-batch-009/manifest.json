@@ -1,0 +1,39 @@
+{
+  "schema_version": "real-unprimed-therapy-query-benchmark-v5",
+  "created_at": "2026-08-18",
+  "base_main": "c24fef6f3700fe3795d81edfcc6aba38ff685898",
+  "branch": "agent/inner-child-real-query-saturation-009",
+  "corpus_policy": {
+    "real_public_original_posts_or_original_post_reproductions": true,
+    "usernames_removed": true,
+    "light_paraphrase": true,
+    "comments_or_replies_not_used_to_prime_expected_route": true,
+    "later_updates_not_used_to_prime_expected_route": true,
+    "target_framework_terms_added_to_queries": false,
+    "source_solution_or_diagnosis_removed_when_priming": true,
+    "claims_unverified": true
+  },
+  "case_count": 10,
+  "case_files": [
+    "cases/RQ9-01.json",
+    "cases/RQ9-02.json",
+    "cases/RQ9-03.json",
+    "cases/RQ9-04.json",
+    "cases/RQ9-05.json",
+    "cases/RQ9-06.json",
+    "cases/RQ9-07.json",
+    "cases/RQ9-08.json",
+    "cases/RQ9-09.json",
+    "cases/RQ9-10.json"
+  ],
+  "initial_results": {
+    "pass_no_new_topology": 8,
+    "shared_handoff_defect_resource_unavailable": 2
+  },
+  "post_patch_results": {
+    "pass": 10,
+    "new_map_count": 0,
+    "cross_cutting_patch": "resource-unavailable fallback in overview, map 00, and map 07"
+  },
+  "architecture_stopping_decision": "SATURATED_STOP_TOPOLOGY_EXPANSION"
+}
