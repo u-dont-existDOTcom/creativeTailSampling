@@ -15,6 +15,8 @@ PROTOCOL_ANCHORS = {
     "say what was checked": "must name what was compared against which source or version",
     "consistency": "If they conflict, correct one and say so",
     "estimates": "Label estimates as estimates, and report a derived number at the resolution of its inputs",
+    "independent claim check": "Before delivering a gate disposition, promotion or demotion, `FINDINGS.md` entry, or evidence summary",
+    "independent claim fallback": "check each entry against its source yourself immediately before delivery and do not call the result independently checked",
     "key-condition check": "reads only the verdict text and names the key conditions it answers",
     "key-condition check never blocks": "this check never blocks promotion, demotion, or delivery",
 }
@@ -25,6 +27,8 @@ WORKFLOW_ANCHORS = {
     "no minimum": "There is no minimum number of flags",
     "recheck added facts": "check it against its source at that moment, even if it was checked during the discovery run",
     "attribution": "must not move the author's own characterization onto X",
+    "independent article check": "Before delivering a review of the author's article or an insertion or authorized edit containing facts for publication",
+    "independent article fallback": "check each entry against its source yourself immediately before delivery and do not call the result independently checked",
 }
 
 

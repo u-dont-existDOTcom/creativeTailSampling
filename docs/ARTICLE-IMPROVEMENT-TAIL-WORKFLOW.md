@@ -109,6 +109,8 @@ Do not edit the article until the ledger is reviewed or the user explicitly asks
 
 **Recheck facts added to the author's text.** When an insertion architecture or an authorized edit adds or rewrites a factual claim, quotation, figure, or attribution in text the author will publish, check it against its source at that moment, even if it was checked during the discovery run. An attribution such as `according to X` must not move the author's own characterization onto X. Show the author which factual claims were added and where each one comes from.
 
+**Independent check before delivery.** Before delivering a review of the author's article or an insertion or authorized edit containing facts for publication, list every checkable claim, its type, its exact passage or URL (or no anchor), and what was checked. Give the sources, draft, and claim list, but not the drafter's reasoning, to a separate checker such as another agent, a second model call, or a fresh context. The checker passes or fails each claim with a reason and adds any claim the list missed. Fix every failure before delivery. Ask the author about claims that depend on the author's intended meaning. Fetch each source once, cap the checker's tool calls, and skip claims anchored to an exact passage already in its input. If a separate checker cannot be started, check each entry against its source yourself immediately before delivery and do not call the result independently checked. Do not apply this check to a conversational or therapeutic reply.
+
 ## Persistence outputs
 
 Every run should produce:

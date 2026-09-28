@@ -33,8 +33,9 @@ Empty novelty batches are successful. A provider returning nothing is `no collis
 - section 6, new subsection "Claims about sources, quotations, and figures": claims about what a source or the user says need a passage that can be cited; quotation marks mean exact words; figures trace to the source cited for them;
 - section 7: check the source before conceding a disputed factual claim; the familiarity veto itself is unchanged;
 - persistence rule: records say exactly what was checked, stay consistent with earlier records, and label estimates; an experimental key-condition check on written verdicts never blocks promotion, demotion, or delivery.
+- persistence rule: before delivering gate dispositions, promotions or demotions, `FINDINGS.md` entries, or evidence summaries, a separate checker checks every listed claim; when no separate checker can run, the drafter checks each claim against its source and does not call that independent.
 
-`docs/ARTICLE-IMPROVEMENT-TAIL-WORKFLOW.md` adds strongest-reading review of the author's own article (section 4) and a recheck of facts added to the author's text (section 12). `tests/test_claim_integrity_rules.py` pins the wording.
+`docs/ARTICLE-IMPROVEMENT-TAIL-WORKFLOW.md` adds strongest-reading review of the author's own article (section 4), a recheck of facts added to the author's text (section 12), and the same independent pre-delivery check for article reviews and factual insertions. `tests/test_claim_integrity_rules.py` pins the wording.
 
 No candidate, finding, or disposition was re-examined or changed in this update. The exact next move below is unchanged.
 
