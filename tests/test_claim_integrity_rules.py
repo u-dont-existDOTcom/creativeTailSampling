@@ -19,6 +19,7 @@ PROTOCOL_ANCHORS = {
     "independent claim fallback": "check each entry against its source yourself immediately before delivery and do not call the result independently checked",
     "key-condition check": "reads only the verdict text and names the key conditions it answers",
     "key-condition check never blocks": "this check never blocks promotion, demotion, or delivery",
+    "key-condition judged by meaning": "names conditions that differ in meaning, not just in wording",
 }
 
 WORKFLOW_ANCHORS = {
