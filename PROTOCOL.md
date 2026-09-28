@@ -1,6 +1,6 @@
 # Creative Tail Sampling Protocol
 
-Status: canonical working protocol, recovered 2026-08-15 and tightened after repeated false-positive novelty failures.
+Status: canonical working protocol, recovered 2026-08-15 and tightened after repeated false-positive novelty failures. Claim-integrity rules added 2026-09-28.
 
 ## Purpose
 
@@ -71,6 +71,8 @@ For community-related work, **a candidate may not be promoted merely because no 
 
 This gate must be re-run against the latest branch/head because parallel research can advance while tail sampling continues.
 
+**Absence claims cover only what was searched.** A materially additive disposition, or any statement that a corpus, article, or conversation does not contain something, is a claim about absence. Before making it, search all of that material for counterexamples, including other wording for the same mechanism. The claim covers only what was searched: record the version searched (branch/head or source fingerprint) and the files or rows checked, and say so when the search covered less than all of it. Saying the user never raised, accepted, or rejected something is also an absence claim; search the whole conversation and the saved records first, and say so if part of either was unavailable.
+
 ### 6. Historical / literature compression gate — MANDATORY BEFORE PROMOTION
 
 A proposition that survives the project's own corpus and the model's familiarity test can still be an old idea the model has merely failed to retrieve.
@@ -109,6 +111,8 @@ Label such results **CROSS-DOMAIN CONNECTION**, not "new theory."
 
 When novelty matters, perform a targeted literature/web search for candidate survivors before promotion. Failure to find a precedent is not proof of originality; it merely clears one rejection gate.
 
+**Collision claims are factual claims.** Saying that a tradition, theory, field, standard, or classification contains, includes, or excludes a mechanism (`this is basically X`) is a factual claim about X. Check it against a source, or record that it comes from memory. A from-memory collision can still reject or narrow a candidate; the label shows later readers which collisions were checked against a source. When the user has stated expertise in the area, find a source before contradicting the user's usage.
+
 #### Retrieval ensemble architecture — benchmark-validated 2026-08-16
 
 Round 001 retrospectively tested Exa Search, Parallel Search, and Parallel Task against frozen historical false-novelty/narrowing cases. The validated external retrieval sequence is now:
@@ -126,6 +130,14 @@ Round 001 retrospectively tested Exa Search, Parallel Search, and Parallel Task 
 
 The benchmark's canonical report is `runs/2026-08-16-retrieval-ensemble-round-001-final.md`; raw evidence and deep reports are under `analysis/retrieval_ensemble/results/round-001/`.
 
+#### Claims about sources, quotations, and figures
+
+These rules cover every source the method handles: retrieved literature, the project corpus, an article under review, and the user's own words.
+
+- **Anchor each claim about a source.** Every sentence that says what a source, author, corpus file, or the user says, writes, describes, presents, defines, or did must rest on a specific passage that can be cited. That includes words of scope, frequency, persistence, or consent, such as everyone, never, always, kept, stopped, many, willing, and forced. A source read earlier in the session still has to be checked when the sentence is written. If no passage supports the sentence, label it as an interpretation ("I read this as ...") or cut it. Never phrase an inference as the source's content, and never add backstory, motives, or history that a person did not state.
+- **Quotation marks mean exact words.** Put only a source's exact words inside quotation marks. Mark translations as translations. Do not join words from separate sentences inside one quotation, and do not put a paraphrase in quotation marks.
+- **Trace figures to the primary source.** Before a number, percentage, or superlative goes into a finding, a verdict, or text someone will publish, open the source cited for it. For a figure computed in this repository, that source is the data file and the script that produced it. If a secondary figure does not match its own citation, use the primary figure. Two figures that trace to one source are one finding, not two. Say when the only available source is weak.
+
 ### 7. User familiarity veto
 
 If the user immediately recognizes the proposition as common sense or a familiar theory, demote it regardless of whether the formulation appears technically sharper.
@@ -133,6 +145,8 @@ If the user immediately recognizes the proposition as common sense or a familiar
 Do not defend a failed novelty claim by explaining why the restatement is more precise. Precision can make an old idea useful; it does not make it new.
 
 Record the failure as a stronger boundary for subsequent sampling.
+
+**Recheck before conceding, as before defending.** When the user disputes a factual claim, such as what a source says or what a figure is, check the source before agreeing, just as before defending the claim. Agreement is not verification. Do not swing to the opposite claim; say what the source supports, which may be both readings. The familiarity veto above needs no source check, because non-obviousness to the user is itself a promotion condition; when a veto names a specific theory or precedent, record that as the user's identification unless it has been checked. When the user corrects how a reply or record restates the user's own argument, go back to the user's words; do not defend the earlier restatement, and do not adopt a new one the user did not state.
 
 ### 8. Coherence / realism gate
 
@@ -225,3 +239,10 @@ Every substantive session should update:
 4. the target project's practical lessons layer for useful community-development ideas even when novelty fails.
 
 The repository, not chat history, is the durable source of truth.
+
+When writing these records, and in replies:
+
+- **Say exactly what was checked.** A record or reply that says a candidate passed a gate, or that something was verified, checks out, or matches, must name what was compared against which source or version, such as the corpus branch/head searched or the query families actually run. If only part was checked, name the part. Before calling a quotation right or wrong, find the version the author used. Describe edits to records, articles, or this protocol exactly: text that was deleted or replaced was not "fixed".
+- **Keep claims consistent and label estimates.** Before sending a reply or writing a record, compare it with what was already said on the same candidate or topic, in the conversation, in `FINDINGS.md` and `STATE.md`, and in any lane state or handoff file for the same work. If they conflict, correct one and say so. Label estimates as estimates, and report a derived number at the resolution of its inputs; for example, a time computed from minute-level timestamps is a range.
+
+**Experimental: key-condition check on written verdicts.** For a written verdict (a gate disposition, a promotion or demotion, a `FINDINGS.md` entry, or an evidence summary), a separate checker, such as another agent or a fresh context, reads only the verdict text and names the key conditions it answers: the sources it rests on, including the corpus version; the disposition axis (strict originality or practical usefulness, which this protocol keeps separate); the target domain, or for an empirical finding the population and outcome measure; and the scope, meaning which residual was judged and how far the search went. If the checker cannot name them, or names different ones from those the verdict was meant to answer, the verdict is vague or blends conditions; revise it. This adapts ProCo (Wu et al., EMNLP 2024, https://aclanthology.org/2024.emnlp-main.714/). That paper tested open-domain question-answering, arithmetic, and commonsense reasoning problems that were generally short, averaging 52.3 words, with answers that were typically numbers or entities; it leaves longer problems and other answer types to future research. Long written verdicts are outside what it tested, so this check never blocks promotion, demotion, or delivery; record its hits and misses in the run audit. Never apply it to conversational or therapeutic replies.
