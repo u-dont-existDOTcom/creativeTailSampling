@@ -1,6 +1,6 @@
 # Creative Tail Sampling — Resume State
 
-Updated: 2026-08-16 after Retrieval Ensemble Round 001
+Updated: 2026-09-28 (claim-integrity rules added to the protocol). The research frontier below was last updated 2026-08-16 after Retrieval Ensemble Round 001.
 
 ## Durability
 
@@ -23,6 +23,21 @@ Retrieval benchmark final report:
 7. **Promotion only of the surviving residual.** Useful-but-known ideas go to the communities lessons layer, not the strict novelty ledger.
 
 Empty novelty batches are successful. A provider returning nothing is `no collision found`, never evidence of originality.
+
+## Claim-integrity rules — added 2026-09-28
+
+`PROTOCOL.md` now carries rules for claims made at every gate and in every record:
+
+- section 5: a claim that the corpus, an article, or a conversation does not contain something covers only what was searched;
+- section 6: saying a tradition or theory already contains a mechanism is a factual claim, checked against a source or labelled as from memory;
+- section 6, new subsection "Claims about sources, quotations, and figures": claims about what a source or the user says need a passage that can be cited; quotation marks mean exact words; figures trace to the source cited for them;
+- section 7: check the source before conceding a disputed factual claim; the familiarity veto itself is unchanged;
+- persistence rule: records say exactly what was checked, stay consistent with earlier records, and label estimates; an experimental key-condition check on written verdicts never blocks promotion, demotion, or delivery.
+- persistence rule: before delivering gate dispositions, promotions or demotions, `FINDINGS.md` entries, or evidence summaries, a separate checker checks every listed claim; when no separate checker can run, the drafter checks each claim against its source and does not call that independent.
+
+`docs/ARTICLE-IMPROVEMENT-TAIL-WORKFLOW.md` adds strongest-reading review of the author's own article (section 4), a recheck of facts added to the author's text (section 12), and the same independent pre-delivery check for article reviews and factual insertions. `tests/test_claim_integrity_rules.py` pins the wording.
+
+No candidate, finding, or disposition was re-examined or changed in this update. The exact next move below is unchanged.
 
 ## Retrieval Ensemble Round 001 — final architecture result
 

@@ -36,6 +36,10 @@ Generate propositions from orthogonal source families. Strip rhetoric before eva
 - **External collision:** mandatory Exa semantic search for serious candidates.
 - **Independent falsification:** mandatory Parallel Task attack before strict promotion.
 
+The claim rules in `PROTOCOL.md` apply to the article, to the author's corrections, and to every source used in these gates.
+
+**Review the author's own work on its strongest reading.** The argument-integrity, category, and safety/epistemic checks, and any correction proposed under output 3 above, flag problems in the author's own article. Before flagging a contradiction, overclaim, category mistake, unsupported generalization, or safety gap, state the strongest reading of the passage under which it is not a problem, and drop the flag if that reading is plausible. When a flag depends on what the author meant, ask the author; until the author answers, record it as an open question, not as a finding. Call something a contradiction only when both statements cannot be true under any reasonable reading. Once the author rejects a flag, drop it and record the rejection as a binding owner correction for the lane; do not bring it back as a warning about readers unless new evidence appears. Keep verified problems separate from suggestions that depend on a reading. There is no minimum number of flags.
+
 ### 5. Smoke-test retrieval execution, not schema visibility
 
 At the start of a fresh run where Exa or Parallel Task availability is uncertain:
@@ -102,6 +106,10 @@ Do not silently weaken `may` claims into claims about present experience only. I
 ### 12. Preserve source integrity
 
 Do not edit the article until the ledger is reviewed or the user explicitly asks to proceed. When editing begins, preserve the author's arguments; any disagreement must remain visible as an argument, not a silent softening.
+
+**Recheck facts added to the author's text.** When an insertion architecture or an authorized edit adds or rewrites a factual claim, quotation, figure, or attribution in text the author will publish, check it against its source at that moment, even if it was checked during the discovery run. An attribution such as `according to X` must not move the author's own characterization onto X. Show the author which factual claims were added and where each one comes from.
+
+**Independent check before delivery.** Before delivering a review of the author's article or an insertion or authorized edit containing facts for publication, list every checkable claim, its type, its exact passage or URL (or no anchor), and what was checked. Give the sources, draft, and claim list, but not the drafter's reasoning, to a separate checker such as another agent, a second model call, or a fresh context. The checker passes or fails each claim with a reason and adds any claim the list missed. Fix every failure before delivery. Ask the author about claims that depend on the author's intended meaning. Fetch each source once, cap the checker's tool calls, and skip claims anchored to an exact passage already in its input. If a separate checker cannot be started, check each entry against its source yourself immediately before delivery and do not call the result independently checked. Do not apply this check to a conversational or therapeutic reply.
 
 ## Persistence outputs
 
